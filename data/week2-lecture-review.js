@@ -12,7 +12,7 @@ window.EXAM_DATA = {
         "Acute bronchitis; risk for secondary bacterial pneumonia",
         "Epiglottitis; risk for airway obstruction from swelling",
         "Croup (laryngotracheobronchitis); risk for bronchospasm",
-        "Pharyngitis; risk for peritonsillar abscess formation" }
+        "Pharyngitis; risk for peritonsillar abscess formation"
       ],
       answer: 1,
       rationale: "The combination of inspiratory stridor, drooling, difficulty swallowing, rapid onset, and upright positioning is classic for epiglottitis—a medical emergency. The swollen epiglottis can completely obstruct the airway without warning. Croup produces a barking cough (not present here) and is generally less acutely life-threatening. Acute bronchitis and pharyngitis lack the stridor and drooling pattern that signals upper airway compromise.",
@@ -26,7 +26,7 @@ window.EXAM_DATA = {
         "These symptoms indicate probable influenza; the patient should begin oseltamivir within 24 hours for optimal effectiveness",
         "This is likely a viral URI that will resolve in 3 days; supportive care with fluids and rest is sufficient treatment",
         "These symptoms could indicate early sepsis; blood cultures and antibiotics must be started immediately",
-        "This is probable influenza with rapid onset; the flu vaccine will provide immediate protection against this strain" }
+        "This is probable influenza with rapid onset; the flu vaccine will provide immediate protection against this strain"
       ],
       answer: 0,
       rationale: "The abrupt onset with fever, myalgia, and malaise is classic influenza presentation. Oseltamivir is most effective when started within 48 hours of symptom onset and works by inhibiting neuraminidase enzyme release. While supportive care is important, antivirals reduce severity in high-risk patients. Antibiotics are not indicated for uncomplicated flu. The vaccine does not provide immediate protection during active infection but reduces risk of severe outcomes by ~36% in future exposures.",
@@ -40,7 +40,7 @@ window.EXAM_DATA = {
         "Bacterial superinfection from antibiotics; switch to only supportive care and antihistamines",
         "Viral sinusitis that resolves in 5-7 days; the patient's 3-week duration indicates bacterial infection requiring longer antibiotics",
         "Underlying allergic inflammation creating obstruction and fluid accumulation that promotes recurrent bacterial infection; treat allergies with antihistamines and consider allergy/ENT evaluation",
-        "Antibiotic resistance; prescribe broader-spectrum antibiotics to cover more organisms" }
+        "Antibiotic resistance; prescribe broader-spectrum antibiotics to cover more organisms"
       ],
       answer: 2,
       rationale: "Sinusitis pathophysiology involves obstruction by fluid and edema that traps bacteria (the '2-edged sword' mentioned in the VO). Viral sinusitis resolves in 5-7 days; lasting 3+ weeks suggests bacterial involvement BUT requires 7+ days of antibiotics plus treatment of underlying allergic inflammation driving the recurrent obstruction. Addressing the allergy component and ENT referral for structural issues (like polyps or deviated septum) break the recurrence cycle. Broader antibiotics alone don't address the obstruction problem.",
@@ -55,7 +55,7 @@ window.EXAM_DATA = {
         "Ventilator-associated pneumonia (VAP) occurs because the endotracheal tube bypasses normal upper airway defenses, and bacterial biofilms on the tube can aspirate into lower airways",
         "The mechanical ventilator aerosolizes bacteria in the ICU environment, increasing exposure to resistant organisms",
         "Sedation and paralysis medications used with mechanical ventilation suppress the immune system, allowing opportunistic infections",
-        "Prolonged hospitalization increases risk of C. difficile superinfection that migrates to the lungs" }
+        "Prolonged hospitalization increases risk of C. difficile superinfection that migrates to the lungs"
       ],
       answer: 0,
       rationale: "VAP develops because the endotracheal tube bypasses normal upper airway defenses (cilia, mucus clearance, coughing), and bacterial biofilms colonizing the tube can be aspirated into the lower respiratory tract. The tube also impairs the gag reflex completely. While biofilm on ventilator circuitry is a known mechanism, immune suppression and C. difficile are not the primary VAP mechanisms. Nursing preventions include head-of-bed elevation, oral care, and early mobility—all aimed at reducing aspiration risk.",
@@ -70,7 +70,7 @@ window.EXAM_DATA = {
         "This is community-acquired pneumonia (CAP) with better prognosis than hospital-acquired pneumonia",
         "The progression from URI to pneumonia indicates the patient has severely impaired immunity",
         "Pleuritic chest pain results from inflammation of the pleura, which contains pain-sensing nerves",
-        "Sputum culture and sensitivity testing should be obtained before starting antibiotics to guide therapy" }
+        "Sputum culture and sensitivity testing should be obtained before starting antibiotics to guide therapy"
       ],
       answers: [0, 1, 3, 4],
       rationale: "Rusty sputum is pathognomonic for pneumococcal (S. pneumoniae) pneumonia. CAP typically has better outcomes than HAP/VAP which occur in hospitalized patients. Progression from URI to pneumonia in an elderly patient is normal—age is a risk factor because immune defenses weaken with age, not necessarily indicating severe immunodeficiency. Pleuritic pain comes from pleural inflammation. Cultures should be obtained BEFORE antibiotics start to prevent suppression of organism growth and allow identification/susceptibility testing. The statement about severely impaired immunity is incorrect without other risk factors.",
@@ -86,7 +86,7 @@ window.EXAM_DATA = {
         "The nasogastric tube bypasses the normal swallowing mechanism and can facilitate reflux",
         "Acidic gastric contents if aspirated cause more inflammatory damage than neutral pH aspirate",
         "Proton pump inhibitors should be discontinued because they reduce stomach acid that helps kill aspirated bacteria",
-        "Head-of-bed elevation to 30 degrees and careful monitoring during feeding reduce aspiration risk" }
+        "Head-of-bed elevation to 30 degrees and careful monitoring during feeding reduce aspiration risk"
       ],
       answers: [0, 1, 2, 4],
       rationale: "Altered consciousness eliminates protective reflexes (gag, cough) making silent aspiration likely—the patient won't cough if they aspirate. NG tubes mechanically disrupt normal swallowing and increase reflux risk. Acidic pH of gastric contents causes greater inflammatory response than neutral pH, which is why PPIs (which reduce acidity) are actually protective—they should NOT be discontinued. Head-of-bed elevation and monitoring are evidence-based prevention measures. Continuing PPIs is appropriate for aspiration pneumonia prevention.",
@@ -101,7 +101,7 @@ window.EXAM_DATA = {
         "These findings indicate early respiratory distress and increased work of breathing; the patient is compensating but still managing oxygenation",
         "These findings indicate respiratory failure; the patient cannot maintain adequate oxygenation and needs immediate intervention",
         "These findings are expected recovery signs and indicate the patient is clearing the infection; discharge can proceed as planned",
-        "These findings indicate the patient has developed a hospital-acquired secondary pneumonia" }
+        "These findings indicate the patient has developed a hospital-acquired secondary pneumonia"
       ],
       answer: 0,
       rationale: "Respiratory DISTRESS involves increased work of breathing (accessory muscle use, tachycardia, tachypnea) while maintaining adequate oxygenation—the patient is compensating. Respiratory FAILURE occurs when the patient can no longer compensate and oxygen levels drop. This distinction is critical: distressed patients can improve with continued support; failure requires intubation. Improving CXR is a good sign, but the accessory muscle use indicates the patient is working harder than normal. Discharge would be premature without resolution of these signs.",
@@ -115,7 +115,7 @@ window.EXAM_DATA = {
         "PCV13 covers 13 strains of Streptococcus pneumoniae, and PPSV23 covers 23 additional strains, providing broader protection when given together",
         "PCV13 is given first because it stimulates better immunity; PPSV23 is given later to boost protection against strains not covered by PCV13",
         "PPSV23 is older and has been replaced; patients who received it previously need PCV13 to get updated protection",
-        "The two-vaccine strategy provides redundant coverage of the same 13 strains, which improves immune memory" }
+        "The two-vaccine strategy provides redundant coverage of the same 13 strains, which improves immune memory"
       ],
       answer: 0,
       rationale: "PCV13 (pneumococcal conjugate vaccine) protects against 13 strains of S. pneumoniae. PPSV23 (pneumococcal polysaccharide vaccine) protects against 23 strains, with 21 additional strains beyond those in PCV13. Together they provide coverage against 33 different strains (the 13 overlap). The spacing allows the immune system to mount an adequate response to both. PPSV23 hasn't been replaced; both remain current recommendations for elderly and immunocompromised patients.",
@@ -129,7 +129,7 @@ window.EXAM_DATA = {
         "Acute bronchitis is viral (80% of cases) and self-limiting in 3-4 weeks; chronic bronchitis involves airflow obstruction and persistent symptoms for 3+ months per year for 2+ years",
         "Acute bronchitis causes consolidation on chest X-ray; chronic bronchitis does not",
         "Acute bronchitis always requires antibiotics; chronic bronchitis is managed with bronchodilators only",
-        "Chronic bronchitis is always caused by smoking; acute bronchitis can be caused by any infection" }
+        "Chronic bronchitis is always caused by smoking; acute bronchitis can be caused by any infection"
       ],
       answer: 0,
       rationale: "Acute bronchitis is inflammation of airways WITHOUT airflow obstruction, usually viral (~80%), self-limiting in 3-4 weeks, and managed supportively. Chronic bronchitis (COPD component) involves AIRFLOW OBSTRUCTION and requires symptoms for 3 months/year × 2 years—usually smoking-related. Acute bronchitis doesn't cause consolidation (that's pneumonia). Acute bronchitis rarely requires antibiotics (supporting care instead). While chronic bronchitis is typically smoking-related, acute bronchitis has varied etiologies.",
@@ -143,7 +143,7 @@ window.EXAM_DATA = {
         "Active URI causes mucosal inflammation and edema; anesthesia and intubation can trigger bronchoconstriction. Postponing 1-2 weeks allows inflammation to resolve and significantly reduces this risk",
         "URI increases risk only in patients with asthma history; healthy patients can proceed safely with prophylactic bronchodilators",
         "Anesthesia itself causes bronchospasm regardless of URI status; proceeding is safe if the patient receives post-operative incentive spirometry",
-        "URI increases aspiration risk during intubation, not bronchospasm risk; the procedure can proceed with careful airway management" }
+        "URI increases aspiration risk during intubation, not bronchospasm risk; the procedure can proceed with careful airway management"
       ],
       answer: 0,
       rationale: "Active URI causes airway inflammation and edema making airways more reactive. Anesthesia (which can trigger bronchoconstriction) + intubation + reactive airways = high bronchospasm risk. Delaying surgery 1-2 weeks allows the inflammation to resolve and dramatically reduces risk. While patients with asthma history have higher baseline risk, acute URI increases risk in everyone. Simply giving bronchodilators does not address the underlying inflamed airway tissue. Aspiration is a concern too, but bronchospasm is the specific anesthesia concern.",
