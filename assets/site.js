@@ -84,9 +84,11 @@ const SITE = {
       label: "Exam Prep",
       items: [
         { id: "must-know",       num: "1", title: "Must Know Quick Reference", file: "must-know.html" },
-        { id: "quiz-builder",    num: "2", title: "Build Your Own Exam",       file: "quiz-builder.html" },
-        { id: "torture-chamber", num: "3", title: "The Torture Chamber",       file: "torture-chamber.html" },
-        { id: "lecture-review-template", num: "4", title: "Lecture Review Template", file: "lecture-review-template.html" },
+        { id: "week1-lecture-review", num: "2", title: "Week 1 Lecture Review", file: "week1-lecture-review.html" },
+        { id: "week2-lecture-review", num: "3", title: "Week 2 Lecture Review", file: "week2-lecture-review.html" },
+        { id: "quiz-builder",    num: "4", title: "Build Your Own Exam",       file: "quiz-builder.html" },
+        { id: "torture-chamber", num: "5", title: "The Torture Chamber",       file: "torture-chamber.html" },
+        { id: "lecture-review-template", num: "6", title: "Lecture Review Template", file: "lecture-review-template.html" },
       ]
     }
   ]
