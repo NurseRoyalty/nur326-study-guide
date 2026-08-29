@@ -48,6 +48,7 @@ const SITE = {
         { id: "week1-abx", num: "1", title: "Antimicrobials &amp; Antibiotics (ABX)", file: "week1-antimicrobials-antibiotics.html" },
         { id: "week1-antivirals", num: "2", title: "Antivirals", file: "week1-antivirals.html" },
         { id: "week1-hiv", num: "3", title: "HIV &amp; Antiretroviral Therapy (ART)", file: "week1-hiv.html" },
+        { id: "week1-big-picture-overview", num: "4", title: "Big Picture Overview", file: "week1-big-picture-overview.html" },
       ]
     },
     {
@@ -59,6 +60,7 @@ const SITE = {
         { id: "week2-tuberculosis", num: "4", title: "Tuberculosis (TB)", file: "week2-tuberculosis.html" },
         { id: "week2-anemia", num: "5", title: "Anemia", file: "week2-anemia.html" },
         { id: "week2-polycythemia", num: "6", title: "Polycythemia", file: "week2-polycythemia.html" },
+        { id: "week2-big-picture-overview", num: "7", title: "Big Picture Overview", file: "week2-big-picture-overview.html" },
       ]
     },
     {
