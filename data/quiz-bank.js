@@ -4351,13 +4351,134 @@ window.QUIZ_BANK = {
             ],
             "eaq": []
         }
+    },
+    {
+        "id": "week2-anemia",
+        "label": "Anemia",
+        "week": 2,
+        "sets": {
+            "mustKnow": [],
+            "extraPractice": [
+                {
+                    "stem": "A 34-year-old woman with a 5-year history of iron deficiency anemia presents with severe dyspnea and palpitations. Lab results show hemoglobin 6.2 g/dL, hematocrit 19%, and microcytic cells. On examination, the nurse notes spoon-shaped nails, a smooth tongue, and the patient admits to craving ice chips daily. The patient reports being a vegetarian and mentions her periods are 'heavier than normal.' Which factor most significantly contributed to the development of severe anemia in this patient?",
+                    "options": ["The patient's vegetarian diet lacks iron-rich protein sources, compounded by menstrual blood loss", "Spoon nails indicate the body cannot absorb dietary iron regardless of intake", "Ice craving is the primary cause of anemia, requiring behavioral intervention", "A genetic mutation preventing iron utilization explains both the nails and the anemia"],
+                    "answer": 0,
+                    "rationale": "Iron deficiency develops from either decreased intake (vegetarian diet lacking bioavailable iron) or excessive loss (heavy menstruation). Both factors apply here, creating a cumulative deficit. Spoon nails and pica (ice craving) are manifestations of iron deficiency, not causes—they indicate the body is already depleted. The stem contains multiple teaching points: vegetarian diets CAN provide adequate iron if planned, but heme iron from animal sources is more bioavailable; menstrual losses compound dietary insufficiency; pica is a compensatory behavior, not a primary driver. Genetics don't account for the timeline (5-year gradual onset).",
+                    "topic": "Anemia",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A 68-year-old man with a history of atrophic gastritis presents with hemoglobin 8.1 g/dL, macrocytic RBCs on the blood smear, and recent onset of gait instability and paresthesias in both feet. He reports that his stomach medication was changed 2 years ago after he developed chronic heartburn. Which of the following explains why this patient's neurologic symptoms developed despite transfusion being offered?",
+                    "options": ["Transfusion temporarily corrects anemia but cannot reverse the neurologic damage already occurring from B12 deficiency", "His atrophic gastritis prevents red blood cells from absorbing oxygen, so transfusion is ineffective", "Macrocytic cells cannot carry oxygen despite transfusion, so the brain remains hypoxic", "Paresthesias indicate a separate neurologic disorder unrelated to his B12 deficiency"],
+                    "answer": 0,
+                    "rationale": "This question tests understanding of why B12 deficiency is uniquely dangerous. B12 deficiency causes TWO problems: megaloblastic anemia (which transfusion addresses) AND progressive neurologic damage from impaired DNA synthesis in nerve sheaths. Transfusion fixes the oxygen-carrying deficit but does NOT reverse ongoing neurologic deterioration. The atrophic gastritis destroyed parietal cells, stopping intrinsic factor production—the pathway that allows B12 absorption. Once neurologic symptoms appear, rapid B12 replacement (not transfusion) is critical because further delay can cause permanent disability. The stem establishes timeline: symptoms emerged after the medication change (likely a proton-pump inhibitor worsening parietal cell damage). The closest distractor falsely equates macrocytic cells with inability to carry oxygen—macrocytic cells carry oxygen fine; the problem is impaired DNA synthesis, not oxygen capacity.",
+                    "topic": "Anemia",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A 24-year-old Black patient with sickle cell disease calls his clinic reporting severe bone pain, fever of 101.5°F, and he mentions he went hiking in Colorado 3 days ago. His last crisis was 8 months ago. Upon assessment, SpO2 is 94% on room air, and he denies respiratory symptoms. Which intervention takes priority?",
+                    "options": ["Initiate broad-spectrum antibiotics immediately and assess for infection before starting hydration and oxygen", "Begin supplemental oxygen and IV hydration while obtaining blood cultures and assessing for infection triggers", "Provide pain management and have him monitor at home since his SpO2 is acceptable and he denies respiratory involvement", "Delay treatment pending genetic testing to confirm sickle cell genotype since symptoms could represent another hemoglobinopathy"],
+                    "answer": 1,
+                    "rationale": "Sickle cell crisis is triggered by factors that increase oxygen demand or lower oxygen availability—altitude (Colorado hiking), fever (infection or inflammatory response), and dehydration from travel all apply here. The core crisis management is simultaneous: oxygen to increase tissue oxygen, IV fluids to prevent further sickling by reducing blood viscosity, and infection workup (blood cultures, antibiotics) because infection is both a trigger AND a life-threatening complication in sickle cell patients. The SpO2 of 94% seems borderline acceptable but in a sickle cell patient signals marginal tissue perfusion at altitude—intervention is needed. Delaying antibiotics while cultures process is dangerous; broad-spectrum coverage starts immediately based on clinical suspicion. Distractors: home monitoring misses a medical emergency; withholding oxygen ignores the altitude/oxygen demand factor; delaying for genetic confirmation wastes critical time (diagnosis is established).",
+                    "topic": "Anemia",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A hospitalized 52-year-old smoker with COPD is receiving erythropoiesis-stimulating agent (ESA) therapy for anemia of chronic kidney disease. Current labs: hemoglobin 10.1 g/dL, hematocrit 30%, creatinine 2.8 mg/dL. The nurse reviews the medication administration record and prepares to administer the scheduled ESA dose. What is the nurse's most appropriate action?",
+                    "options": ["Administer the full ESA dose as prescribed since hemoglobin is below the therapeutic target of 12 g/dL", "Hold the ESA dose, verify the most recent hemoglobin level, and notify the provider before administering", "Administer half the scheduled dose to bring hemoglobin up gradually while avoiding overcorrection", "Administer the ESA dose but monitor the patient closely for signs of thrombosis given his smoking history"],
+                    "answer": 1,
+                    "rationale": "The ESA black-box warning states: NEVER administer if hemoglobin is GREATER THAN 10 g/dL due to risk of stroke, MI, thromboembolism, and hypercoagulability. This patient's hemoglobin is 10.1—just above the threshold. The nurse must verify the current level and HOLD the dose. The provider must reassess before continuing ESA therapy. This is a critical safety check that prevents overcorrection into a polycythemic, hypercoagulable state. The patient's smoking history compounds thrombotic risk. Distractors: therapeutic target of 12 is incorrect (goal is ~11 or less in CKD anemia); partial dosing isn't appropriate—it's either safe to give or it isn't; 'monitoring closely' doesn't prevent a life-threatening complication that should be prevented by not overdosing.",
+                    "topic": "Anemia",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A 7-year-old child with newly diagnosed iron deficiency anemia is prescribed ferrous sulfate liquid by the pediatrician. The child's parent calls the clinic concerned because the child's stool turned dark green/black after the first dose. The nurse's response should be based on understanding that:",
+                    "options": ["Dark stools indicate GI bleeding and the medication should be held immediately pending evaluation", "This is an expected finding from iron therapy and does not indicate GI bleeding, but the parent should give the medication with food if GI upset occurs", "Dark stools mean the iron is not being absorbed and the dose should be increased for efficacy", "The child has developed a medication allergy and a different iron formulation must be substituted"],
+                    "answer": 1,
+                    "rationale": "Iron oxidizes in the GI tract, producing dark stools—a NORMAL, expected finding that should be explained proactively to prevent medication non-adherence. Teaching must include: dark green/black stool ≠ GI bleeding, expect this finding, it's harmless. Additionally, liquid iron can stain teeth (use straw), may cause metallic taste, and often causes GI upset. Iron is best absorbed on an empty stomach with vitamin C, but many patients take it with food early in treatment to reduce nausea—that's appropriate. Never with antacids or calcium (decreases absorption). Ferrous sulfate is only ~20% elemental iron by weight, so the dose looks large but delivers a modest amount of actual iron. Distractors: misinterpreting this as bleeding causes unnecessary ER visits and medication abandonment; increased dosing without medical guidance risks toxicity (especially concerning in pediatrics where overdose is a leading poisoning cause); there's no allergy component here.",
+                    "topic": "Anemia",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A 45-year-old patient is admitted with severe anemia. Admission labs show: hemoglobin 4.8 g/dL, hematocrit 14%, WBC 1.2 × 10³/mm³, platelets 45 × 10³/mm³, reticulocyte count 0.8% (low). Bone marrow biopsy shows fatty replacement of normal marrow tissue with few hematopoietic cells. Which complication poses the highest immediate risk to this patient?",
+                    "options": ["Severe hypoxemia from the profound anemia requiring immediate transfusion", "Infection from neutropenia combined with inability to mount an adequate immune response", "Bleeding from severe thrombocytopenia with risk of intracranial hemorrhage", "Heart failure from chronic hypoxemia forcing increased cardiac output"],
+                    "answer": 1,
+                    "rationale": "This is aplastic anemia—pancytopenia (low RBCs, WBCs, platelets) from bone marrow failure. The low reticulocyte count confirms the marrow ISN'T responding (in hemolytic anemia, reticulocytes would be elevated). The fatty marrow indicates aplasia. Pancytopenia creates a three-way crisis: anemia (low O2), infection (low WBCs), and bleeding (low platelets). Which is most immediately life-threatening? INFECTION. A WBC of 1.2 is severe neutropenia; combined with impaired marrow function, the patient cannot fight infection effectively. A simple infection can rapidly progress to sepsis and death. Platelets of 45 do carry bleeding risk, but 45 is not yet in the range where spontaneous bleeding is likely (that's typically <10-20). Immediate priorities: strict infection prevention, possibly reverse isolation, prophylactic antibiotics, and watchful surveillance. The anemia will be transfused carefully (avoid fluid overload). Distractors: hypoxemia from hemoglobin 4.8 IS severe and WILL be treated, but patients can sometimes compensate with increased cardiac output if the drop is gradual; heart failure is a concern but less immediately lethal than sepsis; thrombocytopenia IS dangerous but 45 is manageable with precautions.",
+                    "topic": "Anemia",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A 28-year-old patient with newly diagnosed sickle cell disease is being discharged from the hospital after treatment for a vaso-occlusive crisis. During discharge teaching, the nurse explains factors that trigger sickling. The patient asks, 'Why did the doctor say I should avoid high altitude and take breaks during exercise?' Which physiological explanation is most accurate?",
+                    "options": ["High altitude and exercise both cause acidosis, which makes hemoglobin S polymerize and sickle cells rigid", "High altitude and exercise increase oxygen demand; if oxygen delivery cannot meet this demand, hemoglobin S distorts RBCs into sickles", "High altitude reduces barometric pressure, which directly causes hemoglobin to denature; exercise causes dehydration that thickens blood", "Both situations activate the complement cascade, triggering immune-mediated hemolysis of sickled cells"],
+                    "answer": 1,
+                    "rationale": "Sickle cell disease worsens when tissue oxygen levels drop (relative hypoxemia). High altitude = lower atmospheric oxygen. Intense exercise = increased metabolic oxygen demand that may exceed delivery. Both situations trigger sickling because hemoglobin S polymerizes preferentially under LOW OXYGEN conditions. When oxygen is low, hemoglobin S distorts RBCs into the characteristic sickle shape; these cells clog vessels, causing vaso-occlusion and pain crisis. The mechanism is OXYGEN AVAILABILITY, not acidosis or barometric pressure. Sickling does worsen with dehydration (increases blood viscosity), but that's a secondary mechanism; the primary trigger is low oxygen. Distractors: acidosis does play a role but is secondary to the oxygen mechanism; barometric pressure at altitude doesn't 'denature' hemoglobin—it just means less O2 is available to bind; complement cascade causes hemolysis in some acquired hemolytic anemias but not in sickle cell disease, which is a structural hemoglobinopathy.",
+                    "topic": "Anemia",
+                    "source": "quiz-bank"
+                }
+            ],
+            "eaq": []
+        }
+    },
+    {
+        "id": "week2-obstructive-airway-disorders",
+        "label": "Obstructive Airway Disorders",
+        "week": 2,
+        "sets": {
+            "mustKnow": [],
+            "extraPractice": [
+                {
+                    "stem": "A 35-year-old patient with asthma presents to the ED with dyspnea, widespread wheezing, and is using accessory muscles to breathe. Peak flow is 40% of personal best. The patient received albuterol nebulizer treatment in the waiting room but reports only minimal improvement. Blood gas shows pH 7.32, PaCO2 72 mmHg, PaO2 58 mmHg. The nurse anticipates which immediate intervention?",
+                    "options": ["Another albuterol nebulizer treatment since peak flow has improved from baseline emergency status", "Preparation for intubation and mechanical ventilation due to impending respiratory failure from status asthmaticus", "IV furosemide to reduce airway edema causing the persistent bronchoconstriction", "Chest X-ray to rule out pneumothorax as an alternative diagnosis explaining the lack of response"],
+                    "answer": 1,
+                    "rationale": "This is status asthmaticus—life-threatening, unrelenting asthma attack. The clinical signs are all present: diminished response to bronchodilators, accessory muscle use, low peak flow (40%), and critically, a RISING CO2 (72) with metabolic acidosis (pH 7.32). Rising CO2 in an asthmatic means the lungs can't ventilate adequately despite treatment—the airways are so obstructed that air can't move. This is respiratory failure developing. The provider will likely order IV epinephrine, IV corticosteroids, and prepare for intubation because the patient is decompensating. A 'silent chest' (absent breath sounds) with CO2 >70 is the classic harbinger of imminent need for mechanical ventilation. Distractors: more albuterol alone won't fix rising CO2 (needs additional systemic therapy); furosemide treats pulmonary edema, not status asthmaticus; chest X-ray may be done but won't change immediate management and delays critical airway intervention.",
+                    "topic": "Obstructive Airway Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A 58-year-old man with a 40-year smoking history presents with chronic productive cough for the past 18 months, mild dyspnea on exertion, and occasional ankle edema. Chest X-ray shows hyperinflation. Pulmonary function tests show FEV1 of 45% predicted. The patient denies wheezing and reports his cough is worse in winter. Which finding most specifically points to chronic bronchitis rather than emphysema?",
+                    "options": ["FEV1 of 45% predicted, which is characteristic of obstructive lung disease", "A 40-year smoking history, which is the primary risk factor for both conditions", "Productive cough present for at least 3 months of the year over at least 2 consecutive years", "Hyperinflation on chest X-ray, indicating air trapping in the lungs"],
+                    "answer": 2,
+                    "rationale": "Chronic bronchitis is DEFINED by productive cough (not dry) lasting at least 3 months per year for at least 2 consecutive years. This timing/symptom pattern IS the diagnostic criterion, not just a finding. The patient reports 18 months of cough worse in winter—this fits the chronic bronchitis pattern perfectly. Emphysema, by contrast, presents with dyspnea and quiet breath sounds, not a prominent productive cough. Both show FEV1 reduction, hyperinflation, and smoking risk—those are shared. But the productive cough pattern is the key differentiator for bronchitis. Blue bloater (chronic bronchitis) presents with cough/mucus/hypoxia/edema; pink puffer (emphysema) presents with dyspnea/barrel chest/pursed lips/malnutrition. Distractors: FEV1 and hyperinflation are present in both COPD components; smoking history applies to both—neither is specific to bronchitis alone.",
+                    "topic": "Obstructive Airway Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A 62-year-old patient with emphysema is admitted with acute dyspnea. On examination: quiet, diminished breath sounds bilaterally, barrel chest, pursed-lip breathing, and vital signs show RR 24, SpO2 89% on room air. ABG results: pH 7.35, PaCO2 52 mmHg, PaO2 62 mmHg. The patient is on home oxygen but removed it 'because it felt uncomfortable.' The nurse's priority assessment should focus on:",
+                    "options": ["Determining the cause of the patient's decision to discontinue oxygen and exploring alternatives for delivery", "Immediately correcting the low oxygen saturation without exploring the patient's reasoning, since hypoxemia poses acute risk", "Assessing for acute infection (pneumonia, acute bronchitis) or other triggers of the decompensation", "Checking troponin and BNP to rule out cardiac causes of dyspnea since cor pulmonale is common in emphysema"],
+                    "answer": 2,
+                    "rationale": "While the low SpO2 needs treatment, the PRIORITY assessment is identifying what triggered THIS acute decompensation. A patient on chronic home oxygen who suddenly worsens has likely encountered a new trigger: acute infection (most common), pneumothorax (blebs can rupture), pneumonia, or acute exacerbation from environmental exposure. The patient's decision to remove oxygen is a red flag for either intolerance/discomfort (treatable) or symptom misattribution. In emphysema, cor pulmonale (right-sided heart failure) IS a risk, but troponin/BNP are secondary considerations after identifying the acute trigger. The nurse should: assess for productive cough, fever, chest pain, recent exposures; obtain chest X-ray; culture sputum if productive; start antibiotics empirically if infection is suspected. Oxygen therapy gets reinstituted and adjusted for comfort (nasal cannula vs mask, flow rates). Distractors: exploring 'discomfort' without first ruling out life-threatening triggers delays critical diagnosis; cardiac workup is important but not the immediate priority when infection/pneumothorax could be killing him; respiratory depression from high-flow oxygen is a real concern in COPD CO2 retainers, but this patient's CO2 is only mildly elevated at 52.",
+                    "topic": "Obstructive Airway Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A 19-year-old college student with a history of exercise-induced wheezing is evaluated for asthma. During pulmonary function testing, baseline FEV1 is normal at 92% predicted. After exercise challenge, FEV1 drops to 72% predicted within 10 minutes, then gradually recovers to 88% predicted over the next 30 minutes. The patient denies current respiratory symptoms. Which statement most accurately reflects this finding?",
+                    "options": ["The test result is normal because FEV1 recovered above 85% predicted, ruling out asthma", "Exercise-induced bronchoconstriction is confirmed; the reversibility after stopping exercise is consistent with asthma pathophysiology", "The patient has emphysema, not asthma, because there was any decrease in FEV1 with exertion", "Repeat testing is needed because a single abnormal test cannot diagnose asthma"],
+                    "answer": 1,
+                    "rationale": "Exercise-induced asthma (now called exercise-induced bronchoconstriction) is triggered by hyperventilation and airway cooling during exertion. The drop from 92% to 72% is significant (20-point decline) and diagnostic. Critically, the REVERSIBILITY after stopping exercise—FEV1 recovered toward baseline—is the hallmark of asthma. Asthma is defined as variable, reversible airflow obstruction; this patient demonstrates exactly that. Emphysema would NOT reverse because the alveolar destruction is permanent—once destroyed, those air spaces don't recover. The patient's normal baseline and recovery pattern distinguish asthma from restrictive or fixed obstructive diseases. Distractors: an 88% recovery isn't 'normal'—the 20-point drop is abnormal and diagnostic even though complete recovery occurred; emphysema diagnosis is incorrect because there's no reversibility in true emphysema (this reversibility rules it out); while repeat testing might be done, this single test is sufficient for diagnosis given the history and findings.",
+                    "topic": "Obstructive Airway Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient with chronic asthma has been using an inhaled corticosteroid (ICS) daily for 6 months with good symptom control. During a routine visit, the patient mentions increased shortness of breath during the morning commute and weekend outings. Peak flow measurements show: baseline 420 L/min, morning 340 L/min (81% of personal best), midday 395 L/min (94% of personal best). Using the asthma action plan zones, what is the patient's status and most appropriate next step?",
+                    "options": ["Green zone—continue current ICS therapy since midday peak flow is in the safe range", "Yellow zone—suggest doubling the ICS dose and monitoring peak flow twice daily until consistently in green zone", "Red zone—escalate immediately to oral corticosteroids and urgent provider evaluation", "Green zone with emerging yellow zone symptoms—increase rescue bronchodilator availability and discuss adding a long-acting beta agonist with the provider"],
+                    "answer": 3,
+                    "rationale": "Peak flow zones use percentage of PERSONAL BEST: Green ≥80%, Yellow 50-80%, Red <50%. This patient's morning peak flow of 340 is 81% (barely in green) but the TREND is concerning: morning dips to 81%, doesn't fully recover even by midday (94%). This pattern (morning symptoms, variation across the day) suggests inadequate control despite current ICS monotherapy. The patient is technically in green zone by numbers alone, but the VARIABILITY and TREND indicate worsening control. The appropriate step is NOT to escalate to oral steroids yet (red zone action), but to OPTIMIZE current therapy: add a long-acting beta agonist (LABA) to the ICS for better airway smooth muscle control, increase rescue bronchodilator access, and monitor closely. This prevents progression to true exacerbations. Distractors: 'continue current therapy' misses the emerging problem; doubling ICS alone without LABA won't address the smooth muscle component; jumping to oral steroids (red zone therapy) is premature when yellow zone interventions haven't been tried.",
+                    "topic": "Obstructive Airway Disorders",
+                    "source": "quiz-bank"
+                }
+            ],
+            "eaq": []
+        }
     }
+  
 ],
 
   TOPIC_ORDER: [
     "Antimicrobials &amp; Antibiotics (ABX)",
     "Antivirals",
     "HIV &amp; Antiretroviral Therapy (ART)",
-    "Pathopharm Review"
+    "Pathopharm Review",
+    "Anemia",
+    "Obstructive Airway Disorders"
   ]
 };
