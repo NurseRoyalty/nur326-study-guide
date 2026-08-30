@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam 1A - Build Your Own Exam</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: #f5f3f0;
+            color: #2d2520;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: #8b5a3c;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 1rem;
+        }
+
+        .section-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .section-card {
+            background: white;
+            border: 2px solid #e8d5c4;
+            border-radius: 8px;
+            padding: 2rem;
+            transition: all 0.3s ease;
+        }
+
+        .section-card:hover {
+            border-color: #8b5a3c;
+            box-shadow: 0 4px 12px rgba(139, 90, 60, 0.15);
+        }
+
+        .section-card h2 {
+            color: #8b5a3c;
+            margin-bottom: 0.5rem;
+            font-size: 1.3rem;
+        }
+
+        .section-info {
+            color: #999;
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.5;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #555;
+            font-size: 0.95rem;
+        }
+
+        input[type="number"] {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+            font-family: inherit;
+        }
+
+        input[type="number"]:focus {
+            outline: none;
+            border-color: #8b5a3c;
+            box-shadow: 0 0 0 2px rgba(139, 90, 60, 0.1);
+        }
+
+        .range-info {
+            font-size: 0.85rem;
+            color: #999;
+            margin-top: 0.3rem;
+        }
+
+        .controls {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 3rem;
+            flex-wrap: wrap;
+        }
+
+        button {
+            padding: 0.9rem 2rem;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: inherit;
+        }
+
+        .btn-primary {
+            background-color: #8b5a3c;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background-color: #6b4530;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(139, 90, 60, 0.3);
+        }
+
+        .btn-secondary {
+            background-color: #f0e6d8;
+            color: #8b5a3c;
+            border: 1px solid #e8d5c4;
+        }
+
+        .btn-secondary:hover {
+            background-color: #e8d5c4;
+        }
+
+        .summary {
+            background: white;
+            border-left: 4px solid #8b5a3c;
+            padding: 1.5rem;
+            border-radius: 4px;
+            margin-bottom: 2rem;
+        }
+
+        .summary h3 {
+            color: #8b5a3c;
+            margin-bottom: 1rem;
+        }
+
+        .summary-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .summary-item {
+            background: #f9f7f4;
+            padding: 1rem;
+            border-radius: 4px;
+            border-left: 3px solid #c9a878;
+        }
+
+        .summary-item strong {
+            display: block;
+            color: #8b5a3c;
+            margin-bottom: 0.3rem;
+        }
+
+        .summary-item .number {
+            font-size: 1.8rem;
+            color: #c9a878;
+        }
+
+        #question-container {
+            display: none;
+        }
+
+        .question-wrapper {
+            background: white;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-left: 4px solid #8b5a3c;
+        }
+
+        .question-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #eee;
+        }
+
+        .question-number {
+            font-weight: 600;
+            color: #8b5a3c;
+        }
+
+        .question-section {
+            background: #f9f7f4;
+            color: #8b5a3c;
+            padding: 0.3rem 0.8rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+        }
+
+        .question-type {
+            background: #e8d5c4;
+            color: #6b4530;
+            padding: 0.3rem 0.8rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            margin-left: 0.5rem;
+        }
+
+        .question-stem {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+            font-weight: 500;
+            line-height: 1.7;
+        }
+
+        .options {
+            margin-bottom: 2rem;
+        }
+
+        .option {
+            margin-bottom: 0.8rem;
+            padding: 1rem;
+            background: #f9f7f4;
+            border: 2px solid #f0e6d8;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .option:hover {
+            border-color: #8b5a3c;
+            background: #f5f0e8;
+        }
+
+        .option input[type="radio"],
+        .option input[type="checkbox"] {
+            margin-right: 0.8rem;
+            cursor: pointer;
+        }
+
+        .option.selected {
+            border-color: #8b5a3c;
+            background: #f0e6d8;
+        }
+
+        .rationale-section {
+            display: none;
+            background: #fffbf7;
+            border-left: 4px solid #c9a878;
+            padding: 1.5rem;
+            border-radius: 4px;
+            margin-top: 1.5rem;
+        }
+
+        .rationale-section.show {
+            display: block;
+        }
+
+        .rationale-title {
+            color: #8b5a3c;
+            font-weight: 600;
+            margin-bottom: 0.8rem;
+        }
+
+        .rationale-text {
+            line-height: 1.7;
+            color: #555;
+        }
+
+        .navigation {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin: 2rem 0;
+        }
+
+        .nav-btn {
+            padding: 0.8rem 1.5rem;
+            font-size: 0.95rem;
+        }
+
+        .nav-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #e8d5c4;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-bottom: 2rem;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: #8b5a3c;
+            transition: width 0.3s ease;
+        }
+
+        .finish-section {
+            text-align: center;
+            padding: 2rem;
+            background: white;
+            border-radius: 8px;
+            display: none;
+        }
+
+        .finish-section.show {
+            display: block;
+        }
+
+        .finish-section h2 {
+            color: #8b5a3c;
+            margin-bottom: 1rem;
+        }
+
+        .score-display {
+            font-size: 3rem;
+            color: #8b5a3c;
+            font-weight: 600;
+            margin: 1rem 0;
+        }
+
+        .back-btn {
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            .section-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .controls {
+                flex-direction: column;
+            }
+
+            button {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Exam 1A - Build Your Own Exam</h1>
+            <p class="subtitle">Select questions from each section to create your custom exam</p>
+        </header>
+
+        <!-- Section Configuration -->
+        <div id="setup-section">
+            <div class="section-grid">
+                <div class="section-card">
+                    <h2>Vancomycin</h2>
+                    <p class="section-info">Everything about vancomycin - Red Man, NTI, monitoring, ototoxicity, infusion rate, MRSA, synergistic toxicity</p>
+                    <div class="form-group">
+                        <label for="vanc-count">Number of questions:</label>
+                        <input type="number" id="vanc-count" min="0" max="20" value="5">
+                        <p class="range-info">Available: 20 questions (0-20)</p>
+                    </div>
+                </div>
+
+                <div class="section-card">
+                    <h2>Antibiotic Differences</h2>
+                    <p class="section-info">What makes each antibiotic unique - contraindications, special populations, off-label uses, interactions, mechanisms</p>
+                    <div class="form-group">
+                        <label for="abx-count">Number of questions:</label>
+                        <input type="number" id="abx-count" min="0" max="20" value="5">
+                        <p class="range-info">Available: 20 questions (0-20)</p>
+                    </div>
+                </div>
+
+                <div class="section-card">
+                    <h2>HIV/AIDS</h2>
+                    <p class="section-info">HIV pathophysiology, stages, transmission, NRTIs, opportunistic infections, dementia, oral manifestations</p>
+                    <div class="form-group">
+                        <label for="hiv-count">Number of questions:</label>
+                        <input type="number" id="hiv-count" min="0" max="20" value="5">
+                        <p class="range-info">Available: 20 questions (0-20)</p>
+                    </div>
+                </div>
+
+                <div class="section-card">
+                    <h2>Antiviral Medications</h2>
+                    <p class="section-info">Acyclovir, oseltamivir, ganciclovir - mechanisms, uses, unique features, black box warnings</p>
+                    <div class="form-group">
+                        <label for="av-count">Number of questions:</label>
+                        <input type="number" id="av-count" min="0" max="20" value="5">
+                        <p class="range-info">Available: 20 questions (0-20)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="summary" id="summary">
+                <h3>Exam Summary</h3>
+                <div class="summary-content">
+                    <div class="summary-item">
+                        <strong>Total Questions:</strong>
+                        <span class="number" id="total-questions">20</span>
+                    </div>
+                    <div class="summary-item">
+                        <strong>Question Types:</strong>
+                        <div>Multiple Choice & SATA</div>
+                    </div>
+                    <div class="summary-item">
+                        <strong>Difficulty:</strong>
+                        <div>Hard / Moderate</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button class="btn-primary" onclick="startExam()">Start Exam</button>
+                <button class="btn-secondary" onclick="randomizeDefaults()">Randomize & Start</button>
+            </div>
+        </div>
+
+        <!-- Exam Display -->
+        <div id="question-container">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill" style="width: 0%"></div>
+            </div>
+
+            <div id="questions-display"></div>
+
+            <div class="navigation">
+                <button class="btn-secondary nav-btn" id="prev-btn" onclick="previousQuestion()">← Previous</button>
+                <span id="question-counter"></span>
+                <button class="btn-secondary nav-btn" id="next-btn" onclick="nextQuestion()">Next →</button>
+            </div>
+
+            <div class="navigation">
+                <button class="btn-primary" id="show-answer-btn" onclick="toggleRationale()">Show Answer & Explanation</button>
+            </div>
+
+            <div class="navigation">
+                <button class="btn-primary" onclick="finishExam()">Finish Exam</button>
+                <button class="btn-secondary" onclick="resetExam()">Back to Setup</button>
+            </div>
+        </div>
+
+        <!-- Finish Screen -->
+        <div id="finish-section" class="finish-section">
+            <h2>Exam Complete!</h2>
+            <p id="finish-message"></p>
+            <div class="score-display" id="score-display"></div>
+            <button class="btn-primary back-btn" onclick="resetExam()">Back to Setup</button>
+        </div>
+    </div>
+
+    <script src="./data/exam1a-questions.js"></script>
+    <script>
+        let allQuestions = [];
+        let currentQuestions = [];
+        let currentQuestionIndex = 0;
+        let userAnswers = {};
+
+        // Update total questions count
+        function updateTotalCount() {
+            const vanc = parseInt(document.getElementById('vanc-count').value) || 0;
+            const abx = parseInt(document.getElementById('abx-count').value) || 0;
+            const hiv = parseInt(document.getElementById('hiv-count').value) || 0;
+            const av = parseInt(document.getElementById('av-count').value) || 0;
+            const total = vanc + abx + hiv + av;
+            document.getElementById('total-questions').textContent = total;
+        }
+
+        // Add event listeners to inputs
+        document.querySelectorAll('input[type="number"]').forEach(input => {
+            input.addEventListener('change', updateTotalCount);
+        });
+
+        // Randomize defaults
+        function randomizeDefaults() {
+            const max = 20;
+            document.getElementById('vanc-count').value = Math.floor(Math.random() * (max + 1));
+            document.getElementById('abx-count').value = Math.floor(Math.random() * (max + 1));
+            document.getElementById('hiv-count').value = Math.floor(Math.random() * (max + 1));
+            document.getElementById('av-count').value = Math.floor(Math.random() * (max + 1));
+            updateTotalCount();
+            startExam();
+        }
+
+        // Start exam
+        function startExam() {
+            const vancCount = parseInt(document.getElementById('vanc-count').value) || 0;
+            const abxCount = parseInt(document.getElementById('abx-count').value) || 0;
+            const hivCount = parseInt(document.getElementById('hiv-count').value) || 0;
+            const avCount = parseInt(document.getElementById('av-count').value) || 0;
+
+            const total = vancCount + abxCount + hivCount + avCount;
+            if (total === 0) {
+                alert('Please select at least 1 question');
+                return;
+            }
+
+            // Get questions from each section
+            allQuestions = window.EXAM_DATA.questions;
+            currentQuestions = [];
+
+            // Add vancomycin questions
+            if (vancCount > 0) {
+                const vancQuestions = allQuestions.filter(q => q.section === 'vancomycin');
+                currentQuestions.push(...shuffleArray(vancQuestions).slice(0, vancCount));
+            }
+
+            // Add antibiotic differences questions
+            if (abxCount > 0) {
+                const abxQuestions = allQuestions.filter(q => q.section === 'abx-differences');
+                currentQuestions.push(...shuffleArray(abxQuestions).slice(0, abxCount));
+            }
+
+            // Add HIV questions
+            if (hivCount > 0) {
+                const hivQuestions = allQuestions.filter(q => q.section === 'hiv');
+                currentQuestions.push(...shuffleArray(hivQuestions).slice(0, hivCount));
+            }
+
+            // Add antiviral questions
+            if (avCount > 0) {
+                const avQuestions = allQuestions.filter(q => q.section === 'antivirals');
+                currentQuestions.push(...shuffleArray(avQuestions).slice(0, avCount));
+            }
+
+            // Shuffle all questions together
+            currentQuestions = shuffleArray(currentQuestions);
+            currentQuestionIndex = 0;
+            userAnswers = {};
+
+            // Show exam section
+            document.getElementById('setup-section').style.display = 'none';
+            document.getElementById('question-container').style.display = 'block';
+            document.getElementById('finish-section').classList.remove('show');
+
+            displayQuestion();
+        }
+
+        // Display current question
+        function displayQuestion() {
+            if (currentQuestionIndex >= currentQuestions.length) {
+                finishExam();
+                return;
+            }
+
+            const question = currentQuestions[currentQuestionIndex];
+            const isLast = currentQuestionIndex === currentQuestions.length - 1;
+
+            // Shuffle options
+            let options = [...question.options];
+            let correctAnswerIndex = question.answer;
+
+            // For SATA questions, we need to preserve the answer array
+            let isSATA = question.type === 'sata';
+
+            if (!isSATA) {
+                const shuffled = shuffleWithIndex(options);
+                options = shuffled.values;
+                correctAnswerIndex = shuffled.indices[correctAnswerIndex];
+            } else {
+                // For SATA, shuffle but maintain answer indices
+                const correctAnswers = new Set(question.answers);
+                const shuffled = shuffleWithIndex(options);
+                options = shuffled.values;
+
+                // Map old indices to new indices
+                const indexMap = {};
+                shuffled.indices.forEach((newIdx, oldIdx) => {
+                    indexMap[oldIdx] = newIdx;
+                });
+
+                // Update correct answers to new indices
+                const newCorrectAnswers = [];
+                question.answers.forEach(oldIdx => {
+                    newCorrectAnswers.push(indexMap[oldIdx]);
+                });
+                question.answers = newCorrectAnswers.sort((a, b) => a - b);
+            }
+
+            question.answer = correctAnswerIndex;
+
+            // Build HTML
+            let html = `
+                <div class="question-wrapper">
+                    <div class="question-header">
+                        <span class="question-number">Question ${currentQuestionIndex + 1} of ${currentQuestions.length}</span>
+                        <div>
+                            <span class="question-section">${question.section.replace('-', ' ').toUpperCase()}</span>
+                            <span class="question-type">${question.type === 'sata' ? 'SATA' : 'Multiple Choice'}</span>
+                        </div>
+                    </div>
+                    <div class="question-stem">${question.stem}</div>
+                    <div class="options">
+            `;
+
+            // Add options
+            if (question.type === 'sata') {
+                options.forEach((option, idx) => {
+                    const checked = userAnswers[currentQuestionIndex]?.includes(idx) ? 'checked' : '';
+                    html += `
+                        <label class="option">
+                            <input type="checkbox" value="${idx}" onchange="updateAnswer(${currentQuestionIndex}, ${idx}, this)" ${checked}>
+                            ${option}
+                        </label>
+                    `;
+                });
+            } else {
+                const selectedAnswer = userAnswers[currentQuestionIndex];
+                options.forEach((option, idx) => {
+                    const checked = selectedAnswer === idx ? 'checked' : '';
+                    html += `
+                        <label class="option ${checked ? 'selected' : ''}">
+                            <input type="radio" name="option-${currentQuestionIndex}" value="${idx}" onchange="updateAnswer(${currentQuestionIndex}, ${idx}, this)" ${checked}>
+                            ${option}
+                        </label>
+                    `;
+                });
+            }
+
+            html += `
+                    </div>
+                    <div class="rationale-section" id="rationale-${currentQuestionIndex}">
+                        <div class="rationale-title">Answer & Explanation:</div>
+                        <div class="rationale-text">${question.rationale}</div>
+                    </div>
+                </div>
+            `;
+
+            document.getElementById('questions-display').innerHTML = html;
+
+            // Update button states
+            document.getElementById('prev-btn').disabled = currentQuestionIndex === 0;
+            document.getElementById('next-btn').disabled = isLast;
+            document.getElementById('question-counter').textContent = `${currentQuestionIndex + 1} / ${currentQuestions.length}`;
+
+            // Update progress bar
+            const progress = ((currentQuestionIndex + 1) / currentQuestions.length) * 100;
+            document.getElementById('progress-fill').style.width = progress + '%';
+
+            // Update button text
+            document.getElementById('show-answer-btn').textContent = 'Show Answer & Explanation';
+        }
+
+        // Toggle rationale
+        function toggleRationale() {
+            const rationale = document.getElementById(`rationale-${currentQuestionIndex}`);
+            const btn = document.getElementById('show-answer-btn');
+
+            if (rationale.classList.contains('show')) {
+                rationale.classList.remove('show');
+                btn.textContent = 'Show Answer & Explanation';
+            } else {
+                rationale.classList.add('show');
+                btn.textContent = 'Hide Answer & Explanation';
+            }
+        }
+
+        // Update answer
+        function updateAnswer(questionIndex, optionIndex, element) {
+            const question = currentQuestions[questionIndex];
+
+            if (question.type === 'sata') {
+                if (!userAnswers[questionIndex]) {
+                    userAnswers[questionIndex] = [];
+                }
+
+                if (element.checked) {
+                    if (!userAnswers[questionIndex].includes(optionIndex)) {
+                        userAnswers[questionIndex].push(optionIndex);
+                    }
+                } else {
+                    userAnswers[questionIndex] = userAnswers[questionIndex].filter(idx => idx !== optionIndex);
+                }
+            } else {
+                userAnswers[questionIndex] = optionIndex;
+
+                // Update selected styling
+                document.querySelectorAll(`input[name="option-${questionIndex}"]`).forEach(input => {
+                    input.parentElement.classList.remove('selected');
+                });
+                element.parentElement.classList.add('selected');
+            }
+        }
+
+        // Navigation
+        function previousQuestion() {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                displayQuestion();
+            }
+        }
+
+        function nextQuestion() {
+            if (currentQuestionIndex < currentQuestions.length - 1) {
+                currentQuestionIndex++;
+                displayQuestion();
+            }
+        }
+
+        // Finish exam
+        function finishExam() {
+            document.getElementById('question-container').style.display = 'none';
+            document.getElementById('finish-section').classList.add('show');
+
+            // Calculate score
+            let correct = 0;
+            currentQuestions.forEach((question, idx) => {
+                const userAnswer = userAnswers[idx];
+                let isCorrect = false;
+
+                if (question.type === 'sata') {
+                    const userAnswerSet = new Set(userAnswer || []);
+                    const correctAnswerSet = new Set(question.answers);
+                    isCorrect = JSON.stringify(Array.from(userAnswerSet).sort()) === JSON.stringify(Array.from(correctAnswerSet).sort());
+                } else {
+                    isCorrect = userAnswer === question.answer;
+                }
+
+                if (isCorrect) correct++;
+            });
+
+            const percentage = Math.round((correct / currentQuestions.length) * 100);
+            document.getElementById('score-display').textContent = `${correct}/${currentQuestions.length} (${percentage}%)`;
+            document.getElementById('finish-message').textContent = `You answered ${correct} out of ${currentQuestions.length} questions correctly.`;
+        }
+
+        // Reset exam
+        function resetExam() {
+            document.getElementById('setup-section').style.display = 'block';
+            document.getElementById('question-container').style.display = 'none';
+            document.getElementById('finish-section').classList.remove('show');
+            currentQuestionIndex = 0;
+            userAnswers = {};
+        }
+
+        // Utility functions
+        function shuffleArray(arr) {
+            const shuffled = [...arr];
+            for (let i = shuffled.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+            }
+            return shuffled;
+        }
+
+        function shuffleWithIndex(arr) {
+            const indexed = arr.map((val, idx) => ({ val, idx }));
+            const shuffled = shuffleArray(indexed);
+            return {
+                values: shuffled.map(item => item.val),
+                indices: indexed.map(item => shuffled.findIndex(s => s.val === item.val))
+            };
+        }
+
+        // Initialize
+        updateTotalCount();
+    </script>
+</body>
+</html>
