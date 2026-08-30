@@ -7,6 +7,55 @@
 <script>(function(){try{var p=new URLSearchParams(location.search).get('theme');var t=p||localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');if(p){try{localStorage.setItem('theme',p)}catch(e){}}document.documentElement.setAttribute('data-theme',t);}catch(e){document.documentElement.setAttribute('data-theme','light');}})();</script>
 <link rel="stylesheet" href="assets/styles.css?v=20260829">
 <style>
+  :root {
+    --bg-primary: #f5f7fa;
+    --bg-secondary: #ffffff;
+    --text-primary: #1a1a1a;
+    --text-secondary: #666;
+    --text-muted: #999;
+    --border-color: #d0e0f0;
+    --accent-color: #2980b9;
+    --accent-dark: #1f618d;
+    --accent-light: #3498db;
+    --box-bg: #f0f4f8;
+    --box-bg-light: #e8f0f8;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg-primary: #1a1a1a;
+      --bg-secondary: #2d2d2d;
+      --text-primary: #e8e8e8;
+      --text-secondary: #b0b0b0;
+      --text-muted: #808080;
+      --border-color: #3a4a5a;
+      --accent-color: #5dade2;
+      --accent-dark: #3498db;
+      --accent-light: #2980b9;
+      --box-bg: rgba(93, 173, 226, 0.1);
+      --box-bg-light: rgba(93, 173, 226, 0.05);
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --bg-primary: #1a1a1a;
+    --bg-secondary: #2d2d2d;
+    --text-primary: #e8e8e8;
+    --text-secondary: #b0b0b0;
+    --text-muted: #808080;
+    --border-color: #3a4a5a;
+    --accent-color: #5dade2;
+    --accent-dark: #3498db;
+    --accent-light: #2980b9;
+    --box-bg: rgba(93, 173, 226, 0.1);
+    --box-bg-light: rgba(93, 173, 226, 0.05);
+  }
+
+  body {
+    background: var(--bg-primary);
+    color: var(--text-primary);
+  }
+
   .study-guide-section {
     max-width: 900px;
     margin: 0 auto 3rem;
@@ -16,24 +65,24 @@
   .study-guide-section header {
     text-align: center;
     margin-bottom: 3rem;
-    border-bottom: 3px solid #8b5a3c;
+    border-bottom: 3px solid var(--accent-color);
     padding-bottom: 2rem;
   }
 
   .study-guide-section h1 {
     font-size: 2.5rem;
-    color: #2d1810;
+    color: var(--accent-color);
     margin-bottom: 0.5rem;
   }
 
   .study-guide-section .subtitle {
     font-size: 1.1rem;
-    color: #666;
+    color: var(--text-secondary);
   }
 
   .intro-section {
-    background: white;
-    border-left: 4px solid #c9a878;
+    background: var(--bg-secondary);
+    border-left: 4px solid var(--accent-light);
     padding: 2rem;
     border-radius: 8px;
     margin-bottom: 2.5rem;
@@ -41,26 +90,26 @@
   }
 
   .intro-section h2 {
-    color: #8b5a3c;
+    color: var(--accent-color);
     margin-bottom: 1rem;
     font-size: 1.4rem;
   }
 
   .intro-section p {
     margin-bottom: 1rem;
-    color: #555;
+    color: var(--text-secondary);
   }
 
   .key-concept {
-    background: #f5f0e8;
-    border: 1px solid #e8d5c4;
+    background: var(--box-bg-light);
+    border: 1px solid var(--border-color);
     padding: 1.5rem;
     border-radius: 6px;
     margin: 1rem 0;
   }
 
   .key-concept strong {
-    color: #8b5a3c;
+    color: var(--accent-color);
   }
 
   .study-guide-section section {
@@ -68,23 +117,23 @@
   }
 
   .study-guide-section h2 {
-    color: #8b5a3c;
+    color: var(--accent-color);
     font-size: 2rem;
     margin-bottom: 1.5rem;
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid #e8d5c4;
+    border-bottom: 2px solid var(--border-color);
   }
 
   .study-guide-section h3 {
-    color: #6b4530;
+    color: var(--accent-dark);
     font-size: 1.3rem;
     margin-top: 1.5rem;
     margin-bottom: 0.8rem;
   }
 
   .concept-box {
-    background: white;
-    border-left: 4px solid #c9a878;
+    background: var(--bg-secondary);
+    border-left: 4px solid var(--accent-light);
     padding: 1.5rem;
     margin-bottom: 1.5rem;
     border-radius: 6px;
@@ -92,7 +141,7 @@
   }
 
   .concept-box h4 {
-    color: #8b5a3c;
+    color: var(--accent-color);
     margin-bottom: 0.8rem;
     font-size: 1.1rem;
   }
@@ -104,38 +153,39 @@
 
   .study-guide-section li {
     margin-bottom: 0.6rem;
-    color: #444;
+    color: var(--text-primary);
   }
 
   .study-guide-section strong {
-    color: #6b4530;
+    color: var(--accent-dark);
   }
 
   .study-guide-section em {
-    color: #8b5a3c;
+    color: var(--accent-color);
   }
 
   .highlight {
-    background: #fffbf7;
-    border-left: 3px solid #c9a878;
+    background: var(--box-bg-light);
+    border-left: 3px solid var(--accent-light);
     padding: 1rem;
     margin: 1rem 0;
     border-radius: 4px;
   }
 
   .clinical-pearl {
-    background: #f9f7f4;
-    border: 2px solid #c9a878;
-    border-left: 4px solid #8b5a3c;
+    background: var(--box-bg);
+    border: 2px solid var(--accent-light);
+    border-left: 4px solid var(--accent-color);
     padding: 1.5rem;
     border-radius: 6px;
     margin: 1.5rem 0;
     font-weight: 500;
+    color: var(--text-primary);
   }
 
   .clinical-pearl::before {
     content: "💡 Clinical Pearl: ";
-    color: #8b5a3c;
+    color: var(--accent-color);
     font-weight: 600;
   }
 
@@ -147,14 +197,14 @@
   .study-guide-section table {
     width: 100%;
     border-collapse: collapse;
-    background: white;
+    background: var(--bg-secondary);
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
     overflow: hidden;
   }
 
   .study-guide-section th {
-    background: #8b5a3c;
+    background: var(--accent-color);
     color: white;
     padding: 1rem;
     text-align: left;
@@ -163,7 +213,8 @@
 
   .study-guide-section td {
     padding: 0.9rem;
-    border-bottom: 1px solid #e8d5c4;
+    border-bottom: 1px solid var(--border-color);
+    color: var(--text-primary);
   }
 
   .study-guide-section tr:last-child td {
@@ -171,7 +222,7 @@
   }
 
   .study-guide-section tr:nth-child(even) {
-    background: #f9f7f4;
+    background: var(--box-bg);
   }
 
   .comparison {
@@ -182,41 +233,45 @@
   }
 
   .comparison-item {
-    background: white;
+    background: var(--bg-secondary);
     padding: 1.5rem;
     border-radius: 6px;
-    border-left: 4px solid #8b5a3c;
+    border-left: 4px solid var(--accent-color);
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
   }
 
   .comparison-item h4 {
-    color: #8b5a3c;
+    color: var(--accent-color);
     margin-bottom: 1rem;
   }
 
+  .comparison-item ul {
+    color: var(--text-primary);
+  }
+
   .study-tips {
-    background: #f0e6d8;
-    border-left: 4px solid #8b5a3c;
+    background: var(--box-bg-light);
+    border-left: 4px solid var(--accent-color);
     padding: 1.5rem;
     border-radius: 6px;
     margin: 2rem 0;
   }
 
   .study-tips h3 {
-    color: #8b5a3c;
+    color: var(--accent-color);
     margin-top: 0;
   }
 
   .study-tips li {
-    color: #333;
+    color: var(--text-primary);
   }
 
   .study-guide-footer {
     text-align: center;
     margin-top: 4rem;
     padding-top: 2rem;
-    border-top: 2px solid #e8d5c4;
-    color: #999;
+    border-top: 2px solid var(--border-color);
+    color: var(--text-muted);
     font-size: 0.9rem;
   }
 
