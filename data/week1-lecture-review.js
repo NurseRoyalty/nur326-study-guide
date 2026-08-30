@@ -1,155 +1,351 @@
-// Week 1 Lecture Review - NCLEX NGN Format Questions
-// Based on voice-over materials for antimicrobials, antivirals, and HIV
+// Week 1 Lecture Review & Exam Review - NCLEX NGN Format Questions
+// Includes: 7 questions from Exam 1 Live Review + 13 additional NCLEX NGN practice questions
+// Topics: Antimicrobials, Antivirals, HIV/ART
+// Updated: 2026-08-30
 
 window.EXAM_DATA = {
-  title: "Week 1 Lecture Review",
-  description: "Questions from the pre-lecture voice-over materials covering antimicrobials, antivirals, and HIV basics.",
+  title: "Week 1 Lecture Review - Exam Prep",
+  description: "NCLEX NGN-style questions from Exam 1 Live Review session and comprehensive lecture content covering antimicrobials, antivirals, and HIV basics.",
   questions: [
     {
       id: 1,
-      stem: "A 68-year-old patient with COPD presents to urgent care with fever, purulent sputum, and a cough productive of green phlegm for 3 days. Blood and sputum cultures have been ordered. The nurse reviews the culture requisition to ensure proper collection. Which statement best describes the priority action the nurse should take regarding this culture collection?",
+      type: "sata",
+      difficulty: "hard",
+      topic: "HIV Transmission",
+      stem: "A 28-year-old patient diagnosed with HIV asks the nurse which body fluids could potentially transmit the virus to sexual partners. The patient is concerned about preventing transmission. Which body fluids should the nurse identify as proven routes of HIV transmission? (Select all that apply)",
       options: [
-        "Defer drawing the cultures until the patient has fever, as temperature elevates sensitivity of the culture plate",
-        "Obtain the cultures immediately before starting any antimicrobial therapy, as giving antibiotics may prevent organism identification",
-        "Wait until the next morning to obtain cultures when the lab is fully staffed and can process them more efficiently",
-        "Collect cultures only if the patient is hospitalized, as community-acquired infections can be presumptively treated"
+        "Saliva and tears",
+        "Blood and semen",
+        "Vaginal secretions and breast milk",
+        "Sweat and urine",
+        "Respiratory droplets"
       ],
-      answer: 1,
-      rationale: "Culture samples must be obtained BEFORE antimicrobials are started to allow proper organism growth and identification. Giving antibiotics first may suppress bacterial growth in the culture, preventing accurate identification of the pathogen. This is critical for guiding narrower, targeted therapy. The other options delay appropriate treatment or incorrectly assume timing affects culture accuracy.",
-      topic: "Antimicrobial Selection & Cultures",
-      source: "Week 1 Intro to Antimicrobials VO"
+      answers: [1, 2],
+      rationale: "Blood, semen, vaginal secretions, and breast milk are proven routes of HIV transmission. Saliva and tears do not transmit HIV unless there is blood present.",
+      source: "Exam 1 Live Review Poll Q1"
     },
     {
       id: 2,
-      stem: "A 45-year-old patient with a community-acquired urinary tract infection has a penicillin allergy (rash and facial swelling when given amoxicillin 5 years ago). Which medication classes must the nurse anticipate may cause a cross-reactivity concern and potentially be contraindicated in this patient? Select all that apply.",
+      type: "multiple-choice",
+      difficulty: "hard",
+      topic: "HIV Disease Stages",
+      stem: "You are caring for a 42-year-old male patient recently diagnosed with HIV. During physical examination, you note fever (101.2°F), oral candidiasis, and cough. CD4 count is 185 cells/mm³. Which stage of HIV infection would you record?",
       options: [
-        "Cephalosporins",
-        "Carbapenems",
-        "Fluoroquinolones",
-        "Sulfonamides",
-        "Aminoglycosides"
+        "Clinical latency",
+        "AIDS stage - based on CD4 count below 200",
+        "AIDS stage - based on opportunistic infection",
+        "Early infection with acute retroviral syndrome",
+        "Chronic asymptomatic stage"
       ],
-      answers: [0, 1],
-      rationale: "Cephalosporins and carbapenems both contain the beta-lactam ring structure similar to penicillins, creating cross-reactivity risk in penicillin-allergic patients. The patient's history of angioedema (facial swelling) indicates a true IgE-mediated allergy, not just adverse effects. Fluoroquinolones, sulfonamides, and aminoglycosides have different chemical structures and do not carry significant cross-reactivity with penicillins, though sulfonamide allergy (separate from penicillin allergy) is common.",
-      topic: "Antimicrobial Allergies & Cross-Reactivity",
-      source: "Week 1 Intro to Antimicrobials VO",
-      type: "sata"
+      answer: 2,
+      rationale: "This patient has AIDS based on presence of AIDS-defining illness (oral candidiasis) regardless of CD4 count.",
+      source: "Exam 1 Live Review Poll Q2"
     },
     {
       id: 3,
-      stem: "A patient with an upper respiratory infection caused by a virus has come to the clinic requesting antibiotics. The patient states, 'I don't feel good and just want something to help me get better faster.' The nurse is preparing to educate the patient about why antibiotics are not indicated. Which fact should the nurse include in this discussion to best explain the risk-benefit of unnecessary antibiotic use?",
+      type: "multiple-choice",
+      difficulty: "moderate",
+      topic: "HIV Pathophysiology",
+      stem: "During patient education, a newly diagnosed HIV-positive patient asks how the virus works in the body. Which explanation most accurately describes HIV infection?",
       options: [
-        "Antibiotics for viral upper respiratory infections work in about 4 out of 10 patients and carry a 1 in 1000 risk of serious allergic reaction or severe diarrhea",
-        "Viruses are too large for antibiotics to penetrate, making the medication ineffective against viral pathogens",
-        "The bacteria in the upper respiratory system are naturally resistant to all common antibiotics used for this indication",
-        "Antibiotics will eliminate the normal flora that protects against secondary fungal infections"
+        "The virus remains dormant in lymph nodes for years",
+        "The virus hijacks CD4+ T cells to replicate, creating virus particles, then destroys those cells",
+        "The virus directly attacks the lungs causing respiratory symptoms first",
+        "The virus slowly converts DNA into RNA",
+        "The virus primarily affects the digestive system"
       ],
-      answer: 0,
-      rationale: "The statistics presented—1 in 4000 chance of helping, 1 in 1000 chance of harm—demonstrate the poor risk-benefit ratio of antibiotics for viral URIs. This evidence-based data point is most persuasive for patient education. Viruses do live inside host cells making it harder for antibiotics to reach them, but this is not the primary reason we don't use them. The other options don't accurately reflect the actual risk-benefit profile of antibiotic use in viral URI.",
-      topic: "Antimicrobial Resistance & Appropriate Use",
-      source: "Week 1 Intro to Antimicrobials VO"
+      answer: 1,
+      rationale: "HIV selectively targets CD4+ T helper cells, replicates extensively, and ultimately destroys the cell.",
+      source: "Exam 1 Live Review Poll Q3"
     },
     {
       id: 4,
-      stem: "A 32-year-old patient with a penicillinase-producing Staphylococcus aureus wound infection is receiving nafcillin IV. The patient asks the nurse why they cannot take this medication by mouth since other antibiotics can be taken orally. What is the primary reason nafcillin must be given intravenously?",
+      type: "multiple-choice",
+      difficulty: "hard",
+      topic: "HIV ART Management",
+      stem: "You are teaching newly diagnosed HIV patients about antiretroviral therapy (ART). Which statement should be included in your teaching?",
       options: [
-        "Nafcillin is poorly absorbed from the GI tract and requires IV administration to achieve adequate blood levels",
-        "Penicillinase-resistant penicillins require continuous IV infusion to maintain peak drug concentrations above the bacterial MIC",
-        "Oral nafcillin would be inactivated by stomach acid before absorption, making it therapeutically ineffective",
-        "The IV route allows nafcillin to bypass the normal renal filtration that would eliminate it if given orally"
+        "Protease inhibitors are the primary drug class",
+        "Most patients need to switch medications every 6 months",
+        "Treatment is individualized, guided by CD4 count and viral load, with ongoing adjustments",
+        "NRTIs should never be combined with other classes",
+        "Once viral load is undetectable, medications can be stopped"
       ],
-      answer: 0,
-      rationale: "Nafcillin is poorly absorbed orally due to its chemical structure and metabolism in the GI tract. IV administration ensures reliable, therapeutic drug levels needed to treat aggressive staphylococcal infections. While peak-trough levels are important for some drugs, this is not why nafcillin specifically cannot be given orally. Stomach acid does not inactivate nafcillin, and renal filtration occurs regardless of route of administration.",
-      topic: "Penicillinase-Resistant Penicillins",
-      source: "Week 1 Cell Wall Inhibitors VO"
+      answer: 2,
+      rationale: "ART is individualized and guided by CD4 count and viral load results with ongoing assessment and adjustments.",
+      source: "Exam 1 Live Review Poll Q4"
     },
     {
       id: 5,
-      stem: "A 56-year-old patient admitted to the ICU with sepsis and renal dysfunction is prescribed piperacillin-tazobactam (Zoltan). The nurse caring for this patient recognizes that piperacillin-tazobactam is used for this patient because it provides broad-spectrum coverage. Which organisms is this patient most at risk for, given the reason for selecting this particular extended-spectrum penicillin? Select all that apply.",
+      type: "multiple-choice",
+      difficulty: "moderate",
+      topic: "Pediatric Antibiotic Safety",
+      stem: "You are reviewing discharge medications for a 12-year-old patient with bacterial infection. Which medication would require contacting the provider?",
       options: [
-        "Pseudomonas aeruginosa",
-        "Staphylococcus epidermidis",
-        "Anaerobic gram-negative rods",
-        "Streptococcus pneumoniae",
-        "Enterococcus species"
+        "Amoxicillin with clavulanic acid",
+        "Cefazolin",
+        "Penicillin G",
+        "Ciprofloxacin",
+        "Amoxicillin"
       ],
-      answers: [0, 2],
-      rationale: "Piperacillin-tazobactam is specifically valued for coverage of Pseudomonas aeruginosa and anaerobic gram-negative rods, making it ideal for critically ill patients at risk for nosocomial infections involving these organisms. While it covers some gram-positive cocci, it is not the drug of choice for S. epidermidis, S. pneumoniae, or Enterococcus. The renal dysfunction requires monitoring but does not change the organism coverage; however, dose adjustment will be necessary.",
-      topic: "Extended-Spectrum Penicillins",
-      source: "Week 1 Cell Wall Inhibitors VO",
-      type: "sata"
+      answer: 3,
+      rationale: "Fluoroquinolones are avoided in pediatric patients due to risk of tendinopathy and arthropathy.",
+      source: "Exam 1 Live Review Poll Q5"
     },
     {
       id: 6,
-      stem: "A 28-year-old patient with genital herpes simplex virus is prescribed acyclovir 400 mg orally three times daily for 10 days at the onset of symptoms. The patient asks if this will 'cure' the infection so it never comes back. How should the nurse respond to this patient's question?",
+      type: "multiple-choice",
+      difficulty: "moderate",
+      topic: "Tetracycline Administration",
+      stem: "A patient is being prescribed doxycycline for respiratory infection. Which statement indicates correct understanding?",
       options: [
-        "Yes, acyclovir eliminates all herpes simplex virus from your body, preventing future outbreaks completely",
-        "No, acyclovir decreases symptom severity and duration but does not eliminate the dormant virus from your nerve cells, so outbreaks may recur",
-        "Acyclovir works by preventing new viral particles from being created, but only if started within 24 hours of symptom onset",
-        "The virus will be cured if you take acyclovir for the full 10 days without missing any doses"
+        "I will take an antacid if I experience stomach upset",
+        "I will take this with a calcium supplement for better absorption",
+        "Tetracyclines are safe during pregnancy",
+        "I should avoid dairy products within 2 hours of taking this",
+        "I need to take this with food"
       ],
-      answer: 1,
-      rationale: "Acyclovir works symptomatically by inhibiting viral replication during active infection, but herpes simplex virus remains dormant in nerve tissue even after successful treatment. It decreases symptom severity and viral shedding but does not eradicate the virus, making recurrent outbreaks possible. Starting within 48 hours (not 24) of symptom onset optimizes efficacy, but even perfect adherence will not 'cure' the infection because the virus persists latently.",
-      topic: "Antiviral Medications - Acyclovir",
-      source: "Week 1 Antivirals VO"
+      answer: 3,
+      rationale: "Doxycycline forms chelation complexes with divalent cations and should not be taken with dairy within 2 hours.",
+      source: "Exam 1 Live Review Poll Q6"
     },
     {
       id: 7,
-      stem: "A 71-year-old patient with suspected influenza A presents 2 days after symptom onset with fever, myalgia, and cough. The patient received the influenza vaccine this year. The provider prescribes oseltamivir (Tamiflu) 75 mg orally twice daily. What is the primary mechanism by which oseltamivir provides therapeutic benefit in this patient?",
+      type: "multiple-choice",
+      difficulty: "hard",
+      topic: "Aminoglycoside TDM",
+      stem: "You are administering gentamicin for Gram-negative infection. When should the trough level be drawn?",
       options: [
-        "Oseltamivir binds to influenza proteins on the surface of the host cell, preventing viral attachment and entry",
-        "Oseltamivir inhibits neuraminidase, an enzyme that allows newly formed virus particles to be released from infected cells",
-        "Oseltamivir blocks viral DNA polymerase, preventing the replication of viral genetic material in the host cell nucleus",
-        "Oseltamivir enhances the host immune response by upregulating interferon production against influenza virus"
+        "Only if patient shows toxicity symptoms",
+        "8-12 hours after dose or 30 minutes before next dose",
+        "30 minutes after infusion is completed",
+        "Every 48 hours regardless of timing",
+        "Before first dose"
       ],
       answer: 1,
-      rationale: "Oseltamivir specifically inhibits neuraminidase, the enzyme influenza viruses use to release new viral particles from infected cells. This traps virus inside cells, limiting spread. The drug works only if started within 48 hours of symptom onset during active viral replication. The other mechanisms describe different antiviral strategies but not oseltamivir's mechanism. Note that vaccination status does not preclude antiviral use when infection occurs.",
-      topic: "Antiviral Medications - Oseltamivir",
-      source: "Week 1 Antivirals VO"
+      rationale: "Trough level is drawn when drug is at lowest concentration (8-12 hours after dose or 30 min before next dose).",
+      source: "Exam 1 Live Review Poll Q7"
     },
     {
       id: 8,
-      stem: "A 35-year-old patient with HIV infection and a CD4 count below 50 has just been diagnosed with CMV retinitis. The prescriber orders ganciclovir IV 5 mg/kg twice daily. Before administering this medication, the nurse must be aware of which serious adverse effect that requires close monitoring in this patient? Select all that apply.",
+      type: "sata",
+      difficulty: "hard",
+      topic: "Antimicrobial Resistance",
+      stem: "A patient has recurrent UTIs with resistant E. coli. Which mechanisms explain multi-drug resistance? (Select all that apply)",
       options: [
-        "Pancytopenia from bone marrow suppression",
-        "Nephrotoxicity and need for careful renal dosing",
-        "Potential fertility impairment and teratogenicity",
-        "Seizures from direct CNS toxicity",
-        "Hepatotoxicity requiring liver function monitoring"
+        "Altered binding site - specific to each class",
+        "Plasmid-mediated efflux pumps expelling multiple drugs",
+        "Beta-lactamase degradation",
+        "Porin loss affecting only beta-lactams",
+        "Extended-spectrum enzyme genes"
       ],
-      answers: [0, 1, 2],
-      rationale: "Ganciclovir carries four black-box warnings, including hematologic toxicity (pancytopenia affecting all cell lines), renal impairment requiring dose adjustment, and fertility/teratogenic effects in both males and females of childbearing age. These effects require baseline labs and close monitoring. While seizures can occur with some carbapenem antibiotics (particularly imipenem), this is not a primary ganciclovir concern. Hepatotoxicity is not a documented adverse effect of ganciclovir.",
-      topic: "Antiviral Medications - Ganciclovir",
-      source: "Week 1 Antivirals VO",
-      type: "sata"
+      answers: [1, 4],
+      rationale: "Plasmid-mediated resistance through efflux pumps and extended-spectrum enzymes confers resistance to multiple classes.",
+      source: "Lecture - Antimicrobial Resistance"
     },
     {
       id: 9,
-      stem: "A hospitalized patient develops a superinfection (Clostridioides difficile) after receiving IV antibiotics for a nosocomial pneumonia. Which aspect of the original antibiotic therapy most directly contributed to this adverse outcome?",
+      type: "multiple-choice",
+      difficulty: "hard",
+      topic: "Vancomycin Monitoring",
+      stem: "A patient on vancomycin develops hearing loss and tinnitus on day 3. Trough level is 28 mcg/mL (normal 15-20). What is the appropriate action?",
       options: [
-        "Broad-spectrum antibiotics eliminated normal colonic flora that normally suppress C. difficile growth",
-        "IV antibiotics accumulate in the colon more readily than oral antibiotics, creating a high-concentration environment for C. difficile proliferation",
-        "Hospitalized patients receiving IV antibiotics lose their normal immune response to enteric pathogens",
-        "Broad-spectrum antibiotics cause direct damage to the intestinal mucosa, promoting C. difficile adherence"
+        "Increase infusion rate for faster levels",
+        "Continue dosing; this is expected",
+        "Notify provider - symptoms suggest toxicity requiring dose adjustment",
+        "Administer next dose while awaiting labs",
+        "Request urinalysis"
       ],
-      answer: 0,
-      rationale: "Superinfection with C. difficile occurs because broad-spectrum antibiotics eliminate the normal gut flora that keep C. difficile spores suppressed through competition for resources and production of inhibitory compounds. This disruption of the normal flora creates opportunity for overgrowth of resistant organisms. The route (IV vs. oral) does not determine superinfection risk; rather, the broad spectrum and resulting disruption of normal flora is the key factor. Immune suppression and mucosa damage are not the primary mechanisms.",
-      topic: "Antimicrobial Resistance & Superinfection",
-      source: "Week 1 Intro to Antimicrobials VO"
+      answer: 2,
+      rationale: "Ototoxicity indicates vancomycin toxicity, especially with elevated creatinine and high trough levels.",
+      source: "Lecture - Vancomycin Safety"
     },
     {
       id: 10,
-      stem: "A 24-year-old patient presents with a diagnosis of genital gonorrhea and has been prescribed ceftriaxone IM and azithromycin PO. This combination therapy is recommended because gonorrhea has increasingly developed resistance to fluoroquinolones and other antibiotics. Which statement best explains why combination therapy with two different antibiotic classes is preferred for this condition?",
+      type: "multiple-choice",
+      difficulty: "moderate",
+      topic: "Cell Wall Antibiotic",
+      stem: "Patient has cell wall-targeting infection and non-anaphylaxis penicillin rash. Safest cell wall option?",
       options: [
-        "Azithromycin and ceftriaxone work synergistically to penetrate the thick gonorrheal cell wall more effectively than either drug alone",
-        "Using two antibiotics simultaneously reduces the likelihood that gonorrhea will develop resistance to both agents during treatment",
-        "The combination achieves higher peak serum concentrations than monotherapy, improving bacterial kill rates",
-        "Ceftriaxone and azithromycin target different bacterial structures, providing both immediate and delayed bacterial death"
+        "Macrolides - inhibit protein synthesis",
+        "Fluoroquinolones - inhibit DNA gyrase",
+        "Cephalosporins - inhibit cell wall synthesis",
+        "Aminoglycosides - inhibit protein synthesis",
+        "Tetracyclines - inhibit protein synthesis"
+      ],
+      answer: 2,
+      rationale: "Cephalosporins inhibit cell wall synthesis like penicillins with ~2-3% cross-reactivity risk.",
+      source: "Lecture - Antibiotic Mechanisms"
+    },
+    {
+      id: 11,
+      type: "multiple-choice",
+      difficulty: "moderate",
+      topic: "Antibiotic Uses",
+      stem: "Doxycycline prescribed for patient with acne, no infection noted. What concept is demonstrated?",
+      options: [
+        "Medications on MAR are always for infections",
+        "Some antibiotics have off-label uses beyond infections",
+        "Doxycycline only treats infections",
+        "Patient is over-medicated",
+        "This is a prescribing error"
       ],
       answer: 1,
-      rationale: "Combination antibiotic therapy is used for gonorrhea to reduce the emergence of resistance during treatment. By using two different antibiotic classes simultaneously, if a gonorrheal cell develops resistance to one agent, the other will still kill it. This dual-targeting approach slows the development of multi-drug resistance. This is different from synergistic mechanisms (which enhance efficacy of each drug) and is primarily about preserving antibiotic effectiveness for future patients.",
-      topic: "Antimicrobial Resistance & Combination Therapy",
-      source: "Week 1 Intro to Antimicrobials VO"
+      rationale: "Doxycycline has non-infection uses (acne, rosacea) due to anti-inflammatory properties.",
+      source: "Lecture - Antibiotic Indications"
+    },
+    {
+      id: 12,
+      type: "multiple-choice",
+      difficulty: "hard",
+      topic: "HIV cART Rationale",
+      stem: "Why must HIV patients take multiple medications instead of one? Best explanation?",
+      options: [
+        "Multiple drugs allow lower doses, reducing side effects",
+        "Combination therapy targets HIV at multiple replication points, reducing resistance",
+        "Multiple drugs eliminate need for CD4/viral load monitoring",
+        "Each class addresses different opportunistic infections",
+        "Multiple meds increase immune reconstitution speed"
+      ],
+      answer: 1,
+      rationale: "cART targets HIV replication at multiple points, significantly reducing drug-resistant strain emergence.",
+      source: "Lecture - ART Principles"
+    },
+    {
+      id: 13,
+      type: "multiple-choice",
+      difficulty: "moderate",
+      topic: "NRTI Mechanism",
+      stem: "When teaching about NRTIs, what mechanism of action should you explain?",
+      options: [
+        "Directly attacks HIV viral particles",
+        "Blocks protease enzyme for virus assembly",
+        "Mimics DNA building block, prevents HIV copying genetic material",
+        "Prevents HIV entry into CD4 cells",
+        "Suppresses immune system"
+      ],
+      answer: 2,
+      rationale: "NRTIs are nucleoside analogs that cause chain termination during reverse transcription.",
+      source: "Lecture - NRTI Mechanism"
+    },
+    {
+      id: 14,
+      type: "multiple-choice",
+      difficulty: "hard",
+      topic: "PrEP Limitations",
+      stem: "Patient asks if PrEP alone can prevent HIV. Accurate response about PrEP?",
+      options: [
+        "PrEP is 100% effective in all circumstances",
+        "PrEP is highly effective but doesn't eliminate need for other strategies like condoms",
+        "PrEP only works with monthly injections",
+        "PrEP requires specific CD4 count, only for diagnosed patients",
+        "PrEP cannot be used with any kidney disease history"
+      ],
+      answer: 1,
+      rationale: "PrEP is ~90% effective but requires other prevention methods, regular testing, and adherence.",
+      source: "Lecture - HIV Prevention"
+    },
+    {
+      id: 15,
+      type: "multiple-choice",
+      difficulty: "moderate",
+      topic: "CD4 Significance",
+      stem: "Patient with CD4 count 150 cells/mm³ asks why provider is concerned. Best explanation?",
+      options: [
+        "Indicates how many ART medications needed",
+        "Below 200 = AIDS with high risk for opportunistic infections",
+        "Directly measures HIV amount in blood",
+        "Means tuberculosis will definitely develop in 3 months",
+        "Below 500 means stop all meds and switch"
+      ],
+      answer: 1,
+      rationale: "CD4 below 200 defines AIDS with severe immunosuppression and high OI risk.",
+      source: "Lecture - CD4 Interpretation"
+    },
+    {
+      id: 16,
+      type: "sata",
+      difficulty: "hard",
+      topic: "Drug Interactions",
+      stem: "Patient on ART with ritonavir booster starts St. John's Wort. Concerns? (Select all that apply)",
+      options: [
+        "St. John's Wort is CYP3A4 inducer, may reduce ART levels",
+        "Will cause immediate liver failure",
+        "May decrease antidepressant effects if on SSRIs",
+        "Could lead to subtherapeutic ART and viral suppression loss",
+        "Directly antagonizes all protease inhibitors"
+      ],
+      answers: [0, 3],
+      rationale: "St. John's Wort is potent CYP3A4 inducer reducing ART levels, risking resistance.",
+      source: "Lecture - ART Interactions"
+    },
+    {
+      id: 17,
+      type: "multiple-choice",
+      difficulty: "moderate",
+      topic: "Allergy Assessment",
+      stem: "Patient reports penicillin allergy: rash on day 3, resolved after stopping. How document and consider?",
+      options: [
+        "True allergy - avoid all beta-lactams absolutely",
+        "Delayed reaction - penicillins never safe",
+        "Non-IgE delayed rash, low anaphylaxis risk, cautious use with monitoring acceptable",
+        "Definitely not allergy - use penicillins freely",
+        "Patient developed resistance - drug won't work"
+      ],
+      answer: 2,
+      rationale: "Delayed maculopapular rash has <1% anaphylaxis risk; many can safely receive penicillins/cephalosporins.",
+      source: "Lecture - Allergy Assessment"
+    },
+    {
+      id: 18,
+      type: "multiple-choice",
+      difficulty: "hard",
+      topic: "U=U Concept",
+      stem: "HIV patient with undetectable VL x6 months asks about unprotected sex. Counsel about transmission?",
+      options: [
+        "Zero transmission risk with undetectable VL, no condoms needed",
+        "U=U - undetectable VL eliminates transmission risk when suppression sustained",
+        "Undetectable is temporary, transmission possible next encounter",
+        "Must be undetectable 2+ years before risk truly eliminated",
+        "Eliminates risk for most but not genetic variants"
+      ],
+      answer: 1,
+      rationale: "U=U concept: sustained undetectable VL (<50 copies/mL) means zero sexual transmission risk.",
+      source: "Lecture - HIV Prevention"
+    },
+    {
+      id: 19,
+      type: "multiple-choice",
+      difficulty: "moderate",
+      topic: "Empiric Therapy",
+      stem: "Patient shows infection signs, cultures not available for 2-3 days. Guide empiric selection?",
+      options: [
+        "Always use narrowest spectrum possible",
+        "Use strongest, broadest available regardless of side effects",
+        "Select covering most likely organisms based on presentation and risk factors",
+        "Delay antibiotics until cultures confirm",
+        "Rotate between classes every 24 hours"
+      ],
+      answer: 2,
+      rationale: "Empiric therapy targets likely organisms based on presentation, balancing prompt treatment with narrow spectrum.",
+      source: "Lecture - Empiric Selection"
+    },
+    {
+      id: 20,
+      type: "multiple-choice",
+      difficulty: "hard",
+      topic: "Renal Dosing",
+      stem: "78-year-old with eGFR 35 prescribed gentamicin for serious infection. Primary concern?",
+      options: [
+        "Gentamicin contraindicated in all renal impairment",
+        "Reduced clearance increases drug accumulation and nephro/ototoxicity risk",
+        "Requires no dosage adjustment despite renal impairment",
+        "Renal impairment affects only peak, not trough levels",
+        "All aminoglycosides become ineffective with renal impairment"
+      ],
+      answer: 1,
+      rationale: "Aminoglycosides renally cleared - reduced eGFR causes accumulation with increased toxicity risk.",
+      source: "Lecture - Aminoglycoside PK"
     }
   ]
 };
