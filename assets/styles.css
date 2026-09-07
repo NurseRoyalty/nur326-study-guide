@@ -1188,9 +1188,12 @@ body.torture{ background:var(--torture); }
   background:var(--surface); border:1px solid var(--border); border-radius:var(--radius);
   padding:14px 18px; margin:0 0 18px; box-shadow:var(--shadow-sm);
 }
-.jp-stat{ display:flex; flex-direction:column; line-height:1.15; }
+.jp-stat{ display:flex; flex-direction:column; line-height:1.15; padding:4px 10px; border-radius:var(--radius-sm); transition:background .14s; }
 .jp-stat-num{ font-family:var(--serif); font-size:1.5rem; font-weight:700; color:var(--brand-deep); }
 .jp-stat-lbl{ font-size:.72rem; font-weight:700; text-transform:uppercase; letter-spacing:.06em; color:var(--text-faint); }
+/* 2-player mode: highlights whichever player currently has control */
+.jp-stat-active{ background:var(--accent-tint); }
+.jp-stat-active .jp-stat-lbl{ color:var(--accent-strong); }
 .jp-bar-actions{ display:flex; gap:10px; margin-left:auto; flex-wrap:wrap; }
 
 .jp-board-wrap{ overflow-x:auto; padding-bottom:4px; }
@@ -1254,6 +1257,8 @@ body.torture{ background:var(--torture); }
 
 @media (max-width:640px){
   .jp-bar{ gap:14px; padding:12px 14px; }
+  .jp-bar .fc-switch{ width:100%; }
+  .jp-bar .fc-switch button{ flex:1; }
   .jp-bar-actions{ width:100%; margin-left:0; }
   .jp-bar-actions .btn{ flex:1; }
   .jp-cell{ font-size:1.1rem; padding:14px 6px; }
