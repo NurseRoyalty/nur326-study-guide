@@ -89,6 +89,7 @@ const SITE = {
         { id: "quiz-builder",    num: "4", title: "Build Your Own Exam",       file: "quiz-builder.html" },
         { id: "torture-chamber", num: "5", title: "The Torture Chamber",       file: "torture-chamber.html" },
         { id: "lecture-review-template", num: "6", title: "Lecture Review Template", file: "lecture-review-template.html" },
+        { id: "week2-jeopardy",  num: "7", title: "Week 2 Jeopardy",             file: "week2-jeopardy.html" },
       ]
     }
   ]
