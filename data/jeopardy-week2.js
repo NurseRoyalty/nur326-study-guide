@@ -21,17 +21,22 @@
        ]
      }
    Each clue: { id, q, a, rationale }. "id" is stable and unique
-   site-wide (e.g. "uri-300-2") — the game engine uses it to track
-   which clues were used in the previous round, for the
-   avoid-repeat-when-possible logic. This is a recall-and-reveal format
-   (no multiple-choice options): the player reads q, thinks of an
-   answer, clicks Show Answer to see a + rationale, then self-grades.
+   site-wide (e.g. "uri-300-2") — the game engine uses it (via a
+   persistent per-category-per-value "cycle" rotation stored in
+   localStorage) to guarantee every clue in a pool is shown once before
+   any of them repeat. This is a recall-and-reveal format (no multiple-
+   choice options): the player reads q, thinks of an answer, clicks
+   Show Answer to see a + rationale, then self-grades.
 
-   Built 2026-09-07. 6 categories (the 6 real quizzable Week 2 topic
-   pages), 20 clues each (4 per value 100/200/300/400/500) = 120 total.
+   Built 2026-09-07, expanded 2026-09-07. 6 categories (the 6 real
+   quizzable Week 2 topic pages). Per-category, per-tier counts vary
+   slightly (polycythemia's source page had less untested material to
+   draw from) — see each category's clue-count comment below.
+   Total: 234 clues.
    ============================================================ */
 window.JEOPARDY_WEEK2 = {
   "categories": [
+    // uri — 100:8 200:8 300:8 400:8 500:8
     {
       "id": "uri",
       "name": "Upper Respiratory Infections (URI)",
@@ -61,6 +66,30 @@ window.JEOPARDY_WEEK2 = {
             "q": "What is the hallmark cough sound associated with laryngotracheobronchitis (croup)?",
             "a": "A \"barking\" cough.",
             "rationale": "The page states croup — inflammation of the larynx, trachea, and bronchi together — produces the classic \"barking\" cough."
+          },
+          {
+            "id": "uri-100-4",
+            "q": "What does \"purulent\" sputum usually indicate?",
+            "a": "Infection.",
+            "rationale": "The page notes sputum color alone isn't diagnostic, but if the word \"purulent\" comes up, that usually does mean there's an infection."
+          },
+          {
+            "id": "uri-100-5",
+            "q": "What is pharyngitis?",
+            "a": "Inflammation of the palate, tonsils, and uvula (back of the throat).",
+            "rationale": "This is the page's definition of pharyngitis, before it goes on to distinguish bacterial from viral causes."
+          },
+          {
+            "id": "uri-100-6",
+            "q": "What is tonsillitis, as described on the page?",
+            "a": "The tonsils become so swollen they're nearly touching, causing a very painful sore throat with difficulty swallowing.",
+            "rationale": "The page adds that recurrent or severe cases sometimes lead to tonsil removal."
+          },
+          {
+            "id": "uri-100-7",
+            "q": "Which two types of influenza virus are named as the most common?",
+            "a": "Types A and B.",
+            "rationale": "The Influenza table's Term row states types A and B are most common, and that the virus can mutate."
           }
         ],
         "200": [
@@ -87,6 +116,30 @@ window.JEOPARDY_WEEK2 = {
             "q": "By about what percentage does the flu vaccine reduce the risk of severe illness and death?",
             "a": "About 36%.",
             "rationale": "The Vaccine Benefit row states the vaccine doesn't necessarily prevent infection, but reduces the risk of severe illness and death by about 36%."
+          },
+          {
+            "id": "uri-200-4",
+            "q": "Besides diphenhydramine, name the three other first-generation antihistamines the page lists.",
+            "a": "Meclizine, promethazine, and dimenhydrinate.",
+            "rationale": "The First-Generation card names these three (used for motion sickness/nausea) alongside diphenhydramine, but notes only diphenhydramine needs to go on the drug matrix."
+          },
+          {
+            "id": "uri-200-5",
+            "q": "What are the two cough suppressants (antitussives) that belong on the drug matrix, per the page?",
+            "a": "Dextromethorphan and benzonatate.",
+            "rationale": "The Cough Suppressants row and the drug-matrix mnemonic both name dextromethorphan and benzonatate as the two that need to go on the matrix."
+          },
+          {
+            "id": "uri-200-6",
+            "q": "How does the page describe influenza's typical symptom onset?",
+            "a": "Rapid — fever, chills, body aches, and feeling awful all at once.",
+            "rationale": "This is the Influenza table's Onset row."
+          },
+          {
+            "id": "uri-200-7",
+            "q": "What age group is epiglottitis described as most common in, even though it can occur in adults?",
+            "a": "Children.",
+            "rationale": "The Epiglottitis danger callout states it is most common in children but can occur in adults."
           }
         ],
         "300": [
@@ -113,6 +166,30 @@ window.JEOPARDY_WEEK2 = {
             "q": "What is the mechanism by which decongestants like phenylephrine and pseudoephedrine relieve nasal congestion?",
             "a": "They act as sympathomimetics that activate alpha receptors, causing vasoconstriction that shrinks the nasal blood vessels.",
             "rationale": "The Decongestants row describes this mechanism, which is what opens the nasal passages."
+          },
+          {
+            "id": "uri-300-4",
+            "q": "By the page's definition, how long must bronchitis symptoms occur for a case to be classified as chronic bronchitis?",
+            "a": "At least 3 months of the year, for at least 2 consecutive years.",
+            "rationale": "This is the Chronic Bronchitis card's specific duration criterion, distinct from the airflow-obstruction difference that separates it from acute bronchitis."
+          },
+          {
+            "id": "uri-300-5",
+            "q": "Locally, histamine causes vasodilation and redness in blood vessels. What does it cause instead if released systemically?",
+            "a": "Hypotension.",
+            "rationale": "The What Histamine Does card lists local vasodilation/redness in blood vessels, then notes systemic release can cause hypotension."
+          },
+          {
+            "id": "uri-300-6",
+            "q": "How does guaifenesin (Mucinex) make mucus easier to cough up, given that it doesn't actually decrease mucus production?",
+            "a": "It reduces the surface tension of secretions.",
+            "rationale": "The Expectorants row states this mechanism and notes guaifenesin's overall effectiveness is debated, so hydration is encouraged alongside it."
+          },
+          {
+            "id": "uri-300-7",
+            "q": "What allows bacteria to grow and cause sinusitis in the first place?",
+            "a": "The sinus cavity gets obstructed by fluid and edema.",
+            "rationale": "The Sinusitis row states this obstruction is what lets bacteria grow in the sinus cavity."
           }
         ],
         "400": [
@@ -139,6 +216,30 @@ window.JEOPARDY_WEEK2 = {
             "q": "Why does the page caution against combining codeine with diphenhydramine?",
             "a": "Both are CNS depressants, so combining them compounds sedation risk.",
             "rationale": "Codeine is described as an opioid-based, CNS-depressant cough suppressant, with caution advised about combining it with other depressants like diphenhydramine."
+          },
+          {
+            "id": "uri-400-4",
+            "q": "Epiglottitis is historically tied to which organism, and why is it far less common today?",
+            "a": "Haemophilus influenzae type B — it's far less common since the Hib vaccine.",
+            "rationale": "The Epiglottitis danger callout draws this direct connection between the historical cause and the vaccine's impact."
+          },
+          {
+            "id": "uri-400-5",
+            "q": "Instead of the expected sedation, what paradoxical reaction can first-generation antihistamines cause, especially in children?",
+            "a": "Paradoxical hyperactivity.",
+            "rationale": "The First-Generation card notes this alongside the more typical CNS depression, drowsiness, and dizziness (\"Benadryl hangover\")."
+          },
+          {
+            "id": "uri-400-6",
+            "q": "A first-generation antihistamine's mild anticholinergic effect helps a runny nose by drying secretions. What two other effects can that same anticholinergic action cause?",
+            "a": "Constipation and urinary retention.",
+            "rationale": "The First-Generation card lists these as side effects of the same anticholinergic action, and the nursing cautions specifically call out monitoring for urinary retention."
+          },
+          {
+            "id": "uri-400-7",
+            "q": "Name three conditions listed as cautions for antihistamine use, given their anticholinergic effect and potential to raise blood pressure.",
+            "a": "Any three of: closed-angle glaucoma, cardiac disease, kidney disease/uncontrolled hypertension, peptic ulcer disease, seizures, BPH, and pregnancy.",
+            "rationale": "The Antihistamine Cautions card lists all seven of these together as reasons to use antihistamines carefully."
           }
         ],
         "500": [
@@ -165,10 +266,35 @@ window.JEOPARDY_WEEK2 = {
             "q": "Through what mechanism does influenza lead to secondary bacterial pneumonia, and why does this drive extra emphasis on flu vaccination in elderly or comorbid patients?",
             "a": "The flu virus damages the lungs' defenses, letting bacteria move in and cause secondary bacterial pneumonia — a major reason the vaccine is emphasized in elderly and comorbid patients.",
             "rationale": "The Influenza table's Serious Complication row states this mechanism directly and ties it to why the flu vaccine is emphasized in elderly and comorbid patients."
+          },
+          {
+            "id": "uri-500-4",
+            "q": "A patient has been using an OTC nasal decongestant for 3 days and wants to keep using it. What should happen instead, and why?",
+            "a": "It should be tapered off, because using a decongestant for more than 4 days risks rebound nasal congestion.",
+            "rationale": "The Decongestants row states not to use it for more than 4 days and to taper off if it's already been used for 2–3 days."
+          },
+          {
+            "id": "uri-500-5",
+            "q": "A post-surgical patient can't sleep because chest pain triggers a hard cough. Why does giving a cough suppressant here go against the usual approach to coughing?",
+            "a": "Coughing is normally a beneficial, protective response, so suppressants are usually avoided — but this is one of the specific situations the page names where suppressing the cough is appropriate instead.",
+            "rationale": "The Cough Suppressants row names post-surgical chest pain from coughing too hard to sleep as one of the two scenarios (along with a dry, non-productive cough) where an antitussive is reserved for use."
+          },
+          {
+            "id": "uri-500-6",
+            "q": "For a patient having bronchospasm, what is used to treat it acutely, versus what is used for longer-term management?",
+            "a": "An inhaled bronchodilator acutely; an inhaled steroid plus an anticholinergic longer-term.",
+            "rationale": "The Bronchospasm danger callout distinguishes acute treatment from the longer-term drug regimen."
+          },
+          {
+            "id": "uri-500-7",
+            "q": "Acute bronchitis is normally diagnosed by symptoms and physical exam alone. Under what circumstance does the page say a CBC with differential is added?",
+            "a": "When there's concern about progression, such as due to the patient's age or comorbidities.",
+            "rationale": "The Acute (Simple) Bronchitis card names age and comorbidities as the reasons a CBC with diff might be used on top of the usual symptom-and-exam diagnosis."
           }
         ]
       }
     },
+    // obstructive — 100:8 200:8 300:8 400:8 500:8
     {
       "id": "obstructive",
       "name": "Obstructive Airway Disorders",
@@ -198,6 +324,30 @@ window.JEOPARDY_WEEK2 = {
             "q": "What does FEV1 stand for, and what kind of test is it measured with?",
             "a": "Forced expiratory volume in 1 second, measured with pulmonary function tests (PFTs).",
             "rationale": "From the Obstructive Disease Basics section — narrowed airways slow lung emptying, which is what FEV1 on a PFT tracks."
+          },
+          {
+            "id": "obstructive-100-4",
+            "q": "What does the acronym COPD stand for?",
+            "a": "Chronic obstructive pulmonary disease.",
+            "rationale": "The page introduces COPD as the umbrella term for chronic bronchitis and emphysema, spelling it out as chronic obstructive pulmonary disease."
+          },
+          {
+            "id": "obstructive-100-5",
+            "q": "What chest X-ray finding, caused by air trapping, is common to all three obstructive diseases?",
+            "a": "Hyperinflation.",
+            "rationale": "The Obstructive Disease Basics section states hyperinflation from air trapping shows up on a chest X-ray, alongside dyspnea and wheezing as hallmark findings across asthma, chronic bronchitis, and emphysema."
+          },
+          {
+            "id": "obstructive-100-6",
+            "q": "What are the two big pharmacology classes used to treat asthma, chronic bronchitis, and emphysema?",
+            "a": "Bronchodilators and anti-inflammatories.",
+            "rationale": "The page states bronchodilators relax bronchial smooth muscle and anti-inflammatories reduce bronchial inflammation, and either class can be used across all three diseases."
+          },
+          {
+            "id": "obstructive-100-7",
+            "q": "What complexion change is associated with the \"blue bloater\" presentation of chronic bronchitis?",
+            "a": "More cyanotic (a bluish color).",
+            "rationale": "The \"Blue Bloater\" card lists more cyanotic as one of the classic chronic bronchitis features, contrasted with emphysema's \"pink puffer\" presentation."
           }
         ],
         "200": [
@@ -224,6 +374,30 @@ window.JEOPARDY_WEEK2 = {
             "q": "What class of bronchodilator is ipratropium, and is it a rescue drug or a prophylactic drug?",
             "a": "An anticholinergic — a prophylactic (daily) drug, not a rescue drug.",
             "rationale": "Blocking acetylcholine shifts the airway toward sympathetic tone, causing bronchodilation and less mucus — but it's used on a daily schedule, not for acute attacks."
+          },
+          {
+            "id": "obstructive-200-4",
+            "q": "What genetic deficiency should be suspected in a patient with emphysema who has never smoked?",
+            "a": "Alpha-1 antitrypsin deficiency.",
+            "rationale": "The page lists alpha-1 antitrypsin deficiency as the genetic form of emphysema, under 2% of cases, and says to suspect it in a patient with no smoking history."
+          },
+          {
+            "id": "obstructive-200-5",
+            "q": "Which two agents are named as non-selective beta agonists, also stimulating beta-1 and alpha receptors?",
+            "a": "Epinephrine and metaproterenol.",
+            "rationale": "The page lists epinephrine and metaproterenol under \"Non-Selective,\" noting they also stimulate beta-1 (cardiac effects) and alpha receptors (vasoconstriction), causing more systemic side effects overall."
+          },
+          {
+            "id": "obstructive-200-6",
+            "q": "What is the drug class of cromolyn, the only medication of its kind listed on the page?",
+            "a": "A mast cell stabilizer.",
+            "rationale": "The page states cromolyn is the only mast cell stabilizer listed, stabilizing mast cell membranes to prevent release of bronchoconstrictive, inflammatory substances."
+          },
+          {
+            "id": "obstructive-200-7",
+            "q": "About what percentage of chronic bronchitis patients smoke cigarettes?",
+            "a": "About 90%.",
+            "rationale": "The Cause row states about 90% of patients with chronic bronchitis smoke cigarettes."
           }
         ],
         "300": [
@@ -250,6 +424,30 @@ window.JEOPARDY_WEEK2 = {
             "q": "When a bronchodilator and an inhaled corticosteroid are both being given, which should be administered first, and why?",
             "a": "The bronchodilator first, then the inhaled steroid, for better absorption.",
             "rationale": "The page states this order specifically so the steroid absorbs better once the airway is already open."
+          },
+          {
+            "id": "obstructive-300-4",
+            "q": "Why does pursed-lip breathing help patients with emphysema?",
+            "a": "It provides positive pressure that helps keep the airways open.",
+            "rationale": "The Classic Presentation card lists pursed-lip breathing among emphysema's hallmark findings and explains that it provides positive pressure to keep airways open."
+          },
+          {
+            "id": "obstructive-300-5",
+            "q": "What happens to goblet cells during chronic bronchitis pathophysiology, and what's the result?",
+            "a": "They undergo hyperplasia (become bigger and more numerous), producing more thick, tenacious mucus.",
+            "rationale": "The Chronic Bronchitis Pathophysiology card states goblet cells respond to the inflammation by getting both bigger and more numerous, producing more thick, tenacious mucus."
+          },
+          {
+            "id": "obstructive-300-6",
+            "q": "How much greater is the risk of chronic bronchitis when a patient smokes and vapes together, compared to smoking alone?",
+            "a": "About 6 times greater.",
+            "rationale": "The Cause row states smoking and vaping together carry a 6x greater risk of chronic bronchitis than smoking alone."
+          },
+          {
+            "id": "obstructive-300-7",
+            "q": "Why are beta-2-selective agonists like albuterol and salmeterol preferred over non-selective agents like epinephrine for treating pulmonary conditions?",
+            "a": "They act only on beta-2 receptors in the lungs, avoiding the beta-1 cardiac stimulation and alpha vasoconstriction non-selective agents also cause — limiting systemic side effects.",
+            "rationale": "The page directly contrasts selective (beta-2) agents, preferred for pulmonary conditions since they limit systemic effects, with non-selective agents that also stimulate beta-1 and alpha receptors and cause more systemic side effects overall."
           }
         ],
         "400": [
@@ -276,6 +474,30 @@ window.JEOPARDY_WEEK2 = {
             "q": "How does the timing of use differ between a leukotriene receptor antagonist and a mast cell stabilizer, per the page?",
             "a": "A leukotriene receptor antagonist is for chronic prophylaxis, with improvement seen in about a week; a mast cell stabilizer (cromolyn) is taken 15–20 minutes before a known trigger.",
             "rationale": "Both are anti-inflammatory, non-rescue drugs, but the page describes very different use patterns — ongoing daily control versus situational pre-exposure dosing."
+          },
+          {
+            "id": "obstructive-400-4",
+            "q": "Xanthine derivatives like theophylline are metabolized into what substance, producing mild CNS stimulation and boosting respiratory drive?",
+            "a": "Caffeine.",
+            "rationale": "The page states theophylline is metabolized to caffeine, producing mild CNS stimulation and boosting respiratory drive."
+          },
+          {
+            "id": "obstructive-400-5",
+            "q": "Name two contraindications to xanthine derivative (theophylline/aminophylline) therapy listed on the page.",
+            "a": "Any two of: dysrhythmias, seizure disorders, hyperthyroidism, peptic ulcers.",
+            "rationale": "The Contraindications row lists these four conditions as reasons to avoid xanthine derivative therapy."
+          },
+          {
+            "id": "obstructive-400-6",
+            "q": "Why should a patient using an inhaled corticosteroid rinse their mouth out after each use?",
+            "a": "To reduce the risk of oral candidiasis, a known side effect along with pharyngeal/mouth irritation, cough, and dry mouth.",
+            "rationale": "The Inhaled Corticosteroids row lists a higher risk of oral candidiasis among the side effects and specifically instructs rinsing the mouth out after each use."
+          },
+          {
+            "id": "obstructive-400-7",
+            "q": "Why must beta agonists be used cautiously in a patient taking an MAOI or another sympathomimetic like ephedrine or pseudoephedrine?",
+            "a": "The combination raises the risk of hypertension.",
+            "rationale": "The Beta Agonist Cautions & Side Effects card warns to avoid combining beta agonists with MAOIs or other sympathomimetics because of the risk of hypertension."
           }
         ],
         "500": [
@@ -302,10 +524,35 @@ window.JEOPARDY_WEEK2 = {
             "q": "Roflumilast works best for which specific condition, and what type of drug is it?",
             "a": "Chronic bronchitis with a history of frequent exacerbations; it's a selective PDE4 inhibitor.",
             "rationale": "The page states roflumilast prevents COPD exacerbations (not acute treatment), is not a bronchodilator, and works best specifically for chronic bronchitis patients with frequent exacerbations."
+          },
+          {
+            "id": "obstructive-500-4",
+            "q": "Why does the page recommend starting broad-spectrum antibiotics early at the first sign of infection in a COPD patient, even before the causative organism is confirmed?",
+            "a": "Because additional airway stress on top of already-damaged airways is dangerous for these patients.",
+            "rationale": "The COPD management note states early broad-spectrum antibiotics are often started at the first sign of infection specifically for this reason."
+          },
+          {
+            "id": "obstructive-500-5",
+            "q": "A patient reports using more than one SABA canister a month. What does this signal, and what change to therapy might be needed?",
+            "a": "Inadequate asthma control — may mean adding anti-inflammatory therapy.",
+            "rationale": "The Short-Acting (SABA) card states using more than one canister a month signals inadequate asthma control and may mean adding anti-inflammatory therapy."
+          },
+          {
+            "id": "obstructive-500-6",
+            "q": "An emphysema patient's ABG shows a high CO2 and a low pH. What does this represent, and what upstream process explains why it happens?",
+            "a": "Respiratory acidosis — caused by trapped air reducing effective ventilation, so CO2 builds up (hypoventilation and hypercapnia).",
+            "rationale": "The Emphysema diagnosis row lists an ABG showing respiratory acidosis (high CO2, low pH), which connects to the Obstructive Disease Basics explanation that trapped air means less effective ventilation, causing hypoventilation and hypercapnia."
+          },
+          {
+            "id": "obstructive-500-7",
+            "q": "A patient overdoses on a beta agonist and develops paradoxical bronchospasm. What medication can reverse this, and how must it be used given the beta agonist's own mechanism?",
+            "a": "A beta blocker, used cautiously if truly needed.",
+            "rationale": "The Beta Agonist Cautions & Side Effects card states paradoxical bronchospasm from overdose can be reversed with a beta blocker if truly needed, used cautiously — the physiologic opposite of what a beta agonist does."
           }
         ]
       }
     },
+    // pneumonia — 100:8 200:8 300:8 400:8 500:8
     {
       "id": "pneumonia",
       "name": "Pneumonia",
@@ -335,6 +582,30 @@ window.JEOPARDY_WEEK2 = {
             "q": "Which population is Pneumocystis pneumonia (PCP) most commonly associated with?",
             "a": "Patients with HIV.",
             "rationale": "PCP is a yeast-like fungus associated with immunosuppression, and it's most common in patients with HIV."
+          },
+          {
+            "id": "pneumonia-100-4",
+            "q": "According to the page, pneumonia can be caused by which five general types of pathogens?",
+            "a": "Bacterial, viral, fungal, protozoal, or parasitic organisms.",
+            "rationale": "The Pneumonia Basics note states it 'can be bacterial, viral, fungal, protozoal, or parasitic,' before getting into any specific organism."
+          },
+          {
+            "id": "pneumonia-100-5",
+            "q": "How is pneumonia transmitted, according to the page?",
+            "a": "By inhaled infectious droplets.",
+            "rationale": "The Pneumonia Basics note states it's 'transmitted by inhaled infectious droplets.'"
+          },
+          {
+            "id": "pneumonia-100-6",
+            "q": "What respiratory illness does pneumonia often follow, according to the page?",
+            "a": "An upper respiratory infection (URI).",
+            "rationale": "The presentation table's 'Often Preceded By' row names an upper respiratory infection."
+          },
+          {
+            "id": "pneumonia-100-7",
+            "q": "What does a chest X-ray typically show in a patient with pneumonia?",
+            "a": "An infiltrate or area of consolidation.",
+            "rationale": "The Diagnosis table's Chest X-Ray row states this directly."
           }
         ],
         "200": [
@@ -361,6 +632,30 @@ window.JEOPARDY_WEEK2 = {
             "q": "What are the two vaccines listed for preventing pneumococcal pneumonia, and who are they generally given to?",
             "a": "PCV13 and PPSV23; generally given to elderly and immunocompromised patients.",
             "rationale": "PCV13 protects against 13 strains of pneumococcal pneumonia, and PPSV23 covers an additional 23 types."
+          },
+          {
+            "id": "pneumonia-200-4",
+            "q": "According to the page, what single factor is the most common overall cause of pneumonia?",
+            "a": "Influenza.",
+            "rationale": "The Risk Factors list names influenza as 'the single most common overall cause of pneumonia,' distinct from being just the top cause of viral pneumonia or CAP specifically."
+          },
+          {
+            "id": "pneumonia-200-5",
+            "q": "What two age groups does the page name as being at the age extremes for pneumonia risk?",
+            "a": "Children under 5 and adults over 70–80.",
+            "rationale": "The Risk Factors list's 'Age extremes' bullet names these two groups."
+          },
+          {
+            "id": "pneumonia-200-6",
+            "q": "Besides influenza, name the three other viruses the page lists as causes of viral pneumonia.",
+            "a": "Adenovirus, RSV, and parainfluenza.",
+            "rationale": "The Viral & Atypical Pneumonia table names influenza as most common, then lists these three as the other viral causes."
+          },
+          {
+            "id": "pneumonia-200-7",
+            "q": "What does an elevated white blood cell count on a CBC suggest about the likely cause of a patient's pneumonia?",
+            "a": "A bacterial cause.",
+            "rationale": "The Diagnosis table's CBC row states an elevated WBC count suggests a bacterial cause."
           }
         ],
         "300": [
@@ -387,6 +682,30 @@ window.JEOPARDY_WEEK2 = {
             "q": "In the pathophysiology of pneumonia, why does gas exchange become impaired?",
             "a": "Mucus accumulates between the alveoli and pulmonary capillaries, so the alveoli can't open and close properly.",
             "rationale": "This is the step in the page's pathophysiology sequence that directly precedes impaired gas exchange."
+          },
+          {
+            "id": "pneumonia-300-4",
+            "q": "What are the two most common ways a pathogen reaches the lower airway to cause pneumonia, per the page's pathophysiology?",
+            "a": "Aspiration of oropharyngeal secretions, or inhalation of infectious droplets from someone else's cough.",
+            "rationale": "The Pathophysiology card's first bullet names these as the most common routes of entry."
+          },
+          {
+            "id": "pneumonia-300-5",
+            "q": "In the pathophysiology sequence, what two things happen immediately after a pathogen reaches the lower airway, before infection spreads to the alveoli?",
+            "a": "It triggers an inflammatory reaction and pulmonary vasodilation.",
+            "rationale": "This is the second bullet in the Pathophysiology card's step-by-step sequence, preceding the spread into the alveoli."
+          },
+          {
+            "id": "pneumonia-300-6",
+            "q": "Why is alcohol use listed as a risk factor for pneumonia — through what mechanism, rather than a liver effect?",
+            "a": "Because of the aspiration risk associated with alcohol use, not a liver effect.",
+            "rationale": "The Risk Factors list specifically clarifies 'the risk here is from aspiration, not a liver effect.'"
+          },
+          {
+            "id": "pneumonia-300-7",
+            "q": "Name three risk factors for aspiration pneumonia besides altered level of consciousness and alcohol use.",
+            "a": "Any three of: immobility, NG tubes, decreased gag reflex, decreased gastric emptying.",
+            "rationale": "The Aspiration Pneumonia card's risk factor bullet lists these alongside altered LOC and alcohol use."
           }
         ],
         "400": [
@@ -413,6 +732,30 @@ window.JEOPARDY_WEEK2 = {
             "q": "Why can aspiration pneumonia be easy to miss clinically?",
             "a": "Because aspiration can be silent — a cough isn't required.",
             "rationale": "The page notes high-risk patients need careful feeding observation and may need a dysphagia evaluation because of this."
+          },
+          {
+            "id": "pneumonia-400-4",
+            "q": "Why does the page say antibiotics are generally avoided in viral pneumonia?",
+            "a": "Because antibiotics aren't given unless a secondary bacterial infection is confirmed — viral pneumonia is treated with supportive care instead (antipyretics, decongestants, mucolytics).",
+            "rationale": "The Viral Pneumonia row states treatment is supportive and antibiotics are avoided unless a bacterial infection is confirmed."
+          },
+          {
+            "id": "pneumonia-400-5",
+            "q": "For an otherwise healthy patient with viral pneumonia, about how long does recovery typically take, and which two patient groups may need hospitalization instead?",
+            "a": "About 2–3 weeks; patients at age extremes or with immunocompromise may need hospitalization.",
+            "rationale": "The Viral Pneumonia row states this recovery timeline and names these two groups as needing possible hospitalization."
+          },
+          {
+            "id": "pneumonia-400-6",
+            "q": "Name three specific water-related sources through which Legionella can spread, according to the page.",
+            "a": "Any three of: old air conditioners, misted produce, hot tubs.",
+            "rationale": "The Legionella row states it's 'spread through water systems — old air conditioners, misted produce, hot tubs.'"
+          },
+          {
+            "id": "pneumonia-400-7",
+            "q": "According to the classification table, how does HAP typically compare to CAP in outcomes, and what type of care is it often associated with?",
+            "a": "Worse outcomes than CAP, and often associated with ICU care.",
+            "rationale": "The Classification table's HAP row states this directly, separate from the 48-hour timing detail in the same row."
           }
         ],
         "500": [
@@ -439,10 +782,35 @@ window.JEOPARDY_WEEK2 = {
             "q": "How do gram-negative organisms like Pseudomonas, Acinetobacter, and Klebsiella pneumoniae compare to other bacterial causes of pneumonia, and what are they often linked to?",
             "a": "They tend to cause more severe illness and are harder to treat, and are often linked to central-line infections or IV drug use.",
             "rationale": "The Gram-Negative Organisms row also associates these organisms with hospital-acquired pneumonia."
+          },
+          {
+            "id": "pneumonia-500-4",
+            "q": "A hospitalized patient develops pneumonia only 30 hours after admission. Based on the page's definition, does this qualify as HAP?",
+            "a": "No — HAP requires developing 48+ hours after hospital admission, so a case at 30 hours wouldn't meet that classification.",
+            "rationale": "The Classification table defines HAP as developing '48+ hours after hospital admission,' making this an application of that specific timing threshold."
+          },
+          {
+            "id": "pneumonia-500-5",
+            "q": "A patient with well-controlled HIV who also takes long-term corticosteroid therapy is at increased pneumonia risk from two different angles. Which single risk-factor category from the page covers both of these?",
+            "a": "Compromised immunity.",
+            "rationale": "The Risk Factors list's 'Compromised immunity' bullet names long-term steroid therapy, organ transplant, and HIV together as the items in this one category."
+          },
+          {
+            "id": "pneumonia-500-6",
+            "q": "According to the page's epidemiology note, pneumonia is more common in which season and which sex, and how did its case/death burden change further during COVID?",
+            "a": "More common in winter (often flu-related) and in males; case and death numbers spiked further during COVID.",
+            "rationale": "The Pneumonia Basics note states all three of these details together."
+          },
+          {
+            "id": "pneumonia-500-7",
+            "q": "The page names old building walls, construction sites, stored grains, dead leaves, and compost as sources of which fungal cause of pneumonia — and in what population can it be especially severe?",
+            "a": "Aspergillus; especially severe in immunocompromised patients.",
+            "rationale": "The Viral & Atypical Pneumonia table's Aspergillus row lists these exact environmental sources and notes severity in immunocompromised patients."
           }
         ]
       }
     },
+    // tuberculosis — 100:8 200:8 300:8 400:8 500:8
     {
       "id": "tuberculosis",
       "name": "Tuberculosis (TB)",
@@ -472,6 +840,30 @@ window.JEOPARDY_WEEK2 = {
             "q": "Does a person with latent TB have any clinical signs or symptoms?",
             "a": "No.",
             "rationale": "In latent TB, the page states the bacteria survive but stay walled off inside granulomas, dormant, with no clinical signs or symptoms, and can remain latent for life."
+          },
+          {
+            "id": "tuberculosis-100-4",
+            "q": "What organism does the page name as the cause of leprosy, as distinguished from the TB-causing bacterium?",
+            "a": "Mycobacterium leprae.",
+            "rationale": "The page names M. tuberculosis as the most common cause of TB, and separately notes M. leprae causes leprosy instead, calling it a lesser public-health concern than the TB strains."
+          },
+          {
+            "id": "tuberculosis-100-5",
+            "q": "Besides human-to-human contact, what two other sources does the page say TB can spread from?",
+            "a": "Cattle or birds.",
+            "rationale": "The Transmission card states TB is spread human-to-human (by far the most common route), \"though also from cattle or birds.\""
+          },
+          {
+            "id": "tuberculosis-100-6",
+            "q": "What is another name the page gives for TB granulomas?",
+            "a": "Tubercles.",
+            "rationale": "The page defines granulomas and notes they are \"sometimes called tubercles.\""
+          },
+          {
+            "id": "tuberculosis-100-7",
+            "q": "What typically happens when a person with a normal, healthy immune system is exposed to TB?",
+            "a": "The immune system usually kills off the bacteria, and no disease results.",
+            "rationale": "The Latent TB card states this directly, before contrasting it with what happens when latent infection instead takes hold."
           }
         ],
         "200": [
@@ -498,6 +890,30 @@ window.JEOPARDY_WEEK2 = {
             "q": "Which first-line TB drug is described as the first drug ever available to treat tuberculosis, and what drug class is it?",
             "a": "Streptomycin, an aminoglycoside.",
             "rationale": "The page states streptomycin was the first drug ever available for TB and identifies it as an aminoglycoside."
+          },
+          {
+            "id": "tuberculosis-200-4",
+            "q": "Which diagnostic test looks directly for mycobacteria and confirms a TB diagnosis?",
+            "a": "Sputum stain and culture.",
+            "rationale": "The Screening & Diagnosis table lists sputum stain and culture as looking directly for mycobacteria and confirming the diagnosis, the step after a chest X-ray."
+          },
+          {
+            "id": "tuberculosis-200-5",
+            "q": "Which TB screening test is used for non-high-risk, general-population screening, such as for a healthcare student?",
+            "a": "The TB skin test.",
+            "rationale": "The page contrasts the TB skin test (non-high-risk/general population, e.g. a healthcare student) with the interferon-gamma release assay (high-risk populations)."
+          },
+          {
+            "id": "tuberculosis-200-6",
+            "q": "Is ethambutol classified as bactericidal or bacteriostatic?",
+            "a": "Bacteriostatic.",
+            "rationale": "The Ethambutol row opens by describing it as \"first-line, bacteriostatic.\""
+          },
+          {
+            "id": "tuberculosis-200-7",
+            "q": "Besides first-line drugs, what other category of TB drugs does the page describe, and when is it used?",
+            "a": "Second-line drugs, reserved for drug-resistant cases.",
+            "rationale": "The page states TB treatment uses first-line drugs as the primary regimen and second-line drugs reserved for drug-resistant cases (not covered by name in this course)."
           }
         ],
         "300": [
@@ -524,6 +940,30 @@ window.JEOPARDY_WEEK2 = {
             "q": "How do isoniazid and ethambutol differ in what they disrupt in the mycobacteria?",
             "a": "Isoniazid disrupts mycobacterial cell wall synthesis; ethambutol suppresses RNA synthesis, which in turn suppresses protein synthesis.",
             "rationale": "These are the two mechanisms of action the page gives for isoniazid and ethambutol respectively."
+          },
+          {
+            "id": "tuberculosis-300-4",
+            "q": "What does rifampin inhibit in order to fight TB bacteria?",
+            "a": "Protein synthesis.",
+            "rationale": "The page states rifampin \"works by inhibiting protein synthesis\" — a different mechanism from isoniazid's cell-wall disruption and ethambutol's RNA-synthesis suppression."
+          },
+          {
+            "id": "tuberculosis-300-5",
+            "q": "By what mechanism does streptomycin interfere with TB bacteria?",
+            "a": "It interferes with normal protein synthesis, producing faulty proteins in the bacteria.",
+            "rationale": "This is the mechanism of action the page gives for streptomycin, separate from its identity as the first TB drug and as an aminoglycoside."
+          },
+          {
+            "id": "tuberculosis-300-6",
+            "q": "What determines whether pyrazinamide acts as bacteriostatic or bactericidal?",
+            "a": "Its concentration.",
+            "rationale": "The page states pyrazinamide is \"bacteriostatic or bactericidal depending on concentration.\""
+          },
+          {
+            "id": "tuberculosis-300-7",
+            "q": "If M. tuberculosis implants in the kidney instead of the lungs, what type of symptom results?",
+            "a": "Urinary problems.",
+            "rationale": "The Extrapulmonary TB row lists urinary problems as the symptom when the bacteria implant in the kidney, versus neurologic symptoms/meningitis for the brain or bone pain for bone."
           }
         ],
         "400": [
@@ -550,6 +990,30 @@ window.JEOPARDY_WEEK2 = {
             "q": "Why is pyrazinamide contraindicated in a patient with acute gout?",
             "a": "Because pyrazinamide can cause hyperuricemia (elevated uric acid), the same substance that causes gout.",
             "rationale": "The page lists hyperuricemia as a pyrazinamide effect and states it is contraindicated in severe hepatic disease or acute gout."
+          },
+          {
+            "id": "tuberculosis-400-4",
+            "q": "Besides peripheral neuropathy and hepatotoxicity, name two other side effects of isoniazid listed on the page.",
+            "a": "Optic neuritis (visual disturbances) and hyperglycemia.",
+            "rationale": "The Isoniazid row lists peripheral neuropathy, hepatotoxicity, optic neuritis, and hyperglycemia as its side effects."
+          },
+          {
+            "id": "tuberculosis-400-5",
+            "q": "Why should antacids be avoided in a patient taking isoniazid?",
+            "a": "Antacids reduce isoniazid's absorption.",
+            "rationale": "The page states this directly as a teaching point for INH: \"Avoid antacids (they reduce INH absorption).\""
+          },
+          {
+            "id": "tuberculosis-400-6",
+            "q": "What effect can occur when isoniazid and rifampin are given together, and what should be monitored for?",
+            "a": "Increased CNS toxicity symptoms — monitor for that.",
+            "rationale": "The page states isoniazid is often given with rifampin, \"which can increase CNS toxicity symptoms — monitor for that.\""
+          },
+          {
+            "id": "tuberculosis-400-7",
+            "q": "In what specific population is pyrazinamide contraindicated in the U.S., beyond severe hepatic disease or acute gout?",
+            "a": "Pregnancy.",
+            "rationale": "The page states pyrazinamide is \"contraindicated in pregnancy in the U.S.\""
           }
         ],
         "500": [
@@ -576,10 +1040,35 @@ window.JEOPARDY_WEEK2 = {
             "q": "A patient receiving streptomycin for TB is also taking an anticoagulant. What increased risk should be monitored, and how is streptomycin normally administered?",
             "a": "Increased bleeding risk; streptomycin is given as a daily intramuscular (IM) injection.",
             "rationale": "The page states streptomycin is given as a daily IM injection and to use caution combining it with anticoagulants since it can increase bleeding risk, on top of its own blood dyscrasia side effect."
+          },
+          {
+            "id": "tuberculosis-500-4",
+            "q": "A newly diagnosed active TB patient is homeless, malnourished, and using substances. According to the page, why does this raise a concern beyond his own individual treatment?",
+            "a": "He falls into an MDR-TB at-risk group, and because TB spreads by airborne transmission, a resistant strain moving through such populations is a serious public health concern.",
+            "rationale": "The page lists people who are homeless, malnourished, or using substances among MDR-TB at-risk groups, and separately notes that airborne spread makes a resistant strain in such a community a serious public health concern."
+          },
+          {
+            "id": "tuberculosis-500-5",
+            "q": "A hospitalized TB patient asks when they will no longer be considered contagious. What marker does the page give for this, and what does it say about determining the exact timing?",
+            "a": "Contagious until their sputum no longer grows mycobacteria; the exact timing of that is Med-Surg content, not needed for this course.",
+            "rationale": "The page states this directly in a note right after the Screening & Diagnosis table."
+          },
+          {
+            "id": "tuberculosis-500-6",
+            "q": "A patient with untreated active TB now has dyspnea, chest pain, and hemoptysis. What stage of TB symptoms does this represent?",
+            "a": "Advanced, untreated TB.",
+            "rationale": "The symptom table lists dyspnea, chest pain, and hemoptysis specifically under \"Advanced, Untreated,\" distinct from the earlier nonspecific and more TB-specific symptom stages."
+          },
+          {
+            "id": "tuberculosis-500-7",
+            "q": "A patient with active TB is started on both isoniazid and rifampin. What organ-related toxicity do both drugs share a risk for, and why does that make sense given how each is processed?",
+            "a": "Both can cause liver toxicity (hepatotoxicity/hepatitis), because both isoniazid and rifampin are metabolized by the liver.",
+            "rationale": "The page states isoniazid causes hepatotoxicity (\"metabolized by the liver — monitor liver enzymes\") and that rifampin is \"metabolized by the liver — can cause hepatitis,\" with liver function monitored for it as well."
           }
         ]
       }
     },
+    // anemia — 100:8 200:8 300:8 400:8 500:8
     {
       "id": "anemia",
       "name": "Anemia",
@@ -609,6 +1098,30 @@ window.JEOPARDY_WEEK2 = {
             "q": "In the 'bus' analogy for oxygen delivery, what does iron represent?",
             "a": "What the hemoglobin 'seats' are made of.",
             "rationale": "The red blood cell is the bus, hemoglobin are the seats, iron is what the seats are made of, and oxygen is the passengers — no iron means no seats, so oxygen can't ride along."
+          },
+          {
+            "id": "anemia-100-4",
+            "q": "According to the page's RBC facts, about how many oxygen molecules can a single red blood cell carry?",
+            "a": "About 1 billion.",
+            "rationale": "The RBC-by-the-numbers infographic states one RBC carries about 1 billion oxygen molecules, giving a sense of scale for how much production loss anemia represents."
+          },
+          {
+            "id": "anemia-100-5",
+            "q": "About how many days does a red blood cell normally live before it's replaced?",
+            "a": "About 120 days.",
+            "rationale": "This is one of the RBC-by-the-numbers facts, alongside the 2-3 million RBCs made every second and the ~20-second full-body circulation time."
+          },
+          {
+            "id": "anemia-100-6",
+            "q": "What is deferoxamine used to treat?",
+            "a": "Iron toxicity/overdose.",
+            "rationale": "The page describes deferoxamine as the chelating agent used to treat iron toxicity/overdose — it binds iron into an insoluble complex that's excreted in the stool."
+          },
+          {
+            "id": "anemia-100-7",
+            "q": "How does mild anemia typically present, according to the page's clinical manifestations table?",
+            "a": "Often with no symptoms at all.",
+            "rationale": "The Clinical Manifestations table lists mild anemia as often asymptomatic because the body compensates well, before symptoms progress at the mild-to-moderate and moderate-to-severe levels."
           }
         ],
         "200": [
@@ -635,6 +1148,30 @@ window.JEOPARDY_WEEK2 = {
             "q": "What three blood cell lines are lost in the pancytopenia caused by aplastic anemia?",
             "a": "RBCs (erythrocytes), WBCs (leukocytes), and platelets.",
             "rationale": "Aplastic anemia is a primary bone marrow failure — the page notes the 'a-' prefix means 'all' — so all three cell lines drop together."
+          },
+          {
+            "id": "anemia-200-4",
+            "q": "What classification describes red blood cells that are normal in size and color, and which three conditions does it point to?",
+            "a": "Normocytic, normochromic — points to blood loss, sickle cell disease, or aplastic anemia.",
+            "rationale": "The cell-morphology table lists normocytic, normochromic cells as normal-sized with normal hemoglobin color/function, distinct from the microcytic (iron deficiency) and macrocytic (B12/folate) categories."
+          },
+          {
+            "id": "anemia-200-5",
+            "q": "What does MCV stand for, and how is it changed in macrocytic anemia?",
+            "a": "Mean corpuscular volume; it is increased in macrocytic anemia.",
+            "rationale": "The page defines MCV as the measurement used for macrocytic anemia, noting it's increased since the RBCs are abnormally large."
+          },
+          {
+            "id": "anemia-200-6",
+            "q": "Name two of the other blood cell lineages (besides erythrocytes) that branch from the same bone marrow stem cell, per the hematopoiesis diagram.",
+            "a": "Any two of: myeloid (basophils/eosinophils/neutrophils), monocytes, lymphocytes, or megakaryocytes/platelets.",
+            "rationale": "The hematopoiesis lineage tree diagram shows a single bone marrow stem cell branching into the erythrocyte lineage alongside these other lineages, illustrating that anemia is specifically an RBC-lineage problem."
+          },
+          {
+            "id": "anemia-200-7",
+            "q": "What four general categories cause iron deficiency anemia, per the page?",
+            "a": "Decreased dietary intake, impaired absorption, increased demand, or excessive loss.",
+            "rationale": "The Iron Deficiency Anemia row lists these four categories, with excessive loss further specified as GI bleeding or menstruation."
           }
         ],
         "300": [
@@ -661,6 +1198,30 @@ window.JEOPARDY_WEEK2 = {
             "q": "Why does pallor occur in anemia?",
             "a": "The body redistributes blood away from the skin toward organs that need it more, such as the kidneys, lungs, gut, brain, and heart.",
             "rationale": "This is given as the mechanism behind pallor in the page's 'Why These Symptoms Happen' section."
+          },
+          {
+            "id": "anemia-300-4",
+            "q": "Why does the labeled dose of ferrous sulfate look larger than the actual amount of iron it delivers?",
+            "a": "Only about 20% of ferrous sulfate is elemental iron by weight.",
+            "rationale": "The Ferrous Sulfate row states this directly, explaining why the tablet's total dose overstates the elemental iron a patient actually receives."
+          },
+          {
+            "id": "anemia-300-5",
+            "q": "Even though high-dose oral B12 now works as well as injections for most patients, when does the page say injections are still specifically used?",
+            "a": "When a stomach-absorption problem (such as atrophic gastritis or prior gastric/bariatric surgery) is the cause of the deficiency.",
+            "rationale": "The Cyanocobalamin row notes oral therapy works as well as injections for most patients, but injections remain preferred specifically when the deficiency stems from an absorption problem."
+          },
+          {
+            "id": "anemia-300-6",
+            "q": "What does abnormal hemoglobin S do to red blood cells in sickle cell disease, and what problems does that create?",
+            "a": "It distorts RBCs into a sickle shape; these cells carry oxygen poorly, die faster than normal, easily clog blood vessels, and break apart.",
+            "rationale": "The Sickle Cell Disease row describes this exact mechanism connecting the abnormal hemoglobin to the disease's downstream problems."
+          },
+          {
+            "id": "anemia-300-7",
+            "q": "How does the population typically affected by beta thalassemia differ from the population typically affected by alpha thalassemia?",
+            "a": "Beta thalassemia traces to Greek, Italian, or Jewish ancestry; alpha thalassemia traces to Asian ancestry (Chinese, Vietnamese, or Cambodian).",
+            "rationale": "The Thalassemia row draws this exact ancestry distinction between the two forms."
           }
         ],
         "400": [
@@ -687,6 +1248,30 @@ window.JEOPARDY_WEEK2 = {
             "q": "Why can two patients with the exact same resulting hemoglobin level have very different symptom severity?",
             "a": "Severity depends on how fast the blood was lost, not just the resulting hemoglobin level — a fast loss gives the body no time to compensate, while a slow loss can stay largely unnoticed.",
             "rationale": "The page compares losing 2 liters instantly in trauma to a slow GI bleed reaching the same hemoglobin level over months."
+          },
+          {
+            "id": "anemia-400-4",
+            "q": "Why is a whole blood transfusion used to treat aplastic anemia rather than just a red blood cell transfusion?",
+            "a": "Because aplastic anemia causes pancytopenia — loss of all three cell lines — so whole blood replaces RBCs, WBCs, and platelets together, not just RBCs.",
+            "rationale": "The Aplastic Anemia — Treatment row specifically notes whole blood is used, not just RBCs, because it replaces all three lost cell lines at once."
+          },
+          {
+            "id": "anemia-400-5",
+            "q": "What condition is epoetin alfa contraindicated in, and by which two routes is it given?",
+            "a": "Contraindicated in uncontrolled hypertension; given IV or subQ.",
+            "rationale": "The ESA Precautions row states this contraindication, while the Epoetin Alfa row separately gives its two administration routes."
+          },
+          {
+            "id": "anemia-400-6",
+            "q": "Why should ferrous sulfate never be taken with antacids or calcium, and what should it be taken with instead to help absorption?",
+            "a": "Antacids and calcium decrease iron absorption; vitamin C helps absorption instead.",
+            "rationale": "The Ferrous Sulfate — Teaching row states this exact contrast between what helps and what hinders iron absorption."
+          },
+          {
+            "id": "anemia-400-7",
+            "q": "Iron dextran is given IM using a specific injection technique to avoid a cosmetic side effect. What is that technique, and what does it prevent?",
+            "a": "The Z-track method, which prevents the injection from staining the skin.",
+            "rationale": "The Iron Dextran row notes it's given IM using the Z-track method specifically because it can stain skin."
           }
         ],
         "500": [
@@ -713,10 +1298,35 @@ window.JEOPARDY_WEEK2 = {
             "q": "What combination of findings suggests a sickle cell crisis, and what kinds of triggers bring one on?",
             "a": "Swelling of the hands and feet plus fever; triggers include anything that raises oxygen demand or lowers oxygen, such as dehydration, stress, high altitude, fever, and extreme temperatures.",
             "rationale": "These findings and triggers are specific to sickle cell disease, distinguishing an active crisis from the disease's baseline anemia symptoms."
+          },
+          {
+            "id": "anemia-500-4",
+            "q": "A patient starting oral ferrous sulfate calls the clinic worried about black, tarry-looking stools. What should the nurse explain about this finding?",
+            "a": "It's a normal, expected effect of oral iron, not a sign of GI bleeding.",
+            "rationale": "The Ferrous Sulfate — Teaching row specifically calls out dark green/black stool as a normal, expected finding rather than a bleeding sign — a classic point of patient reassurance."
+          },
+          {
+            "id": "anemia-500-5",
+            "q": "What does hydroxyurea do for a patient with sickle cell disease, mechanistically?",
+            "a": "It increases the presence of fetal (non-sickle) hemoglobin.",
+            "rationale": "The Sickle Cell — Treatment row lists hydroxyurea's mechanism as increasing fetal hemoglobin, alongside oxygen, hydration, pain management, infection prevention, and transfusions as other treatment pieces."
+          },
+          {
+            "id": "anemia-500-6",
+            "q": "In hemolytic anemia, what does an increased reticulocyte count on lab findings indicate the bone marrow is doing?",
+            "a": "Releasing immature red blood cells (reticulocytes) before they're fully mature, trying to keep pace with the rate of RBC destruction.",
+            "rationale": "The Hemolytic Anemia — Findings row explains the increased reticulocyte count this way, alongside mild jaundice and hemoglobin in the urine from broken-down RBC byproducts."
+          },
+          {
+            "id": "anemia-500-7",
+            "q": "Comparing the two nutritional replacement drugs' side-effect teaching on the page, which one is described as essentially free of significant side effects, versus one with GI upset, dark stool, and a dangerous pediatric overdose risk?",
+            "a": "Folic acid is well tolerated with essentially no significant side effects; ferrous sulfate carries GI upset, dark stool, and can be toxic — even causing liver failure — in pediatric overdose.",
+            "rationale": "The Folic Acid row states it's well tolerated with essentially no significant side effects, in direct contrast to the Ferrous Sulfate rows' GI upset, stool changes, and pediatric poisoning/liver failure risk."
           }
         ]
       }
     },
+    // polycythemia — 100:8 200:7 300:7 400:6 500:6
     {
       "id": "polycythemia",
       "name": "Polycythemia",
@@ -746,6 +1356,30 @@ window.JEOPARDY_WEEK2 = {
             "q": "What is polycythemia vera, in terms of how it's classified?",
             "a": "Primary (absolute) polycythemia.",
             "rationale": "Polycythemia vera is described as a true bone marrow stem cell disorder causing overproduction of red blood cells."
+          },
+          {
+            "id": "polycythemia-100-4",
+            "q": "What long-term personal habit is listed as a risk factor for absolute polycythemia?",
+            "a": "Long-term cigarette smoking.",
+            "rationale": "The Risk Factors card for absolute polycythemia lists long-term cigarette smoking alongside chronic hypoxia, high altitude, genetics, and carbon monoxide exposure."
+          },
+          {
+            "id": "polycythemia-100-5",
+            "q": "What inherited factor is listed as a risk factor for absolute polycythemia?",
+            "a": "Familial/genetic predisposition.",
+            "rationale": "The Risk Factors card names familial/genetic predisposition as one of the listed risk factors for absolute polycythemia."
+          },
+          {
+            "id": "polycythemia-100-6",
+            "q": "In relative polycythemia, which three specific lab values appear falsely elevated?",
+            "a": "Hemoglobin, hematocrit, and RBC percentage.",
+            "rationale": "The Relative Polycythemia table's \"Effect\" row states these three values look falsely elevated only because the plasma they're measured against is low."
+          },
+          {
+            "id": "polycythemia-100-7",
+            "q": "How does the page describe polycythemia vera in terms of rarity and growth rate?",
+            "a": "A rare, slow-growing blood cancer/stem cell disorder.",
+            "rationale": "The Primary Polycythemia table's \"Definition\" row opens with this description before explaining the mutated stem cell mechanism."
           }
         ],
         "200": [
@@ -772,6 +1406,24 @@ window.JEOPARDY_WEEK2 = {
             "q": "What classic skin/complexion finding is associated with polycythemia vera?",
             "a": "A ruddy (plethoric) color.",
             "rationale": "This is listed among the manifestations of polycythemia vera, alongside headache, fatigue, weight loss, and dyspnea."
+          },
+          {
+            "id": "polycythemia-200-4",
+            "q": "How is polycythemia vera's pathophysiology classified, and what does the resulting excess of red blood cells do to the blood?",
+            "a": "It's a chronic myeloproliferative disorder — the excess red blood cells thicken the blood.",
+            "rationale": "The Primary Polycythemia table's \"Pathophysiology\" row names this specific classification and ties it directly to blood thickening."
+          },
+          {
+            "id": "polycythemia-200-5",
+            "q": "According to the page's hematocrit comparison diagram, what percentages are shown for a normal reading, an anemic reading, and a polycythemia/dehydration reading?",
+            "a": "45% for normal, 30% for anemia, and 70% for both polycythemia and dehydration.",
+            "rationale": "The four-tube diagram's caption lists these exact values, showing polycythemia and dehydration land on the identical number despite different causes."
+          },
+          {
+            "id": "polycythemia-200-6",
+            "q": "In the table of complications shared by primary and secondary polycythemia, what category of complication produces night sweats and weight loss?",
+            "a": "Hypermetabolism.",
+            "rationale": "The shared complications table lists night sweats and weight loss specifically under the \"Hypermetabolism\" mechanism row."
           }
         ],
         "300": [
@@ -798,6 +1450,24 @@ window.JEOPARDY_WEEK2 = {
             "q": "What is aquagenic pruritus, and what specifically makes it worse in polycythemia vera?",
             "a": "Intense, painful itching that is especially worse with heat or water — patients are particularly bothered by warm water.",
             "rationale": "Aquagenic pruritus is listed as one of the manifestations of polycythemia vera, distinct from its more general symptoms like headache or fatigue."
+          },
+          {
+            "id": "polycythemia-300-4",
+            "q": "How does the treatment for relative polycythemia differ from the treatment for secondary polycythemia?",
+            "a": "Relative polycythemia is treated by correcting the underlying fluid deficit (e.g., rehydration), which resolves it; secondary polycythemia is treated by addressing the source of chronic hypoxia causing it.",
+            "rationale": "The page states relative polycythemia has \"nothing else to treat\" once the fluid deficit is corrected, while secondary polycythemia's flashcard contrasts this with treating the underlying hypoxia source."
+          },
+          {
+            "id": "polycythemia-300-5",
+            "q": "Besides COPD and high altitude, what other respiratory condition is named as a common cause of secondary polycythemia?",
+            "a": "Restrictive lung disease.",
+            "rationale": "The Secondary Polycythemia table's \"Most Common Causes\" row lists COPD and restrictive lung disease together (both causing poor gas exchange), plus high altitude."
+          },
+          {
+            "id": "polycythemia-300-6",
+            "q": "At the cellular level, what actually causes the overproduction of blood cells in polycythemia vera?",
+            "a": "A single mutated bone marrow stem cell.",
+            "rationale": "The Primary Polycythemia definition states a single mutated stem cell overproduces red blood cells, and often white blood cells and platelets too, since it affects the bone marrow broadly."
           }
         ],
         "400": [
@@ -824,6 +1494,18 @@ window.JEOPARDY_WEEK2 = {
             "q": "What occupational and environmental groups are specifically named as being at risk for absolute polycythemia through long-term carbon monoxide exposure?",
             "a": "Tunnel workers, coal miners, other underground workers, garage attendants, and people in heavily polluted urban areas.",
             "rationale": "These groups are listed under long-term carbon monoxide exposure as a risk factor for absolute polycythemia."
+          },
+          {
+            "id": "polycythemia-400-4",
+            "q": "Aquagenic pruritus in polycythemia vera is triggered by heat or water. How does the itching listed under \"Other\" in the shared complications table differ from this?",
+            "a": "The \"Other\" complication is itching and pain localized to the fingers and toes, and it applies to both primary and secondary polycythemia — not a heat/water-triggered, whole-body reaction specific to polycythemia vera.",
+            "rationale": "Aquagenic pruritus is listed only under Polycythemia Vera's own manifestations, while the shared complications table separately lists \"itching and pain in the fingers and toes\" under its own \"Other\" category for both forms."
+          },
+          {
+            "id": "polycythemia-400-5",
+            "q": "The danger callout about stroke and heart attack from clotting is stated to apply to \"any absolute polycythemia (primary or secondary).\" Does this same clotting danger apply to relative polycythemia?",
+            "a": "No — relative polycythemia has no true excess of red blood cells, so it does not carry the same clotting/stroke/heart-attack risk that absolute (true) polycythemia does.",
+            "rationale": "The danger callout is explicitly scoped to absolute polycythemia, and relative polycythemia is defined elsewhere on the page as only a false lab elevation from hemoconcentration, not a real increase in red blood cell mass."
           }
         ],
         "500": [
@@ -850,6 +1532,18 @@ window.JEOPARDY_WEEK2 = {
             "q": "Increased blood viscosity and volume in polycythemia commonly cause hypertension, headache, and inability to concentrate. What less common finding can also occur from this same mechanism?",
             "a": "Cyanosis of the lips, nails, and mucous membranes.",
             "rationale": "The page lists cyanosis under \"Increased Blood Viscosity & Volume\" but specifically notes it occurs less often than the other findings in that category."
+          },
+          {
+            "id": "polycythemia-500-4",
+            "q": "A patient who has worked underground in a tunnel for 15 years has an elevated red blood cell count but a normal plasma volume on labs. Which category of polycythemia does this best fit, and why?",
+            "a": "Secondary (absolute) polycythemia — long-term carbon monoxide exposure causes chronic tissue hypoxia, triggering a true compensatory increase in red blood cells, and the normal plasma volume rules out the false elevation seen in relative polycythemia.",
+            "rationale": "Tunnel workers are specifically named under carbon monoxide exposure as a risk factor, and secondary polycythemia is defined as a true, compensatory increase in red blood cells driven by chronic hypoxia — distinct from relative polycythemia's hemoconcentration-based false elevation."
+          },
+          {
+            "id": "polycythemia-500-5",
+            "q": "A dehydrated patient's hematocrit is 70%. After IV rehydration it drops back to a normal 45%. What does this full correction confirm about the diagnosis, and what would it suggest if the hematocrit had instead stayed elevated after rehydration?",
+            "a": "The correction confirms this was relative polycythemia (hemoconcentration only, resolved by fixing the fluid deficit); if the hematocrit had stayed elevated despite adequate rehydration, that would point instead to a true, absolute polycythemia (primary or secondary).",
+            "rationale": "The page states relative polycythemia resolves once the fluid deficit is corrected with nothing else to treat, while absolute polycythemia reflects a true excess of red blood cells that fluid correction alone would not fix."
           }
         ]
       }
