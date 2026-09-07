@@ -4353,8 +4353,488 @@ window.QUIZ_BANK = {
         }
     },
     {
-        "id": "week2-anemia",
-        "label": "Anemia",
+        "id": "week2-uri",
+        "label": "Upper Respiratory Infections (URI)",
+        "week": 2,
+        "sets": {
+            "mustKnow": [],
+            "extraPractice": [
+                {
+                    "stem": "A patient reports coughing up yellow sputum for one day and asks whether this means an infection requiring antibiotics. Which statement should guide the nurse's response?",
+                    "options": [
+                        "Purulent-appearing sputum suggests infection, but color alone doesn't confirm it without further testing",
+                        "Yellow sputum on its own confirms a bacterial infection, regardless of any other symptoms present today",
+                        "Sputum color only matters if the patient also has a temperature above 103°F",
+                        "Clear sputum always rules out infection, so only colored sputum needs to be evaluated"
+                    ],
+                    "answer": 0,
+                    "rationale": "Sputum can be cultured to check for infection, but color alone isn't diagnostic — coughing up something yellow doesn't automatically mean a bacterial infection or a need for antibiotics. A purulent appearance raises suspicion, but confirmation requires further testing such as a culture. A single temperature threshold and sputum clarity alone aren't the deciding factors described in the lecture.",
+                    "topic": "Upper Respiratory Infections (URI)",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient reports a cough with clear mucus, sore throat, and fatigue that started five days ago after a cold. The nurse recognizes this most likely reflects acute bronchitis rather than chronic bronchitis because of which feature?",
+                    "options": [
+                        "There is no airflow obstruction, and it typically resolves within about 3 to 4 weeks",
+                        "The patient has a 20-year smoking history documented in the chart",
+                        "Symptoms have occurred for at least 3 months a year for 2 consecutive years, per the chart",
+                        "The cough is accompanied by permanent airflow obstruction on spirometry"
+                    ],
+                    "answer": 0,
+                    "rationale": "Acute (simple) bronchitis is inflammation of the bronchi and bronchioles without airflow obstruction, and it is usually mild and self-limiting, resolving in about 3 to 4 weeks. Chronic bronchitis, by contrast, does involve airflow obstruction and is defined by symptoms for at least 3 months a year for at least 2 consecutive years, usually related to smoking — none of which fit this five-day history.",
+                    "topic": "Upper Respiratory Infections (URI)",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient tells the nurse, \"I get bronchitis every winter, so I must have chronic bronchitis.\" Which response is most accurate?",
+                    "options": [
+                        "That's correct, since any recurring winter cough automatically qualifies as chronic bronchitis",
+                        "One winter isn't enough — it needs symptoms 3 months a year, for at least 2 years",
+                        "Chronic bronchitis is diagnosed by a single sputum culture result, not by symptom timing or duration",
+                        "Recurrent bronchitis of any length always indicates permanent airflow obstruction has already developed"
+                    ],
+                    "answer": 1,
+                    "rationale": "Chronic bronchitis requires bronchitis symptoms for at least 3 months of the year, for at least 2 consecutive years — a single winter episode, however recurrent it feels, does not by itself meet that definition. It's also usually related to cigarette smoking. Diagnosis isn't based on a single culture result.",
+                    "topic": "Upper Respiratory Infections (URI)",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient declines the flu vaccine, saying, \"I got vaccinated last year and still caught the flu, so it doesn't work.\" What is the most accurate response?",
+                    "options": [
+                        "That's a valid point — the vaccine hasn't been shown to provide any measurable benefit",
+                        "The vaccine should have prevented infection entirely, so the dose given may have been ineffective this time",
+                        "The vaccine won't prevent every infection, but it lowers severe illness and death risk by about 36%",
+                        "The vaccine's composition each year has no bearing on how well last year's dose worked"
+                    ],
+                    "answer": 2,
+                    "rationale": "The flu vaccine doesn't necessarily prevent infection, but it reduces the risk of severe illness and death by about 36%. Vaccine composition also changes yearly based on predicted strains, so a vaccine's benefit is specific to that year's formulation — it isn't a sign the vaccine \"doesn't work\" if the patient still gets sick.",
+                    "topic": "Upper Respiratory Infections (URI)",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "An 80-year-old patient with influenza develops a new productive cough with purulent sputum and worsening fever four days into the illness. What does this presentation most likely indicate?",
+                    "options": [
+                        "A secondary bacterial pneumonia, a known complication of influenza, especially in older adults",
+                        "A normal, expected progression of viral influenza needing only continued supportive care at home",
+                        "An allergic reaction to the influenza vaccine given earlier during this illness",
+                        "Resolution of the influenza infection as the body clears the virus naturally"
+                    ],
+                    "answer": 0,
+                    "rationale": "Secondary bacterial pneumonia is a serious, well-known complication of influenza — a major reason the flu vaccine is emphasized in elderly and comorbid patients. A new productive, purulent cough and worsening fever days into an influenza illness is a red flag for this complication, not an expected recovery pattern.",
+                    "topic": "Upper Respiratory Infections (URI)",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A nursing student asks why an antihistamine used for seasonal allergies wouldn't be expected to affect a patient's heart rate or stomach acid production. What is the best explanation?",
+                    "options": [
+                        "Antihistamines block all histamine receptors equally, so heart rate changes would still be expected too",
+                        "Allergy antihistamines act on H1 receptors — those control smooth muscle and capillary dilation, not H2",
+                        "H2 receptors control allergy symptoms, while H1 receptors regulate heart rate and stomach acid",
+                        "Allergy medications work by increasing histamine release rather than blocking its receptors"
+                    ],
+                    "answer": 1,
+                    "rationale": "Histamine has two receptor types: H1 receptors mediate smooth muscle contraction and capillary dilation — the target of antihistamines used for allergies. H2 receptors mediate heart rate and gastric acid secretion, which is a separate drug target (H2 blockers). Antihistamines block histamine's effects; they don't increase its release.",
+                    "topic": "Upper Respiratory Infections (URI)",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient with seasonal allergic rhinitis asks why exposure to pollen causes sneezing and itchy, watery eyes. Which explanation is accurate?",
+                    "options": [
+                        "Pollen directly damages the nasal mucosa, causing inflammation independent of the immune system too",
+                        "The reaction only affects the nose, since allergic rhinitis is limited to nasal tissue",
+                        "The reaction is IgE-mediated, triggering histamine release that produces the nasal and eye symptoms",
+                        "Pollen exposure causes a direct bacterial infection of the nasal passages"
+                    ],
+                    "answer": 2,
+                    "rationale": "Allergic rhinitis is inflammation and swelling of the nasal mucous membranes from an IgE-mediated histamine release triggered by environmental allergens like pollen, and it affects the upper and lower airways as well as the eyes — which is why watery, itchy eyes accompany the nasal symptoms. It isn't a direct mucosal injury or a bacterial process.",
+                    "topic": "Upper Respiratory Infections (URI)",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient reports facial pressure, nasal congestion, and sore throat that has lasted 12 days. What does this duration suggest about the likely cause?",
+                    "options": [
+                        "The duration alone confirms bacterial infection and requires starting IV antibiotics without any testing",
+                        "This duration is still typical for viral sinusitis, so no further workup is needed yet",
+                        "Facial pressure lasting beyond a week always points to a sinus tumor instead",
+                        "Symptoms past a week raise suspicion for bacterial sinusitis, since viral cases clear in 5–7 days"
+                    ],
+                    "answer": 3,
+                    "rationale": "Viral sinusitis is self-limiting and usually resolves in 5 to 7 days, while bacterial sinusitis can last up to 4 weeks. Symptoms lasting longer than about a week raise suspicion for a bacterial cause — that's why duration is one of the questions typically asked when evaluating sinus symptoms. Duration alone doesn't require IV antibiotics, and a 12-day history isn't suggestive of a tumor.",
+                    "topic": "Upper Respiratory Infections (URI)",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient asks why sinusitis is treated more aggressively than other upper respiratory infections that produce similar symptoms. What is the best explanation?",
+                    "options": [
+                        "Sinusitis is taken more seriously because the sinuses sit close to the brain",
+                        "Sinusitis always requires surgical drainage, unlike other upper respiratory infections",
+                        "Sinusitis is the only upper respiratory infection ever caused by bacteria",
+                        "Sinusitis symptoms are more severe than epiglottitis symptoms in every case"
+                    ],
+                    "answer": 0,
+                    "rationale": "Sinusitis is treated more aggressively than most other URIs because of the sinuses' proximity to the brain. It doesn't always require surgery, other URIs (like pharyngitis) can also be bacterial, and epiglottitis — a true airway emergency — is more acutely dangerous than sinusitis.",
+                    "topic": "Upper Respiratory Infections (URI)",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient presents with a sore throat, and the nurse is trying to determine whether the cause is more likely bacterial or viral before the provider decides on testing. Which finding would point more toward a bacterial cause?",
+                    "options": [
+                        "A runny nose and mild cough accompanying the sore throat",
+                        "White spots or exudate visible on the throat and tonsils",
+                        "A gradual onset of symptoms occurring over several days",
+                        "Clear nasal discharge without any visible throat exudate"
+                    ],
+                    "answer": 1,
+                    "rationale": "Bacterial pharyngitis (such as strep) often shows white spots or exudate on the throat and tonsils, while viral pharyngitis typically doesn't. A runny nose and clear discharge are more consistent with a viral process.",
+                    "topic": "Upper Respiratory Infections (URI)",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A child arrives with a rapid onset of fever, drooling, difficulty swallowing, and inspiratory stridor, but no barking cough. The nurse recognizes this presentation as most consistent with which condition, and why?",
+                    "options": [
+                        "Croup, since inspiratory stridor and rapid onset are classic for laryngotracheobronchitis",
+                        "Simple bronchitis, since fever and trouble swallowing are common with any URI",
+                        "Epiglottitis, since no barking cough plus drooling and stridor sets it apart from croup",
+                        "Allergic rhinitis, since drooling suggests excess mucus from histamine release"
+                    ],
+                    "answer": 2,
+                    "rationale": "The absence of a barking cough is what distinguishes epiglottitis from croup, and drooling plus inspiratory stridor and retractions are hallmark epiglottitis findings. Epiglottitis is rare but potentially life-threatening — a swollen epiglottis can block the airway without timely treatment. Croup produces the barking cough that is notably absent here.",
+                    "topic": "Upper Respiratory Infections (URI)",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient with an active upper respiratory infection is scheduled for elective surgery next week. The anesthesia team recommends postponing the procedure. What is the primary reasoning behind this recommendation?",
+                    "options": [
+                        "General anesthesia is contraindicated in anyone who has ever had a URI",
+                        "Postponing surgery allows time to finish a full course of antiviral medication",
+                        "Elective surgery must always wait until a sputum culture returns negative",
+                        "An active URI raises the risk of bronchospasm during anesthesia and intubation"
+                    ],
+                    "answer": 3,
+                    "rationale": "An active URI can be reason enough to delay an elective procedure because it raises the risk of bronchospasm — sudden constriction of the bronchial muscles — during anesthesia and intubation. This isn't a blanket rule against anesthesia for anyone with any URI history, an antiviral course, or a culture requirement.",
+                    "topic": "Upper Respiratory Infections (URI)",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A nurse is reviewing a new prescription for a first-generation antihistamine and checking the patient's history for conditions requiring extra caution. Select all conditions that would warrant caution before administering this medication.",
+                    "options": [
+                        "Closed-angle glaucoma",
+                        "Benign prostatic hyperplasia (BPH)",
+                        "Uncontrolled hypertension",
+                        "Seasonal allergic rhinitis flare-up",
+                        "A seizure disorder",
+                        "Well-controlled type 2 diabetes"
+                    ],
+                    "answers": [0, 1, 2, 4],
+                    "rationale": "First-generation antihistamines carry a mild anticholinergic effect and can raise blood pressure, so caution is warranted with closed-angle glaucoma, cardiac disease, kidney disease/uncontrolled hypertension, peptic ulcer disease, seizures, BPH, and pregnancy. Seasonal allergic rhinitis is the indication for the drug, not a caution, and well-controlled diabetes isn't listed as a factor.",
+                    "topic": "Upper Respiratory Infections (URI)",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient who drives a delivery truck for a living needs a daily antihistamine for allergic rhinitis and is concerned about staying alert at work. Which teaching point best addresses this concern?",
+                    "options": [
+                        "Diphenhydramine is preferred since its sedating effect wears off quickly for most patients by evening",
+                        "All antihistamines cause the same amount of drowsiness no matter the generation",
+                        "A second-generation antihistamine like loratadine causes much less drowsiness and suits morning dosing",
+                        "The patient should avoid antihistamines entirely and rely only on decongestants"
+                    ],
+                    "answer": 2,
+                    "rationale": "Second-generation antihistamines (loratadine, fexofenadine, cetirizine) have fewer side effects and much less drowsiness than first-generation options like diphenhydramine, and can be taken in the morning. Diphenhydramine is the sedating option associated with the \"Benadryl hangover,\" not a quick-wearing-off effect.",
+                    "topic": "Upper Respiratory Infections (URI)",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient has been using an over-the-counter nasal decongestant spray for six days and reports that congestion is now worse than before starting it. What is the most likely explanation?",
+                    "options": [
+                        "The patient has developed a new sinus infection unrelated to the medication itself",
+                        "Rebound nasal congestion from decongestant use beyond the recommended 4-day limit",
+                        "The decongestant dose was too low to be effective from the start",
+                        "This is an expected allergic reaction to the medication's active ingredient"
+                    ],
+                    "answer": 1,
+                    "rationale": "Decongestants like pseudoephedrine and phenylephrine shouldn't be used for more than 4 days because of the risk of rebound nasal congestion — congestion that returns worse once the medication is stopped or overused. Tapering off is recommended if it's been used for 2 to 3 days.",
+                    "topic": "Upper Respiratory Infections (URI)",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient recovering from chest surgery reports a dry, non-productive cough that is so severe it is preventing sleep and causing incisional pain. Which category of medication is most appropriate to address this specific problem?",
+                    "options": [
+                        "An expectorant, to help thin and mobilize the minimal secretions present",
+                        "A mucolytic given by nebulizer, to reduce the thickness of retained mucus",
+                        "A decongestant, to reduce nasal congestion that is contributing to the cough",
+                        "A cough suppressant, since coughing isn't serving a protective purpose here"
+                    ],
+                    "answer": 3,
+                    "rationale": "Coughing is usually a beneficial, protective response, so cough suppressants (dextromethorphan, benzonatate) are reserved for when it isn't — such as a dry, non-productive cough or post-surgical chest pain from coughing too hard to sleep. Expectorants and mucolytics target excess or thick secretions, which isn't this patient's problem, and a decongestant addresses nasal symptoms, not a post-surgical cough.",
+                    "topic": "Upper Respiratory Infections (URI)",
+                    "source": "quiz-bank"
+                }
+            ],
+            "eaq": []
+        }
+    },
+    {
+        "id": "week2-pneumonia-tuberculosis",
+        "label": "Pneumonia &amp; Tuberculosis",
+        "week": 2,
+        "sets": {
+            "mustKnow": [],
+            "extraPractice": [
+                {
+                    "stem": "A nurse is reviewing risk factors for pneumonia with a patient who drinks alcohol heavily. The patient asks why alcohol use would raise pneumonia risk when it mainly affects the liver. Which explanation is accurate based on the risk factors taught for pneumonia?",
+                    "options": ["Alcohol use raises pneumonia risk primarily through aspiration, since heavy alcohol use can impair consciousness and airway protection","Alcohol use raises pneumonia risk because it directly damages lung tissue the same way chronic smoking does over many years","Alcohol use was described as a pneumonia risk factor only when combined with an existing diagnosis of liver cirrhosis or hepatitis","Alcohol use raises pneumonia risk by suppressing the cough reflex permanently, even long after a person has stopped drinking entirely in this scenario"],
+                    "answer": 0,
+                    "rationale": "Alcohol use raises pneumonia risk mainly through aspiration, since heavy use can impair consciousness and airway protection, not through a direct effect on lung tissue or a liver-disease requirement.",
+                    "topic": "Pneumonia &amp; Tuberculosis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient develops a new pneumonia 5 days after being admitted to the hospital for an unrelated surgery, and was never placed on a ventilator. Which classification applies, and how does its expected course compare with pneumonia acquired outside the hospital?",
+                    "options": ["This is CAP, community-acquired pneumonia, since the patient was admitted for an unrelated reason rather than for pneumonia itself","This is HAP, hospital-acquired pneumonia, since it developed 48 or more hours after admission, and HAP generally has worse outcomes than CAP","This is VAP, ventilator-associated pneumonia, since any pneumonia acquired during a hospital stay is classified this way regardless of ventilator use","This is HCAP, healthcare-associated pneumonia, since that category includes any pneumonia occurring at any point during a hospital admission"],
+                    "answer": 1,
+                    "rationale": "HAP is defined as pneumonia developing 48 or more hours after hospital admission and generally carries worse outcomes than CAP; this patient was not ventilated, so VAP does not apply, and the hospital onset rules out CAP.",
+                    "topic": "Pneumonia &amp; Tuberculosis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A student is asked to describe the sequence of events in pneumonia pathophysiology, starting once a pathogen reaches the lower airway. Which sequence correctly reflects what was taught?",
+                    "options": ["Gas exchange is impaired first, which then triggers an inflammatory reaction, and mucus only accumulates afterward once the infection has resolved for this patient","The immune system activates and clears the pathogen immediately upon entry, so mucus accumulation and impaired gas exchange do not typically occur","Inflammation and vasodilation occur, infection spreads to the alveoli, mucus accumulates between alveoli and capillaries, and gas exchange becomes impaired","Goblet cells are suppressed rather than stimulated, resulting in a dry cough and preserved gas exchange throughout the course of the infection"],
+                    "answer": 2,
+                    "rationale": "Pneumonia pathophysiology proceeds from inflammation and vasodilation, to alveolar spread with goblet cell stimulation and mucus accumulation between alveoli and capillaries, to impaired gas exchange — not the reverse order.",
+                    "topic": "Pneumonia &amp; Tuberculosis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient with pneumonia has a productive cough with green, rusty-colored sputum, while another patient with pneumonia has a dry, scant cough. Which statement about these two presentations is accurate?",
+                    "options": ["The dry, scant cough pattern is more typical of bacterial pneumonia, while the rusty, purulent sputum is more typical of viral pneumonia","Both presentations are equally common in bacterial pneumonia, and cough character was not taught as a way to distinguish the two causes","Sputum color and consistency were taught as unrelated to the underlying cause and should not influence the nurse's assessment at all","The rusty, purulent sputum pattern is more typical of bacterial pneumonia, while the dry, scant cough is more typical of viral pneumonia"],
+                    "answer": 3,
+                    "rationale": "Purulent, rusty or green sputum is typical of bacterial pneumonia, while a dry, scant cough is more typical of viral pneumonia; cough character is a taught distinguishing feature, not an unrelated detail.",
+                    "topic": "Pneumonia &amp; Tuberculosis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient with pneumonia is breathing with visibly increased accessory muscle use and a rising heart rate, but oxygen saturation remains adequate. A short time later, the patient can no longer maintain oxygenation despite maximal effort. Which pair of terms correctly labels these two stages?",
+                    "options": ["The first stage is respiratory distress; the second stage is respiratory failure, which is heading toward respiratory arrest","The first stage is respiratory failure; the second stage is respiratory distress, which is a milder and more stable condition","Both stages describe respiratory failure, since any accessory muscle use already indicates the patient can no longer compensate","Both stages describe respiratory distress, since respiratory failure by definition never progresses gradually like this"],
+                    "answer": 0,
+                    "rationale": "Respiratory distress is maintained oxygenation with increased work of breathing; respiratory failure is the inability to compensate any longer, heading toward respiratory arrest — these are sequential, not identical, stages.",
+                    "topic": "Pneumonia &amp; Tuberculosis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient with suspected pneumonia has a chest X-ray showing an infiltrate and an elevated white blood cell count. The provider still orders a sputum culture and sensitivity before finalizing antibiotic therapy. Which statement explains why this additional test matters?",
+                    "options": ["Sputum culture and sensitivity is ordered only to confirm the chest X-ray finding, since it cannot provide any additional treatment-guiding information","Sputum culture and sensitivity is the gold standard because it identifies the specific pathogen and which antibiotics will actually work against it","Sputum culture and sensitivity is used only when the white blood cell count is normal, since an elevated count alone confirms bacterial cause","Sputum culture and sensitivity is considered less reliable than chest X-ray and is ordered mainly for research and reporting purposes only"],
+                    "answer": 1,
+                    "rationale": "Sputum culture and sensitivity is the gold standard because it identifies the specific pathogen and guides antibiotic selection, information a chest X-ray or CBC alone cannot provide.",
+                    "topic": "Pneumonia &amp; Tuberculosis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient with pneumonia is found to have dullness to percussion, inspiratory crackles, increased tactile fremitus, and egophony over one lung region. What do these findings together indicate?",
+                    "options": ["These findings indicate a normal, well-aerated lung region, since resonance and clear breath sounds would be expected there instead","These findings only occur in viral pneumonia and would not be expected with a bacterial cause of the patient's pneumonia","These findings indicate a consolidated area of lung tissue, consistent with the physical assessment findings taught for pneumonia","These findings indicate the pneumonia has already resolved and the consolidated area is simply residual scar tissue from a prior infection"],
+                    "answer": 2,
+                    "rationale": "Dullness to percussion, crackles, increased fremitus, and egophony over a lung region are the classic physical assessment findings of a consolidated area from pneumonia, not findings of a normal or resolved lung.",
+                    "topic": "Pneumonia &amp; Tuberculosis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A hospitalized patient develops pneumonia with blood cultures growing a gram-negative organism, and the care team notes the patient has a central line. Which organism group fits this scenario as taught in this unit?",
+                    "options": ["Streptococcus pneumoniae, a gram-positive organism that is the most common cause of community-acquired bacterial pneumonia in this scenario according to this unit","Staphylococcus aureus, a gram-positive organism that typically enters through the bloodstream or an IV route rather than a central line","Mycoplasma pneumoniae, an organism with properties of both bacteria and viruses that typically causes a mild walking pneumonia presentation","Pseudomonas, Acinetobacter, or Klebsiella pneumoniae, gram-negative organisms often linked to central-line infections and hospital-acquired pneumonia"],
+                    "answer": 3,
+                    "rationale": "Pseudomonas, Acinetobacter, and Klebsiella pneumoniae are the gram-negative organisms linked to central-line infections and hospital-acquired pneumonia, distinct from the gram-positive organisms and atypical pneumonias covered elsewhere in this unit.",
+                    "topic": "Pneumonia &amp; Tuberculosis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient with dysphagia aspirates a small amount of highly acidic gastric contents. The nurse explains to the family why this matters for how severe the resulting pneumonia will be. Which explanation is accurate?",
+                    "options": ["The severity of the inflammatory response in aspiration pneumonia depends on the pH of the aspirate, with more acidic content causing worse inflammation","The severity of aspiration pneumonia depends only on the total volume aspirated, and the pH of the aspirated material makes no real difference","Aspiration pneumonia severity is determined by the patient's baseline lung function alone, regardless of the pH of the aspirated material","Acidic gastric contents were taught to be less damaging than neutral secretions, since acid is thought to have some antimicrobial effect on tissue during treatment"],
+                    "answer": 0,
+                    "rationale": "Aspiration pneumonia severity depends on the pH of the aspirate, with more acidic content causing a worse inflammatory response, not on volume alone or baseline lung function.",
+                    "topic": "Pneumonia &amp; Tuberculosis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient at high aspiration risk is prescribed a proton pump inhibitor as part of a prevention strategy. Which teaching point explains why a PPI is used for this purpose?",
+                    "options": ["A PPI directly kills any bacteria present in aspirated material before it can reach the lower respiratory tract and cause infection","A PPI lowers gastric acidity, which reduces the inflammatory damage to the lungs if aspiration of stomach contents does occur","A PPI strengthens the cough reflex, making silent aspiration far less likely to occur in patients with a decreased gag reflex","A PPI improves gastric emptying so completely that the stomach is essentially always empty, preventing aspiration from occurring at all"],
+                    "answer": 1,
+                    "rationale": "A PPI is used in aspiration-risk patients because lowering gastric acidity reduces the inflammatory damage if aspiration occurs; it does not kill bacteria, strengthen the cough reflex, or eliminate gastric contents.",
+                    "topic": "Pneumonia &amp; Tuberculosis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A previously healthy young adult develops viral pneumonia during flu season. A few days into the illness, new purulent sputum and worsening fever develop. Which teaching point about viral pneumonia explains why this can happen?",
+                    "options": ["This new presentation means the original diagnosis was incorrect, since viral pneumonia by definition cannot be followed by any bacterial complication","Purulent sputum developing during viral pneumonia is expected and does not indicate any need to reassess the patient or consider antibiotics","Viruses impair the lungs' immune defenses, which raises the risk of a secondary bacterial pneumonia developing on top of the original viral infection","Viral pneumonia was taught to always require antibiotics from the very first day of illness specifically to prevent this exact scenario"],
+                    "answer": 2,
+                    "rationale": "Viruses impair the lungs' immune defenses, which raises the risk of a secondary bacterial pneumonia developing during the course of a viral illness — new purulent sputum and worsening fever are a classic sign of this.",
+                    "topic": "Pneumonia &amp; Tuberculosis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient recovering from HIV-related immunosuppression develops a pneumonia caused by a yeast-like fungus. Which organism from this unit's coverage of atypical pneumonia is most consistent with this scenario?",
+                    "options": ["Mycoplasma pneumoniae, the organism responsible for the mild, walking pneumonia presentation described in this unit","Legionella, a gram-negative organism spread through contaminated water systems such as old air conditioners or hot tubs","Streptococcus pneumoniae, the most common bacterial cause of community-acquired pneumonia covered earlier in this unit","Pneumocystis pneumonia (PCP), which is associated with immunosuppression and is most common in patients with HIV"],
+                    "answer": 3,
+                    "rationale": "Pneumocystis pneumonia (PCP) is a yeast-like fungus associated with immunosuppression and is most common in patients with HIV, distinguishing it from Mycoplasma, Legionella, and Streptococcus pneumoniae.",
+                    "topic": "Pneumonia &amp; Tuberculosis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A cluster of pneumonia cases is traced back to an old air conditioning system at a hotel, and one confirmed case must be reported to the health department. Which organism and teaching point match this scenario?",
+                    "options": ["Legionella, since Legionella pneumonia is a reportable disease so the contaminated water source can be identified and addressed","Aspergillus, since Aspergillus pneumonia is a reportable disease tied to old building walls and construction sites rather than water systems","Mycoplasma pneumoniae, since walking pneumonia outbreaks traced to a building's water system must be reported to the health department","Pneumocystis pneumonia, since PCP outbreaks linked to a shared water source require mandatory health department reporting in this scenario"],
+                    "answer": 0,
+                    "rationale": "Legionella pneumonia is a reportable disease because it is spread through contaminated water systems like old air conditioners, so the source can be identified and addressed; Aspergillus, Mycoplasma, and PCP have different sources and are not tied to this reporting requirement.",
+                    "topic": "Pneumonia &amp; Tuberculosis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "An elderly patient asks why the provider recommended both the PCV13 and PPSV23 vaccines instead of just one. Which statement accurately reflects what these vaccines cover?",
+                    "options": ["PCV13 and PPSV23 cover the exact same 13 strains of pneumococcal pneumonia, so receiving both provides no additional protection","PCV13 covers 13 strains of pneumococcal pneumonia and PPSV23 covers an additional 23 types, so together they broaden the coverage","PPSV23 is given only to children, while PCV13 is reserved specifically for elderly and immunocompromised adult patients only","Both vaccines were taught as protecting against viral pneumonia specifically, rather than against pneumococcal bacterial strains as taught here"],
+                    "answer": 1,
+                    "rationale": "PCV13 covers 13 strains of pneumococcal pneumonia and PPSV23 covers an additional 23 types, so giving both broadens coverage rather than duplicating it.",
+                    "topic": "Pneumonia &amp; Tuberculosis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A nursing instructor asks why tuberculosis typically infects the lungs before other organs, even though Mycobacterium tuberculosis can also grow in bone or brain. Which explanation matches what was taught?",
+                    "options": ["M. tuberculosis is an anaerobic organism that thrives in low-oxygen environments, which is why the lungs are affected before other tissues","M. tuberculosis has no particular oxygen requirement at all, and the lungs are only affected first because of how the bacteria are transmitted based on these findings","M. tuberculosis is an aerobic, rod-shaped bacillus that needs a lot of oxygen to grow, and the lungs provide that oxygen-rich environment first","M. tuberculosis specifically targets lung tissue through a receptor-based mechanism unrelated to the organism's own oxygen requirements"],
+                    "answer": 2,
+                    "rationale": "M. tuberculosis is an aerobic, rod-shaped bacillus that needs abundant oxygen to grow, which is why the oxygen-rich lungs are typically affected before bone or brain.",
+                    "topic": "Pneumonia &amp; Tuberculosis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A chest X-ray in a patient with suspected TB shows a walled-off area containing macrophages and lymphocytes with a hard outer casing and a cheese-like center of broken-down tissue. What is this structure called, and what is its center called?",
+                    "options": ["This is an abscess, and its center is described as purulent rather than caseous, unlike the structures described in this unit","This is a cavitation, and its hard outer casing is what was taught to be called the caseous center in this unit","This is a consolidation, the same term used for the chest X-ray finding described for bacterial pneumonia earlier in this course","This is a granuloma, sometimes called a tubercle, and its cheese-like center is described as caseous"],
+                    "answer": 3,
+                    "rationale": "A TB granuloma, also called a tubercle, is a walled-off area of macrophages and lymphocytes with a hard outer casing and a caseous (cheese-like) center of broken-down tissue — distinct from an abscess or a chest X-ray consolidation.",
+                    "topic": "Pneumonia &amp; Tuberculosis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A student asks why TB treatment takes so much longer than treatment for most bacterial infections. Which explanation reflects what was taught about M. tuberculosis's growth rate?",
+                    "options": ["M. tuberculosis is very slow-growing, and most drugs work by targeting actively proliferating organisms, making treatment inherently slower","M. tuberculosis actually grows faster than most bacteria, but treatment is prolonged only because of how the drugs are metabolized by the liver","TB treatment length has nothing to do with the organism's growth rate and is instead based purely on insurance and cost considerations","M. tuberculosis grows at a typical bacterial rate, but treatment is extended mainly because the bacteria hide inside red blood cells"],
+                    "answer": 0,
+                    "rationale": "M. tuberculosis is very slow-growing, and most antimicrobial drugs target actively proliferating organisms, which is a key reason TB treatment courses are so much longer than typical bacterial infections.",
+                    "topic": "Pneumonia &amp; Tuberculosis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient asks how TB is usually spread from person to person. Which statement accurately reflects the transmission route taught in this unit?",
+                    "options": ["TB is spread almost exclusively through contaminated food and water, similar to the transmission route described for Legionella pneumonia based on these findings","TB travels in airborne droplets expelled by an infected person's cough or sneeze and inhaled by a new host, making human-to-human spread the most common route","TB is spread primarily through direct skin contact with an infected person, rather than through any airborne or droplet-based route","TB is spread mainly from cattle and birds to humans, with human-to-human transmission described as rare compared to this animal route"],
+                    "answer": 1,
+                    "rationale": "TB travels in airborne droplets expelled by coughing or sneezing and inhaled by a new host, making human-to-human transmission by far the most common route, rather than food, water, skin contact, or animal-to-human spread.",
+                    "topic": "Pneumonia &amp; Tuberculosis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient with a positive TB skin test years ago has never developed any symptoms and has a normal chest X-ray now. The patient asks whether this means the infection is gone. Which response best reflects latent TB as taught in this unit?",
+                    "options": ["A positive TB skin test with no symptoms means the infection has been fully cleared and no bacteria remain anywhere in the body at this point","Latent TB was taught to always progress to active TB within a fixed period of time, regardless of the person's immune status or other risk factors for this presentation","In latent TB, the bacteria survive but stay walled off and dormant inside granulomas, producing no clinical signs or symptoms, and it can remain latent for life","Latent TB only applies to extrapulmonary cases, so a positive skin test with a normal chest X-ray actually suggests active pulmonary TB instead"],
+                    "answer": 2,
+                    "rationale": "In latent TB, bacteria survive but stay walled off and dormant inside granulomas with no clinical signs or symptoms, and it can remain latent for life unless the immune system later fails to contain it.",
+                    "topic": "Pneumonia &amp; Tuberculosis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient with well-controlled latent TB begins high-dose corticosteroid therapy for a separate autoimmune condition and later develops active TB symptoms. Which explanation fits what was taught about reactivation of latent TB? Select all that apply.",
+                    "options": ["Immunosuppressive medications can allow the bacteria to reactivate once the immune system can no longer contain them","HIV or other causes of immunocompromise are recognized triggers for reactivation of latent TB into active disease","Poor nutritional status and renal failure are also recognized triggers for reactivating latent TB into active disease","Reactivation of latent TB was taught to occur completely at random, with no identifiable triggers of any kind","Once TB becomes latent, it was taught to be biologically incapable of ever reactivating into active disease again within this unit"],
+                    "answers": [0,1,2],
+                    "rationale": "Immunosuppressive medications, HIV/immunocompromise, poor nutritional status, and renal failure are all recognized triggers that let latent TB bacteria reactivate into active disease; reactivation is not random or impossible.",
+                    "topic": "Pneumonia &amp; Tuberculosis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient with active TB reports fatigue, weight loss, and a low-grade afternoon fever that has been present for weeks, but no night sweats yet. A few weeks later, night sweats develop. Which statement about these symptoms is accurate?",
+                    "options": ["Night sweats are the least specific TB symptom, while fatigue, weight loss, and low-grade fever are considered the most TB-specific findings","All of these symptoms were taught as equally specific to TB, with no distinction made between early nonspecific and more TB-specific findings at this point","The presence of night sweats actually rules out TB and instead points toward a different diagnosis entirely, based on what was taught","Fatigue, weight loss, and low-grade fever are nonspecific early symptoms, while night sweats are more specific to TB as the disease progresses"],
+                    "answer": 3,
+                    "rationale": "Fatigue, weight loss, and low-grade fever are nonspecific early TB symptoms, while night sweats are more specific to TB and tend to appear as the disease progresses.",
+                    "topic": "Pneumonia &amp; Tuberculosis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient with long-standing untreated TB develops new bone pain, and imaging later shows involvement outside the lungs. Which statement about extrapulmonary TB matches what was taught?",
+                    "options": ["If TB bacteria implant somewhere outside the lungs, the effects depend on the site, such as bone pain from bone involvement or neurologic symptoms from meningitis","Extrapulmonary TB was taught to only ever affect the kidneys, so bone pain in this patient would not be attributed to TB based on this unit's content for this condition","TB bacteria cannot spread outside the lungs under any circumstances, so this presentation would need to be explained by an unrelated diagnosis","Extrapulmonary TB was described as always occurring before any pulmonary symptoms develop, rather than after long-standing untreated disease"],
+                    "answer": 0,
+                    "rationale": "TB bacteria that implant outside the lungs cause site-specific effects, such as bone pain from bone involvement or neurologic symptoms from meningitis, which is why extrapulmonary TB is not limited to one organ.",
+                    "topic": "Pneumonia &amp; Tuberculosis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A nursing student who works in a high-risk clinical area needs TB screening, while a general population patient with no particular risk factors also needs screening. Which pairing of screening methods matches what was taught?",
+                    "options": ["The high-risk nursing student typically gets a TB skin test, while the non-high-risk patient typically gets an interferon-gamma release assay","The high-risk nursing student typically gets an interferon-gamma release assay, while the non-high-risk patient typically gets a TB skin test","Both the high-risk student and the non-high-risk patient are screened the same way, using a chest X-ray as the very first screening step","Neither the interferon-gamma release assay nor the TB skin test was taught as an appropriate screening test for either of these two groups"],
+                    "answer": 1,
+                    "rationale": "High-risk individuals, such as healthcare workers in high-risk areas, typically get an interferon-gamma release assay (a blood draw), while non-high-risk general population screening uses the TB skin test.",
+                    "topic": "Pneumonia &amp; Tuberculosis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient has a positive TB skin test at a routine screening visit. The provider orders a chest X-ray next before confirming a diagnosis. Which statement explains the role of the chest X-ray at this point in the workup?",
+                    "options": ["The chest X-ray is ordered only to rule out pneumonia and has no role in the TB workup once a screening test has already come back positive","A positive TB skin test alone is sufficient to confirm active disease, so the chest X-ray in this scenario is an unnecessary additional step in this situation","A positive screening test alone doesn't confirm active TB, so the chest X-ray is the next step, looking for granulomas to guide further workup","The chest X-ray replaces the need for sputum stain and culture entirely once it shows any abnormal finding consistent with a granuloma"],
+                    "answer": 2,
+                    "rationale": "A positive screening test alone does not confirm active TB, so a chest X-ray is the next step to look for granulomas; sputum stain and culture are still needed afterward to confirm the diagnosis directly.",
+                    "topic": "Pneumonia &amp; Tuberculosis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient newly started on isoniazid and rifampin for active TB asks the nurse what symptoms to report right away. Which combination of teaching points reflects the shared and distinct concerns for these two first-line drugs? Select all that apply.",
+                    "options": ["Report any yellowing of the skin or eyes, since both isoniazid and rifampin can cause hepatotoxicity that needs to be monitored","Report numbness or tingling in the hands or feet, since isoniazid can cause peripheral neuropathy, often reduced by taking pyridoxine","Expect urine and other body fluids like tears or sweat to turn a red-orange-brown color while taking rifampin, which is harmless","Isoniazid and rifampin were taught as having no notable drug interactions with any other medications the patient might be taking as described here","Both isoniazid and rifampin are given only by injection, so the patient does not need any teaching about oral administration"],
+                    "answers": [0,1,2],
+                    "rationale": "Isoniazid and rifampin both carry hepatotoxicity risk requiring monitoring for jaundice, isoniazid can cause peripheral neuropathy often mitigated with pyridoxine, and rifampin harmlessly discolors body fluids — both drugs also carry real interactions with other medications, and both are given orally.",
+                    "topic": "Pneumonia &amp; Tuberculosis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient taking isoniazid for active TB is also prescribed phenytoin for a seizure disorder. Which teaching point reflects the drug interaction taught for this combination?",
+                    "options": ["Isoniazid has no known interaction with phenytoin, so no additional monitoring is needed when the two drugs are taken together","Isoniazid decreases phenytoin's effects significantly, so the phenytoin dose would typically need to be increased during co-administration for this condition","Isoniazid and phenytoin cannot be taken together under any circumstances and this combination should never be prescribed at all","Isoniazid increases phenytoin's effects, so the patient should be monitored closely for signs of phenytoin toxicity while taking both drugs"],
+                    "answer": 3,
+                    "rationale": "Isoniazid increases phenytoin's effects, so patients on both drugs need close monitoring for phenytoin toxicity rather than assuming no interaction or needing a phenytoin dose increase.",
+                    "topic": "Pneumonia &amp; Tuberculosis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient on rifampin for active TB is also taking warfarin and a beta blocker for other chronic conditions. Which teaching point reflects rifampin's effect on these other medications?",
+                    "options": ["Rifampin is a strong CYP inducer that decreases the effects of drugs like warfarin and beta blockers, so those patients may need higher doses","Rifampin has no meaningful effect on the metabolism of other medications, so no dose adjustments are typically needed with rifampin","Rifampin increases the effects of warfarin and beta blockers so significantly that those medications must be stopped entirely during treatment","Rifampin only affects the metabolism of other TB medications and has no interaction with cardiovascular or anticoagulant medications at all"],
+                    "answer": 0,
+                    "rationale": "Rifampin is a strong CYP inducer that decreases the effects of drugs such as warfarin and beta blockers, so those patients may need higher doses during rifampin therapy, not the reverse.",
+                    "topic": "Pneumonia &amp; Tuberculosis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient starting ethambutol for TB asks why the provider mentioned needing more frequent eye exams during treatment. Which teaching point explains this concern?",
+                    "options": ["Ethambutol can cause hyperuricemia and gout-like joint pain, which is why more frequent monitoring visits are recommended during treatment over time","Ethambutol can cause retrobulbar neuritis, inflammation of the optic nerve, so visual changes need to be monitored closely during treatment","Ethambutol can cause ototoxicity affecting hearing, which is why more frequent monitoring visits are recommended during this treatment","Ethambutol has no recognized visual side effects, and the more frequent visits are unrelated to any effect of this specific medication"],
+                    "answer": 1,
+                    "rationale": "Ethambutol can cause retrobulbar neuritis, inflammation of the optic nerve, which is why visual changes are monitored and more frequent eye exams may be recommended, distinct from the hyperuricemia or ototoxicity risks of other TB drugs.",
+                    "topic": "Pneumonia &amp; Tuberculosis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient with a history of gout is started on TB therapy, and the provider is cautious about one particular first-line drug. Which drug and rationale match this concern?",
+                    "options": ["Ethambutol, because it can cause hyperuricemia and is contraindicated in patients with any history of gout or joint disease","Streptomycin, because it can cause hyperuricemia in addition to its known ototoxicity and nephrotoxicity side effects","Pyrazinamide, because it can cause hyperuricemia and is contraindicated in severe hepatic disease or acute gout","Isoniazid, because it can cause hyperuricemia in addition to its known risk of hepatotoxicity and peripheral neuropathy"],
+                    "answer": 2,
+                    "rationale": "Pyrazinamide can cause hyperuricemia and is contraindicated in severe hepatic disease or acute gout, distinguishing it from ethambutol, streptomycin, and isoniazid, which carry different toxicity profiles.",
+                    "topic": "Pneumonia &amp; Tuberculosis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient receiving daily intramuscular streptomycin injections for TB develops ringing in the ears and a decline in kidney function. Which teaching point reflects the known toxicity profile of this drug?",
+                    "options": ["Streptomycin is associated with hepatotoxicity and peripheral neuropathy, the same profile described in this unit for isoniazid","Streptomycin is associated with retrobulbar neuritis and visual disturbances, the same profile described in this unit for ethambutol","Streptomycin has no recognized toxicity concerns and was taught as the safest of the five first-line TB medications covered","Streptomycin, an aminoglycoside, is associated with ototoxicity, nephrotoxicity, and blood dyscrasias affecting bleeding times"],
+                    "answer": 3,
+                    "rationale": "Streptomycin, an aminoglycoside, is associated with ototoxicity, nephrotoxicity, and blood dyscrasias affecting bleeding times, a distinct profile from isoniazid's hepatotoxicity/neuropathy or ethambutol's visual effects.",
+                    "topic": "Pneumonia &amp; Tuberculosis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A recent immigrant with limited prior access to consistent medication is diagnosed with a TB strain that does not respond to standard first-line therapy. Which statement about MDR-TB and its risk factors matches what was taught?",
+                    "options": ["MDR-TB is a growing concern, and populations with less consistent access to medications in their country of origin are at particularly high risk","MDR-TB was taught as occurring at random with no association to prior medication access, immune status, or living conditions of any kind","MDR-TB is treated with the exact same first-line drug regimen as non-resistant TB, since resistance does not change the treatment approach during this admission","MDR-TB was taught as a concern only in animal populations, since human-to-human transmission of resistant strains does not occur"],
+                    "answer": 0,
+                    "rationale": "MDR-TB is a growing national and global concern, and populations with less consistent access to medications in their country of origin, along with other at-risk groups, face particularly high risk — resistant cases require second-line therapy, not the standard first-line regimen.",
+                    "topic": "Pneumonia &amp; Tuberculosis",
+                    "source": "quiz-bank"
+                }
+            ],
+            "eaq": []
+        }
+    },
+    {
+        "id": "week2-anemia-polycythemia",
+        "label": "Anemia &amp; Polycythemia",
         "week": 2,
         "sets": {
             "mustKnow": [],
@@ -4364,7 +4844,7 @@ window.QUIZ_BANK = {
                     "options": ["The patient's vegetarian diet lacks iron-rich protein sources, compounded by menstrual blood loss", "Spoon nails indicate the body cannot absorb dietary iron regardless of intake", "Ice craving is the primary cause of anemia, requiring behavioral intervention", "A genetic mutation preventing iron utilization explains both the nails and the anemia"],
                     "answer": 0,
                     "rationale": "Iron deficiency develops from either decreased intake (vegetarian diet lacking bioavailable iron) or excessive loss (heavy menstruation). Both factors apply here, creating a cumulative deficit. Spoon nails and pica (ice craving) are manifestations of iron deficiency, not causes—they indicate the body is already depleted. The stem contains multiple teaching points: vegetarian diets CAN provide adequate iron if planned, but heme iron from animal sources is more bioavailable; menstrual losses compound dietary insufficiency; pica is a compensatory behavior, not a primary driver. Genetics don't account for the timeline (5-year gradual onset).",
-                    "topic": "Anemia",
+                    "topic": "Anemia &amp; Polycythemia",
                     "source": "quiz-bank"
                 },
                 {
@@ -4372,7 +4852,7 @@ window.QUIZ_BANK = {
                     "options": ["Transfusion temporarily corrects anemia but cannot reverse the neurologic damage already occurring from B12 deficiency", "His atrophic gastritis prevents red blood cells from absorbing oxygen, so transfusion is ineffective", "Macrocytic cells cannot carry oxygen despite transfusion, so the brain remains hypoxic", "Paresthesias indicate a separate neurologic disorder unrelated to his B12 deficiency"],
                     "answer": 0,
                     "rationale": "This question tests understanding of why B12 deficiency is uniquely dangerous. B12 deficiency causes TWO problems: megaloblastic anemia (which transfusion addresses) AND progressive neurologic damage from impaired DNA synthesis in nerve sheaths. Transfusion fixes the oxygen-carrying deficit but does NOT reverse ongoing neurologic deterioration. The atrophic gastritis destroyed parietal cells, stopping intrinsic factor production—the pathway that allows B12 absorption. Once neurologic symptoms appear, rapid B12 replacement (not transfusion) is critical because further delay can cause permanent disability. The stem establishes timeline: symptoms emerged after the medication change (likely a proton-pump inhibitor worsening parietal cell damage). The closest distractor falsely equates macrocytic cells with inability to carry oxygen—macrocytic cells carry oxygen fine; the problem is impaired DNA synthesis, not oxygen capacity.",
-                    "topic": "Anemia",
+                    "topic": "Anemia &amp; Polycythemia",
                     "source": "quiz-bank"
                 },
                 {
@@ -4380,7 +4860,7 @@ window.QUIZ_BANK = {
                     "options": ["Initiate broad-spectrum antibiotics immediately and assess for infection before starting hydration and oxygen", "Begin supplemental oxygen and IV hydration while obtaining blood cultures and assessing for infection triggers", "Provide pain management and have him monitor at home since his SpO2 is acceptable and he denies respiratory involvement", "Delay treatment pending genetic testing to confirm sickle cell genotype since symptoms could represent another hemoglobinopathy"],
                     "answer": 1,
                     "rationale": "Sickle cell crisis is triggered by factors that increase oxygen demand or lower oxygen availability—altitude (Colorado hiking), fever (infection or inflammatory response), and dehydration from travel all apply here. The core crisis management is simultaneous: oxygen to increase tissue oxygen, IV fluids to prevent further sickling by reducing blood viscosity, and infection workup (blood cultures, antibiotics) because infection is both a trigger AND a life-threatening complication in sickle cell patients. The SpO2 of 94% seems borderline acceptable but in a sickle cell patient signals marginal tissue perfusion at altitude—intervention is needed. Delaying antibiotics while cultures process is dangerous; broad-spectrum coverage starts immediately based on clinical suspicion. Distractors: home monitoring misses a medical emergency; withholding oxygen ignores the altitude/oxygen demand factor; delaying for genetic confirmation wastes critical time (diagnosis is established).",
-                    "topic": "Anemia",
+                    "topic": "Anemia &amp; Polycythemia",
                     "source": "quiz-bank"
                 },
                 {
@@ -4388,7 +4868,7 @@ window.QUIZ_BANK = {
                     "options": ["Administer the full ESA dose as prescribed since hemoglobin is below the therapeutic target of 12 g/dL", "Hold the ESA dose, verify the most recent hemoglobin level, and notify the provider before administering", "Administer half the scheduled dose to bring hemoglobin up gradually while avoiding overcorrection", "Administer the ESA dose but monitor the patient closely for signs of thrombosis given his smoking history"],
                     "answer": 1,
                     "rationale": "The ESA black-box warning states: NEVER administer if hemoglobin is GREATER THAN 10 g/dL due to risk of stroke, MI, thromboembolism, and hypercoagulability. This patient's hemoglobin is 10.1—just above the threshold. The nurse must verify the current level and HOLD the dose. The provider must reassess before continuing ESA therapy. This is a critical safety check that prevents overcorrection into a polycythemic, hypercoagulable state. The patient's smoking history compounds thrombotic risk. Distractors: therapeutic target of 12 is incorrect (goal is ~11 or less in CKD anemia); partial dosing isn't appropriate—it's either safe to give or it isn't; 'monitoring closely' doesn't prevent a life-threatening complication that should be prevented by not overdosing.",
-                    "topic": "Anemia",
+                    "topic": "Anemia &amp; Polycythemia",
                     "source": "quiz-bank"
                 },
                 {
@@ -4396,7 +4876,7 @@ window.QUIZ_BANK = {
                     "options": ["Dark stools indicate GI bleeding and the medication should be held immediately pending evaluation", "This is an expected finding from iron therapy and does not indicate GI bleeding, but the parent should give the medication with food if GI upset occurs", "Dark stools mean the iron is not being absorbed and the dose should be increased for efficacy", "The child has developed a medication allergy and a different iron formulation must be substituted"],
                     "answer": 1,
                     "rationale": "Iron oxidizes in the GI tract, producing dark stools—a NORMAL, expected finding that should be explained proactively to prevent medication non-adherence. Teaching must include: dark green/black stool ≠ GI bleeding, expect this finding, it's harmless. Additionally, liquid iron can stain teeth (use straw), may cause metallic taste, and often causes GI upset. Iron is best absorbed on an empty stomach with vitamin C, but many patients take it with food early in treatment to reduce nausea—that's appropriate. Never with antacids or calcium (decreases absorption). Ferrous sulfate is only ~20% elemental iron by weight, so the dose looks large but delivers a modest amount of actual iron. Distractors: misinterpreting this as bleeding causes unnecessary ER visits and medication abandonment; increased dosing without medical guidance risks toxicity (especially concerning in pediatrics where overdose is a leading poisoning cause); there's no allergy component here.",
-                    "topic": "Anemia",
+                    "topic": "Anemia &amp; Polycythemia",
                     "source": "quiz-bank"
                 },
                 {
@@ -4404,7 +4884,7 @@ window.QUIZ_BANK = {
                     "options": ["Severe hypoxemia from the profound anemia requiring immediate transfusion", "Infection from neutropenia combined with inability to mount an adequate immune response", "Bleeding from severe thrombocytopenia with risk of intracranial hemorrhage", "Heart failure from chronic hypoxemia forcing increased cardiac output"],
                     "answer": 1,
                     "rationale": "This is aplastic anemia—pancytopenia (low RBCs, WBCs, platelets) from bone marrow failure. The low reticulocyte count confirms the marrow ISN'T responding (in hemolytic anemia, reticulocytes would be elevated). The fatty marrow indicates aplasia. Pancytopenia creates a three-way crisis: anemia (low O2), infection (low WBCs), and bleeding (low platelets). Which is most immediately life-threatening? INFECTION. A WBC of 1.2 is severe neutropenia; combined with impaired marrow function, the patient cannot fight infection effectively. A simple infection can rapidly progress to sepsis and death. Platelets of 45 do carry bleeding risk, but 45 is not yet in the range where spontaneous bleeding is likely (that's typically <10-20). Immediate priorities: strict infection prevention, possibly reverse isolation, prophylactic antibiotics, and watchful surveillance. The anemia will be transfused carefully (avoid fluid overload). Distractors: hypoxemia from hemoglobin 4.8 IS severe and WILL be treated, but patients can sometimes compensate with increased cardiac output if the drop is gradual; heart failure is a concern but less immediately lethal than sepsis; thrombocytopenia IS dangerous but 45 is manageable with precautions.",
-                    "topic": "Anemia",
+                    "topic": "Anemia &amp; Polycythemia",
                     "source": "quiz-bank"
                 },
                 {
@@ -4412,7 +4892,159 @@ window.QUIZ_BANK = {
                     "options": ["High altitude and exercise both cause acidosis, which makes hemoglobin S polymerize and sickle cells rigid", "High altitude and exercise increase oxygen demand; if oxygen delivery cannot meet this demand, hemoglobin S distorts RBCs into sickles", "High altitude reduces barometric pressure, which directly causes hemoglobin to denature; exercise causes dehydration that thickens blood", "Both situations activate the complement cascade, triggering immune-mediated hemolysis of sickled cells"],
                     "answer": 1,
                     "rationale": "Sickle cell disease worsens when tissue oxygen levels drop (relative hypoxemia). High altitude = lower atmospheric oxygen. Intense exercise = increased metabolic oxygen demand that may exceed delivery. Both situations trigger sickling because hemoglobin S polymerizes preferentially under LOW OXYGEN conditions. When oxygen is low, hemoglobin S distorts RBCs into the characteristic sickle shape; these cells clog vessels, causing vaso-occlusion and pain crisis. The mechanism is OXYGEN AVAILABILITY, not acidosis or barometric pressure. Sickling does worsen with dehydration (increases blood viscosity), but that's a secondary mechanism; the primary trigger is low oxygen. Distractors: acidosis does play a role but is secondary to the oxygen mechanism; barometric pressure at altitude doesn't 'denature' hemoglobin—it just means less O2 is available to bind; complement cascade causes hemolysis in some acquired hemolytic anemias but not in sickle cell disease, which is a structural hemoglobinopathy.",
-                    "topic": "Anemia",
+                    "topic": "Anemia &amp; Polycythemia",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient's hematocrit is elevated after a large-volume fluid resuscitation was just started, while the hemoglobin from an hour earlier was already known to be low from chronic anemia. A student asks why hemoglobin, not hematocrit, is used as the more reliable indicator of anemia. Which explanation is accurate?",
+                    "options": ["Hemoglobin is affected by plasma volume status just as much as hematocrit is, so neither value is actually more reliable than the other one","Hematocrit measures oxygen-carrying capacity directly, while hemoglobin only estimates it indirectly from the total red blood cell count","Hematocrit is heavily affected by a patient's plasma volume status, while hemoglobin is not, so hemoglobin gives a more reliable picture of true anemia","Hemoglobin can only be measured accurately after a patient has been NPO for at least 8 hours, unlike hematocrit, which has no such requirement in this scenario"],
+                    "answer": 2,
+                    "rationale": "Hematocrit is heavily affected by plasma volume status, so fluid shifts can mask or exaggerate anemia; hemoglobin does not have this limitation, making it the more reliable indicator.",
+                    "topic": "Anemia &amp; Polycythemia",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A CBC shows red blood cells of normal size with normal hemoglobin color, in a patient who reports a recent gastrointestinal bleed. Another patient's CBC shows large, abnormally shaped cells with normal hemoglobin color. Which pairing of morphology to likely cause is correct?",
+                    "options": ["Normal-sized, normal-colored cells suggest B12 deficiency, and large cells with normal color suggest recent blood loss","Both presentations point to iron deficiency anemia, since morphology alone cannot distinguish blood loss from a vitamin deficiency for this patient overall","Both presentations described here are inconsistent with any anemia type and would require an entirely repeated laboratory workup","Normal size and color point to a cause like blood loss, sickle cell disease, or aplastic anemia, while large cells with normal color point to a B12 or folate deficiency"],
+                    "answer": 3,
+                    "rationale": "Normal-sized, normal-colored cells point to causes like blood loss, sickle cell disease, or aplastic anemia, while large cells with normal hemoglobin color point to a B12 or folate deficiency — morphology does distinguish these causes.",
+                    "topic": "Anemia &amp; Polycythemia",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient with anemia appears notably pale, especially in the face and hands. The patient's spouse asks the nurse why the patient looks so pale when the blood count is low rather than absent. Which explanation reflects the mechanism taught for pallor in anemia?",
+                    "options": ["The body redistributes blood away from the skin toward organs that need it more, such as the kidneys, lungs, gut, brain, and heart","Pallor occurs because the remaining red blood cells lose their red pigment entirely once hemoglobin drops below a certain level","Pallor in anemia is caused by a separate, unrelated skin condition that commonly develops at the same time as low blood counts","The heart pumps less blood overall in anemia, which is the direct and only cause of the visibly pale skin seen in these patients according to this unit"],
+                    "answer": 0,
+                    "rationale": "In anemia, the body redistributes blood away from the skin toward organs that need it more, such as the kidneys, lungs, gut, brain, and heart, which is why pallor develops even when red cells are simply reduced, not absent.",
+                    "topic": "Anemia &amp; Polycythemia",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "One patient loses 2 liters of blood suddenly from trauma, while another patient's hemoglobin drops to the same final level gradually over months from an unnoticed slow GI bleed. The trauma patient is in shock, while the slow-bleed patient reports only mild fatigue. Which explanation accounts for this difference?",
+                    "options": ["The trauma patient must have lost significantly more total blood volume than the slow-bleed patient, even though the final hemoglobin values match","The slow-bleed patient's anemia is not clinically significant since symptoms are mild, regardless of what the actual hemoglobin level shows","Severity depends on how fast blood is lost, not just the resulting hemoglobin level, since the body has time to compensate for a slow loss","The trauma patient's symptoms are unrelated to blood loss and instead point to a separate traumatic injury requiring its own workup"],
+                    "answer": 2,
+                    "rationale": "Severity depends on how fast blood is lost, not just the resulting hemoglobin level; a slow loss gives the body time to compensate, while a fast loss of the same magnitude causes acute decompensation.",
+                    "topic": "Anemia &amp; Polycythemia",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A pregnant patient asks why the provider specifically emphasized folate intake this trimester, beyond the general importance of a balanced diet. Which teaching point about folate deficiency anemia in pregnancy is accurate?",
+                    "options": ["Folate deficiency in pregnancy was taught as a concern only for the mother's anemia symptoms, with no effect on fetal development at all","Folate absorption requires intrinsic factor just like B12, so pregnancy-related folate deficiency is caused by the same gastric mechanism","Folate deficiency anemia is microcytic and hypochromic in pregnancy specifically, unlike the macrocytic pattern seen in other populations","Folate needs increase greatly in pregnancy, and low folate raises the risk of low birth weight and neural tube defects in the fetus"],
+                    "answer": 3,
+                    "rationale": "Folate needs increase greatly in pregnancy, and low folate raises the risk of low birth weight and neural tube defects, which is why folate intake gets particular emphasis beyond general nutrition.",
+                    "topic": "Anemia &amp; Polycythemia",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient with progressive chronic kidney disease develops anemia even though iron studies and vitamin levels are normal. Which mechanism explains this type of anemia?",
+                    "options": ["Failing kidneys cannot release enough erythropoietin to adequately signal the bone marrow, so red blood cell production drops","Chronic kidney disease directly destroys circulating red blood cells through an immune-mediated hemolytic process in the kidneys","Chronic kidney disease causes iron to become trapped in the kidneys themselves, making it unavailable for red blood cell production","Chronic kidney disease was taught to cause anemia only once the patient also develops a coexisting nutritional deficiency"],
+                    "answer": 0,
+                    "rationale": "Failing kidneys cannot release enough erythropoietin to adequately signal the bone marrow, so red blood cell production drops even when iron and vitamin levels are normal — this is anemia of chronic kidney disease.",
+                    "topic": "Anemia &amp; Polycythemia",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient develops pancytopenia after a course of chemotherapy, and a bone marrow biopsy shows fatty replacement of normal marrow tissue. Which statement about the causes of this type of anemia is accurate?",
+                    "options": ["Aplastic anemia is caused exclusively by inherited genetic mutations and cannot be triggered by chemotherapy, radiation, or infection","Aplastic anemia occurs only when a patient also has a separate diagnosis of chronic kidney disease affecting erythropoietin production during treatment","Aplastic anemia can result from high-dose toxic exposures such as chemotherapy or radiation, an autoimmune reaction, or bone marrow cancer","Aplastic anemia was taught as always idiopathic, meaning a specific cause like chemotherapy could never actually be identified"],
+                    "answer": 2,
+                    "rationale": "Aplastic anemia can result from high-dose toxic exposures such as chemotherapy or radiation, an autoimmune reaction, or bone marrow cancer, not only from inherited mutations or a coexisting kidney diagnosis.",
+                    "topic": "Anemia &amp; Polycythemia",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient with a hemolytic anemia has a low hemoglobin but the bone marrow appears to be responding vigorously to the ongoing RBC destruction. Which lab finding would the nurse expect that reflects this compensatory marrow response?",
+                    "options": ["A decreased reticulocyte count, since the marrow suppresses new red blood cell production once hemolysis has been detected","A normal reticulocyte count, since reticulocyte levels do not change in response to red blood cell destruction of any kind","An increased platelet count specifically, since platelets rather than reticulocytes reflect marrow response in hemolytic anemia as taught here","An increased reticulocyte count, since the marrow releases immature red blood cells early to try to keep pace with the destruction"],
+                    "answer": 3,
+                    "rationale": "An increased reticulocyte count reflects the marrow releasing immature red blood cells early to try to keep pace with ongoing hemolytic destruction, distinguishing hemolytic anemia from a hypoproliferative anemia like aplastic anemia.",
+                    "topic": "Anemia &amp; Polycythemia",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient of Southeast Asian descent is found to have microcytic, hypochromic red blood cells, but iron studies are normal and the patient denies any dietary iron restriction. Which condition and ancestry link fits this presentation best?",
+                    "options": ["Alpha thalassemia, an autosomal recessive condition tracing to Asian ancestry including Chinese, Vietnamese, and Cambodian populations","Beta thalassemia, an autosomal recessive condition tracing specifically to Greek, Italian, and Jewish ancestry rather than Asian ancestry","Iron deficiency anemia, since microcytic, hypochromic cells always indicate an iron problem regardless of the patient's iron study results","Sickle cell disease, since it is the most common hemoglobinopathy overall and produces the same microcytic, hypochromic cell pattern"],
+                    "answer": 0,
+                    "rationale": "Alpha thalassemia is the form tracing to Asian ancestry (Chinese, Vietnamese, Cambodian), while beta thalassemia traces to Greek, Italian, or Jewish ancestry; normal iron studies rule out iron deficiency as the cause here.",
+                    "topic": "Anemia &amp; Polycythemia",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient with pernicious anemia who has had prior gastric surgery is prescribed cyanocobalamin. The patient asks whether the medication can be given through the IV line already in place for other medications. Which teaching point is accurate?",
+                    "options": ["Cyanocobalamin can be given by any route including IV, and the existing IV line would be an appropriate and preferred choice here","Cyanocobalamin must always be given IV in patients with a history of gastric surgery, since oral absorption cannot occur at all","Cyanocobalamin can be given PO, subQ, IM, or intranasally, but it is never given IV, so a different route would be used instead","Cyanocobalamin is only available as an oral formulation, so questions about IV, subQ, or IM administration would not apply"],
+                    "answer": 2,
+                    "rationale": "Cyanocobalamin can be given PO, subQ, IM, or intranasally, but it is never given IV, so an existing IV line would not be an appropriate route for this medication regardless of the patient's surgical history.",
+                    "topic": "Anemia &amp; Polycythemia",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A toddler is diagnosed with iron deficiency anemia after the parent reports the child frequently chews on ice and craves other non-food items. The provider also notes koilonychia and glossitis on exam. Which of these findings are specific manifestations of iron deficiency anemia taught in this unit? Select all that apply.",
+                    "options": ["Glossitis, a smooth, sore tongue","Koilonychia, spoon-shaped nails","Pica, craving non-food items such as ice chips or hard candy","Aquagenic pruritus that is worse with warm water exposure","A ruddy, plethoric skin color across the face and extremities"],
+                    "answers": [0,1,2],
+                    "rationale": "Glossitis, koilonychia, and pica are the specific manifestations of iron deficiency anemia taught in this unit; aquagenic pruritus and a ruddy, plethoric color are instead classic findings of polycythemia vera, not iron deficiency.",
+                    "topic": "Anemia &amp; Polycythemia",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient's hematocrit reads 68% after several days of poor oral intake and vomiting, but a repeat hematocrit after IV fluid resuscitation returns to 44%. Which type of polycythemia does this pattern best illustrate?",
+                    "options": ["Primary polycythemia (polycythemia vera), a bone marrow stem cell disorder that resolves once IV fluids are administered","Secondary polycythemia, a compensatory response to chronic tissue hypoxia that improves once fluids are given intravenously","This pattern does not fit any type of polycythemia discussed in this unit and instead suggests a laboratory measurement error based on these findings","Relative polycythemia, a false elevation from hemoconcentration due to low plasma volume rather than a true excess of red blood cells"],
+                    "answer": 3,
+                    "rationale": "A hematocrit that normalizes once IV fluids correct the plasma volume deficit reflects relative polycythemia, a false elevation from hemoconcentration rather than a true excess of red blood cells.",
+                    "topic": "Anemia &amp; Polycythemia",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A 65-year-old man is diagnosed with a rare, slow-growing bone marrow stem cell disorder that overproduces red blood cells and often white blood cells and platelets as well. Which condition matches this description, and what population is most commonly affected?",
+                    "options": ["Secondary polycythemia, most commonly affecting patients with COPD or those living at high altitude regardless of age or sex","Polycythemia vera, typically occurring in people over 60 and about twice as common in men","Relative polycythemia, typically occurring in dehydrated patients of any age with no particular sex predominance described","Aplastic anemia, typically occurring in younger adults and affecting all three blood cell lines through bone marrow failure"],
+                    "answer": 1,
+                    "rationale": "Polycythemia vera is a rare, slow-growing bone marrow stem cell disorder typically occurring in people over 60 and about twice as common in men, distinct from the hypoxia-driven mechanism of secondary polycythemia.",
+                    "topic": "Anemia &amp; Polycythemia",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient with severe COPD develops a persistently elevated red blood cell count over several years. The provider explains this is the body's adaptive response rather than a bone marrow cancer. Which mechanism explains this type of polycythemia?",
+                    "options": ["A single mutated bone marrow stem cell begins overproducing red blood cells independently of any oxygen-sensing mechanism at all","Chronic COPD directly stimulates the bone marrow through inflammatory cytokines without any involvement of the kidneys or erythropoietin according to this unit","The kidneys sense chronic hypoxia and secrete erythropoietin, prompting the bone marrow to produce more red blood cells to increase oxygen-carrying capacity","The spleen enlarges in COPD and begins producing red blood cells directly, bypassing the bone marrow and kidney feedback loop entirely"],
+                    "answer": 2,
+                    "rationale": "In secondary polycythemia, the kidneys sense chronic hypoxia and secrete erythropoietin, prompting the bone marrow to produce more red blood cells as a compensatory response — this is not a bone marrow cancer or spleen-driven process.",
+                    "topic": "Anemia &amp; Polycythemia",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient with polycythemia vera reports intense itching that becomes much worse after a warm shower, along with a ruddy, flushed complexion. Which statement about these findings is accurate?",
+                    "options": ["These findings are classic for secondary polycythemia specifically and would not be expected to occur in polycythemia vera","Itching that worsens with warm water exposure is unrelated to polycythemia and instead suggests a primary dermatologic condition","A ruddy complexion in polycythemia vera indicates inadequate treatment and always requires an immediate dose of erythropoietin-suppressing therapy","A ruddy, plethoric color and aquagenic pruritus that worsens with heat or water are classic manifestations of polycythemia vera"],
+                    "answer": 3,
+                    "rationale": "A ruddy, plethoric color and aquagenic pruritus that worsens with heat or water are classic manifestations of polycythemia vera specifically, not an unrelated dermatologic condition or a sign requiring immediate dose escalation.",
+                    "topic": "Anemia &amp; Polycythemia",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient with longstanding polycythemia reports frequent headaches, difficulty concentrating, and is noted to have hypertension on repeated readings. Which mechanism from the complications shared by primary and secondary polycythemia explains these findings?",
+                    "options": ["Increased blood viscosity and volume from the excess red blood cells raises blood pressure and can impair perfusion, causing headache and difficulty concentrating","Decreased blood flow from clumped red blood cells is the mechanism responsible for hypertension, headache, and difficulty concentrating in this patient within this unit","Hypermetabolism from the excess red blood cells is the mechanism responsible for the hypertension and headache described in this patient","These findings are unrelated to the red blood cell count and instead point to a coexisting, previously undiagnosed neurologic condition"],
+                    "answer": 0,
+                    "rationale": "Increased blood viscosity and volume from the excess red blood cells raises blood pressure and can impair perfusion, producing the headache and difficulty concentrating described, distinct from the decreased-flow or hypermetabolism mechanisms.",
+                    "topic": "Anemia &amp; Polycythemia",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient with polycythemia develops calf pain and swelling, and the provider is concerned about deep vein thrombosis. Which mechanism from the complications of polycythemia explains this increased clotting risk?",
+                    "options": ["Hypermetabolism from the excess red blood cells is the primary mechanism responsible for the increased clotting risk seen here","Excess red blood cells collide and clump, slowing blood flow and raising the risk of DVT, angina, cerebral insufficiency, and TIAs","Increased blood viscosity and volume alone, without any change in blood flow, accounts for the clotting risk described in this patient","This clotting risk was taught as occurring only in relative polycythemia and not in either primary or secondary absolute polycythemia"],
+                    "answer": 1,
+                    "rationale": "Excess red blood cells collide and clump, slowing blood flow and raising the risk of DVT, angina, cerebral insufficiency, and TIAs — this decreased-flow mechanism, not viscosity or hypermetabolism alone, explains clotting complications like this one.",
+                    "topic": "Anemia &amp; Polycythemia",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient with polycythemia vera develops sudden slurred speech and one-sided weakness. The care team immediately treats this as an emergency. Which complication does this presentation reflect, and why is it considered the biggest overall concern with absolute polycythemia?",
+                    "options": ["Aquagenic pruritus, since intense itching in polycythemia vera can progress rapidly to neurologic symptoms if left untreated within this unit","Hypermetabolism, since night sweats and weight loss in polycythemia can progress to stroke-like symptoms if untreated","Stroke from clotting, since too many red blood cells collide and clump in vessels, blocking blood flow to the brain and heart","Relative polycythemia, since dehydration-related hemoconcentration is the leading cause of stroke in these patients"],
+                    "answer": 2,
+                    "rationale": "Stroke and heart attack from clotting are considered the biggest overall concern with absolute polycythemia, since too many red blood cells collide and clump in vessels, blocking blood flow to the brain and heart — not itching or hypermetabolism.",
+                    "topic": "Anemia &amp; Polycythemia",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient receiving epoetin alfa for anemia of chronic kidney disease has hemoglobin rechecked and it now reads 10.8 g/dL, above the black-box warning threshold. The nurse recognizes that continuing the dose as scheduled without holding it could push this patient toward which condition?",
+                    "options": ["Relative polycythemia from hemoconcentration, since ESA therapy is known to reduce plasma volume directly","Secondary polycythemia from chronic hypoxia, since ESA therapy is known to worsen the patient's underlying lung disease at this point","Polycythemia vera, since ESA therapy is known to trigger the same bone marrow stem cell mutation seen in that condition","An iatrogenic polycythemic, hypercoagulable state from overcorrected hemoglobin, raising the risk of stroke and heart attack"],
+                    "answer": 3,
+                    "rationale": "Continuing ESA therapy despite hemoglobin above the black-box threshold risks an iatrogenic polycythemic, hypercoagulable state from overcorrection, raising the risk of stroke and heart attack — a different mechanism than relative polycythemia, secondary polycythemia, or polycythemia vera.",
+                    "topic": "Anemia &amp; Polycythemia",
                     "source": "quiz-bank"
                 }
             ],
@@ -4465,6 +5097,126 @@ window.QUIZ_BANK = {
                     "rationale": "Peak flow zones use percentage of PERSONAL BEST: Green ≥80%, Yellow 50-80%, Red <50%. This patient's morning peak flow of 340 is 81% (barely in green) but the TREND is concerning: morning dips to 81%, doesn't fully recover even by midday (94%). This pattern (morning symptoms, variation across the day) suggests inadequate control despite current ICS monotherapy. The patient is technically in green zone by numbers alone, but the VARIABILITY and TREND indicate worsening control. The appropriate step is NOT to escalate to oral steroids yet (red zone action), but to OPTIMIZE current therapy: add a long-acting beta agonist (LABA) to the ICS for better airway smooth muscle control, increase rescue bronchodilator access, and monitor closely. This prevents progression to true exacerbations. Distractors: 'continue current therapy' misses the emerging problem; doubling ICS alone without LABA won't address the smooth muscle component; jumping to oral steroids (red zone therapy) is premature when yellow zone interventions haven't been tried.",
                     "topic": "Obstructive Airway Disorders",
                     "source": "quiz-bank"
+                },
+                {
+                    "stem": "A nursing student asks why patients with severe, longstanding obstructive airway disease eventually develop both low oxygen and high carbon dioxide levels, when early in the disease only oxygen levels seemed to fall. Which explanation best fits the pathophysiology taught for obstructive disease?",
+                    "options": ["Air trapped behind narrowed airways creates a ventilation-perfusion mismatch that worsens over time, eventually impairing carbon dioxide elimination as well as oxygenation","The alveoli stay completely normal in obstructive disease, so any carbon dioxide retention must come from an unrelated separate cardiac condition rather than the lung disease itself","Carbon dioxide always rises before oxygen falls in obstructive disease, since it diffuses less easily across the alveolar membrane than oxygen does","Carbon dioxide retention only develops once a patient begins using supplemental oxygen at home, not from the underlying airway obstruction itself"],
+                    "answer": 0,
+                    "rationale": "Obstructive disease causes air trapping and V/Q mismatch that worsens progressively; early on the mismatch mainly impairs oxygenation, but as disease advances the same mismatch impairs CO2 elimination too, producing hypercapnia. The distractors invert or misstate the timing and mechanism taught for this basic pathophysiology.",
+                    "topic": "Obstructive Airway Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient newly diagnosed with asthma asks the nurse what actually makes asthma different from a one-time bout of bronchitis. Which teaching point reflects the definition of asthma covered in this unit?",
+                    "options": ["Asthma causes airway obstruction that is permanent and does not improve even after the trigger is removed or bronchodilators are given","Asthma is a chronic condition of variable, reversible airflow obstruction driven by airway inflammation and hyperresponsiveness to triggers","Asthma only affects children and typically resolves completely and permanently once the child reaches adulthood without any further treatment","Asthma is diagnosed exclusively by a single chest X-ray showing hyperinflated lungs, without any need for pulmonary function testing"],
+                    "answer": 1,
+                    "rationale": "Asthma's hallmark is variable, reversible airflow obstruction from inflammation and hyperresponsiveness, distinguishing it from fixed obstructive processes like emphysema. It is not limited to children, is not permanent, and diagnosis relies on pulmonary function testing, not X-ray alone.",
+                    "topic": "Obstructive Airway Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient with asthma tells the nurse that cold air, strong perfume, and exercise all seem to bring on an attack, but she doesn't understand why such different things trigger the same reaction. Which teaching response is most accurate?",
+                    "options": ["Each trigger works through a completely separate mechanism, so no single airway pathway explains why such different exposures all provoke the same symptoms in this patient","Only allergens like pollen or dust can trigger true asthma; cold air and exercise instead point to a separate diagnosis that mimics asthma","These varied triggers all act on already-sensitized, hyperresponsive airways, producing the same bronchoconstriction and inflammation regardless of what set it off","Triggers only matter for patients whose asthma is poorly controlled; a patient using daily controller medication would not react to any of them"],
+                    "answer": 2,
+                    "rationale": "Asthma triggers share a common final pathway: they provoke bronchoconstriction and inflammation in airways that are already hyperresponsive, which is why unrelated exposures like cold air, exercise, and irritants all produce the same reaction. The other options wrongly separate the mechanism, exclude non-allergic triggers, or claim controller therapy eliminates all reactivity.",
+                    "topic": "Obstructive Airway Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient with asthma has an acute reaction to a trigger, improves with treatment, and then develops a second wave of airway narrowing and inflammation roughly 4 to 8 hours later without any new exposure. The patient is confused about why symptoms returned. Which explanation matches the early- versus late-phase asthmatic response?",
+                    "options": ["The return of symptoms means the initial treatment failed completely and the patient should be treated as if no medication had been given at all","This pattern indicates a brand new, unrelated trigger exposure occurred, since one exposure cannot cause two separate rounds of bronchoconstriction in this way","Late symptom recurrence like this is unique to chronic bronchitis and does not occur as part of the asthma pathophysiology taught in this unit","This second wave is the late asthmatic response, a delayed inflammatory reaction that can recur for up to 48 hours after the single initial trigger exposure"],
+                    "answer": 3,
+                    "rationale": "A single trigger exposure can produce an early bronchospastic response followed by a late-phase inflammatory response that can recur for up to 48 hours, which is why patient teaching includes monitoring well beyond the initial treatment. It does not mean treatment failed, does not require a new exposure, and is an asthma-specific, not bronchitis-specific, pattern.",
+                    "topic": "Obstructive Airway Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient with asthma of many years' duration undergoes pulmonary function testing that shows a fixed component of airflow obstruction that no longer fully reverses with bronchodilator therapy. Which process explains this finding?",
+                    "options": ["Airway remodeling from repeated cycles of inflammation and injury has caused structural changes that persist even when bronchospasm is treated","The patient has developed emphysema instead of asthma, since asthma by definition can never produce any fixed, irreversible component at all","The bronchodilator dose being used is simply too low, and increasing the dose alone would be expected to fully reverse the fixed obstruction","Pulmonary function testing cannot distinguish reversible from fixed obstruction, so this finding cannot actually be interpreted this way at all"],
+                    "answer": 0,
+                    "rationale": "Long-standing, poorly controlled asthma can lead to airway remodeling, structural change from repeated inflammatory injury that produces a fixed obstructive component pulmonary function testing can detect. This does not mean the diagnosis has changed to emphysema or that a higher bronchodilator dose would reverse structural remodeling.",
+                    "topic": "Obstructive Airway Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A 55-year-old with a long smoking history and a persistent productive cough for the past year is being evaluated for chronic bronchitis versus another cause of chronic cough. Based on the diagnostic timing criterion taught for chronic bronchitis, which history would confirm the diagnosis?",
+                    "options": ["A productive cough present for any 2 weeks total during the past year, regardless of whether it recurred in any prior year","A productive cough present for at least 3 months of the year for at least 2 consecutive years, matching the standard diagnostic definition","A productive cough that occurred once for a full month last year but has not recurred at all since, with no cough present again at all this year","A productive cough that started suddenly 3 days ago and has already been improving steadily since it began"],
+                    "answer": 1,
+                    "rationale": "Chronic bronchitis is defined by a productive cough present for at least 3 months a year for at least 2 consecutive years. A brief 2-week cough, a single non-recurring month, or a recent 3-day cough do not meet this diagnostic timing threshold.",
+                    "topic": "Obstructive Airway Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient asks why vaping was described as making chronic bronchitis risk so much worse when combined with cigarette smoking. Which statement reflects the risk relationship taught in this unit?",
+                    "options": ["Vaping alone carries the same risk as smoking, so combining the two habits does not meaningfully change a person's overall risk of chronic bronchitis","Vaping was taught as fully protective against chronic bronchitis, so adding it to a smoking habit was described as reducing the person's overall risk","Combining smoking and vaping increases chronic bronchitis risk roughly sixfold, on top of the fact that smoking alone accounts for about 90% of cases","The combined risk from smoking plus vaping was described as identical to smoking alone, since vaping itself carries essentially no additional risk"],
+                    "answer": 2,
+                    "rationale": "Smoking accounts for roughly 90% of chronic bronchitis cases, and combining smoking with vaping was taught as raising risk about sixfold rather than leaving it unchanged or making vaping protective.",
+                    "topic": "Obstructive Airway Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient with chronic bronchitis asks whether quitting smoking now, after 20 years, will actually help. Which response most accurately reflects what was taught about chronic bronchitis and smoking cessation?",
+                    "options": ["Quitting will not change the disease course at all at this point, so continuing to smoke would make no additional difference going forward","Quitting will fully reverse the goblet cell hyperplasia and mucus hypersecretion already present, restoring the airways to their pre-disease state","Quitting only matters for preventing emphysema, since chronic bronchitis progression is driven entirely by genetic factors rather than smoke exposure","Quitting halts further progression of the disease, but the damage already present, including goblet cell hyperplasia, is not reversed by stopping"],
+                    "answer": 3,
+                    "rationale": "Smoking cessation in chronic bronchitis halts further progression but does not reverse existing structural changes such as goblet cell hyperplasia. It is not futile, does not fully restore the airways, and chronic bronchitis is smoke-driven, not primarily genetic.",
+                    "topic": "Obstructive Airway Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "An instructor emphasizes that airflow obstruction in emphysema is not caused by mucus plugging the airways the way it is in chronic bronchitis. If a student is asked what actually causes the obstruction in emphysema, which answer is correct?",
+                    "options": ["Obstruction results from chronic inflammation and loss of elastic recoil in the alveolar walls, which causes airways to collapse during exhalation","Obstruction results from thick mucus plugs identical to those seen in chronic bronchitis, just located deeper within the smaller bronchioles instead","Obstruction results from bronchospasm of the smooth muscle surrounding the airways, the same mechanism responsible for an acute asthma attack","Obstruction results from scarring and fibrosis of the lung parenchyma, the same restrictive process that occurs in interstitial lung disease"],
+                    "answer": 0,
+                    "rationale": "Emphysema's obstruction comes from chronic inflammation and loss of elastic recoil, which lets airways collapse on exhalation, not from mucus plugging, bronchospasm, or restrictive fibrosis, which are mechanisms taught for other conditions.",
+                    "topic": "Obstructive Airway Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient asks how emphysema actually destroys lung tissue at the cellular level. Which explanation matches the protease/antiprotease mechanism taught in this unit?",
+                    "options": ["Elevated antiprotease levels overwhelm normal protease activity, which paradoxically causes the same tissue destruction seen with protease excess","An imbalance favoring protease activity over antiprotease protection allows enzymes to break down elastin in the alveolar walls, destroying lung tissue","Emphysema results from a buildup of excess elastin in the alveolar walls, which stiffens the lungs and prevents normal alveolar expansion over time","Emphysema develops when white blood cells stop responding to any inflammatory signal at all, halting the immune response within the alveoli entirely over time"],
+                    "answer": 1,
+                    "rationale": "Emphysema develops when proteases outweigh antiprotease protection, breaking down elastin and destroying alveolar walls. Excess antiprotease, excess elastin buildup, and a halted immune response all misstate the actual imbalance taught for this mechanism.",
+                    "topic": "Obstructive Airway Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A 44-year-old nonsmoker is diagnosed with emphysema, and the provider orders testing for a specific genetic cause. Which statement about this genetic form of emphysema is accurate?",
+                    "options": ["Alpha-1 antitrypsin deficiency accounts for the large majority of emphysema cases and should be suspected in almost every patient who is diagnosed","Alpha-1 antitrypsin deficiency only causes chronic bronchitis, not emphysema, despite both conditions falling under the COPD umbrella term","Alpha-1 antitrypsin deficiency is the genetic form of emphysema, but it accounts for less than 2% of cases, so most emphysema is smoking-related","Alpha-1 antitrypsin deficiency cannot be tested for and is diagnosed only by excluding every other possible cause of the patient's emphysema"],
+                    "answer": 2,
+                    "rationale": "Alpha-1 antitrypsin deficiency is the recognized genetic form of emphysema but accounts for under 2% of cases, so the large majority remain smoking-related. It causes emphysema specifically, and it can be tested for directly rather than diagnosed only by exclusion.",
+                    "topic": "Obstructive Airway Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient with advanced emphysema presents with a thin build, barrel-shaped chest, and pursed-lip breathing, and is noted to maintain a near-normal oxygen saturation despite obvious dyspnea. Which classic description from the Blue Bloater versus Pink Puffer comparison does this patient match?",
+                    "options": ["Blue Bloater, the chronic-bronchitis-predominant presentation with productive cough, cyanosis, and significant peripheral edema noted on the exam today","Neither pattern applies to emphysema, since the Blue Bloater/Pink Puffer comparison was taught only for distinguishing asthma from bronchitis","This presentation is inconsistent with either classic pattern and instead suggests the patient actually has undiagnosed chronic bronchitis","Pink Puffer, the emphysema-predominant presentation with dyspnea, pursed-lip breathing, and relatively preserved oxygenation despite a thin build"],
+                    "answer": 3,
+                    "rationale": "The thin, barrel-chested patient with pursed-lip breathing and near-normal oxygenation is the classic 'Pink Puffer' emphysema presentation, contrasted with the cyanotic, edematous 'Blue Bloater' pattern of chronic bronchitis. The comparison applies specifically to emphysema versus bronchitis, not asthma.",
+                    "topic": "Obstructive Airway Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient is prescribed albuterol for quick relief and asks why the provider also prescribed salmeterol to take every day. Which teaching point distinguishes a short-acting beta agonist from a long-acting beta agonist as covered in this unit?",
+                    "options": ["A SABA acts within minutes for rescue, while a LABA lasts 12 to 24 hours for prevention and is paired with an inhaled corticosteroid","A SABA and a LABA work through entirely different receptor types, so a LABA cannot be used for airway obstruction from asthma or COPD at all","A LABA acts faster than a SABA and should replace the rescue inhaler entirely for any patient experiencing acute, sudden-onset dyspnea","A SABA is intended for scheduled daily prevention while a LABA is reserved strictly for acute rescue use during a sudden asthma attack"],
+                    "answer": 0,
+                    "rationale": "SABAs like albuterol act within minutes for rescue use, while LABAs like salmeterol have a longer 12-24 hour duration meant for daily prevention and are always paired with an inhaled corticosteroid. A LABA does not act faster than a SABA and is not used for acute rescue, and the roles are not reversed.",
+                    "topic": "Obstructive Airway Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient on ipratropium for COPD asks how it differs from the albuterol inhaler already being used. Which statement about ipratropium's mechanism is accurate?",
+                    "options": ["Ipratropium is a corticosteroid that reduces airway inflammation directly and carries the same oral candidiasis risk taught for inhaled steroids","Ipratropium is a leukotriene receptor antagonist taken by mouth rather than inhaled, similar to montelukast, rather than being an inhaled bronchodilator at all","Ipratropium is an anticholinergic that blocks bronchoconstriction by opposing acetylcholine, and is often combined with a beta agonist, as in Combivent or DuoNeb","Ipratropium works by stabilizing mast cells to prevent histamine release, the same prophylactic mechanism described in this unit for cromolyn"],
+                    "answer": 2,
+                    "rationale": "Ipratropium is an anticholinergic bronchodilator that opposes acetylcholine-driven bronchoconstriction and is commonly combined with a beta agonist, as in Combivent or DuoNeb. It is not a corticosteroid, not a leukotriene receptor antagonist, and does not work through mast cell stabilization.",
+                    "topic": "Obstructive Airway Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A patient on theophylline for COPD calls the clinic reporting nausea, restlessness, and a new tremor. The nurse recognizes these as possible early signs of toxicity. Which teaching points about theophylline support monitoring closely for this? Select all that apply.",
+                    "options": ["Theophylline has a narrow therapeutic index, so blood levels must be monitored closely to avoid toxicity","Theophylline is metabolized to a compound related to caffeine, which can contribute to symptoms like restlessness and tremor at higher levels","A patient who quits smoking while on theophylline may need a dose adjustment, since smoking status affects theophylline metabolism","Theophylline is considered a first-line rescue inhaler and should be used before albuterol for any episode of acute bronchospasm at home today","Theophylline toxicity has no recognized early warning signs, so nausea and tremor in this patient are unrelated to the medication"],
+                    "answers": [0,1,2],
+                    "rationale": "Theophylline has a narrow therapeutic index requiring level monitoring, is metabolized to a caffeine-related compound that can cause restlessness and tremor at toxic levels, and its metabolism changes with smoking status, so cessation can require a dose adjustment. It is a second-line oral agent, not a first-line rescue inhaler, and it does have recognized early toxicity signs.",
+                    "topic": "Obstructive Airway Disorders",
+                    "source": "quiz-bank"
                 }
             ],
             "eaq": []
@@ -4477,8 +5229,10 @@ window.QUIZ_BANK = {
     "Antimicrobials &amp; Antibiotics (ABX)",
     "Antivirals",
     "HIV &amp; Antiretroviral Therapy (ART)",
+    "Upper Respiratory Infections (URI)",
+    "Obstructive Airway Disorders",
+    "Pneumonia &amp; Tuberculosis",
     "Pathopharm Review",
-    "Anemia",
-    "Obstructive Airway Disorders"
+    "Anemia &amp; Polycythemia"
   ]
 };
