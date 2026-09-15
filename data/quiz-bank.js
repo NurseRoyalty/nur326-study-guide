@@ -5885,6 +5885,724 @@ window.QUIZ_BANK = {
                 ],
             "eaq": []
         }
+    },
+    {
+        "id": "week4-liver-function-jaundice",
+        "label": "Liver Anatomy, Function &amp; Jaundice",
+        "week": 4,
+        "sets": {
+            "mustKnow": [],
+            "extraPractice": [
+                    {
+                        "stem": "A nurse is reviewing lab trends expected in a client with worsening liver failure. Which findings are consistent with this? Select all that apply.",
+                        "options": [
+                            "Elevated serum ammonia",
+                            "Decreased albumin",
+                            "Shortened prothrombin time",
+                            "Elevated AST and ALT",
+                            "Increased total protein",
+                            "High alkaline phosphatase"
+                        ],
+                        "answers": [
+                            0,
+                            1,
+                            3,
+                            5
+                        ],
+                        "rationale": "Correct: ammonia, AST/ALT, and alkaline phosphatase all rise as liver cells are damaged and can't clear waste, while albumin falls as the liver's protein production drops. Incorrect: prothrombin time is prolonged, not shortened, since clotting factor production is impaired, and total protein decreases rather than increases for the same reason.",
+                        "topic": "Liver Anatomy, Function &amp; Jaundice",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client has jaundice with elevated conjugated bilirubin, a normal albumin, and a normal PT. Which type of jaundice does this indicate?",
+                        "options": [
+                            "Hemolytic jaundice",
+                            "Obstructive jaundice",
+                            "Hepatocellular jaundice",
+                            "This cannot be determined from these findings"
+                        ],
+                        "answer": 1,
+                        "rationale": "Correct: obstructive jaundice means bile can't flow out even though the liver itself is working fine, so albumin and PT (both markers of liver synthetic function) stay normal while conjugated bilirubin rises. Incorrect: hemolytic and hepatocellular jaundice both elevate unconjugated bilirubin instead, and this specific lab combination does point to one clear pattern.",
+                        "topic": "Liver Anatomy, Function &amp; Jaundice",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A different client has jaundice with elevated unconjugated bilirubin, a low albumin, and a prolonged PT. Which type of jaundice does this most likely indicate?",
+                        "options": [
+                            "Hepatocellular jaundice",
+                            "Obstructive jaundice",
+                            "Hemolytic jaundice",
+                            "This combination cannot occur in liver disease"
+                        ],
+                        "answer": 0,
+                        "rationale": "Correct: hepatocellular jaundice means the liver itself is failing, so it can't conjugate bilirubin and also can't produce albumin or clotting factors, dropping albumin and prolonging PT. Incorrect: obstructive jaundice would leave albumin and PT normal since liver function is otherwise intact, hemolytic jaundice also leaves those values normal, and this combination is a real, recognizable pattern.",
+                        "topic": "Liver Anatomy, Function &amp; Jaundice",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client in a hemolytic anemia crisis develops mild jaundice, while albumin and PT both remain normal. Which bilirubin pattern does the nurse expect?",
+                        "options": [
+                            "Elevated conjugated bilirubin",
+                            "Both bilirubin fractions decreased",
+                            "Elevated unconjugated bilirubin",
+                            "No bilirubin change is expected"
+                        ],
+                        "answer": 2,
+                        "rationale": "Correct: rapid red blood cell breakdown overproduces bilirubin faster than the liver can conjugate it, even though the liver itself works normally (confirmed by the normal albumin and PT). Incorrect: conjugated bilirubin rises with an obstruction, not overproduction; bilirubin doesn't decrease with hemolysis; and jaundice is an expected finding here.",
+                        "topic": "Liver Anatomy, Function &amp; Jaundice",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client's bilirubin is reported at 3.5 mg/dL, but the client says, \"I don't see any yellow on my skin, so that number must be wrong.\" What should the nurse do first?",
+                        "options": [
+                            "Assess the sclera closely for a yellow tinge",
+                            "Document the client's self-report and move on",
+                            "Reassure the client the lab must be an error",
+                            "Recheck the bilirubin level immediately"
+                        ],
+                        "answer": 0,
+                        "rationale": "Correct: 3.5 mg/dL is well above the threshold where jaundice becomes visible, and the sclera is the most reliable place to look, especially when skin discoloration is subtle. Incorrect: accepting the self-report without checking risks missing a real finding, assuming a lab error dismisses a plausible result without assessment, and repeating the lab isn't the priority before a bedside check.",
+                        "topic": "Liver Anatomy, Function &amp; Jaundice",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client's AST and ALT return in the thousands, and the client says, \"That number means I must be near death.\" What should the nurse explain?",
+                        "options": [
+                            "Enzyme levels above 1,000 always indicate liver failure",
+                            "The lab must be repeated because this value is impossible",
+                            "This number means a liver transplant is needed immediately",
+                            "The number alone doesn't show how severe it is"
+                        ],
+                        "answer": 3,
+                        "rationale": "Correct: a patient can have enzyme levels in the thousands and still be moderately, not critically, ill — the number itself isn't a reliable severity marker. Incorrect: high enzymes don't automatically mean failure, a value in the thousands is a real and possible result, and this single number doesn't determine the need for transplant.",
+                        "topic": "Liver Anatomy, Function &amp; Jaundice",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client with significant hepatocellular damage is prescribed a drug at its usual oral dose. What should the nurse recognize about this order?",
+                        "options": [
+                            "Oral dosing is always safer than IV dosing in liver disease",
+                            "Impaired first-pass metabolism may let too much drug in",
+                            "The oral route bypasses the liver entirely",
+                            "Liver damage has no effect on how oral drugs are processed"
+                        ],
+                        "answer": 1,
+                        "rationale": "Correct: oral drugs normally pass through the portal circulation and liver first, where first-pass metabolism reduces how much reaches circulation — usual oral doses account for that loss, so a damaged liver that can't perform normal first-pass metabolism may let more of the drug through than intended. Incorrect: this exact risk makes oral dosing less predictable, not safer; the oral route explicitly passes through the liver via the portal vein; and liver damage directly affects how oral drugs are processed.",
+                        "topic": "Liver Anatomy, Function &amp; Jaundice",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client with advanced liver disease develops an unexplained fever with no clear infection source found. Loss of which liver function should the nurse consider as a contributing factor?",
+                        "options": [
+                            "Clotting factor production",
+                            "Vitamin and mineral storage",
+                            "Blood filtration by Kupffer cells",
+                            "Drug metabolism and detoxification"
+                        ],
+                        "answer": 2,
+                        "rationale": "Correct: Kupffer cells normally filter bacteria and toxins out of the blood; when they fail, bacteria that would otherwise be cleared can cause systemic infection and fever. Incorrect: lost clotting factor production causes bleeding, not fever; lost storage function affects nutrition; and impaired drug metabolism changes drug levels, not infection risk.",
+                        "topic": "Liver Anatomy, Function &amp; Jaundice",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "Two clients experience the same volume of acute blood loss: one has healthy liver function, and the other has advanced liver disease. Which client is the nurse more concerned may compensate poorly, and why?",
+                        "options": [
+                            "The client with liver disease, because the liver's blood-reservoir function is impaired",
+                            "The client with liver disease, because the liver directly produces red blood cells",
+                            "The client with healthy liver function, because a healthy liver diverts blood away from circulation",
+                            "Both clients compensate identically regardless of liver function"
+                        ],
+                        "answer": 0,
+                        "rationale": "Correct: the liver normally acts as a blood volume reservoir, releasing stored blood to help compensate for acute loss — a diseased liver can't perform this compensatory role as well. Incorrect: the liver doesn't produce red blood cells, a healthy liver's reservoir function helps rather than hinders compensation, and liver function does affect how well a client compensates.",
+                        "topic": "Liver Anatomy, Function &amp; Jaundice",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client with obstructive jaundice asks why the urine turned dark and the stool turned pale at the same time, assuming these are two separate problems. What should the nurse explain?",
+                        "options": [
+                            "The dark urine and pale stool are unrelated coincidences",
+                            "Both changes come from the same blocked bile flow",
+                            "Only a kidney problem explains the dark urine",
+                            "Only a diet change explains the pale stool"
+                        ],
+                        "answer": 1,
+                        "rationale": "Correct: when bile flow is obstructed, conjugated bilirubin backs up into the blood and spills into the urine, while bile salts never reach the intestines to color the stool brown — one blockage, two connected findings. Incorrect: the two findings share a single cause rather than being unrelated, the kidneys aren't the source of the pigment problem, and diet doesn't explain a sudden color change from an obstruction.",
+                        "topic": "Liver Anatomy, Function &amp; Jaundice",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client with long-standing, severe liver damage asks whether the liver can fully heal itself over time, since hepatocytes are known to regenerate. What should the nurse explain?",
+                        "options": [
+                            "Regeneration is guaranteed no matter how much damage exists",
+                            "Hepatocytes cannot regenerate under any circumstances",
+                            "Regeneration needs enough healthy tissue left",
+                            "Only IV fluids can restore hepatocyte function"
+                        ],
+                        "answer": 2,
+                        "rationale": "Correct: hepatocytes can regenerate, but only if the remaining liver tissue is healthy enough to support that regrowth — extensive, ongoing damage can outpace the liver's ability to recover. Incorrect: regeneration isn't guaranteed regardless of damage extent, hepatocytes genuinely can regenerate under the right conditions, and IV fluids don't restore hepatocyte function.",
+                        "topic": "Liver Anatomy, Function &amp; Jaundice",
+                        "source": "quiz-bank"
+                    }
+            ],
+            "eaq": []
+        }
+    },
+    {
+        "id": "week4-viral-hepatitis",
+        "label": "Viral Hepatitis (A, B &amp; C)",
+        "week": 4,
+        "sets": {
+            "mustKnow": [],
+            "extraPractice": [
+                    {
+                        "stem": "A nurse reviews the histories of several clients. Which of these describe a viral hepatitis infection with a real risk of becoming chronic? Select all that apply.",
+                        "options": [
+                            "A client currently infected with hepatitis B",
+                            "A client currently infected with hepatitis C",
+                            "A client currently infected with hepatitis A",
+                            "A client vaccinated against hepatitis B who was never infected",
+                            "A client who recovered from hepatitis A five years ago"
+                        ],
+                        "answers": [
+                            0,
+                            1
+                        ],
+                        "rationale": "Correct: hepatitis B (about 10%) and hepatitis C (about 80%) both carry a real risk of progressing to chronic infection. Incorrect: hepatitis A never becomes chronic regardless of when it occurred, and a vaccinated client who was never infected has no active infection to become chronic in the first place.",
+                        "topic": "Viral Hepatitis (A, B &amp; C)",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client getting her hepatitis A vaccine before travel asks if it will also lower her hepatitis C risk, since she assumes both spread the same way she could be exposed to on the trip. What should the nurse explain?",
+                        "options": [
+                            "The hepatitis A vaccine also covers hepatitis C since both spread the same way",
+                            "Hepatitis C isn't a travel-related risk, so no extra precaution is needed",
+                            "Once vaccinated against hepatitis A, no further hepatitis precautions are needed",
+                            "No vaccine covers hepatitis C, and it spreads through blood, not food or water"
+                        ],
+                        "answer": 3,
+                        "rationale": "Correct: hepatitis A spreads fecal-orally through contaminated food or water, while hepatitis C spreads through blood and body fluids — different routes that the hepatitis A vaccine, which has no effect on hepatitis C, does not address. Incorrect: the vaccine does not cross-protect since the two viruses don't share a transmission route, hepatitis C risk isn't limited to non-travel settings, and hepatitis A vaccination doesn't cover blood-borne exposure risks.",
+                        "topic": "Viral Hepatitis (A, B &amp; C)",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client reports two weeks of fatigue, low-grade fever, and nausea, then is later diagnosed with hepatitis B. Looking back, during which phase was this client most likely to have transmitted the virus to others?",
+                        "options": [
+                            "The icteric phase, once jaundice appeared",
+                            "The prodromal phase, before jaundice appeared",
+                            "The recovery phase, after symptoms resolved",
+                            "Transmissibility is equal across all three phases"
+                        ],
+                        "answer": 1,
+                        "rationale": "Correct: the virus is highly transmissible during the prodromal phase, which happens before jaundice and looks like a routine illness — meaning transmission often happens before anyone suspects hepatitis. Incorrect: the icteric and recovery phases occur later in the illness, and transmissibility is explicitly highest during the earliest, nonspecific phase rather than being equal throughout.",
+                        "topic": "Viral Hepatitis (A, B &amp; C)",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client asks whether the hepatitis virus itself destroys liver cells. What should the nurse explain?",
+                        "options": [
+                            "The immune response, not the virus itself, causes most cell damage",
+                            "The virus directly destroys hepatocytes without immune involvement",
+                            "Liver cell damage only occurs after the virus has fully cleared",
+                            "Hepatocyte damage is unrelated to inflammation"
+                        ],
+                        "answer": 0,
+                        "rationale": "Correct: the immune response to the virus triggers cell lysis, edema, and hypoxia, which is what actually kills hepatocytes — the virus's presence sets this off, but the damage itself is immune-mediated. Incorrect: the virus doesn't act alone to destroy cells, damage occurs during active infection rather than only after clearance, and inflammation is central to how the damage happens.",
+                        "topic": "Viral Hepatitis (A, B &amp; C)",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client newly diagnosed with hepatitis C asks how her treatment compares to a friend's long-term hepatitis B treatment. What should the nurse explain?",
+                        "options": [
+                            "Both conditions have equally poor treatment outcomes",
+                            "Hepatitis B treatment cures the infection completely",
+                            "Hepatitis C has no available treatment at all",
+                            "Hepatitis C can be essentially eliminated"
+                        ],
+                        "answer": 3,
+                        "rationale": "Correct: direct-acting antivirals can essentially eliminate hepatitis C from the body in most patients, while chronic hepatitis B has no great treatment — therapy is prolonged, expensive, and carries a high relapse rate. Incorrect: the two outcomes are not equally poor, hepatitis B treatment does not achieve a complete cure, and hepatitis C does have effective treatment available.",
+                        "topic": "Viral Hepatitis (A, B &amp; C)",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client with chronic hepatitis reports taking up to 3 grams of acetaminophen daily for headaches, believing this is within the safe limit. What should the nurse address first?",
+                        "options": [
+                            "The dose exceeds the reduced 2 gram daily limit with hepatitis",
+                            "3 grams daily is safe since it's under the standard 4 gram limit",
+                            "Acetaminophen must be avoided completely regardless of hepatitis severity",
+                            "The client should switch to a higher dose for better pain control"
+                        ],
+                        "answer": 0,
+                        "rationale": "Correct: with hepatitis, the recommended ceiling drops to under 2 grams/day rather than the usual 4 grams/day, since the liver's metabolism is already impaired — 3 grams exceeds this reduced limit even though it's under the general population limit. Incorrect: 3 grams is not safe here despite being under the standard limit, complete avoidance is reserved for serious advanced liver disease rather than all hepatitis, and increasing the dose would be dangerous.",
+                        "topic": "Viral Hepatitis (A, B &amp; C)",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client with a severe initial case of viral hepatitis develops rapidly worsening liver function within days. Which complication should the nurse suspect, as distinct from simply progressing to chronic hepatitis?",
+                        "options": [
+                            "Chronic hepatitis, which develops just as quickly",
+                            "Fulminant hepatitis progressing to acute liver failure",
+                            "Hepatitis A infection, which always progresses this way",
+                            "An expected, uncomplicated recovery phase"
+                        ],
+                        "answer": 1,
+                        "rationale": "Correct: fulminant hepatitis is a severe initial case that rapidly becomes acute liver failure, distinct from chronic hepatitis, which develops as a prolonged, low-grade persistence rather than a rapid decline. Incorrect: chronic hepatitis develops gradually, not rapidly; hepatitis A does not typically progress this way and does not become chronic; and rapid deterioration is not part of an uncomplicated recovery.",
+                        "topic": "Viral Hepatitis (A, B &amp; C)",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "Two clients are being evaluated: one developed sudden, obvious symptoms within days of a suspected exposure, and the other has had vague, worsening symptoms building slowly over months before diagnosis. Based on onset pattern alone, which hepatitis strain is more consistent with the client who had the sudden presentation?",
+                        "options": [
+                            "Hepatitis A",
+                            "Hepatitis B",
+                            "Hepatitis C",
+                            "Onset pattern doesn't differ between strains"
+                        ],
+                        "answer": 0,
+                        "rationale": "Correct: hepatitis A has an acute onset, becoming sick quickly, while hepatitis B and C are both insidious, with a long incubation and gradually building symptoms. Incorrect: both B and C follow the slower, insidious pattern described for the other client, and onset pattern is a real, stated difference between the strains.",
+                        "topic": "Viral Hepatitis (A, B &amp; C)",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A nurse explains to a nursing student why hepatitis C was historically considered such a significant public health problem before effective treatment existed. What is the best explanation?",
+                        "options": [
+                            "Hepatitis C is fatal in nearly all untreated cases",
+                            "Hepatitis C has no symptoms at any stage",
+                            "About 80% become chronic, vs 10% for B",
+                            "Hepatitis C only affects healthcare workers"
+                        ],
+                        "answer": 2,
+                        "rationale": "Correct: hepatitis C's roughly 80% chronic-infection rate, far higher than hepatitis B's roughly 10%, is what made it such a major problem before direct-acting antivirals existed. Incorrect: overall mortality from acute viral hepatitis is under 1%, hepatitis C can be symptomatic, and it is not limited to any one occupational group.",
+                        "topic": "Viral Hepatitis (A, B &amp; C)",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client who feels completely well asks why hepatitis C screening is still recommended if there are no symptoms. What should the nurse explain?",
+                        "options": [
+                            "Screening catches asymptomatic cases",
+                            "Screening is unnecessary without symptoms present",
+                            "Asymptomatic hepatitis C cannot spread to others",
+                            "A normal-feeling client cannot have chronic hepatitis"
+                        ],
+                        "answer": 0,
+                        "rationale": "Correct: many cases of viral hepatitis are asymptomatic, so relying on symptoms alone would miss real infections — this is exactly why screening matters. Incorrect: the absence of symptoms is the reason screening is needed, not a reason to skip it; an asymptomatic infection can still be transmitted; and feeling well does not rule out chronic infection.",
+                        "topic": "Viral Hepatitis (A, B &amp; C)",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client asks whether hepatitis A infection carries the same long-term cancer risk as hepatitis B or C. What should the nurse explain?",
+                        "options": [
+                            "All three strains carry an identical liver cancer risk",
+                            "B and C raise liver cancer risk; A is not known to do this",
+                            "Hepatitis A carries the highest liver cancer risk of the three",
+                            "Liver cancer risk is unrelated to any hepatitis strain"
+                        ],
+                        "answer": 1,
+                        "rationale": "Correct: hepatitis B and C are both linked to hepatocellular carcinoma, while hepatitis A is not known to carry this long-term risk. Incorrect: the three strains do not carry identical risk, hepatitis A is not the strain associated with cancer risk, and liver cancer risk is a real, stated complication of chronic B and C infection.",
+                        "topic": "Viral Hepatitis (A, B &amp; C)",
+                        "source": "quiz-bank"
+                    }
+            ],
+            "eaq": []
+        }
+    },
+    {
+        "id": "week4-cirrhosis-liver-failure",
+        "label": "Cirrhosis &amp; Liver Failure",
+        "week": 4,
+        "sets": {
+            "mustKnow": [],
+            "extraPractice": [
+                    {
+                        "stem": "A nurse is caring for a client with hepatic encephalopathy who is started on lactulose. Which statements about this drug are accurate? Select all that apply.",
+                        "options": [
+                            "It is dosed by ammonia level alone, regardless of symptoms",
+                            "It converts ammonia into a form trapped in the intestine",
+                            "Hypokalemia should be monitored during treatment",
+                            "It is titrated to produce 2 to 3 soft stools per day",
+                            "It directly reverses liver fibrosis",
+                            "It is only given intravenously"
+                        ],
+                        "answers": [
+                            1,
+                            2,
+                            3
+                        ],
+                        "rationale": "Correct: lactulose converts ammonia into ammonium, which is trapped in the gut and excreted; it's titrated to 2-3 soft stools a day; and potassium needs monitoring since hypokalemia increases renal ammonia production. Incorrect: lactulose is given only for actual signs and symptoms of encephalopathy, not by an ammonia number alone; no drug reverses fibrosis, including lactulose; and it can be given orally, by NG tube, or rectally, not only IV.",
+                        "topic": "Cirrhosis &amp; Liver Failure",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client with early alcoholic fatty liver disease asks if the damage can be undone if she stops drinking now. Another client, already diagnosed with alcoholic steatohepatitis, asks the same question. What should the nurse explain to each?",
+                        "options": [
+                            "The damage in the first client can reverse",
+                            "Both stages are fully reversible with abstinence",
+                            "Neither client's damage can reverse at this point",
+                            "Only the second client's damage is reversible"
+                        ],
+                        "answer": 0,
+                        "rationale": "Correct: alcoholic fatty liver (stage 1) is mild and reversible with abstinence, but alcoholic steatohepatitis (stage 2) is already irreversible. Incorrect: only the earlier stage is reversible, not both; the first client's damage genuinely can reverse; and it's the first client, not the second, whose stage is still reversible.",
+                        "topic": "Cirrhosis &amp; Liver Failure",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client with cirrhosis has a normal ammonia level but is increasingly confused and difficult to arouse. What should the nurse recognize?",
+                        "options": [
+                            "Hepatic encephalopathy is unlikely since ammonia is normal",
+                            "Encephalopathy can still be diagnosed from this presentation",
+                            "The confusion must have an unrelated cause",
+                            "Ammonia levels always correlate exactly with symptom severity"
+                        ],
+                        "answer": 1,
+                        "rationale": "Correct: level of consciousness, not the ammonia value, is the primary driver of hepatic encephalopathy diagnosis — it is never diagnosed on an ammonia level alone. Incorrect: a normal ammonia level does not rule out encephalopathy, the presentation is consistent with a known cirrhosis complication rather than something unrelated, and ammonia does not always track precisely with symptom severity.",
+                        "topic": "Cirrhosis &amp; Liver Failure",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "Two clients present with jaundice, confusion, and coagulopathy that look identical on exam. One developed symptoms gradually over several years; the other developed the same symptoms within days after an acetaminophen overdose. How should the nurse distinguish these presentations?",
+                        "options": [
+                            "By the timeline and cause, not the clinical picture",
+                            "By the ammonia level, which differs sharply between the two",
+                            "The two conditions cannot be told apart by any means",
+                            "By whether jaundice is present, since only one condition causes it"
+                        ],
+                        "answer": 0,
+                        "rationale": "Correct: acute liver failure and late-stage cirrhosis can look identical clinically — what actually distinguishes them is the timeline (sudden vs. chronic) and cause (acetaminophen overdose vs. years of fibrosis), not the presentation. Incorrect: ammonia level isn't described as a distinguishing feature here, the two conditions can be told apart by history, and jaundice can appear in both.",
+                        "topic": "Cirrhosis &amp; Liver Failure",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client with cirrhosis and known esophageal varices develops sudden vomiting of bright red blood. The client also has a baseline bleeding tendency from low clotting factors. How should the nurse treat this new finding?",
+                        "options": [
+                            "The same as the baseline tendency, since both stem from the identical mechanism",
+                            "As unrelated to any liver complication the client already has",
+                            "As a lower priority, since bleeding is already an expected finding for this client",
+                            "As a distinct, high-mortality-risk emergency"
+                        ],
+                        "answer": 3,
+                        "rationale": "Correct: general cirrhotic bleeding tendency (from impaired clotting factor production) and a burst esophageal varix are two distinct complications with very different urgency — active hematemesis from known varices is a true, high-mortality emergency requiring immediate recognition and action, not something to treat as routine oozing. Incorrect: the two bleeding sources share portal hypertension as a contributing factor but are not the identical mechanism, this presentation is directly tied to the known varices, and it should not be deprioritized just because some bleeding risk was already expected.",
+                        "topic": "Cirrhosis &amp; Liver Failure",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client with cirrhosis has both leg swelling and a distended abdomen and assumes these are two separate, unrelated problems. What should the nurse explain?",
+                        "options": [
+                            "The leg swelling and abdominal distension have entirely different, unrelated causes",
+                            "Both stem from the same drop in oncotic pressure",
+                            "Only kidney failure explains the abdominal distension",
+                            "Only excess dietary sodium explains the leg swelling"
+                        ],
+                        "answer": 1,
+                        "rationale": "Correct: reduced albumin lowers the oncotic pressure that normally holds fluid in the vessels, causing both peripheral edema and ascites, with portal hypertension further worsening the ascites. Incorrect: the two findings share this common mechanism rather than being unrelated, kidney failure isn't the described cause here, and dietary sodium alone doesn't account for the pattern.",
+                        "topic": "Cirrhosis &amp; Liver Failure",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client asks if most cirrhosis cases overall are caused by alcohol, since it's the single most common individual cause. What should the nurse clarify?",
+                        "options": [
+                            "Alcohol is the top cause but only a quarter of all cases",
+                            "Alcohol causes nearly all cirrhosis cases",
+                            "Alcohol is a rare, uncommon cause of cirrhosis",
+                            "Alcohol and hepatitis B and C together account for all cirrhosis cases"
+                        ],
+                        "answer": 0,
+                        "rationale": "Correct: alcohol is the single most common individual cause of cirrhosis but still accounts for only about 25% of all cases combined, since hepatitis, NAFLD/NASH, autoimmune disease, hereditary conditions, and idiopathic cases also contribute. Incorrect: alcohol does not cause nearly all cases, it is not rare, and alcohol plus hepatitis B/C don't account for every cause listed.",
+                        "topic": "Cirrhosis &amp; Liver Failure",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A male client with alcoholic cirrhosis reports new-onset impotence. What should the nurse recognize about this finding?",
+                        "options": [
+                            "It is unrelated to his liver disease",
+                            "It only occurs in cirrhosis caused by viral hepatitis",
+                            "An endocrine complication of cirrhosis",
+                            "It indicates the cirrhosis has fully reversed"
+                        ],
+                        "answer": 2,
+                        "rationale": "Correct: cirrhosis can cause endocrine changes including hypogonadism, impotence, and infertility in men, most commonly seen with the alcoholic form. Incorrect: this finding is directly related to his liver disease, it is not limited to viral-hepatitis-caused cirrhosis, and cirrhosis does not reverse.",
+                        "topic": "Cirrhosis &amp; Liver Failure",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client with cirrhosis has both a prolonged PT on lab work and a history of esophageal varices. If this client starts bleeding, which explanation captures the full picture?",
+                        "options": [
+                            "From both low clotting factors and fragile varices",
+                            "Only the prolonged PT explains any bleeding risk",
+                            "Only the varices explain any bleeding risk",
+                            "Cirrhosis does not actually increase bleeding risk"
+                        ],
+                        "answer": 0,
+                        "rationale": "Correct: cirrhosis raises bleeding risk through two separate mechanisms at once — impaired clotting factor production and portal-hypertension-driven varices that can burst. Incorrect: focusing on only the clotting factors or only the varices misses half of the actual risk, and cirrhosis is well established to increase bleeding risk.",
+                        "topic": "Cirrhosis &amp; Liver Failure",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client with alcoholic liver disease is malnourished despite eating a reasonably balanced diet. What should the nurse recognize as a contributing factor?",
+                        "options": [
+                            "Malnutrition in alcoholic liver disease is always due to poor dietary intake alone",
+                            "Acetaldehyde impairs export proteins and alters vitamin and mineral metabolism",
+                            "The liver's role in nutrition is unrelated to alcohol metabolism",
+                            "Malnutrition only occurs after a liver transplant"
+                        ],
+                        "answer": 1,
+                        "rationale": "Correct: acetaldehyde, a byproduct of alcohol metabolism, inhibits export proteins from the liver and alters vitamin/mineral metabolism, contributing to malnutrition independent of diet quality. Incorrect: diet quality alone doesn't explain this malnutrition pattern, the liver's nutritional role is directly tied to alcohol metabolism here, and this occurs well before any transplant.",
+                        "topic": "Cirrhosis &amp; Liver Failure",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client on lactulose for hepatic encephalopathy continues to show worsening confusion despite consistent, adequate stooling. What should the nurse anticipate next?",
+                        "options": [
+                            "Increasing the lactulose dose indefinitely with no other changes",
+                            "Discontinuing all hepatic encephalopathy treatment",
+                            "Adding rifaximin as a second-line agent",
+                            "Switching to acetylcysteine"
+                        ],
+                        "answer": 2,
+                        "rationale": "Correct: rifaximin is the second-line agent used specifically when lactulose isn't adequately controlling encephalopathy. Incorrect: simply increasing lactulose indefinitely ignores that a second-line option exists, stopping treatment entirely isn't indicated by inadequate response, and acetylcysteine treats acetaminophen toxicity, not hepatic encephalopathy.",
+                        "topic": "Cirrhosis &amp; Liver Failure",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client with early portal hypertension feels completely well and has no complaints. What should the nurse understand about this presentation?",
+                        "options": [
+                            "Often silent until a complication occurs",
+                            "Feeling well means portal hypertension has resolved",
+                            "Portal hypertension always causes immediate, obvious symptoms",
+                            "No monitoring is needed if the client feels well"
+                        ],
+                        "answer": 0,
+                        "rationale": "Correct: portal hypertension itself is often asymptomatic until a complication such as variceal hemorrhage, ascites, or hepatorenal syndrome develops. Incorrect: feeling well doesn't mean it has resolved, it does not always cause immediate obvious symptoms, and monitoring remains important precisely because it can be silent.",
+                        "topic": "Cirrhosis &amp; Liver Failure",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client asks why the liver can't simply regenerate and heal itself in cirrhosis, despite hepatocytes being known to regrow. What should the nurse explain?",
+                        "options": [
+                            "Cirrhosis has no effect on the liver's regenerative ability",
+                            "Ongoing hypoxia and inflammation disrupt normal regeneration",
+                            "Hepatocytes regenerate perfectly regardless of ongoing inflammation",
+                            "Regeneration only fails after a liver transplant"
+                        ],
+                        "answer": 1,
+                        "rationale": "Correct: in cirrhosis, ongoing hypoxia and inflammation disrupt normal hepatocyte regeneration, so damaged cells regrow in a disorganized way that adds more scar tissue rather than healing. Incorrect: cirrhosis directly interferes with regeneration, inflammation does prevent normal regrowth, and this disruption happens as part of cirrhosis itself, not only after a transplant.",
+                        "topic": "Cirrhosis &amp; Liver Failure",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client asks how doctors would tell the difference between simple hepatitis and cirrhosis if both can cause similar symptoms. What is the key distinction the nurse should explain?",
+                        "options": [
+                            "Cirrhosis is simply a mild form of hepatitis",
+                            "Both conditions are equally reversible with treatment",
+                            "Hepatitis always progresses to cirrhosis within weeks",
+                            "Hepatitis is reversible; cirrhosis is not"
+                        ],
+                        "answer": 3,
+                        "rationale": "Correct: hepatitis is inflammation, which is reversible, while cirrhosis is fibrotic scarring, which is permanent once it develops. Incorrect: cirrhosis is not a mild version of hepatitis but a distinct, irreversible stage; the two are not equally reversible; and progression from hepatitis to cirrhosis, when it happens, takes years, not weeks.",
+                        "topic": "Cirrhosis &amp; Liver Failure",
+                        "source": "quiz-bank"
+                    }
+            ],
+            "eaq": []
+        }
+    },
+    {
+        "id": "week4-gallbladder-pancreatitis",
+        "label": "Gallbladder &amp; Pancreatic Disorders",
+        "week": 4,
+        "sets": {
+            "mustKnow": [],
+            "extraPractice": [
+                    {
+                        "stem": "A nurse is reviewing the effects of pancreatic enzymes trapped within an inflamed pancreas. Which effects are correctly matched to their enzyme? Select all that apply.",
+                        "options": [
+                            "Lipase causes fat necrosis",
+                            "Trypsin causes edema and hemorrhage",
+                            "Kallikrein decreases vascular permeability",
+                            "Elastase causes hemorrhage",
+                            "Phospholipase A promotes protein synthesis",
+                            "Kallikrein causes smooth-muscle pain"
+                        ],
+                        "answers": [
+                            0,
+                            1,
+                            3,
+                            5
+                        ],
+                        "rationale": "Correct: lipase and phospholipase A both cause fat necrosis, trypsin causes edema/necrosis/hemorrhage, elastase causes hemorrhage, and kallikrein triggers smooth-muscle contraction and pain. Incorrect: kallikrein actually increases vascular permeability rather than decreasing it, and phospholipase A causes fat necrosis, not protein synthesis.",
+                        "topic": "Gallbladder &amp; Pancreatic Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client with known gallstones develops sudden epigastric pain radiating to the back, along with nausea and an elevated amylase. What should the nurse recognize as the likely connection?",
+                        "options": [
+                            "Gallstones and pancreatitis are unrelated conditions occurring by coincidence",
+                            "The gallstone may block the duct the pancreas shares",
+                            "The gallbladder and pancreas share no anatomical connection",
+                            "This presentation only occurs in clients without any gallbladder disease"
+                        ],
+                        "answer": 1,
+                        "rationale": "Correct: a gallstone blocking the common bile duct can also block pancreatic enzyme outflow, since both structures share that duct — this is the most common cause of acute pancreatitis. Incorrect: the two conditions are directly connected rather than coincidental, they do share an anatomical pathway, and this presentation classically occurs in clients who do have gallstones.",
+                        "topic": "Gallbladder &amp; Pancreatic Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client reports severe right-upper-quadrant pain that began about an hour after a fast-food meal, along with a history of similar past episodes. What should the nurse recognize as the likely trigger mechanism?",
+                        "options": [
+                            "A stone lodging during a fatty-meal contraction",
+                            "A new infection unrelated to the meal",
+                            "A random coincidence unrelated to gallbladder function",
+                            "An allergic reaction to the meal itself"
+                        ],
+                        "answer": 0,
+                        "rationale": "Correct: biliary colic is classically triggered by fatty food intake, occurring roughly 30 minutes to a couple of hours later, when a stone lodges in the duct during a gallbladder contraction. Incorrect: this pattern points to a mechanical trigger rather than infection, it is a recognized, repeatable pattern rather than coincidence, and it is not described as an allergic process.",
+                        "topic": "Gallbladder &amp; Pancreatic Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "Two clients have gallstone-related pain: one has pain alone, and the other has pain plus fever, rebound tenderness, and guarding. Which client is the nurse more concerned about, and why?",
+                        "options": [
+                            "The first client, because pain alone is always more dangerous",
+                            "Both clients carry identical risk",
+                            "The second client's findings are unrelated to the gallbladder",
+                            "The second, since these signs suggest cholecystitis risk"
+                        ],
+                        "answer": 3,
+                        "rationale": "Correct: fever, rebound tenderness, and guarding point to cholecystitis, which carries a real risk of ischemia, necrosis, and perforation from pressure on the inflamed gallbladder wall, making it more dangerous than uncomplicated cholelithiasis. Incorrect: pain alone is not the more dangerous presentation here, the two clients do not carry identical risk, and these signs are directly tied to gallbladder inflammation.",
+                        "topic": "Gallbladder &amp; Pancreatic Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client with obstructed bile flow from gallstones develops a prolonged PT, though the liver itself is functioning normally. What should the nurse recognize as the cause?",
+                        "options": [
+                            "Vitamin K can't be absorbed without bile reaching the gut",
+                            "The liver has stopped producing clotting factors entirely",
+                            "This finding cannot occur with a normally functioning liver",
+                            "The pancreas is responsible for this finding"
+                        ],
+                        "answer": 0,
+                        "rationale": "Correct: without bile reaching the duodenum, vitamin K (needed to produce clotting factors) can't be absorbed, prolonging PT even though the liver itself is working normally — a different mechanism than a failing liver simply not making clotting factors. Incorrect: the liver's own production isn't the problem here, this specific combination is a recognized obstructive finding, and the pancreas isn't the source of this particular effect.",
+                        "topic": "Gallbladder &amp; Pancreatic Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client with obstructed bile flow develops fatty, foul-smelling stools but normal digestion of other nutrients. What should the nurse explain?",
+                        "options": [
+                            "All nutrient digestion requires bile, so this affects every nutrient equally",
+                            "This finding is unrelated to bile flow",
+                            "Bile salts are needed for fat digestion and can't reach the gut",
+                            "Fat digestion doesn't require bile under normal circumstances"
+                        ],
+                        "answer": 2,
+                        "rationale": "Correct: bile salts are specifically needed to break down and digest fat; when bile can't reach the duodenum, fat digestion is impaired while other nutrients are less affected, producing steatorrhea. Incorrect: bile isn't equally required for every nutrient, this finding is a direct result of impaired bile flow, and fat digestion does normally depend on bile.",
+                        "topic": "Gallbladder &amp; Pancreatic Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A nurse is monitoring glucose in a client with acute pancreatitis and expects the value could go in either direction. What should the nurse understand about this?",
+                        "options": [
+                            "Glucose always rises in acute pancreatitis",
+                            "Glucose can rise or fall either way",
+                            "Glucose always falls in acute pancreatitis",
+                            "Glucose is unaffected by pancreatic damage"
+                        ],
+                        "answer": 1,
+                        "rationale": "Correct: glucose can be elevated or low in acute pancreatitis depending on which pancreatic cells are affected, so it needs close monitoring rather than an assumed direction. Incorrect: glucose does not always rise, it does not always fall, and pancreatic damage does affect glucose regulation.",
+                        "topic": "Gallbladder &amp; Pancreatic Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client recovering from severe pancreatitis develops a palpable epigastric mass with high fever and marked leukocytosis. Which complication does this presentation most closely match?",
+                        "options": [
+                            "A pancreatic pseudocyst, since both form outside the pancreas",
+                            "A normal part of pancreatitis recovery",
+                            "An unrelated abdominal process",
+                            "A pancreatic abscess, given the infection signs"
+                        ],
+                        "answer": 3,
+                        "rationale": "Correct: high fever and marked leukocytosis point to infection, matching a pancreatic abscess (a large infected cavity inside the pancreas from extensive necrosis) rather than a pseudocyst, which forms outside the pancreas and doesn't inherently carry these infection signs. Incorrect: a pseudocyst forms outside, not inside, the pancreas and doesn't typically present this way; this is not an expected part of recovery; and the findings are directly tied to the pancreatitis history.",
+                        "topic": "Gallbladder &amp; Pancreatic Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client with severe acute pancreatitis develops tetany. What should the nurse recognize as the underlying cause?",
+                        "options": [
+                            "The pancreas is releasing excess calcium directly into circulation",
+                            "Fatty acids from necrosis are binding up serum calcium",
+                            "Tetany in pancreatitis is unrelated to any electrolyte change",
+                            "This is caused by dehydration alone"
+                        ],
+                        "answer": 1,
+                        "rationale": "Correct: lipase-generated free fatty acids bind calcium and deposit it in the retroperitoneum, lowering serum calcium enough to cause tetany. Incorrect: the pancreas is not releasing excess calcium, tetany here is directly tied to a calcium disturbance, and dehydration alone doesn't explain this specific mechanism.",
+                        "topic": "Gallbladder &amp; Pancreatic Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client asks why her pancreatitis keeps coming back even though a prior gallstone episode fully resolved after treatment. What should the nurse explain?",
+                        "options": [
+                            "This suggests chronic, not resolving, pancreatitis",
+                            "All pancreatitis fully resolves once any cause is treated",
+                            "Recurring pancreatitis is always caused by a missed gallstone",
+                            "This pattern is not possible with pancreatitis"
+                        ],
+                        "answer": 0,
+                        "rationale": "Correct: unlike acute pancreatitis, which can resolve once a gallstone is removed or an offending cause is stopped, chronic pancreatitis is a progressive condition marked by recurring attacks that doesn't fully resolve. Incorrect: not all pancreatitis resolves the same way, a missed gallstone isn't the only possible explanation for recurrence, and this recurring pattern is a real, recognized presentation.",
+                        "topic": "Gallbladder &amp; Pancreatic Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client with chronic pancreatitis has both unexplained weight loss and new-onset high blood glucose. What should the nurse recognize about these two findings?",
+                        "options": [
+                            "Only one of these findings can be explained by chronic pancreatitis",
+                            "Both findings share a single identical mechanism",
+                            "Neither finding is associated with chronic pancreatitis",
+                            "Two losses: enzymes for weight, islet cells for glucose"
+                        ],
+                        "answer": 3,
+                        "rationale": "Correct: chronic pancreatitis damages both the acinar cells that produce digestive enzymes (causing fat malabsorption and weight loss) and the islet cells that regulate glucose (causing diabetes) — two distinct mechanisms from the same disease. Incorrect: both findings, not just one, are explained by chronic pancreatitis; they arise from two different cell types rather than one shared mechanism; and both are recognized manifestations of the condition.",
+                        "topic": "Gallbladder &amp; Pancreatic Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client with chronic pancreatitis is prescribed pancrelipase but only takes it with breakfast, skipping other meals and snacks. What should the nurse emphasize?",
+                        "options": [
+                            "Taking it once daily provides full-day enzyme coverage",
+                            "Pancrelipase should only be taken during a pancreatitis flare",
+                            "Skipping doses carries no clinical consequence",
+                            "It must be taken with every meal and snack to be effective"
+                        ],
+                        "answer": 3,
+                        "rationale": "Correct: pancrelipase replaces missing digestive enzymes and must be taken with every meal and snack, not just once a day, to be effective. Incorrect: a single daily dose does not cover every meal, it is meant for ongoing use rather than only during flares, and skipping doses does have real consequences for digestion.",
+                        "topic": "Gallbladder &amp; Pancreatic Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A nursing student assumes the same first-line pain medication is used for both cholecystitis and acute pancreatitis, since they're taught on the same page. What should the nurse clarify?",
+                        "options": [
+                            "Opioids are first-line for both conditions",
+                            "Ketorolac is first-line for both conditions",
+                            "Ketorolac for gallbladder, opioids for pancreatitis",
+                            "Pain medication choice doesn't differ between the two"
+                        ],
+                        "answer": 2,
+                        "rationale": "Correct: IV ketorolac, an NSAID, is first-line for cholelithiasis and cholecystitis pain, while opioids such as hydromorphone or morphine are first-line for pancreatitis pain — genuinely different choices despite the conditions' shared root cause. Incorrect: opioids are not the first choice for gallbladder pain, ketorolac is not the first choice for pancreatitis, and the medication choice does differ between the two conditions.",
+                        "topic": "Gallbladder &amp; Pancreatic Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client asks why her provider mentioned both a family history of gallstones and her use of oral contraceptives as risk factors, assuming only one could really matter. What should the nurse explain?",
+                        "options": [
+                            "Both are independent risk factors for gallstones",
+                            "Only genetic factors matter; medication use is irrelevant",
+                            "Only medication history matters; genetics are irrelevant",
+                            "Neither factor is actually linked to gallstone risk"
+                        ],
+                        "answer": 0,
+                        "rationale": "Correct: genetic predisposition and oral contraceptive use are both separately recognized risk factors for cholelithiasis, along with others like obesity, female sex, and middle age. Incorrect: genetics is not the only relevant factor, oral contraceptive use is not the only relevant factor, and both are directly linked to gallstone risk.",
+                        "topic": "Gallbladder &amp; Pancreatic Disorders",
+                        "source": "quiz-bank"
+                    }
+            ],
+            "eaq": []
+        }
     }
 ],
 
@@ -5900,6 +6618,10 @@ window.QUIZ_BANK = {
     "Renal Disorders",
     "Acute Kidney Injury &amp; Chronic Kidney Disease",
     "Male Reproductive Disorders",
-    "Visual &amp; Sensory Disorders"
+    "Visual &amp; Sensory Disorders",
+    "Liver Anatomy, Function &amp; Jaundice",
+    "Viral Hepatitis (A, B &amp; C)",
+    "Cirrhosis &amp; Liver Failure",
+    "Gallbladder &amp; Pancreatic Disorders"
   ]
 };
