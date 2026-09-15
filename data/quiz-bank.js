@@ -5230,181 +5230,181 @@ window.QUIZ_BANK = {
         "sets": {
             "mustKnow": [],
             "extraPractice": [
-                {
-                    "stem": "A pregnant client is being treated for acute pyelonephritis. Which orders should the nurse expect the provider to avoid because of the pregnancy? Select all that apply.",
-                    "options": [
-                        "Trimethoprim-sulfamethoxazole (Bactrim)",
-                        "Ciprofloxacin",
-                        "Nitrofurantoin (Macrobid)",
-                        "A urinalysis and culture",
-                        "A short outpatient antibiotic course",
-                        "IV antibiotics for a severe case"
-                    ],
-                    "answers": [
-                        0,
-                        1
-                    ],
-                    "rationale": "Correct: Bactrim and ciprofloxacin are both specifically avoided in pregnancy, which narrows the antibiotic options for a population already at higher risk for pyelonephritis. Incorrect: nitrofurantoin is used clinically for UTIs, a urinalysis/culture is standard workup regardless of pregnancy, and short-course or IV antibiotic strategies are chosen by severity, not restricted by pregnancy itself.",
-                    "topic": "Renal Disorders",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A client has a ureteral stone causing severe pain, while another client's renal pelvis stone causes little discomfort. What primarily accounts for this difference in pain severity?",
-                    "options": [
-                        "The ureter is anatomically much narrower",
-                        "The stones formed at different rates",
-                        "Renal pelvis obstructions are always external",
-                        "Ureteral obstructions progress more slowly"
-                    ],
-                    "answer": 0,
-                    "rationale": "Correct: the renal pelvis has more room to accommodate an obstruction, while the narrow ureter produces much more pain for a similarly sized stone. Incorrect: the rate a stone forms doesn't determine pain severity, an obstruction's internal-vs-external nature isn't tied to its level in the tract, and ureteral obstructions typically develop and cause pain rapidly, not slowly.",
-                    "topic": "Renal Disorders",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A client with a long-standing, untreated urinary obstruction develops hydronephrosis. The nurse understands this finding results from which mechanism?",
-                    "options": [
-                        "Bacterial invasion of the renal pelvis",
-                        "Continued urine production above the blockage",
-                        "Sudden loss of ureteral smooth muscle",
-                        "Chronic dehydration reducing urine formation"
-                    ],
-                    "answer": 1,
-                    "rationale": "Correct: the kidneys keep producing urine even though it cannot pass the blockage, so pressure builds upstream and distends the kidney or ureter. Incorrect: infection is a separate complication of obstruction rather than the cause of the back-pressure itself, ureteral muscle loss isn't described in this process, and dehydration would reduce urine volume rather than cause a back-pressure buildup.",
-                    "topic": "Renal Disorders",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A client with a history of gout is admitted with a new kidney stone. Which stone type does the nurse anticipate as most likely?",
-                    "options": [
-                        "Struvite stone",
-                        "Cystine stone",
-                        "Uric acid stone",
-                        "Calcium oxalate stone"
-                    ],
-                    "answer": 2,
-                    "rationale": "Correct: uric acid stones are directly related to gout, so a client with gout who develops a stone most likely has this type. Incorrect: struvite stones relate to urinary tract infection, cystine stones are rare and unrelated to gout, and calcium stones are the most common type overall but are not specifically linked to gout.",
-                    "topic": "Renal Disorders",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A client being treated for renal colic develops a new fever. The nurse should recognize this finding as most consistent with which complication?",
-                    "options": [
-                        "Increased ureteral spasm frequency",
-                        "Stone movement into the bladder",
-                        "Expected diaphoresis from pain",
-                        "A concurrent kidney infection"
-                    ],
-                    "answer": 3,
-                    "rationale": "Correct: fever is not a typical renal colic symptom on its own, so a new fever alongside a kidney stone points toward a concurrent infection such as pyelonephritis. Incorrect: ureteral spasm and stone movement cause pain but not fever, and diaphoresis from pain is a separate expected finding that does not explain a fever.",
-                    "topic": "Renal Disorders",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A client with recurrent struvite kidney stones asks the nurse about preventing future stones. Which response is most accurate?",
-                    "options": [
-                        "\"Treating the infection helps prevent new stones.\"",
-                        "\"A thiazide diuretic is typically prescribed.\"",
-                        "\"Starting allopurinol will reduce your risk.\"",
-                        "\"Limiting dietary oxalate is the main strategy.\""
-                    ],
-                    "answer": 0,
-                    "rationale": "Correct: struvite stones are related to urinary tract infection, so treating the underlying infection (with fluids and antibiotics) is the prevention strategy for this stone type. Incorrect: thiazide diuretics prevent calcium stones, allopurinol prevents uric acid stones, and limiting oxalate is a calcium stone strategy, not a struvite one.",
-                    "topic": "Renal Disorders",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A nursing student asks the nurse where kidney stone crystals actually begin to form. What is the nurse's best response?",
-                    "options": [
-                        "\"Crystals form most often within the bladder.\"",
-                        "\"Crystals form at the level of the kidney.\"",
-                        "\"Crystals form as the stone passes the ureter.\"",
-                        "\"Crystals form anywhere urine becomes concentrated.\""
-                    ],
-                    "answer": 1,
-                    "rationale": "Correct: crystals always begin forming at the level of the kidney or nephron, where urine first becomes supersaturated with a solute. Incorrect: the bladder and ureter are where an already-formed stone travels or lodges, not where crystal formation begins, and \"anywhere urine becomes concentrated\" is too broad and inaccurate for how the process actually starts.",
-                    "topic": "Renal Disorders",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A client is diagnosed with renal cell carcinoma after an abdominal CT ordered for an unrelated issue. The nurse understands this common diagnostic pattern is due to which characteristic of the disease?",
-                    "options": [
-                        "Its resistance to imaging detection",
-                        "Its tendency to cause early pain",
-                        "An absence of early symptoms",
-                        "A slow, indolent growth pattern"
-                    ],
-                    "answer": 2,
-                    "rationale": "Correct: renal cell carcinoma has no early manifestations, which is why it is often discovered incidentally or not diagnosed until it has already metastasized. Incorrect: it is not resistant to imaging (it can be seen on CT once looked for), it does not cause early pain, and it is not described as slow-growing — the danger is its silent progression, not its pace.",
-                    "topic": "Renal Disorders",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A client scheduled for intravesical BCG therapy reports a history of HIV. What is the nurse's priority action?",
-                    "options": [
-                        "Proceed with the scheduled instillation",
-                        "Request a lower BCG dose",
-                        "Document the history and continue",
-                        "Notify the provider before treatment"
-                    ],
-                    "answer": 3,
-                    "rationale": "Correct: BCG is a live vaccine and must not be given to an immunocompromised client, so the provider needs to be notified before proceeding. Incorrect: proceeding as scheduled, giving a reduced dose, or simply documenting and continuing all risk a systemic infection from the live bacteria in a client who cannot fight it off.",
-                    "topic": "Renal Disorders",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A nurse is teaching a client recently diagnosed with bladder cancer about modifiable risk factors. Which behavior should the nurse emphasize as the single greatest contributor?",
-                    "options": [
-                        "Cigarette smoking",
-                        "Low fluid intake",
-                        "Occupational chemical exposure",
-                        "Infrequent voiding habits"
-                    ],
-                    "answer": 0,
-                    "rationale": "Correct: smoking is identified as the number one risk factor for bladder cancer. Incorrect: low fluid intake and occupational toxin exposure are real but secondary risk factors, and infrequent voiding is not identified as a bladder cancer risk factor in this content.",
-                    "topic": "Renal Disorders",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A client with acute glomerulonephritis has generalized edema, hypertension, and proteinuria. Which additional finding would the nurse expect on the urinalysis?",
-                    "options": [
-                        "Glucosuria",
-                        "Hematuria",
-                        "Ketonuria",
-                        "Pyuria alone"
-                    ],
-                    "answer": 1,
-                    "rationale": "Correct: hematuria is one of the four HARP findings (hematuria, azotemia, retention of sodium/water, proteinuria) that characterize acute glomerulonephritis. Incorrect: glucosuria and ketonuria are not part of this picture, and pyuria alone would suggest infection rather than the glomerular inflammatory process described here.",
-                    "topic": "Renal Disorders",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A client with confirmed Goodpasture syndrome develops new hemoptysis. The nurse recognizes this finding as consistent with which underlying process?",
-                    "options": [
-                        "A separate, unrelated pulmonary infection",
-                        "Fluid overload from nephrotic syndrome",
-                        "One antibody attacking both organs",
-                        "A pulmonary embolism from hypercoagulability"
-                    ],
-                    "answer": 2,
-                    "rationale": "Correct: in Goodpasture syndrome, the same anti-GBM antibody attacks the structurally similar basement membranes of both the kidney and the lung, so hemoptysis and renal problems occur together from one process. Incorrect: this is not a separate infection, fluid overload from nephrotic syndrome is a different condition, and pulmonary embolism is not the mechanism described for Goodpasture syndrome.",
-                    "topic": "Renal Disorders",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A client with nephrotic syndrome develops a deep vein thrombosis. The nurse understands this complication is most directly related to loss of which substance in the urine?",
-                    "options": [
-                        "Albumin alone",
-                        "Immunoglobulins",
-                        "Erythropoietin",
-                        "Antithrombin III"
-                    ],
-                    "answer": 3,
-                    "rationale": "Correct: antithrombin III (along with plasminogen) is lost in the urine in nephrotic syndrome, creating a hypercoagulable state that raises the risk of DVT and PE. Incorrect: albumin loss causes edema through reduced oncotic pressure, not hypercoagulability; immunoglobulin loss raises infection risk; and erythropoietin is unrelated to clotting.",
-                    "topic": "Renal Disorders",
-                    "source": "quiz-bank"
-                }
-            ],
+                    {
+                        "stem": "A pregnant client is diagnosed with acute pyelonephritis. Before the antibiotic order is carried out, the nurse should recognize that which medications need to be clarified with the provider because of the pregnancy? Select all that apply.",
+                        "options": [
+                            "Trimethoprim-sulfamethoxazole (Bactrim)",
+                            "Ciprofloxacin",
+                            "Nitrofurantoin (Macrobid)",
+                            "A urinalysis and culture",
+                            "A short course of oral outpatient antibiotics",
+                            "IV antibiotics for a severe case"
+                        ],
+                        "answers": [
+                            0,
+                            1
+                        ],
+                        "rationale": "Correct: Bactrim and ciprofloxacin are both specifically avoided in pregnancy, so the nurse should flag these before they're given to a pregnant client. Incorrect: nitrofurantoin is used clinically for UTIs, a urinalysis/culture is standard workup regardless of pregnancy, and short-course or IV antibiotic strategies are chosen by severity, not restricted by pregnancy itself.",
+                        "topic": "Renal Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client has a ureteral stone causing severe pain, while another client's renal pelvis stone causes little discomfort. What primarily accounts for this difference in pain severity?",
+                        "options": [
+                            "The ureter is anatomically much narrower",
+                            "The stones formed at different rates",
+                            "Renal pelvis obstructions are always external",
+                            "Ureteral obstructions progress more slowly"
+                        ],
+                        "answer": 0,
+                        "rationale": "Correct: the renal pelvis has more room to accommodate an obstruction, while the narrow ureter produces much more pain for a similarly sized stone. Incorrect: the rate a stone forms doesn't determine pain severity, an obstruction's internal-vs-external nature isn't tied to its level in the tract, and ureteral obstructions typically develop and cause pain rapidly, not slowly.",
+                        "topic": "Renal Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client with a two-week history of untreated urinary obstruction now reports new flank fullness and a falling urine output despite drinking normal amounts of fluid. What is the nurse's priority action?",
+                        "options": [
+                            "Encourage more oral fluid intake",
+                            "Notify the provider of this finding",
+                            "Reassure the client this is expected",
+                            "Apply a warm compress for comfort"
+                        ],
+                        "answer": 1,
+                        "rationale": "Correct: falling output with flank fullness in the setting of ongoing obstruction, despite normal fluid intake, suggests urine backing up behind the blockage (hydronephrosis) rather than a volume problem, and can progress to a postrenal AKI, so it needs prompt provider notification. Incorrect: more fluids won't relieve an obstruction and can worsen the back-pressure, this is not an expected finding, and a warm compress does not address a developing kidney injury.",
+                        "topic": "Renal Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client being treated for renal colic develops a new fever of 101.8\u00b0F, chills, and increasing flank tenderness, though the pain pattern itself is unchanged. What is the nurse's priority action?",
+                        "options": [
+                            "Continue the current pain management plan since the pain is unchanged",
+                            "Notify the provider promptly; a new infection may be developing",
+                            "Reassure the client that fever and chills often accompany renal colic",
+                            "Encourage ambulation, since movement may help dislodge the stone"
+                        ],
+                        "answer": 1,
+                        "rationale": "Correct: fever, chills, and increasing tenderness together point to a developing infection such as pyelonephritis, and an unchanged pain pattern doesn't rule that out, so this needs prompt provider notification. Incorrect: an unchanged pain level doesn't mean nothing new is happening, fever and chills are not expected renal colic symptoms, and ambulation doesn't address a possible infection.",
+                        "topic": "Renal Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client with a history of gout and a diet high in oxalate-containing foods is admitted with a new kidney stone. Which stone type does the nurse anticipate as most likely?",
+                        "options": [
+                            "Struvite stone",
+                            "Cystine stone",
+                            "Uric acid stone",
+                            "Calcium oxalate stone"
+                        ],
+                        "answer": 2,
+                        "rationale": "Correct: gout is specifically and directly linked to uric acid stones, which outweighs the general dietary oxalate risk factor for calcium stones when predicting the most likely type for this client. Incorrect: struvite stones relate to urinary tract infection, cystine stones are rare and unrelated to gout, and although a high-oxalate diet is a calcium stone risk factor, it is a weaker link than the specific gout-uric acid connection.",
+                        "topic": "Renal Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client with a history of recurrent urinary tract infections develops a new kidney stone. The nurse anticipates the prevention plan will most likely focus on which approach?",
+                        "options": [
+                            "Treating the underlying infection",
+                            "Starting a thiazide diuretic",
+                            "Starting allopurinol for uric acid stones",
+                            "Limiting dietary oxalate"
+                        ],
+                        "answer": 0,
+                        "rationale": "Correct: recurrent UTIs point toward a struvite stone, which forms in relation to infection, so treating the underlying infection (with fluids and antibiotics) is the matching prevention strategy. Incorrect: a thiazide diuretic prevents calcium stones, allopurinol prevents uric acid stones, and limiting oxalate is a calcium stone strategy \u2014 none of which match this client's infection-linked risk factor.",
+                        "topic": "Renal Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client reports a two-hour history of sudden, severe flank pain radiating to the groin that comes in waves, along with nausea; vital signs are stable and the client is afebrile. The nurse recognizes this pattern as most consistent with which of the following?",
+                        "options": [
+                            "A new urinary tract infection",
+                            "Longstanding urinary tract obstruction",
+                            "Renal colic from a stone",
+                            "An underlying bladder malignancy"
+                        ],
+                        "answer": 2,
+                        "rationale": "Correct: spasmodic flank-to-groin pain with nausea, without fever, is the classic renal colic pattern of a stone moving through the ureter \u2014 the absence of fever argues against an infectious process. Incorrect: a urinary tract infection would be expected to cause fever and systemic illness, longstanding obstruction develops gradually rather than presenting this acutely, and bladder cancer more often presents with painless hematuria rather than acute colicky pain.",
+                        "topic": "Renal Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client is told an incidental kidney mass was found on a CT scan ordered for an unrelated issue and says, \"I feel completely fine, so it's probably nothing serious.\" What is the nurse's best response?",
+                        "options": [
+                            "Agree that a lack of symptoms rules out cancer",
+                            "Explain that pain always appears before metastasis",
+                            "Reassure the client that a CT cannot detect cancer",
+                            "Explain that this cancer often has no symptoms"
+                        ],
+                        "answer": 3,
+                        "rationale": "Correct: renal cell carcinoma has no early manifestations and is often discovered incidentally, so feeling well does not rule it out. Incorrect: symptom absence does not rule out cancer, pain is not a reliable early warning sign, and the CT scan is exactly how the mass was found.",
+                        "topic": "Renal Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client scheduled for intravesical BCG therapy reports a history of HIV. What is the nurse's priority action?",
+                        "options": [
+                            "Proceed with the scheduled instillation",
+                            "Request a lower BCG dose",
+                            "Document the history and continue",
+                            "Notify the provider before treatment"
+                        ],
+                        "answer": 3,
+                        "rationale": "Correct: BCG is a live vaccine and must not be given to an immunocompromised client, so the provider needs to be notified before proceeding. Incorrect: proceeding as scheduled, giving a reduced dose, or simply documenting and continuing all risk a systemic infection from the live bacteria in a client who cannot fight it off.",
+                        "topic": "Renal Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client recently diagnosed with bladder cancer has a 30-year smoking history, works in a rubber factory, and drinks very little water during the day. Which risk factor should the nurse prioritize when planning teaching?",
+                        "options": [
+                            "The smoking history",
+                            "The occupational chemical exposure",
+                            "The low daily fluid intake",
+                            "All three carry equal weight"
+                        ],
+                        "answer": 0,
+                        "rationale": "Correct: smoking is identified as the number one risk factor for bladder cancer, making it the highest-yield target even though this client has multiple risk factors. Incorrect: occupational exposure and low fluid intake are real but secondary risk factors, and treating all three as equal misses the chance to prioritize the most impactful one.",
+                        "topic": "Renal Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client presents with facial edema, a blood pressure of 168/98 mmHg, and dark, tea-colored urine two weeks after a strep throat infection. Which nursing action is the priority?",
+                        "options": [
+                            "Encourage increased fluid intake to flush the kidneys",
+                            "Obtain a urinalysis to assess for blood and protein",
+                            "Reassure the client that this will resolve without follow-up",
+                            "Schedule a routine follow-up appointment in one month"
+                        ],
+                        "answer": 1,
+                        "rationale": "Correct: this triad following a strep infection is the classic presentation of acute post-streptococcal glomerulonephritis, and a urinalysis to confirm hematuria and proteinuria is the priority next step. Incorrect: more fluids doesn't address glomerular inflammation and could worsen fluid retention, this should not be dismissed without follow-up, and a month's delay is unsafe given this presentation.",
+                        "topic": "Renal Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client with confirmed Goodpasture syndrome develops new hemoptysis. The nurse recognizes this finding as consistent with which underlying process?",
+                        "options": [
+                            "A separate, unrelated pulmonary infection",
+                            "Fluid overload from nephrotic syndrome",
+                            "One antibody attacking both organs",
+                            "A pulmonary embolism from hypercoagulability"
+                        ],
+                        "answer": 2,
+                        "rationale": "Correct: in Goodpasture syndrome, the same anti-GBM antibody attacks the structurally similar basement membranes of both the kidney and the lung, so hemoptysis and renal problems occur together from one process. Incorrect: this is not a separate infection, fluid overload from nephrotic syndrome is a different condition, and pulmonary embolism is not the mechanism described for Goodpasture syndrome.",
+                        "topic": "Renal Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client with nephrotic syndrome develops a deep vein thrombosis. The nurse understands this complication is most directly related to loss of which substance in the urine?",
+                        "options": [
+                            "Albumin protein alone",
+                            "Immunoglobulins",
+                            "Erythropoietin",
+                            "Antithrombin III"
+                        ],
+                        "answer": 3,
+                        "rationale": "Correct: antithrombin III (along with plasminogen) is lost in the urine in nephrotic syndrome, creating a hypercoagulable state that raises the risk of DVT and PE. Incorrect: albumin loss causes edema through reduced oncotic pressure, not hypercoagulability; immunoglobulin loss raises infection risk; and erythropoietin is unrelated to clotting.",
+                        "topic": "Renal Disorders",
+                        "source": "quiz-bank"
+                    }
+                ],
             "eaq": []
         }
     },
@@ -5415,168 +5415,168 @@ window.QUIZ_BANK = {
         "sets": {
             "mustKnow": [],
             "extraPractice": [
-                {
-                    "stem": "A client develops acute kidney injury after several days of vomiting and poor oral intake. The nurse recognizes this presentation as most consistent with which classification of AKI?",
-                    "options": [
-                        "Prerenal",
-                        "Intrarenal",
-                        "Postrenal",
-                        "A mixed intrarenal-postrenal cause"
-                    ],
-                    "answer": 0,
-                    "rationale": "Correct: volume loss from vomiting and poor intake reduces perfusion before blood ever reaches the kidney, which is the definition of a prerenal cause and the most common AKI classification. Incorrect: intrarenal injury involves direct kidney damage such as acute tubular necrosis, postrenal involves an obstruction downstream of the kidney, and there is no indication of a mixed process here.",
-                    "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A client receiving a nephrotoxic medication develops acute tubular necrosis. The nurse identifies this as which classification of acute kidney injury?",
-                    "options": [
-                        "Prerenal",
-                        "Intrarenal",
-                        "Postrenal",
-                        "A combined cause"
-                    ],
-                    "answer": 1,
-                    "rationale": "Correct: direct damage to the kidney tissue itself, such as acute tubular necrosis from a nephrotoxic drug, is classified as intrarenal injury. Incorrect: prerenal injury is a volume/perfusion problem before the kidney, postrenal is an obstruction after the kidney, and nothing here suggests more than one process.",
-                    "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A client's acute kidney injury is traced to a pelvic tumor compressing both ureters. Which classification best describes this cause?",
-                    "options": [
-                        "Prerenal",
-                        "Intrarenal",
-                        "Postrenal",
-                        "A mixed cause"
-                    ],
-                    "answer": 2,
-                    "rationale": "Correct: a tumor obstructing the ureters is a blockage downstream of the kidneys, which defines a postrenal cause of AKI. Incorrect: prerenal involves reduced blood flow before the kidney, intrarenal involves direct kidney tissue damage, and this scenario describes a single, clearly downstream cause rather than a mixed one.",
-                    "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A nurse is monitoring urine output in a client with acute kidney injury. Which 24-hour output would the nurse document as meeting the definition of oliguria?",
-                    "options": [
-                        "500 mL",
-                        "800 mL",
-                        "1200 mL",
-                        "150 mL"
-                    ],
-                    "answer": 3,
-                    "rationale": "Correct: oliguria in AKI is defined as less than 400 mL in 24 hours, so 150 mL meets that threshold. Incorrect: 500 mL, 800 mL, and 1200 mL are all above the 400 mL cutoff and would not be documented as oliguria.",
-                    "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A client with chronic kidney disease has a GFR consistent with stage 5 disease. The nurse understands this stage is also referred to by which term?",
-                    "options": [
-                        "Uremic",
-                        "Insufficient",
-                        "Compensated",
-                        "Subclinical"
-                    ],
-                    "answer": 0,
-                    "rationale": "Correct: stage 5 CKD is considered uremic, meaning the body can no longer adequately make and excrete urine and urea builds up in the blood. Incorrect: \"insufficiency\" describes an earlier stage with a GFR around 25% of normal, and \"compensated\" and \"subclinical\" are not terms used to describe stage 5 in this content.",
-                    "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A nurse is providing community education on chronic kidney disease prevention. Which two conditions should the nurse emphasize as responsible for the large majority of end-stage renal disease cases? Select all that apply.",
-                    "options": [
-                        "Diabetes",
-                        "Hypertension",
-                        "Smoking",
-                        "Obesity",
-                        "Older age",
-                        "Family history of CKD"
-                    ],
-                    "answers": [
-                        0,
-                        1
-                    ],
-                    "rationale": "Correct: diabetes (about 50%) and hypertension (about 30%) together account for roughly 80% of end-stage renal disease cases, making them the priority targets for prevention education. Incorrect: smoking, obesity, older age, and family history are all listed as additional risk factors, but none of them are described as major direct causes of the large majority of cases the way diabetes and hypertension are.",
-                    "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A nurse reviewing labs for a client with progressive CKD notes worsening proteinuria. The nurse understands this finding is significant because it does which of the following?",
-                    "options": [
-                        "Signals normal kidney function",
-                        "Drives further glomerular damage",
-                        "Reflects recent dietary protein intake",
-                        "Suggests the disease has stabilized"
-                    ],
-                    "answer": 1,
-                    "rationale": "Correct: proteinuria is one of the two biggest drivers of worsening CKD — protein accumulating in the interstitial space further activates inflammation and damages the glomerulus. Incorrect: proteinuria signals damage rather than normal function, it reflects a leaky glomerular membrane rather than diet, and it indicates progression rather than stabilization.",
-                    "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A client with CKD develops new dyspnea and bibasilar crackles. The nurse recognizes this finding as most concerning because it often signals which of the following?",
-                    "options": [
-                        "A resolving fluid imbalance",
-                        "An unrelated respiratory infection",
-                        "The need for dialysis",
-                        "Improving cardiac function"
-                    ],
-                    "answer": 2,
-                    "rationale": "Correct: pulmonary edema from third-spacing is an ominous CKD finding that often marks the point at which dialysis needs to start. Incorrect: this finding reflects a worsening, not resolving, fluid imbalance; it is not described as an infection; and it does not indicate improving cardiac function.",
-                    "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A client with CKD asks the nurse why bones become fragile with kidney disease. Which explanation should the nurse give?",
-                    "options": [
-                        "Calcium intake naturally decreases with age.",
-                        "Phosphate levels drop excessively low.",
-                        "Erythropoietin loss weakens bone matrix.",
-                        "The kidneys cannot activate vitamin D."
-                    ],
-                    "answer": 3,
-                    "rationale": "Correct: renal osteodystrophy results from the kidneys' lost ability to activate vitamin D, which is needed for calcium absorption and bone health. Incorrect: this isn't simply an age-related calcium decline, phosphate actually rises rather than drops in CKD, and erythropoietin loss causes anemia rather than bone weakening.",
-                    "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A client with CKD has a hemoglobin of 6 g/dL but reports feeling only mildly fatigued. The nurse attributes this relatively mild symptom burden to which factor?",
-                    "options": [
-                        "The slow, gradual hemoglobin decline",
-                        "A recent erythropoietin dose",
-                        "Adequate iron stores from diet",
-                        "Compensation through a rising GFR"
-                    ],
-                    "answer": 0,
-                    "rationale": "Correct: because chronic anemia in CKD develops slowly as erythropoietin production fails, patients often have fewer symptoms than someone who lost the same amount of blood acutely. Incorrect: there is no mention of erythropoietin already being given, adequate iron stores would not explain a hemoglobin this low, and CKD involves a falling, not rising, GFR.",
-                    "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A nurse reviews orders for erythropoietin in a client with CKD and notes a current hemoglobin of 11.5 g/dL. What is the nurse's priority action?",
-                    "options": [
-                        "Administer the dose as scheduled",
-                        "Hold the dose and notify the provider",
-                        "Give half the ordered dose",
-                        "Recheck hemoglobin in one week before deciding"
-                    ],
-                    "answer": 1,
-                    "rationale": "Correct: erythropoietin's black-box warning cautions against overcorrecting hemoglobin above 10 g/dL, since this raises the risk of stroke, MI, and thromboembolism, so the dose should be held and the provider notified. Incorrect: administering the full or a reduced dose still risks overcorrection, and waiting a week to recheck delays addressing an already-elevated hemoglobin.",
-                    "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A nurse is caring for a client with severe CKD who reports pain and is prescribed an opioid. Which assessment finding is most important to monitor closely?",
-                    "options": [
-                        "Serum glucose trends",
-                        "Skin turgor and color",
-                        "Respiratory rate and depth",
-                        "Bowel sound frequency"
-                    ],
-                    "answer": 2,
-                    "rationale": "Correct: in severe CKD, the kidneys cannot filter and eliminate opioids effectively, so they are retained longer and significantly raise the risk of respiratory depression. Incorrect: glucose trends, skin turgor, and bowel sounds are reasonable general assessments but are not the priority concern specific to opioid use in severe CKD.",
-                    "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
-                    "source": "quiz-bank"
-                }
-            ],
+                    {
+                        "stem": "A client with a history of daily NSAID use for chronic back pain develops acute kidney injury after several days of vomiting and very poor oral intake. The nurse recognizes the vomiting and poor intake as the most likely primary driver of which classification of AKI?",
+                        "options": [
+                            "Prerenal",
+                            "Intrarenal",
+                            "Postrenal",
+                            "A mixed cause with obstruction"
+                        ],
+                        "answer": 0,
+                        "rationale": "Correct: the acute volume loss from vomiting and poor intake is the dominant mechanism here, a prerenal cause; the NSAID history is a real intrarenal risk factor but is not what's acutely driving this presentation. Incorrect: there is no biopsy or finding here confirming direct kidney tissue damage, no obstruction is described, and nothing suggests two causes acting together.",
+                        "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client receiving a nephrotoxic antibiotic for a severe infection also reports two days of poor oral intake. A kidney biopsy confirms acute tubular necrosis. Which classification of AKI does this biopsy result confirm?",
+                        "options": [
+                            "Prerenal",
+                            "Intrarenal",
+                            "Postrenal",
+                            "A combined, equally-weighted cause"
+                        ],
+                        "answer": 1,
+                        "rationale": "Correct: the biopsy directly shows acute tubular necrosis, meaning direct damage to kidney tissue itself, which defines intrarenal injury regardless of the coexisting mild volume issue. Incorrect: prerenal injury is a volume/perfusion problem without direct tissue damage, postrenal involves a downstream obstruction that isn't described, and the biopsy finding, not an even split, is what confirms the classification here.",
+                        "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client's acute kidney injury is traced to a pelvic tumor compressing both ureters. Which classification best describes this cause?",
+                        "options": [
+                            "Prerenal",
+                            "Intrarenal",
+                            "Postrenal",
+                            "A mixed cause"
+                        ],
+                        "answer": 2,
+                        "rationale": "Correct: a tumor obstructing the ureters is a blockage downstream of the kidneys, which defines a postrenal cause of AKI. Incorrect: prerenal involves reduced blood flow before the kidney, intrarenal involves direct kidney tissue damage, and this scenario describes a single, clearly downstream cause rather than a mixed one.",
+                        "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A nurse trending a client's urine output notes a decline from 900 mL over the previous 24 hours to 320 mL over the most recent 24 hours, with no change in IV fluid orders. What is the nurse's priority action?",
+                        "options": [
+                            "Document the trend and reassess tomorrow",
+                            "Encourage the client to drink more water",
+                            "Restrict the client's fluid intake further",
+                            "Notify the provider of the oliguria"
+                        ],
+                        "answer": 3,
+                        "rationale": "Correct: a falling trend despite unchanged fluids, now below the 400 mL/24hr oliguria threshold, signals worsening kidney function and needs prompt reporting, not just watching. Incorrect: waiting until tomorrow delays care for a worsening trend, more oral fluids won't fix impaired kidney filtration, and restricting fluids isn't indicated without more direction from the provider.",
+                        "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client with chronic kidney disease develops worsening pruritus, anorexia, and new confusion. The nurse recognizes this cluster of findings as most consistent with progression to which stage of CKD?",
+                        "options": [
+                            "Stage 1, an early asymptomatic stage",
+                            "Stage 2, mild hypertension only",
+                            "Stage 3, mild GFR decline only",
+                            "Stage 5, uremic disease"
+                        ],
+                        "answer": 3,
+                        "rationale": "Correct: pruritus, anorexia, and mental status changes reflect the buildup of waste products in stage 5 (uremic) CKD, when the body can no longer adequately make and excrete urine. Incorrect: stages 1-2 are usually asymptomatic, and stage 3 involves only mild decline without this severity of systemic symptoms.",
+                        "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A community health nurse has funding for only one kidney-disease prevention screening event this year. Screening should prioritize clients with which two conditions? Select all that apply.",
+                        "options": [
+                            "Diabetes",
+                            "Hypertension",
+                            "Smoking",
+                            "Obesity",
+                            "Older age",
+                            "Family history of CKD"
+                        ],
+                        "answers": [
+                            0,
+                            1
+                        ],
+                        "rationale": "Correct: diabetes (about 50%) and hypertension (about 30%) together account for roughly 80% of end-stage renal disease cases, making them the priority targets with limited screening resources. Incorrect: smoking, obesity, older age, and family history are all listed as additional risk factors, but none of them are described as major direct causes of the large majority of cases the way diabetes and hypertension are.",
+                        "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A nurse reviewing today's labs for a client with CKD notices new proteinuria that was not present three months ago. The client reports feeling the best they have in months. What is the nurse's priority action?",
+                        "options": [
+                            "Notify the provider despite the client's reported improvement",
+                            "Wait until the next scheduled visit since the client feels well",
+                            "Reassure the client that feeling well means the kidneys are stable",
+                            "Advise the client to increase dietary protein since appetite has improved"
+                        ],
+                        "answer": 0,
+                        "rationale": "Correct: new proteinuria signals accelerating glomerular damage regardless of how the client currently feels, since subjective wellbeing can lag behind objective decline in CKD, so the finding still needs prompt reporting. Incorrect: feeling well doesn't mean the kidneys are stable, waiting delays care for a significant objective change, and increasing dietary protein doesn't address the kidney damage and isn't supported by feeling better.",
+                        "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client with CKD and a history of seasonal allergies develops new dyspnea and bibasilar crackles during allergy season. What is the nurse's priority action?",
+                        "options": [
+                            "Attribute the symptoms to seasonal allergies and monitor",
+                            "Encourage additional oral fluids to loosen secretions",
+                            "Document the finding as expected with the allergy history",
+                            "Notify the provider; this may signal dialysis"
+                        ],
+                        "answer": 3,
+                        "rationale": "Correct: bibasilar crackles in a CKD client reflect fluid overload from third-spacing, not a typical allergy finding, and this ominous sign often marks the point dialysis needs to start, so it needs immediate reporting despite the coincidental timing with allergy season. Incorrect: allergies don't typically cause bibasilar crackles, more fluids would worsen fluid overload, and this should not be written off as expected.",
+                        "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client with CKD asks why she was prescribed both calcitriol and calcium carbonate. What should the nurse explain connects these two therapies?",
+                        "options": [
+                            "Both are given only to control blood pressure",
+                            "Both address lost vitamin D activation",
+                            "Both directly replace lost erythropoietin",
+                            "Both correct metabolic acidosis from the kidneys"
+                        ],
+                        "answer": 1,
+                        "rationale": "Correct: calcitriol replaces the activated vitamin D the kidneys can no longer produce, while calcium carbonate binds the phosphate that also rises as kidney function fails \u2014 together they address the same underlying mineral/bone problem. Incorrect: neither is a blood pressure medication, erythropoietin replacement is a separate anemia therapy, and sodium bicarbonate, not these two, treats metabolic acidosis.",
+                        "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client with CKD has a hemoglobin of 6 g/dL but reports feeling only mildly fatigued. The nurse attributes this relatively mild symptom burden to which factor?",
+                        "options": [
+                            "A slow, gradual decline",
+                            "A recent erythropoietin dose",
+                            "Adequate iron stores from diet",
+                            "Compensation through a rising GFR"
+                        ],
+                        "answer": 0,
+                        "rationale": "Correct: because chronic anemia in CKD develops slowly as erythropoietin production fails, patients often have fewer symptoms than someone who lost the same amount of blood acutely. Incorrect: there is no mention of erythropoietin already being given, adequate iron stores would not explain a hemoglobin this low, and CKD involves a falling, not rising, GFR.",
+                        "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A nurse reviews orders for erythropoietin in a client with CKD and notes a current hemoglobin of 11.5 g/dL. What is the nurse's priority action?",
+                        "options": [
+                            "Administer the dose as scheduled",
+                            "Hold the dose and notify the provider",
+                            "Give half the ordered dose",
+                            "Recheck hemoglobin in one week before deciding"
+                        ],
+                        "answer": 1,
+                        "rationale": "Correct: erythropoietin's black-box warning cautions against overcorrecting hemoglobin above 10 g/dL, since this raises the risk of stroke, MI, and thromboembolism, so the dose should be held and the provider notified. Incorrect: administering the full or a reduced dose still risks overcorrection, and waiting a week to recheck delays addressing an already-elevated hemoglobin.",
+                        "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A nurse is caring for a client with severe CKD who reports pain and is prescribed an opioid. Which assessment finding is most important to monitor closely?",
+                        "options": [
+                            "Serum glucose trends",
+                            "Skin turgor, color, and temperature",
+                            "Respiratory rate and depth",
+                            "Bowel sound frequency"
+                        ],
+                        "answer": 2,
+                        "rationale": "Correct: in severe CKD, the kidneys cannot filter and eliminate opioids effectively, so they are retained longer and significantly raise the risk of respiratory depression. Incorrect: glucose trends, skin turgor, and bowel sounds are reasonable general assessments but are not the priority concern specific to opioid use in severe CKD.",
+                        "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
+                        "source": "quiz-bank"
+                    }
+                ],
             "eaq": []
         }
     },
@@ -5587,142 +5587,142 @@ window.QUIZ_BANK = {
         "sets": {
             "mustKnow": [],
             "extraPractice": [
-                {
-                    "stem": "A nurse is taking a health history from a young adult male client newly diagnosed with testicular cancer. Which prior condition is most significant given this diagnosis?",
-                    "options": [
-                        "A history of cryptorchidism",
-                        "A history of recurrent UTIs",
-                        "A history of BPH",
-                        "A history of erectile dysfunction"
-                    ],
-                    "answer": 0,
-                    "rationale": "Correct: cryptorchidism (an undescended testicle) is the biggest risk factor for testicular cancer, and the risk stays elevated for life even after surgical correction. Incorrect: recurrent UTIs, BPH, and erectile dysfunction are not identified as risk factors for testicular cancer in this content.",
-                    "topic": "Male Reproductive Disorders",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A nurse is teaching young men about testicular self-exam. Which point should the nurse emphasize about testicular cancer's classic presentation?",
-                    "options": [
-                        "It typically causes severe scrotal pain.",
-                        "It presents as a painless mass.",
-                        "It usually presents with urinary symptoms.",
-                        "It usually causes systemic fever first."
-                    ],
-                    "answer": 1,
-                    "rationale": "Correct: testicular cancer classically presents as a painless mass or lump, which patients often find themselves — and because it doesn't hurt, it's easy to delay reporting. Incorrect: it is not typically painful, urinary symptoms are more characteristic of BPH, and fever is not a described presenting feature.",
-                    "topic": "Male Reproductive Disorders",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A client asks the nurse to explain the difference between his diagnosed seminoma and a nonseminoma germ cell tumor. What should the nurse say?",
-                    "options": [
-                        "Seminoma tends to grow and spread faster.",
-                        "Both types grow at an identical rate.",
-                        "Nonseminoma tends to grow and spread faster.",
-                        "Nonseminoma never responds to treatment."
-                    ],
-                    "answer": 2,
-                    "rationale": "Correct: nonseminoma tends to grow and spread more quickly than seminoma, which grows more slowly and is more radiosensitive. Incorrect: seminoma is the slower-growing type, the two do not grow at the same rate, and nonseminoma is still described as highly treatable, not unresponsive.",
-                    "topic": "Male Reproductive Disorders",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A client asks the nurse what causes benign prostatic hyperplasia. Which two mechanisms should the nurse describe as proposed causes? Select all that apply.",
-                    "options": [
-                        "A shifting hormone balance with age",
-                        "DHT accumulation in prostate tissue",
-                        "Chronic bacterial infection of the prostate",
-                        "An autoimmune attack on prostate cells",
-                        "A genetic HLA association",
-                        "Neurogenic bladder dysfunction"
-                    ],
-                    "answers": [
-                        0,
-                        1
-                    ],
-                    "rationale": "Correct: the two proposed mechanisms for BPH are a shifting androgen/estrogen balance with age and the accumulation of DHT in prostate tissue, which drives cell overgrowth. Incorrect: BPH is not described as an infectious, autoimmune, or genetic-marker-driven process, and neurogenic bladder is a separate, unrelated cause of urinary obstruction.",
-                    "topic": "Male Reproductive Disorders",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A client newly started on tamsulosin for BPH asks how quickly he can expect symptom relief compared to finasteride. What should the nurse explain?",
-                    "options": [
-                        "Finasteride relieves symptoms much faster.",
-                        "Both drugs act at the same speed.",
-                        "Neither drug relieves symptoms quickly.",
-                        "Tamsulosin relieves symptoms much faster."
-                    ],
-                    "answer": 3,
-                    "rationale": "Correct: tamsulosin, an alpha-1 blocker, relaxes prostate and bladder-neck smooth muscle and works much faster than finasteride, though it doesn't shrink the gland. Incorrect: finasteride is the slower drug, needing months to shrink the prostate, so the two do not act at the same speed, and tamsulosin does provide fast relief.",
-                    "topic": "Male Reproductive Disorders",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A client with long-standing, untreated BPH develops worsening kidney function. The nurse recognizes this as which complication?",
-                    "options": [
-                        "Obstructive nephropathy",
-                        "Acute glomerulonephritis",
-                        "Renal cell carcinoma",
-                        "Nephrotic syndrome"
-                    ],
-                    "answer": 0,
-                    "rationale": "Correct: severe, prolonged BPH obstruction can back urine up all the way to the kidneys, causing obstructive nephropathy. Incorrect: glomerulonephritis and nephrotic syndrome are glomerular processes unrelated to prostate obstruction, and renal cell carcinoma is a separate cancer, not a BPH complication.",
-                    "topic": "Male Reproductive Disorders",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A nurse is comparing BPH and prostate cancer for a client. Which statement correctly distinguishes early prostate cancer from BPH?",
-                    "options": [
-                        "BPH is typically silent until metastasis.",
-                        "Prostate cancer usually causes no early symptoms.",
-                        "Prostate cancer always causes urinary retention early.",
-                        "BPH and prostate cancer present identically early on."
-                    ],
-                    "answer": 1,
-                    "rationale": "Correct: prostate cancer is mostly asymptomatic in early stages, which is a key difference from BPH, since BPH causes obstructive symptoms right away because of where it grows. Incorrect: BPH, not prostate cancer, causes early symptoms; prostate cancer does not reliably cause early urinary retention; and the two conditions do not present the same way early on.",
-                    "topic": "Male Reproductive Disorders",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A client asks the nurse why PSA screening for prostate cancer is considered controversial. What is the nurse's best response?",
-                    "options": [
-                        "\"It is never elevated by non-cancerous conditions.\"",
-                        "\"It has no risk of producing a false result.\"",
-                        "\"It can lead to overdiagnosis and unnecessary treatment.\"",
-                        "\"It is required before any cancer diagnosis.\""
-                    ],
-                    "answer": 2,
-                    "rationale": "Correct: PSA isn't cancer-specific — it can also be elevated by BPH or prostatitis — and screening can drive overdiagnosis, leading to biopsies and treatment for slow-growing cancers that may never have caused harm. Incorrect: PSA can be elevated by non-cancerous conditions, it is not free of false results, and it is not a required step for diagnosing cancer.",
-                    "topic": "Male Reproductive Disorders",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A client taking sildenafil for erectile dysfunction is prescribed nitroglycerin for chest pain. What is the nurse's priority action?",
-                    "options": [
-                        "Administer the nitroglycerin as ordered.",
-                        "Give a lower dose of sildenafil.",
-                        "Administer both medications one hour apart.",
-                        "Notify the provider before administering nitroglycerin."
-                    ],
-                    "answer": 3,
-                    "rationale": "Correct: PDE5 inhibitors like sildenafil must never be combined with nitrates, since both lower blood pressure through the same pathway and together can cause a severe, life-threatening drop, so the provider must be notified first. Incorrect: giving the nitroglycerin as ordered, adjusting the sildenafil dose, or simply spacing the doses apart does not remove this dangerous interaction risk.",
-                    "topic": "Male Reproductive Disorders",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A client reports a painful erection lasting five hours unrelated to sexual activity. What is the nurse's priority action?",
-                    "options": [
-                        "Advise the client to apply ice and wait.",
-                        "Instruct the client to seek immediate medical care.",
-                        "Reassure the client this will resolve on its own.",
-                        "Schedule a routine urology follow-up visit."
-                    ],
-                    "answer": 1,
-                    "rationale": "Correct: this describes priapism, a true urologic emergency that can cause permanent tissue damage if untreated, so the client needs immediate medical attention rather than waiting it out. Incorrect: applying ice, reassuring the client it will resolve on its own, and scheduling a routine follow-up all delay care for a time-sensitive emergency.",
-                    "topic": "Male Reproductive Disorders",
-                    "source": "quiz-bank"
-                }
-            ],
+                    {
+                        "stem": "A nurse is taking a health history from a young adult male client with a history of surgically corrected cryptorchidism. Based on this history, which teaching point should the nurse prioritize?",
+                        "options": [
+                            "The importance of routine testicular self-exam",
+                            "The importance of annual PSA screening",
+                            "The importance of monitoring for erectile dysfunction",
+                            "The importance of BPH symptom monitoring"
+                        ],
+                        "answer": 0,
+                        "rationale": "Correct: cryptorchidism is the biggest risk factor for testicular cancer, and the risk stays elevated for life even after surgical correction, making self-exam teaching the priority. Incorrect: PSA screening relates to prostate cancer, while erectile dysfunction and BPH are unrelated conditions not linked to this history.",
+                        "topic": "Male Reproductive Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A young adult male client says he noticed a firm, painless lump on his testicle three weeks ago but didn't mention it sooner because it didn't hurt. What is the nurse's priority response?",
+                        "options": [
+                            "Reassure him that painless lumps are rarely serious",
+                            "Explain that a painless mass still needs evaluation",
+                            "Advise him to monitor it for a few more months",
+                            "Explain that pain would confirm this is cancer"
+                        ],
+                        "answer": 1,
+                        "rationale": "Correct: testicular cancer classically presents as a painless mass, and because it doesn't hurt, patients often delay reporting it \u2014 the nurse needs to correct that assumption and reinforce prompt evaluation. Incorrect: painless does not mean not serious, further delay isn't appropriate, and pain is not required for, or a marker of, this cancer.",
+                        "topic": "Male Reproductive Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client's germ cell tumor is described as growing and spreading quickly, with only a limited response so far to radiation therapy. Based on this behavior, the nurse understands this is most likely which tumor type?",
+                        "options": [
+                            "Seminoma",
+                            "A tumor with no typical growth pattern",
+                            "Nonseminoma",
+                            "A tumor equally likely to be either type"
+                        ],
+                        "answer": 2,
+                        "rationale": "Correct: nonseminoma tends to grow and spread more quickly and is less radiosensitive, matching both features described, while seminoma grows more slowly and is more radiosensitive. Incorrect: seminoma is the slower, more radiosensitive type, tumor behavior here isn't patternless, and these two described features together point specifically toward one type rather than an even split.",
+                        "topic": "Male Reproductive Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client is started on combination therapy (finasteride and tamsulosin) for moderate-to-severe BPH. Which teaching points should the nurse include? Select all that apply.",
+                        "options": [
+                            "\"The tamsulosin will relieve your symptoms right away.\"",
+                            "\"Finasteride will take months to shrink the prostate.\"",
+                            "\"Both medications will shrink the prostate immediately.\"",
+                            "\"You should stop the tamsulosin once symptoms improve.\"",
+                            "\"Only one of these two medications is actually needed.\"",
+                            "\"Combination therapy is used for milder symptoms only.\""
+                        ],
+                        "answers": [
+                            0,
+                            1
+                        ],
+                        "rationale": "Correct: tamsulosin (an alpha-1 blocker) relieves symptoms quickly by relaxing smooth muscle, while finasteride (a 5-alpha reductase inhibitor) takes months to actually shrink the gland \u2014 combination therapy uses both because they work on different timelines. Incorrect: only finasteride shrinks the gland, and not immediately; tamsulosin should be continued as prescribed rather than stopped once feeling better; combination therapy specifically uses both together; and it's used for moderate-to-severe, not milder, symptoms.",
+                        "topic": "Male Reproductive Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client newly started on tamsulosin for BPH calls the office after three days, frustrated that his prostate does not feel any smaller. What should the nurse explain?",
+                        "options": [
+                            "The gland should already be visibly smaller by now",
+                            "Tamsulosin relieves symptoms without shrinking the gland",
+                            "Tamsulosin needs several more months to shrink the gland",
+                            "The medication was likely prescribed for the wrong condition"
+                        ],
+                        "answer": 1,
+                        "rationale": "Correct: tamsulosin relaxes prostate and bladder-neck smooth muscle for fast symptom relief but does not shrink the prostate itself \u2014 that's what a 5-alpha reductase inhibitor like finasteride does, over months. Incorrect: gland shrinkage isn't expected from tamsulosin at all, so both \"already smaller\" and \"needs more months\" wrongly assume it shrinks the gland, and the medication is correctly prescribed for BPH.",
+                        "topic": "Male Reproductive Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "Two older male clients are seen in clinic: one reports urinary hesitancy and nocturia, and the other has no urinary symptoms at all but an elevated PSA. The nurse understands the second client's presentation is more concerning because it is more typical of which condition?",
+                        "options": [
+                            "A new urinary tract infection",
+                            "An isolated case of erectile dysfunction",
+                            "Prostate cancer, often silent early on",
+                            "BPH, which causes early symptoms"
+                        ],
+                        "answer": 2,
+                        "rationale": "Correct: prostate cancer is mostly asymptomatic in early stages, unlike BPH, which causes obstructive symptoms right away because of where it grows, so an asymptomatic client with an elevated PSA is the more concerning picture. Incorrect: a urinary tract infection would be expected to cause urinary symptoms, erectile dysfunction is a separate condition, and BPH (not prostate cancer) is what causes early symptoms like hesitancy and nocturia.",
+                        "topic": "Male Reproductive Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client with an elevated PSA and no urinary symptoms asks the nurse whether this definitely means he has prostate cancer. What should the nurse explain?",
+                        "options": [
+                            "PSA can also be elevated by BPH or prostatitis",
+                            "An elevated PSA always confirms prostate cancer",
+                            "A normal PSA would rule out prostate cancer entirely",
+                            "PSA elevation only occurs with metastatic disease"
+                        ],
+                        "answer": 0,
+                        "rationale": "Correct: PSA isn't cancer-specific; it can also be elevated by BPH or prostatitis, which is part of why screening is controversial and can lead to overdiagnosis. Incorrect: an elevated PSA does not confirm cancer by itself, a normal PSA doesn't rule cancer out entirely either, and PSA can rise well before any metastatic disease.",
+                        "topic": "Male Reproductive Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client with long-standing, untreated BPH now reports flank pain and a rising creatinine on labs. What is the nurse's priority action?",
+                        "options": [
+                            "Encourage increased fluid intake to improve creatinine",
+                            "Reassure the client this is an expected part of aging",
+                            "Schedule a routine follow-up in three months",
+                            "Notify the provider of possible obstruction"
+                        ],
+                        "answer": 3,
+                        "rationale": "Correct: severe, prolonged BPH obstruction can back urine up to the kidneys and cause obstructive nephropathy, so new flank pain with a rising creatinine needs prompt provider notification. Incorrect: more fluids won't relieve an anatomic obstruction, this is a concerning complication rather than expected aging, and a three-month delay is unsafe for worsening kidney function.",
+                        "topic": "Male Reproductive Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client taking sildenafil for erectile dysfunction is prescribed nitroglycerin for chest pain. What is the nurse's priority action?",
+                        "options": [
+                            "Administer the nitroglycerin as ordered.",
+                            "Give a lower dose of sildenafil.",
+                            "Administer both medications one hour apart.",
+                            "Notify the provider first."
+                        ],
+                        "answer": 3,
+                        "rationale": "Correct: PDE5 inhibitors like sildenafil must never be combined with nitrates, since both lower blood pressure through the same pathway and together can cause a severe, life-threatening drop, so the provider must be notified first. Incorrect: giving the nitroglycerin as ordered, adjusting the sildenafil dose, or simply spacing the doses apart does not remove this dangerous interaction risk.",
+                        "topic": "Male Reproductive Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client reports a painful erection lasting five hours unrelated to sexual activity. What is the nurse's priority action?",
+                        "options": [
+                            "Advise the client to apply ice and wait.",
+                            "Instruct the client to seek immediate care.",
+                            "Reassure the client this will resolve on its own.",
+                            "Schedule a routine urology follow-up visit."
+                        ],
+                        "answer": 1,
+                        "rationale": "Correct: this describes priapism, a true urologic emergency that can cause permanent tissue damage if untreated, so the client needs immediate medical attention rather than waiting it out. Incorrect: applying ice, reassuring the client it will resolve on its own, and scheduling a routine follow-up all delay care for a time-sensitive emergency.",
+                        "topic": "Male Reproductive Disorders",
+                        "source": "quiz-bank"
+                    }
+                ],
             "eaq": []
         }
     },
@@ -5733,156 +5733,155 @@ window.QUIZ_BANK = {
         "sets": {
             "mustKnow": [],
             "extraPractice": [
-                {
-                    "stem": "An older adult reports gradually worsening, painless blurry vision in both eyes over the past year. The nurse anticipates the client will need which treatment if cataracts are confirmed?",
-                    "options": [
-                        "Surgical lens removal and replacement",
-                        "A course of topical corticosteroids",
-                        "Oral medication to reverse lens clouding",
-                        "Laser treatment to reduce eye pressure"
-                    ],
-                    "answer": 0,
-                    "rationale": "Correct: cataracts are treated surgically only, removing the clouded lens and replacing it with an artificial one — no medication reverses lens clouding. Incorrect: topical corticosteroids and oral medications don't reverse cataracts, and laser treatment to reduce eye pressure describes a glaucoma intervention, not a cataract one.",
-                    "topic": "Visual &amp; Sensory Disorders",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A client with diabetic retinopathy develops new, fragile blood vessels on retinal exam that bleed easily. The nurse recognizes this as which stage of the disease?",
-                    "options": [
-                        "Non-proliferative retinopathy",
-                        "Proliferative retinopathy",
-                        "Hypertensive retinopathy",
-                        "Early-stage macular degeneration"
-                    ],
-                    "answer": 1,
-                    "rationale": "Correct: proliferative retinopathy is the more advanced stage, in which the retina responds to poor blood flow by growing new, fragile vessels that bleed easily and threaten vision more seriously. Incorrect: non-proliferative retinopathy is the earlier stage with only small vessel changes, hypertensive retinopathy comes from chronic high blood pressure, and macular degeneration is a separate condition.",
-                    "topic": "Visual &amp; Sensory Disorders",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A client asks the nurse whether their retinopathy can improve with treatment. Which type of retinopathy did the lecture describe as reversible with good control?",
-                    "options": [
-                        "Proliferative diabetic retinopathy",
-                        "Non-proliferative diabetic retinopathy",
-                        "Hypertensive retinopathy",
-                        "Age-related retinopathy"
-                    ],
-                    "answer": 2,
-                    "rationale": "Correct: hypertensive retinopathy is reversible with good blood pressure control, unlike most of the other conditions on this page. Incorrect: proliferative and non-proliferative diabetic retinopathy are stages of an ongoing process rather than described as reversible, and \"age-related retinopathy\" is not a term used in this content.",
-                    "topic": "Visual &amp; Sensory Disorders",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A client reports sudden floaters, flashing lights, and a shadow moving across one visual field. What is the nurse's priority action?",
-                    "options": [
-                        "Reassure the client this is a normal aging change.",
-                        "Schedule a routine eye exam for next week.",
-                        "Advise applying a warm compress to the eye.",
-                        "Arrange for immediate ophthalmologic evaluation."
-                    ],
-                    "answer": 3,
-                    "rationale": "Correct: this \"curtain\" presentation is the classic sign of retinal detachment, a true emergency where delayed treatment risks permanent vision loss, so immediate evaluation is required. Incorrect: this is not a normal aging change, a routine exam next week delays emergency care, and a warm compress does nothing for a detaching retina.",
-                    "topic": "Visual &amp; Sensory Disorders",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "Which client would the nurse identify as being at greatest risk for retinal detachment?",
-                    "options": [
-                        "A client with myopia and recent eye trauma",
-                        "A client with hyperopia and no eye history",
-                        "A client with well-controlled hypertension only",
-                        "A client with early cataracts only"
-                    ],
-                    "answer": 0,
-                    "rationale": "Correct: myopia, older age, and eye trauma are the identified risk factors for retinal detachment, so a client with both myopia and recent trauma carries the greatest risk. Incorrect: hyperopia is a macular degeneration risk factor rather than a retinal detachment one, and well-controlled hypertension or isolated early cataracts are not described as retinal detachment risk factors.",
-                    "topic": "Visual &amp; Sensory Disorders",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "Which factors are associated with an increased risk of macular degeneration? Select all that apply.",
-                    "options": [
-                        "UV light exposure",
-                        "Hyperopia (farsightedness)",
-                        "Smoking",
-                        "Myopia (nearsightedness)",
-                        "Recent eye trauma",
-                        "Anticholinergic medication use"
-                    ],
-                    "answers": [
-                        0,
-                        1,
-                        2
-                    ],
-                    "rationale": "Correct: lifetime UV light exposure, hyperopia, and smoking are the three risk factors identified for macular degeneration. Incorrect: myopia is instead a risk factor for retinal detachment, eye trauma is also linked to retinal detachment rather than macular degeneration, and anticholinergic medications are linked to precipitating closed-angle glaucoma, not macular degeneration.",
-                    "topic": "Visual &amp; Sensory Disorders",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A client is diagnosed with the more common form of macular degeneration. The nurse understands this type involves which process?",
-                    "options": [
-                        "Sudden separation of the retina from its bed",
-                        "Gradual thinning and breakdown of the macula",
-                        "Abnormal new vessels growing under the macula",
-                        "Acute inflammation of the optic nerve"
-                    ],
-                    "answer": 1,
-                    "rationale": "Correct: dry (non-neovascular) macular degeneration, the more common form at about 90% of cases, involves gradual thinning and breakdown of the macula over time. Incorrect: retinal separation describes retinal detachment, abnormal new vessel growth describes the less common wet form, and optic nerve inflammation is not part of this condition.",
-                    "topic": "Visual &amp; Sensory Disorders",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A client is diagnosed with open-angle glaucoma. The nurse understands the intraocular pressure rise in this condition results from which process?",
-                    "options": [
-                        "Sudden blockage of the drainage angle by the iris",
-                        "Overproduction of vitreous fluid",
-                        "Slow drainage through the trabecular meshwork",
-                        "Retinal vessel leakage into the anterior chamber"
-                    ],
-                    "answer": 2,
-                    "rationale": "Correct: open-angle glaucoma results from dysfunction of the trabecular meshwork, so fluid drains too slowly and pressure builds gradually over time. Incorrect: sudden blockage by the iris describes closed-angle glaucoma, overproduction of vitreous fluid is not the described mechanism, and retinal vessel leakage is not part of glaucoma's pathophysiology here.",
-                    "topic": "Visual &amp; Sensory Disorders",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A nurse is reviewing medications for a client at risk for acute closed-angle glaucoma. Which medication class should raise the most concern?",
-                    "options": [
-                        "Beta blockers",
-                        "Prostaglandin analogs",
-                        "Carbonic anhydrase inhibitors",
-                        "Anticholinergics"
-                    ],
-                    "answer": 3,
-                    "rationale": "Correct: anticholinergic drugs dilate the pupil, which can push the iris into the drainage angle and precipitate an acute closed-angle glaucoma attack. Incorrect: beta blockers, prostaglandin analogs, and carbonic anhydrase inhibitors are all glaucoma treatments themselves, not medications that trigger an attack.",
-                    "topic": "Visual &amp; Sensory Disorders",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A nurse is teaching a client how to instill timolol eye drops correctly. Which instruction should the nurse include to reduce systemic absorption?",
-                    "options": [
-                        "Occlude the inner corner of the eye.",
-                        "Blink rapidly several times in a row.",
-                        "Tilt the head back for several minutes.",
-                        "Wipe away the excess drop immediately."
-                    ],
-                    "answer": 0,
-                    "rationale": "Correct: pressing on the inner corner of the eye (nasolacrimal occlusion) for about a minute prevents the drop from draining into the nasolacrimal duct and being absorbed systemically, which matters especially for a beta blocker like timolol. Incorrect: rapid blinking, prolonged head tilting, and quickly wiping the eye do not prevent systemic absorption the way occlusion does.",
-                    "topic": "Visual &amp; Sensory Disorders",
-                    "source": "quiz-bank"
-                },
-                {
-                    "stem": "A client with Meniere's disease asks how to reduce the frequency of vertigo attacks. What should the nurse recommend?",
-                    "options": [
-                        "Starting a daily antiviral medication",
-                        "Reducing sodium and caffeine intake",
-                        "Increasing fluid intake significantly",
-                        "Avoiding all physical activity"
-                    ],
-                    "answer": 1,
-                    "rationale": "Correct: management of Meniere's disease is primarily dietary and lifestyle-based, commonly reducing sodium and caffeine as trigger management, since there is no direct pharmacologic cure. Incorrect: there is no antiviral treatment described for Meniere's disease, increasing fluid intake is not the recommended strategy, and avoiding all activity is not part of the described management.",
-                    "topic": "Visual &amp; Sensory Disorders",
-                    "source": "quiz-bank"
-                }
-            ],
+                    {
+                        "stem": "An older client reports gradual, painless blurring in both eyes over the past year, and an eye exam shows clouding of the lens rather than retinal or optic nerve changes. Based on this full picture, which treatment should the nurse anticipate?",
+                        "options": [
+                            "Surgical lens removal and replacement",
+                            "Daily prostaglandin analog eye drops",
+                            "Reducing dietary sodium and caffeine",
+                            "Reassurance that no treatment is needed"
+                        ],
+                        "answer": 0,
+                        "rationale": "Correct: gradual, bilateral, painless blur specifically from lens clouding, not retinal or optic nerve involvement, is the cataract pattern, and cataracts are treated surgically only \u2014 no medication reverses lens clouding. Incorrect: prostaglandin analog drops treat glaucoma's elevated eye pressure, not lens clouding; reducing sodium and caffeine is the Meniere's disease strategy; and cataracts do not resolve without treatment.",
+                        "topic": "Visual &amp; Sensory Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client with diabetic retinopathy is found on eye exam to have new, fragile blood vessels that bleed easily. What is the nurse's priority action regarding this finding?",
+                        "options": [
+                            "Reassure the client this is an early, low-risk finding",
+                            "Ensure prompt ophthalmology follow-up",
+                            "Document it as unrelated to the diabetes diagnosis",
+                            "Advise the client no further eye exams are needed"
+                        ],
+                        "answer": 1,
+                        "rationale": "Correct: this describes proliferative retinopathy, the more advanced stage in which the retina grows new, fragile vessels that threaten vision more seriously, so prompt ophthalmology follow-up is the priority. Incorrect: this is the advanced, not early or low-risk, stage, it is directly related to the diabetes, and ongoing eye exams remain essential.",
+                        "topic": "Visual &amp; Sensory Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client asks the nurse which eye condition covered in class has the best chance of improving once its underlying cause is treated. Based on this content, what should the nurse say?",
+                        "options": [
+                            "Proliferative diabetic retinopathy, with good glucose control",
+                            "Macular degeneration, with good nutrition",
+                            "Hypertensive retinopathy, with good blood pressure control",
+                            "Open-angle glaucoma, with pressure-lowering drops"
+                        ],
+                        "answer": 2,
+                        "rationale": "Correct: hypertensive retinopathy is specifically described as reversible with good blood pressure control, unlike the other conditions listed, which are managed to slow progression rather than reversed. Incorrect: diabetic retinopathy isn't described as reversible even with glucose control once vessel damage occurs, macular degeneration is irreversible with management aimed at slowing progression, and glaucoma treatment lowers pressure to prevent further damage rather than reversing existing loss.",
+                        "topic": "Visual &amp; Sensory Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client reports sudden floaters, flashing lights, and a shadow moving across one visual field. What is the nurse's priority action?",
+                        "options": [
+                            "Reassure the client this is a normal aging change.",
+                            "Schedule a routine eye exam for next week.",
+                            "Advise applying a warm compress to the eye.",
+                            "Arrange for immediate ophthalmologic evaluation."
+                        ],
+                        "answer": 3,
+                        "rationale": "Correct: this \"curtain\" presentation is the classic sign of retinal detachment, a true emergency where delayed treatment risks permanent vision loss, so immediate evaluation is required. Incorrect: this is not a normal aging change, a routine exam next week delays emergency care, and a warm compress does nothing for a detaching retina.",
+                        "topic": "Visual &amp; Sensory Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "Which client would the nurse identify as being at greatest risk for retinal detachment?",
+                        "options": [
+                            "A client with hyperopia and no eye history",
+                            "A client with myopia and recent eye trauma",
+                            "A client with well-controlled hypertension only",
+                            "A client with early cataracts only"
+                        ],
+                        "answer": 1,
+                        "rationale": "Correct: myopia, older age, and eye trauma are the identified risk factors for retinal detachment, so a client with both myopia and recent trauma carries the greatest risk. Incorrect: hyperopia is a macular degeneration risk factor rather than a retinal detachment one, and well-controlled hypertension or isolated early cataracts are not described as retinal detachment risk factors.",
+                        "topic": "Visual &amp; Sensory Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A nurse is counseling a client recently diagnosed with macular degeneration on reducing modifiable risk factors. Which recommendations should the nurse include? Select all that apply.",
+                        "options": [
+                            "\"Wear sunglasses that block UV light when outdoors.\"",
+                            "\"Quitting smoking is strongly recommended.\"",
+                            "\"Wearing your farsightedness glasses is now optional.\"",
+                            "\"Switching from glasses to contacts will slow progression.\"",
+                            "\"Increasing screen brightness will reduce your risk.\"",
+                            "\"Avoiding all reading will help preserve your vision.\""
+                        ],
+                        "answers": [
+                            0,
+                            1
+                        ],
+                        "rationale": "Correct: lifetime UV light exposure and smoking are modifiable risk factors for macular degeneration, so UV protection and smoking cessation are appropriate teaching points. Incorrect: hyperopia (farsightedness) is a risk factor but not something glasses use changes, and switching to contacts, screen brightness, and avoiding reading are not supported risk-reduction strategies in this content.",
+                        "topic": "Visual &amp; Sensory Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A nurse is caring for two clients with macular degeneration: one has the more common form caused by gradual macular thinning, and the other has the less common form caused by abnormal vessel growth that can leak under the macula. Based on these mechanisms, which client is at greater risk for a sudden change in vision?",
+                        "options": [
+                            "The client with gradual macular thinning (dry AMD)",
+                            "Both are equally likely to have sudden changes",
+                            "The client with abnormal vessel growth (wet AMD)",
+                            "Neither type causes vision changes without warning"
+                        ],
+                        "answer": 2,
+                        "rationale": "Correct: wet (neovascular) macular degeneration involves vessels that can leak, which can produce more sudden change than dry AMD's gradual, slow thinning process. Incorrect: dry AMD's mechanism is described as gradual thinning, not sudden change; the two mechanisms work differently, so they are not equally sudden; and leaking vessels can in fact cause a noticeable change.",
+                        "topic": "Visual &amp; Sensory Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client asks why his glaucoma caused no pain or sudden symptoms, unlike a family member's glaucoma that came on suddenly with severe eye pain. What should the nurse explain?",
+                        "options": [
+                            "Both forms always progress identically",
+                            "His form involves new vessel growth",
+                            "His relative's form is less dangerous",
+                            "His drainage pathway is slowly failing"
+                        ],
+                        "answer": 3,
+                        "rationale": "Correct: open-angle glaucoma results from a slowly failing trabecular meshwork, gradual and painless, while closed-angle glaucoma results from the iris suddenly blocking the drainage angle, sudden, painful, and an emergency \u2014 these contrasting mechanisms explain the different presentations. Incorrect: the two forms do not progress the same way, new vessel growth is not the mechanism described for either form of glaucoma here, and closed-angle is the more, not less, dangerous emergency form.",
+                        "topic": "Visual &amp; Sensory Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A nurse is reviewing medications for a client at risk for acute closed-angle glaucoma. Which medication class should raise the most concern?",
+                        "options": [
+                            "Beta blockers",
+                            "Prostaglandin analogs",
+                            "Carbonic anhydrase inhibitors",
+                            "Anticholinergics"
+                        ],
+                        "answer": 3,
+                        "rationale": "Correct: anticholinergic drugs dilate the pupil, which can push the iris into the drainage angle and precipitate an acute closed-angle glaucoma attack. Incorrect: beta blockers, prostaglandin analogs, and carbonic anhydrase inhibitors are all glaucoma treatments themselves, not medications that trigger an attack.",
+                        "topic": "Visual &amp; Sensory Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A nurse is teaching a client how to instill timolol eye drops correctly. Which instruction should the nurse include to reduce systemic absorption?",
+                        "options": [
+                            "Occlude the inner corner of the eye.",
+                            "Blink rapidly several times in a row.",
+                            "Tilt the head back for several minutes.",
+                            "Wipe away the excess drop immediately."
+                        ],
+                        "answer": 0,
+                        "rationale": "Correct: pressing on the inner corner of the eye (nasolacrimal occlusion) for about a minute prevents the drop from draining into the nasolacrimal duct and being absorbed systemically, which matters especially for a beta blocker like timolol. Incorrect: rapid blinking, prolonged head tilting, and quickly wiping the eye do not prevent systemic absorption the way occlusion does.",
+                        "topic": "Visual &amp; Sensory Disorders",
+                        "source": "quiz-bank"
+                    },
+                    {
+                        "stem": "A client with Meniere's disease asks how to reduce the frequency of vertigo attacks. What should the nurse recommend?",
+                        "options": [
+                            "Starting a daily antiviral medication",
+                            "Reducing sodium and caffeine intake",
+                            "Increasing fluid intake significantly",
+                            "Avoiding all physical activity"
+                        ],
+                        "answer": 1,
+                        "rationale": "Correct: management of Meniere's disease is primarily dietary and lifestyle-based, commonly reducing sodium and caffeine as trigger management, since there is no direct pharmacologic cure. Incorrect: there is no antiviral treatment described for Meniere's disease, increasing fluid intake is not the recommended strategy, and avoiding all activity is not part of the described management.",
+                        "topic": "Visual &amp; Sensory Disorders",
+                        "source": "quiz-bank"
+                    }
+                ],
             "eaq": []
         }
     }
