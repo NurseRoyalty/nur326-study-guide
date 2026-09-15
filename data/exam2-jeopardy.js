@@ -7,7 +7,6 @@
 
 window.JEOPARDY_EXAM2 = {
   "categories": [
-    /* ========== HEMATOLOGY: MULTISYSTEM COMPLICATIONS ========== */
     {
       "id": "hematology-complex",
       "name": "Hematology: Multisystem Complications",
@@ -115,8 +114,6 @@ window.JEOPARDY_EXAM2 = {
         ]
       }
     },
-
-    /* ========== ANEMIAS: CRITICAL MANAGEMENT ========== */
     {
       "id": "anemias-advanced",
       "name": "Anemias: Critical Management",
@@ -224,8 +221,6 @@ window.JEOPARDY_EXAM2 = {
         ]
       }
     },
-
-    /* ========== POLYCYTHEMIA & THROMBOTIC CRISES ========== */
     {
       "id": "polycythemia-advanced",
       "name": "Polycythemia: Thrombotic Crises",
@@ -333,8 +328,6 @@ window.JEOPARDY_EXAM2 = {
         ]
       }
     },
-
-    /* ========== TRANSFUSION: MULTISYSTEM COMPLICATIONS ========== */
     {
       "id": "transfusion-advanced",
       "name": "Transfusion: Multisystem Complications",
@@ -442,8 +435,6 @@ window.JEOPARDY_EXAM2 = {
         ]
       }
     },
-
-    /* ========== ELECTROLYTES: EXTREME DERANGEMENTS ========== */
     {
       "id": "electrolytes-extreme",
       "name": "Electrolytes: Extreme Derangements",
@@ -544,8 +535,6 @@ window.JEOPARDY_EXAM2 = {
         ]
       }
     },
-
-    /* ========== PERIOPERATIVE: CRITICAL COMPLICATIONS ========== */
     {
       "id": "perioperative-complex",
       "name": "Perioperative: Critical Complications",
@@ -639,8 +628,6 @@ window.JEOPARDY_EXAM2 = {
         ]
       }
     },
-
-    /* ========== MALIGNANT HYPERTHERMIA: CRITICAL ESCALATION ========== */
     {
       "id": "malignant-hyperthermia-crisis",
       "name": "Malignant Hyperthermia: Critical Escalation",

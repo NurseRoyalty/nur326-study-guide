@@ -45,6 +45,7 @@ const SITE = {
     {
       label: "Week 1",
       items: [
+        { id: "week1-study-guide", num: "0", title: "Comprehensive Study Guide", file: "week1-study-guide.html" },
         { id: "week1-abx", num: "1", title: "Antimicrobials &amp; Antibiotics (ABX)", file: "week1-antimicrobials-antibiotics.html" },
         { id: "week1-antivirals", num: "2", title: "Antivirals", file: "week1-antivirals.html" },
         { id: "week1-hiv", num: "3", title: "HIV &amp; Antiretroviral Therapy (ART)", file: "week1-hiv.html" },
@@ -61,6 +62,16 @@ const SITE = {
         { id: "week2-anemia", num: "5", title: "Anemia", file: "week2-anemia.html" },
         { id: "week2-polycythemia", num: "6", title: "Polycythemia", file: "week2-polycythemia.html" },
         { id: "week2-big-picture-overview", num: "7", title: "Big Picture Overview", file: "week2-big-picture-overview.html" },
+      ]
+    },
+    {
+      label: "Week 4",
+      items: [
+        { id: "week4-liver-function-jaundice", num: "1", title: "Liver Anatomy, Function &amp; Jaundice", file: "week4-liver-function-jaundice.html" },
+        { id: "week4-viral-hepatitis", num: "2", title: "Viral Hepatitis (A, B &amp; C)", file: "week4-viral-hepatitis.html" },
+        { id: "week4-cirrhosis-liver-failure", num: "3", title: "Cirrhosis &amp; Liver Failure", file: "week4-cirrhosis-liver-failure.html" },
+        { id: "week4-gallbladder-pancreatitis", num: "4", title: "Gallbladder &amp; Pancreatic Disorders", file: "week4-gallbladder-pancreatitis.html" },
+        { id: "week4-big-picture-overview", num: "5", title: "Big Picture Overview", file: "week4-big-picture-overview.html" },
       ]
     },
     {
@@ -84,12 +95,10 @@ const SITE = {
       label: "Exam Prep",
       items: [
         { id: "must-know",       num: "1", title: "Must Know Quick Reference", file: "must-know.html" },
-        { id: "week1-lecture-review", num: "2", title: "Week 1 Lecture Review", file: "week1-lecture-review.html" },
-        { id: "week2-lecture-review", num: "3", title: "Week 2 Lecture Review", file: "week2-lecture-review.html" },
-        { id: "quiz-builder",    num: "4", title: "Build Your Own Exam",       file: "quiz-builder.html" },
-        { id: "torture-chamber", num: "5", title: "The Torture Chamber",       file: "torture-chamber.html" },
-        { id: "lecture-review-template", num: "6", title: "Lecture Review Template", file: "lecture-review-template.html" },
-        { id: "week2-jeopardy",  num: "7", title: "Week 2 Jeopardy",             file: "week2-jeopardy.html" },
+        { id: "quiz-builder",    num: "2", title: "Build Your Own Exam",       file: "quiz-builder.html" },
+        { id: "torture-chamber", num: "3", title: "The Torture Chamber",       file: "torture-chamber.html" },
+        { id: "lecture-review-template", num: "4", title: "Lecture Review Template", file: "lecture-review-template.html" },
+        { id: "exam2-jeopardy",  num: "5", title: "Exam 2 Jeopardy — 2 Player Game", file: "exam2-jeopardy.html" },
       ]
     }
   ]
