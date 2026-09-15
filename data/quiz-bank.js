@@ -5231,7 +5231,7 @@ window.QUIZ_BANK = {
             "mustKnow": [],
             "extraPractice": [
                     {
-                        "stem": "A pregnant client is diagnosed with acute pyelonephritis. Before the antibiotic order is carried out, the nurse should recognize that which medications need to be clarified with the provider because of the pregnancy? Select all that apply.",
+                        "stem": "A pregnant client is diagnosed with acute pyelonephritis. Her chart also notes a previous UTI that failed to respond to nitrofurantoin. Given both details, which medications should the nurse expect the provider to avoid for this admission? Select all that apply.",
                         "options": [
                             "Trimethoprim-sulfamethoxazole (Bactrim)",
                             "Ciprofloxacin",
@@ -5242,9 +5242,10 @@ window.QUIZ_BANK = {
                         ],
                         "answers": [
                             0,
-                            1
+                            1,
+                            2
                         ],
-                        "rationale": "Correct: Bactrim and ciprofloxacin are both specifically avoided in pregnancy, so the nurse should flag these before they're given to a pregnant client. Incorrect: nitrofurantoin is used clinically for UTIs, a urinalysis/culture is standard workup regardless of pregnancy, and short-course or IV antibiotic strategies are chosen by severity, not restricted by pregnancy itself.",
+                        "rationale": "Correct: Bactrim and ciprofloxacin are both avoided in pregnancy, and this client's prior nitrofurantoin failure means it isn't a safe fallback either -- all three should be avoided here. Incorrect: a urinalysis/culture is standard workup regardless of pregnancy, and whether treatment is a short outpatient course or inpatient IV antibiotics is decided by severity, not restricted by either the pregnancy or the resistance history.",
                         "topic": "Renal Disorders",
                         "source": "quiz-bank"
                     },
@@ -5309,7 +5310,7 @@ window.QUIZ_BANK = {
                             "Limiting dietary oxalate"
                         ],
                         "answer": 0,
-                        "rationale": "Correct: recurrent UTIs point toward a struvite stone, which forms in relation to infection, so treating the underlying infection (with fluids and antibiotics) is the matching prevention strategy. Incorrect: a thiazide diuretic prevents calcium stones, allopurinol prevents uric acid stones, and limiting oxalate is a calcium stone strategy \u2014 none of which match this client's infection-linked risk factor.",
+                        "rationale": "Correct: recurrent UTIs point toward a struvite stone, which forms in relation to infection, so treating the underlying infection (with fluids and antibiotics) is the matching prevention strategy. Incorrect: a thiazide diuretic prevents calcium stones, allopurinol prevents uric acid stones, and limiting oxalate is a calcium stone strategy — none of which match this client's infection-linked risk factor.",
                         "topic": "Renal Disorders",
                         "source": "quiz-bank"
                     },
@@ -5322,7 +5323,7 @@ window.QUIZ_BANK = {
                             "An underlying bladder malignancy"
                         ],
                         "answer": 2,
-                        "rationale": "Correct: spasmodic flank-to-groin pain with nausea, without fever, is the classic renal colic pattern of a stone moving through the ureter \u2014 the absence of fever argues against an infectious process. Incorrect: a urinary tract infection would be expected to cause fever and systemic illness, longstanding obstruction develops gradually rather than presenting this acutely, and bladder cancer more often presents with painless hematuria rather than acute colicky pain.",
+                        "rationale": "Correct: spasmodic flank-to-groin pain with nausea, without fever, is the classic renal colic pattern of a stone moving through the ureter — the absence of fever argues against an infectious process. Incorrect: a urinary tract infection would be expected to cause fever and systemic illness, longstanding obstruction develops gradually rather than presenting this acutely, and bladder cancer more often presents with painless hematuria rather than acute colicky pain.",
                         "topic": "Renal Disorders",
                         "source": "quiz-bank"
                     },
@@ -5442,7 +5443,7 @@ window.QUIZ_BANK = {
                         "source": "quiz-bank"
                     },
                     {
-                        "stem": "A client's acute kidney injury is traced to a pelvic tumor compressing both ureters. Which classification best describes this cause?",
+                        "stem": "A client's acute kidney injury is being evaluated. Imaging confirms a pelvic tumor compressing both ureters, though the client also reports several days of reduced oral intake from nausea. Which classification best fits this AKI?",
                         "options": [
                             "Prerenal",
                             "Intrarenal",
@@ -5450,7 +5451,7 @@ window.QUIZ_BANK = {
                             "A mixed cause"
                         ],
                         "answer": 2,
-                        "rationale": "Correct: a tumor obstructing the ureters is a blockage downstream of the kidneys, which defines a postrenal cause of AKI. Incorrect: prerenal involves reduced blood flow before the kidney, intrarenal involves direct kidney tissue damage, and this scenario describes a single, clearly downstream cause rather than a mixed one.",
+                        "rationale": "Correct: a confirmed bilateral ureteral obstruction is a postrenal cause and is the dominant, objectively confirmed problem here — a few days of reduced intake does not outweigh imaging-confirmed obstruction. Incorrect: a prerenal cause would require volume/perfusion as the primary problem, an intrarenal cause would mean damage inside the kidney itself, and imaging has already identified a single confirmed cause rather than a mixed one.",
                         "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
                         "source": "quiz-bank"
                     },
@@ -5528,12 +5529,12 @@ window.QUIZ_BANK = {
                         "stem": "A client with CKD asks why she was prescribed both calcitriol and calcium carbonate. What should the nurse explain connects these two therapies?",
                         "options": [
                             "Both are given only to control blood pressure",
-                            "Both address lost vitamin D activation",
+                            "Both address the same bone-mineral complication",
                             "Both directly replace lost erythropoietin",
                             "Both correct metabolic acidosis from the kidneys"
                         ],
                         "answer": 1,
-                        "rationale": "Correct: calcitriol replaces the activated vitamin D the kidneys can no longer produce, while calcium carbonate binds the phosphate that also rises as kidney function fails \u2014 together they address the same underlying mineral/bone problem. Incorrect: neither is a blood pressure medication, erythropoietin replacement is a separate anemia therapy, and sodium bicarbonate, not these two, treats metabolic acidosis.",
+                        "rationale": "Correct: calcitriol restores the activated vitamin D the kidneys can no longer produce, while calcium carbonate binds the phosphate that also rises as kidney function fails — different mechanisms, same combined hyperphosphatemia/renal osteodystrophy problem. Incorrect: neither is a blood pressure medication, erythropoietin replacement is a separate anemia therapy, and sodium bicarbonate, not these two, treats metabolic acidosis.",
                         "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
                         "source": "quiz-bank"
                     },
@@ -5609,7 +5610,7 @@ window.QUIZ_BANK = {
                             "Explain that pain would confirm this is cancer"
                         ],
                         "answer": 1,
-                        "rationale": "Correct: testicular cancer classically presents as a painless mass, and because it doesn't hurt, patients often delay reporting it \u2014 the nurse needs to correct that assumption and reinforce prompt evaluation. Incorrect: painless does not mean not serious, further delay isn't appropriate, and pain is not required for, or a marker of, this cancer.",
+                        "rationale": "Correct: testicular cancer classically presents as a painless mass, and because it doesn't hurt, patients often delay reporting it — the nurse needs to correct that assumption and reinforce prompt evaluation. Incorrect: painless does not mean not serious, further delay isn't appropriate, and pain is not required for, or a marker of, this cancer.",
                         "topic": "Male Reproductive Disorders",
                         "source": "quiz-bank"
                     },
@@ -5640,20 +5641,20 @@ window.QUIZ_BANK = {
                             0,
                             1
                         ],
-                        "rationale": "Correct: tamsulosin (an alpha-1 blocker) relieves symptoms quickly by relaxing smooth muscle, while finasteride (a 5-alpha reductase inhibitor) takes months to actually shrink the gland \u2014 combination therapy uses both because they work on different timelines. Incorrect: only finasteride shrinks the gland, and not immediately; tamsulosin should be continued as prescribed rather than stopped once feeling better; combination therapy specifically uses both together; and it's used for moderate-to-severe, not milder, symptoms.",
+                        "rationale": "Correct: tamsulosin (an alpha-1 blocker) relieves symptoms quickly by relaxing smooth muscle, while finasteride (a 5-alpha reductase inhibitor) takes months to actually shrink the gland — combination therapy uses both because they work on different timelines. Incorrect: only finasteride shrinks the gland, and not immediately; tamsulosin should be continued as prescribed rather than stopped once feeling better; combination therapy specifically uses both together; and it's used for moderate-to-severe, not milder, symptoms.",
                         "topic": "Male Reproductive Disorders",
                         "source": "quiz-bank"
                     },
                     {
-                        "stem": "A client newly started on tamsulosin for BPH calls the office after three days, frustrated that his prostate does not feel any smaller. What should the nurse explain?",
+                        "stem": "A client newly diagnosed with mild BPH symptoms asks the nurse why the provider isn't starting a medication today. What should the nurse explain?",
                         "options": [
-                            "The gland should already be visibly smaller by now",
-                            "Tamsulosin relieves symptoms without shrinking the gland",
-                            "Tamsulosin needs several more months to shrink the gland",
-                            "The medication was likely prescribed for the wrong condition"
+                            "BPH always requires immediate combination therapy",
+                            "For mild symptoms, watchful waiting is standard",
+                            "Untreated BPH can turn into prostate cancer",
+                            "Medications aren't effective until symptoms are severe"
                         ],
                         "answer": 1,
-                        "rationale": "Correct: tamsulosin relaxes prostate and bladder-neck smooth muscle for fast symptom relief but does not shrink the prostate itself \u2014 that's what a 5-alpha reductase inhibitor like finasteride does, over months. Incorrect: gland shrinkage isn't expected from tamsulosin at all, so both \"already smaller\" and \"needs more months\" wrongly assume it shrinks the gland, and the medication is correctly prescribed for BPH.",
+                        "rationale": "Correct: for mild BPH symptoms, watchful waiting (monitoring rather than starting treatment right away) is the standard approach. Incorrect: combination therapy is reserved for moderate-to-severe symptoms, not every case; BPH is benign and does not turn into cancer; and medications are effective and available regardless of symptom severity, not just once symptoms worsen.",
                         "topic": "Male Reproductive Disorders",
                         "source": "quiz-bank"
                     },
@@ -5742,7 +5743,7 @@ window.QUIZ_BANK = {
                             "Reassurance that no treatment is needed"
                         ],
                         "answer": 0,
-                        "rationale": "Correct: gradual, bilateral, painless blur specifically from lens clouding, not retinal or optic nerve involvement, is the cataract pattern, and cataracts are treated surgically only \u2014 no medication reverses lens clouding. Incorrect: prostaglandin analog drops treat glaucoma's elevated eye pressure, not lens clouding; reducing sodium and caffeine is the Meniere's disease strategy; and cataracts do not resolve without treatment.",
+                        "rationale": "Correct: gradual, bilateral, painless blur specifically from lens clouding, not retinal or optic nerve involvement, is the cataract pattern, and cataracts are treated surgically only — no medication reverses lens clouding. Incorrect: prostaglandin analog drops treat glaucoma's elevated eye pressure, not lens clouding; reducing sodium and caffeine is the Meniere's disease strategy; and cataracts do not resolve without treatment.",
                         "topic": "Visual &amp; Sensory Disorders",
                         "source": "quiz-bank"
                     },
@@ -5838,7 +5839,7 @@ window.QUIZ_BANK = {
                             "His drainage pathway is slowly failing"
                         ],
                         "answer": 3,
-                        "rationale": "Correct: open-angle glaucoma results from a slowly failing trabecular meshwork, gradual and painless, while closed-angle glaucoma results from the iris suddenly blocking the drainage angle, sudden, painful, and an emergency \u2014 these contrasting mechanisms explain the different presentations. Incorrect: the two forms do not progress the same way, new vessel growth is not the mechanism described for either form of glaucoma here, and closed-angle is the more, not less, dangerous emergency form.",
+                        "rationale": "Correct: open-angle glaucoma results from a slowly failing trabecular meshwork, gradual and painless, while closed-angle glaucoma results from the iris suddenly blocking the drainage angle, sudden, painful, and an emergency — these contrasting mechanisms explain the different presentations. Incorrect: the two forms do not progress the same way, new vessel growth is not the mechanism described for either form of glaucoma here, and closed-angle is the more, not less, dangerous emergency form.",
                         "topic": "Visual &amp; Sensory Disorders",
                         "source": "quiz-bank"
                     },
@@ -5856,28 +5857,28 @@ window.QUIZ_BANK = {
                         "source": "quiz-bank"
                     },
                     {
-                        "stem": "A nurse is teaching a client how to instill timolol eye drops correctly. Which instruction should the nurse include to reduce systemic absorption?",
+                        "stem": "A nurse is teaching a client with a history of bradycardia how to instill prescribed timolol eye drops. Which instruction is most important for reducing the risk of a systemic effect?",
                         "options": [
-                            "Occlude the inner corner of the eye.",
-                            "Blink rapidly several times in a row.",
-                            "Tilt the head back for several minutes.",
-                            "Wipe away the excess drop immediately."
+                            "Occlude the inner corner of the eye for about a minute.",
+                            "Blink rapidly several times after instilling the drop.",
+                            "Tilt the head back and hold the position for several minutes.",
+                            "Wipe away any excess medication immediately."
                         ],
                         "answer": 0,
-                        "rationale": "Correct: pressing on the inner corner of the eye (nasolacrimal occlusion) for about a minute prevents the drop from draining into the nasolacrimal duct and being absorbed systemically, which matters especially for a beta blocker like timolol. Incorrect: rapid blinking, prolonged head tilting, and quickly wiping the eye do not prevent systemic absorption the way occlusion does.",
+                        "rationale": "Correct: pressing on the inner corner of the eye (nasolacrimal occlusion) keeps the drop from draining into the nasolacrimal duct and being absorbed systemically — an important safety step for a beta blocker eye drop in a client who already has bradycardia, since systemic beta-blockade could worsen it. Incorrect: rapid blinking, prolonged head tilting, and quickly wiping the drop away do not block nasolacrimal drainage and do not reduce systemic absorption the way occlusion does.",
                         "topic": "Visual &amp; Sensory Disorders",
                         "source": "quiz-bank"
                     },
                     {
-                        "stem": "A client with Meniere's disease asks how to reduce the frequency of vertigo attacks. What should the nurse recommend?",
+                        "stem": "A client recently diagnosed with Meniere's disease asks the nurse for a medication that will cure the condition and stop the vertigo attacks completely. What should the nurse explain?",
                         "options": [
-                            "Starting a daily antiviral medication",
-                            "Reducing sodium and caffeine intake",
-                            "Increasing fluid intake significantly",
-                            "Avoiding all physical activity"
+                            "A daily antiviral medication will resolve the underlying cause.",
+                            "There's no cure; management targets dietary triggers",
+                            "Increasing daily fluid intake will eliminate the attacks.",
+                            "Avoiding all physical activity will prevent future episodes."
                         ],
                         "answer": 1,
-                        "rationale": "Correct: management of Meniere's disease is primarily dietary and lifestyle-based, commonly reducing sodium and caffeine as trigger management, since there is no direct pharmacologic cure. Incorrect: there is no antiviral treatment described for Meniere's disease, increasing fluid intake is not the recommended strategy, and avoiding all activity is not part of the described management.",
+                        "rationale": "Correct: there is no direct pharmacologic cure for Meniere's disease — management is primarily dietary and lifestyle-based, commonly reducing sodium and caffeine as trigger management. Incorrect: there is no antiviral treatment described for Meniere's disease, increasing fluid intake is not the recommended strategy, and avoiding all activity is not part of the described management.",
                         "topic": "Visual &amp; Sensory Disorders",
                         "source": "quiz-bank"
                     }
