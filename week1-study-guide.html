@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 1 Study Guide - Antimicrobials, Antivirals & HIV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #f8f6f3;
+            color: #333;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            border-bottom: 3px solid #8b5a3c;
+            padding-bottom: 2rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #2d1810;
+            margin-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: #666;
+        }
+
+        .intro-section {
+            background: white;
+            border-left: 4px solid #c9a878;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-bottom: 2.5rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        .intro-section h2 {
+            color: #8b5a3c;
+            margin-bottom: 1rem;
+            font-size: 1.4rem;
+        }
+
+        .intro-section p {
+            margin-bottom: 1rem;
+            color: #555;
+        }
+
+        .key-concept {
+            background: #f5f0e8;
+            border: 1px solid #e8d5c4;
+            padding: 1.5rem;
+            border-radius: 6px;
+            margin: 1rem 0;
+        }
+
+        .key-concept strong {
+            color: #8b5a3c;
+        }
+
+        section {
+            margin-bottom: 3rem;
+        }
+
+        h2 {
+            color: #8b5a3c;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #e8d5c4;
+        }
+
+        h3 {
+            color: #6b4530;
+            font-size: 1.3rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .concept-box {
+            background: white;
+            border-left: 4px solid #c9a878;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-radius: 6px;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .concept-box h4 {
+            color: #8b5a3c;
+            margin-bottom: 0.8rem;
+            font-size: 1.1rem;
+        }
+
+        ul, ol {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        li {
+            margin-bottom: 0.6rem;
+            color: #444;
+        }
+
+        strong {
+            color: #6b4530;
+        }
+
+        em {
+            color: #8b5a3c;
+        }
+
+        .highlight {
+            background: #fffbf7;
+            border-left: 3px solid #c9a878;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 4px;
+        }
+
+        .clinical-pearl {
+            background: #f9f7f4;
+            border: 2px solid #c9a878;
+            border-left: 4px solid #8b5a3c;
+            padding: 1.5rem;
+            border-radius: 6px;
+            margin: 1.5rem 0;
+            font-weight: 500;
+        }
+
+        .clinical-pearl::before {
+            content: "💡 Clinical Pearl: ";
+            color: #8b5a3c;
+            font-weight: 600;
+        }
+
+        .table-responsive {
+            overflow-x: auto;
+            margin: 1.5rem 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+            border-radius: 6px;
+            overflow: hidden;
+        }
+
+        th {
+            background: #8b5a3c;
+            color: white;
+            padding: 1rem;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        td {
+            padding: 0.9rem;
+            border-bottom: 1px solid #e8d5c4;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        tr:nth-child(even) {
+            background: #f9f7f4;
+        }
+
+        .comparison {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .comparison-item {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 6px;
+            border-left: 4px solid #8b5a3c;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .comparison-item h4 {
+            color: #8b5a3c;
+            margin-bottom: 1rem;
+        }
+
+        .study-tips {
+            background: #f0e6d8;
+            border-left: 4px solid #8b5a3c;
+            padding: 1.5rem;
+            border-radius: 6px;
+            margin: 2rem 0;
+        }
+
+        .study-tips h3 {
+            color: #8b5a3c;
+            margin-top: 0;
+        }
+
+        .study-tips li {
+            color: #333;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 2rem 1rem;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            .comparison {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Week 1 Comprehensive Study Guide</h1>
+            <p class="subtitle">Antimicrobials, Antivirals & HIV - Clinical Pharmacology for NCLEX Success</p>
+        </header>
+
+        <div class="intro-section">
+            <h2>Your Learning Framework</h2>
+            <p>This week focuses on understanding what makes certain drugs <strong>unique and clinically different</strong> from their class members. The professor expects you to know:</p>
+            <div class="key-concept">
+                <strong>NOT just:</strong> Drug names, generic names, and basic mechanisms<br>
+                <strong>BUT HOW:</strong> Each drug solves clinical problems differently, what populations cannot receive it, what irreversible adverse effects can occur, and why the FDA restricts its use
+            </div>
+            <p style="margin-top: 1.5rem; color: #555; font-style: italic;">This study guide synthesizes lecture materials and exam expectations to help you build deep clinical reasoning about antimicrobial pharmacology.</p>
+        </div>
+
+        <!-- VANCOMYCIN SECTION -->
+        <section>
+            <h2>Vancomycin: Everything You Need to Know</h2>
+
+            <p>Vancomycin is <strong>the gold standard for MRSA infection</strong> and carries unique clinical complexity. The professor emphasizes that understanding vancomycin deeply is critical because of its narrow therapeutic index, irreversible toxicities, and special monitoring requirements.</p>
+
+            <div class="concept-box">
+                <h4>Why Vancomycin Requires Special Attention</h4>
+                <p>Vancomycin is one of the few drugs where:</p>
+                <ul>
+                    <li><strong>Trough levels MUST be monitored</strong> (not peak levels) - therapeutic trough is 15-20 mcg/mL</li>
+                    <li><strong>Infusion rate is CRITICAL</strong> - too fast causes Red Man Syndrome (infusion-related reaction)</li>
+                    <li><strong>Combination with other nephrotoxic drugs is DANGEROUS</strong> - synergistic kidney/hearing damage</li>
+                    <li><strong>Ototoxicity is IRREVERSIBLE</strong> - once hearing is damaged, it cannot be restored</li>
+                    <li><strong>CNS penetration is POOR</strong> - even at high doses, achieving meningitis-level CNS concentrations is difficult</li>
+                </ul>
+            </div>
+
+            <h3>Red Man Syndrome: The Vancomycin Signature</h3>
+            <div class="concept-box">
+                <h4>Mechanism & Prevention</h4>
+                <p><strong>What:</strong> Rapid complement activation causing massive histamine release → facial flushing, erythema, pruritus, hypotension</p>
+                <p><strong>NOT a true IgE-mediated allergy</strong> - it's a rate-dependent infusion reaction</p>
+                <p><strong>Prevention:</strong></p>
+                <ul>
+                    <li>Slow infusion rate: minimum 60 minutes for standard dosing</li>
+                    <li>Pretreatment with antihistamines (diphenhydramine) AND corticosteroids (hydrocortisone)</li>
+                    <li>Despite pretreatment, the infusion must still be slow</li>
+                </ul>
+                <p><strong>Management:</strong> If Red Man develops, STOP the infusion, give antihistamines/steroids IV, resume at slower rate once symptoms resolve</p>
+            </div>
+
+            <h3>Monitoring: The Vancomycin Imperative</h3>
+            <div class="table-responsive">
+                <table>
+                    <tr>
+                        <th>Monitoring Parameter</th>
+                        <th>Why It Matters</th>
+                        <th>Nursing Action</th>
+                    </tr>
+                    <tr>
+                        <td><strong>Trough Level</strong></td>
+                        <td>Reflects steady-state concentration; too low = treatment failure; too high = toxicity</td>
+                        <td>Draw 30 min before 4th or 5th dose; therapeutic = 15-20 mcg/mL</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Renal Function (Cr, BUN)</strong></td>
+                        <td>Vancomycin is renally cleared; kidney damage increases drug accumulation</td>
+                        <td>Baseline and periodic monitoring; adjust dose if Cr increases</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Ototoxicity Assessment</strong></td>
+                        <td>Irreversible hearing loss, tinnitus - especially with high doses/renal impairment/ototoxic drugs</td>
+                        <td>Ask patient about hearing changes, tinnitus; notify provider if present</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Other Nephrotoxic Drugs</strong></td>
+                        <td>Vancomycin + gentamicin = synergistic kidney AND hearing damage</td>
+                        <td>When possible, separate administration; if combined, heighten monitoring</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="clinical-pearl">
+                Vancomycin CNS penetration is only 15-30% even with inflamed meninges. For meningitis, much higher trough levels are required (often 20+ mcg/mL). Don't just give "standard" dosing for CNS infection - the infection may be underdosed.
+            </div>
+
+            <h3>Vancomycin vs Other MRSA Options</h3>
+            <div class="comparison">
+                <div class="comparison-item">
+                    <h4>Vancomycin (Gold Standard)</h4>
+                    <ul>
+                        <li>IV only</li>
+                        <li>Trough monitoring required</li>
+                        <li>Red Man Syndrome risk</li>
+                        <li>Ototoxicity/nephrotoxicity concerns</li>
+                        <li>Proven track record</li>
+                    </ul>
+                </div>
+                <div class="comparison-item">
+                    <h4>Linezolid (Alternative)</h4>
+                    <ul>
+                        <li>Oral or IV</li>
+                        <li>No therapeutic drug monitoring</li>
+                        <li>Excellent CNS penetration</li>
+                        <li>Thrombocytopenia risk</li>
+                        <li>Expensive, SSRI interaction risk</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ANTIBIOTIC DIFFERENCES SECTION -->
+        <section>
+            <h2>Critical Antibiotic Differences: What The Professor Wants You to Know</h2>
+
+            <p>The professor expects you to understand what makes EACH antibiotic unique and clinically important. This is NOT about memorizing drug names - it's about understanding which patients can't receive certain drugs and why.</p>
+
+            <h3>Age-Based Contraindications</h3>
+
+            <div class="concept-box">
+                <h4>Fluoroquinolones (Cipro, Levofloxacin, Moxifloxacin) - Contraindicated <18 & >60</h4>
+                <p><strong>Why:</strong> Cause ARTHROPATHY and TENDINOPATHY - joint damage and tendon tears</p>
+                <ul>
+                    <li>In children <18: damage growing cartilage → permanent joint problems</li>
+                    <li>In adults >60: increase risk of tendon rupture (Achilles especially)</li>
+                    <li><strong>Exception:</strong> Pediatric cystic fibrosis patients due to Pseudomonas infection severity</li>
+                </ul>
+                <p><strong>Clinical Pearl:</strong> A young patient with cipro prescribed = ALERT. Must check if no alternative exists. Tendon rupture can happen DURING therapy or months after therapy ends.</p>
+            </div>
+
+            <div class="concept-box">
+                <h4>Tetracyclines (Doxycycline, Minocycline) - Multiple Contraindications</h4>
+                <p><strong>Contraindicated in:</strong></p>
+                <ul>
+                    <li><strong>Children <8 years old:</strong> Permanent tooth discoloration and enamel dysplasia</li>
+                    <li><strong>Pregnancy (especially 2nd/3rd trimester):</strong> Teratogenic, causes tooth staining in fetus, bone growth problems</li>
+                    <li><strong>Dairy products/high calcium foods:</strong> Form chelation complexes, reduce absorption dramatically</li>
+                    <li><strong>Photosensitivity:</strong> Tetracyclines cause severe sun sensitivity - patients MUST avoid sun exposure</li>
+                </ul>
+                <p><strong>Clinical Pearl:</strong> Doxycycline has a unique off-label use: acne treatment (anti-inflammatory, NOT antibacterial effect). Also used for rosacea and some reports for gastroparesis (prokinetic effect).</p>
+            </div>
+
+            <h3>Mechanism-Based Unique Uses</h3>
+
+            <div class="concept-box">
+                <h4>Doxycycline: The "Non-Infection" Antibiotic</h4>
+                <p>Doxycycline's ANTI-INFLAMMATORY properties (independent of antibacterial action) allow use for:</p>
+                <ul>
+                    <li>Moderate acne (reduces sebum production, inflammation)</li>
+                    <li>Rosacea (anti-inflammatory effect)</li>
+                    <li>Some data on gastroparesis (prokinetic mechanism)</li>
+                </ul>
+                <p><strong>Nursing Implication:</strong> If you see doxycycline on a patient's MAR WITHOUT documented infection, they're probably being treated for acne/rosacea, not an infection.</p>
+            </div>
+
+            <div class="concept-box">
+                <h4>Metronidazole: Unique Coverage & Alcohol Reaction</h4>
+                <p><strong>UNIQUE Spectrum:</strong> ONLY antibiotic that covers BOTH:</p>
+                <ul>
+                    <li>Anaerobic bacteria (C. difficile, Bacteroides, Prevotella)</li>
+                    <li>Protozoa (Trichomonas, Giardia, Entamoeba)</li>
+                </ul>
+                <p><strong>CRITICAL Patient Education:</strong> Patients MUST avoid ALL alcohol (including cough syrups, mouthwash) during therapy and for 48+ hours after completion</p>
+                <p><strong>Reaction:</strong> Disulfiram-like reaction = severe flushing, nausea, vomiting, hypotension - potentially dangerous</p>
+            </div>
+
+            <h3>Organism Coverage: Understanding the Nuances</h3>
+
+            <div class="concept-box">
+                <h4>Macrolides (Azithromycin, Erythromycin) - Unexpected Coverage</h4>
+                <p><strong>Unique among antibiotics:</strong> Coverage for organisms many beta-lactams miss:</p>
+                <ul>
+                    <li>Legionnaires disease (Legionella pneumophila)</li>
+                    <li>Listeria monocytogenes</li>
+                    <li>Mycoplasma pneumoniae (atypical pneumonia)</li>
+                </ul>
+                <p><strong>Black Box Concern:</strong> QT prolongation - can cause fatal arrhythmias, especially in elderly or with electrolyte abnormalities</p>
+                <p><strong>CYP3A4 Inhibition:</strong> Potent P450 inhibitor - watch for interactions (statins, warfarin, etc.)</p>
+            </div>
+
+            <div class="concept-box">
+                <h4>Carbapenems (Imipenem, Meropenem) - BBB Penetration</h4>
+                <p><strong>UNIQUE Feature:</strong> Imipenem crosses blood-brain barrier effectively - good for CNS infections</p>
+                <p><strong>BUT:</strong> Black box warning for SEIZURES (especially imipenem > meropenem)</p>
+                <p><strong>Cilastatin Co-administration:</strong> Cilastatin is a renal dipeptidase inhibitor that prevents imipenem inactivation in kidney, allowing higher serum levels</p>
+            </div>
+
+            <h3>QT Prolongation Risk: Critical Safety Issue</h3>
+            <div class="clinical-pearl">
+                Both MACROLIDES and FLUOROQUINOLONES carry risk of QT interval prolongation → Torsades de Pointes → sudden cardiac death. Risk increases with: elderly patients, electrolyte abnormalities (hypokalemia, hypomagnesemia), other QT-prolonging drugs, or baseline long QT syndrome. Patient monitoring essential.
+            </div>
+        </section>
+
+        <!-- HIV/AIDS SECTION -->
+        <section>
+            <h2>HIV & AIDS: Pathophysiology Understanding</h2>
+
+            <p>The professor wants you to understand HIV not just as "a virus" but as a complex pathophysiologic challenge affecting multiple organ systems. Deep understanding of HIV biology informs all treatment and management decisions.</p>
+
+            <h3>Why CD4+ T Cells Matter: The Immune System's Command Center</h3>
+            <div class="concept-box">
+                <h4>The Central Tragedy of HIV</h4>
+                <p>HIV specifically targets and destroys CD4+ T helper cells - the immune system's central coordinators.</p>
+                <ul>
+                    <li><strong>CD4+ cells:</strong> Activate and coordinate responses from cytotoxic T cells, B cells, macrophages, and NK cells</li>
+                    <li><strong>When CD4 is destroyed:</strong> The entire immune response becomes uncoordinated and ineffective</li>
+                    <li><strong>Result:</strong> Inability to fight infections, tumors, or any pathogen</li>
+                    <li><strong>Clinical Threshold:</strong> CD4 <200 = severe immunosuppression; CD4 <50 = critical immunosuppression</li>
+                </ul>
+            </div>
+
+            <h3>HIV Stages: Natural Disease Progression</h3>
+            <div class="table-responsive">
+                <table>
+                    <tr>
+                        <th>Stage</th>
+                        <th>CD4 Count</th>
+                        <th>Viral Load</th>
+                        <th>Clinical Features</th>
+                    </tr>
+                    <tr>
+                        <td><strong>Acute Infection</strong></td>
+                        <td>Variable (can be normal initially)</td>
+                        <td>VERY HIGH (millions)</td>
+                        <td>Fever, rash, malaise, similar to mononucleosis; patients often unaware they're infected</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Chronic Asymptomatic</strong></td>
+                        <td>Gradual decline (200-800)</td>
+                        <td>Moderate to high</td>
+                        <td>Few/no symptoms despite ongoing viral replication and CD4 decline</td>
+                    </tr>
+                    <tr>
+                        <td><strong>AIDS (Stage 3)</strong></td>
+                        <td><200 or AIDS-defining illness</td>
+                        <td>Very high</td>
+                        <td>Opportunistic infections, malignancies, CNS symptoms</td>
+                    </tr>
+                </table>
+            </div>
+
+            <h3>Opportunistic Infections: The CD4 Threshold Concept</h3>
+            <div class="concept-box">
+                <h4>Why Different OIs at Different CD4 Levels?</h4>
+                <p>As CD4 declines, the immune system loses ability to fight specific pathogens:</p>
+                <ul>
+                    <li><strong>CD4 <200:</strong> Pneumocystis jirovecii pneumonia (PCP) - requires prophylaxis with TMP-SMX</li>
+                    <li><strong>CD4 <100:</strong> Toxoplasmosis, cryptococcosis - adds toxo prophylaxis to existing PCP prophylaxis</li>
+                    <li><strong>CD4 <50:</strong> MAC (Mycobacterium avium complex), CMV, histoplasmosis - adds MAC prophylaxis with azithromycin</li>
+                    <li><strong>CD4 <50:</strong> CMV retinitis, esophagitis, colitis - may need CMV prophylaxis/treatment</li>
+                </ul>
+                <p><strong>Clinical Pearls:</strong> Prophylaxis can be STOPPED when CD4 recovers >100-200 on ART for 3+ months. This represents immune reconstitution and is evidence that ART is working.</p>
+            </div>
+
+            <h3>HIV-Associated Dementia & CNS Complications</h3>
+            <div class="concept-box">
+                <h4>Direct HIV Brain Infection</h4>
+                <p><strong>UNIQUE among OIs:</strong> HIV itself crosses the blood-brain barrier and directly infects brain tissue</p>
+                <ul>
+                    <li><strong>HIV-Associated Dementia (HAD):</strong> Progressive cognitive decline, behavioral changes, motor dysfunction</li>
+                    <li><strong>MORE common:</strong> With very low CD4 (<50)</li>
+                    <li><strong>DIFFERENT from:</strong> Opportunistic infections (toxoplasmosis, CMV encephalitis)</li>
+                    <li><strong>PARTIALLY reversible:</strong> ART can slow/partially reverse HAD progression</li>
+                </ul>
+            </div>
+
+            <h3>U=U: Undetectable = Untransmittable</h3>
+            <div class="clinical-pearl">
+                Sustained viral load <50 copies/mL = ZERO sexual transmission risk to partners (supported by PARTNER and Opposites Attract studies). This game-changing concept allows HIV-positive individuals to have unprotected sex without transmitting virus. However: requires perfect ART adherence, regular viral load monitoring, and doesn't protect against other STIs.
+            </div>
+        </section>
+
+        <!-- ANTIVIRALS SECTION -->
+        <section>
+            <h2>Antiviral Medications: Unique Features & Mechanisms</h2>
+
+            <p>Antivirals represent diverse pharmacologic approaches to viral suppression. Understanding MECHANISM, not just drug names, is essential.</p>
+
+            <h3>Acyclovir & Prodrugs: The Herpes Fighters</h3>
+            <div class="concept-box">
+                <h4>Why Antivirals DON'T Cure Herpes</h4>
+                <p><strong>Mechanism:</strong> Acyclovir inhibits viral DNA polymerase during ACTIVE replication</p>
+                <p><strong>The Problem:</strong> Acyclovir cannot eliminate dormant (latent) virus hiding in nerve ganglia</p>
+                <ul>
+                    <li>During active infection: acyclovir reduces symptom duration and viral shedding</li>
+                    <li>Between infections: virus remains dormant, unaffected by acyclovir</li>
+                    <li>Recurrences occur when latent virus reactivates (stress, immunosuppression)</li>
+                </ul>
+                <p><strong>Suppressive Therapy:</strong> Long-term acyclovir reduces recurrence frequency by ~50-70% but doesn't eliminate transmission risk</p>
+            </div>
+
+            <div class="concept-box">
+                <h4>Valacyclovir: The Superior Oral Option</h4>
+                <p><strong>Key Difference:</strong> Valacyclovir is a PRODRUG with much higher oral bioavailability (55% vs acyclovir 15-20%)</p>
+                <ul>
+                    <li>Allows 2-3x daily dosing vs acyclovir's 4-5x daily</li>
+                    <li>Same mechanism once converted to acyclovir in body</li>
+                    <li>PREFERRED for oral HSV/VZV therapy</li>
+                </ul>
+            </div>
+
+            <h3>Oseltamivir: The Neuraminidase Inhibitor Concept</h3>
+            <div class="concept-box">
+                <h4>How Oseltamivir Works</h4>
+                <p><strong>Unique Mechanism:</strong> Inhibits neuraminidase - enzyme on influenza viral surface that releases new viral particles from infected cells</p>
+                <ul>
+                    <li>Blocked neuraminidase = virus trapped inside infected cell = limited spread</li>
+                    <li><strong>CRITICAL Timing Window:</strong> MUST start <48 hours from symptom onset</li>
+                    <li>After 48 hours, viral replication naturally decreases, oseltamivir provides minimal benefit</li>
+                </ul>
+                <p><strong>Clinical Pearl:</strong> Oseltamivir does NOT replace influenza vaccine and doesn't work for prevention in general population (only for high-risk exposures)</p>
+            </div>
+
+            <h3>Ganciclovir: The CMV Warrior with Black Box Warnings</h3>
+            <div class="concept-box">
+                <h4>Four Black Box Warnings</h4>
+                <p>Ganciclovir carries FOUR critical black box warnings - among the most toxic antivirals:</p>
+                <ol>
+                    <li><strong>Hematologic Toxicity:</strong> Pancytopenia affecting ALL blood cell lines - requires CBC monitoring</li>
+                    <li><strong>Nephrotoxicity:</strong> Acute kidney injury risk - dose adjustment needed for renal impairment</li>
+                    <li><strong>Teratogenicity:</strong> Both males AND females of childbearing age must avoid pregnancy during/after therapy</li>
+                    <li><strong>Fertility Impairment:</strong> May cause permanent fertility problems in both sexes</li>
+                </ol>
+                <p><strong>When Used:</strong> CMV retinitis in CD4 <50; usually IV then can switch to valganciclovir (oral prodrug) for maintenance</p>
+            </div>
+
+            <h3>Monitoring Requirements Across Antivirals</h3>
+            <div class="clinical-pearl">
+                Different antivirals require different monitoring:
+                - Acyclovir: crystalline nephropathy at high doses
+                - Ganciclovir: CBC, renal function, dose adjustment needed
+                - Foscarnet: SEVERE nephrotoxicity, electrolyte wasting (especially hypocalcemia/hypomagnesemia)
+                - Cidofovir: Most nephrotoxic, requires aggressive hydration and probenecid prophylaxis
+                Baseline renal function and frequent monitoring essential for ALL nephrotoxic antivirals.
+            </div>
+        </section>
+
+        <!-- STUDY STRATEGY SECTION -->
+        <section class="study-tips">
+            <h3>Study Strategy for Success</h3>
+            <h4>How to Study This Material:</h4>
+            <ul>
+                <li><strong>Don't memorize drug names first.</strong> Start with MECHANISM - why is this drug different? What problem does it solve that others can't?</li>
+                <li><strong>Ask "Why?" for every contraindication.</strong> Why can't children <8 take tetracyclines? (Tooth staining). Why no cipro >60? (Tendon rupture). This understanding sticks better than memorization.</li>
+                <li><strong>Learn the "clinical scenarios."</strong> If you see: a 4-year-old with infection = tetracyclines OUT. A 65-year-old with infection = cipro risky. A woman considering pregnancy = methotrexate OUT (not an antibiotic, but principle applies).</li>
+                <li><strong>Understand monitoring = knowing toxicity.</strong> Why monitor trough for vancomycin? Because it has a narrow therapeutic index and toxicity is irreversible. This teaches you WHY the monitoring exists.</li>
+                <li><strong>Study the "unique features" list</strong> the professor provided - these ARE the exam questions. Off-label uses, age contraindications, irreversible effects, mechanism differences, organ-specific toxicities.</li>
+                <li><strong>Use the Exam 1A questions:</strong> Build your own exam, focus on questions you miss, understand the RATIONALE not just the answer.</li>
+            </ul>
+            <h4>Before the Exam:</h4>
+            <ul>
+                <li>Review each drug's UNIQUE feature(s) - what makes it different?</li>
+                <li>For each contraindication, know WHY it's contraindicated</li>
+                <li>For each black box warning, understand the mechanism of toxicity</li>
+                <li>Know opportunistic infection thresholds (CD4 <200 for PCP, <100 for toxo, <50 for MAC)</li>
+                <li>Understand that U=U (undetectable = untransmittable) is a clinical concept, not just a slogan</li>
+            </ul>
+        </section>
+
+        <footer style="text-align: center; margin-top: 4rem; padding-top: 2rem; border-top: 2px solid #e8d5c4; color: #999; font-size: 0.9rem;">
+            <p>This study guide synthesizes Week 1 lecture materials and professor expectations. Use it alongside the Exam 1A question bank to deepen your understanding of antimicrobial pharmacology.</p>
+        </footer>
+    </div>
+</body>
+</html>
