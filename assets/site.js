@@ -78,11 +78,12 @@ const SITE = {
     {
       label: "Week 4",
       items: [
-        { id: "week4-liver-function-jaundice", num: "1", title: "Liver Anatomy, Function &amp; Jaundice", file: "week4-liver-function-jaundice.html" },
-        { id: "week4-viral-hepatitis", num: "2", title: "Viral Hepatitis (A, B &amp; C)", file: "week4-viral-hepatitis.html" },
-        { id: "week4-cirrhosis-liver-failure", num: "3", title: "Cirrhosis &amp; Liver Failure", file: "week4-cirrhosis-liver-failure.html" },
-        { id: "week4-gallbladder-pancreatitis", num: "4", title: "Gallbladder &amp; Pancreatic Disorders", file: "week4-gallbladder-pancreatitis.html" },
-        { id: "week4-big-picture-overview", num: "5", title: "Big Picture Overview", file: "week4-big-picture-overview.html" },
+        { id: "week4-comprehensive-study-guide", num: "1", title: "Comprehensive Study Guide", file: "week4-comprehensive-study-guide.html" },
+        { id: "week4-liver-function-jaundice", num: "2", title: "Liver Anatomy, Function &amp; Jaundice", file: "week4-liver-function-jaundice.html" },
+        { id: "week4-viral-hepatitis", num: "3", title: "Viral Hepatitis (A, B &amp; C)", file: "week4-viral-hepatitis.html" },
+        { id: "week4-cirrhosis-liver-failure", num: "4", title: "Cirrhosis &amp; Liver Failure", file: "week4-cirrhosis-liver-failure.html" },
+        { id: "week4-gallbladder-pancreatitis", num: "5", title: "Gallbladder &amp; Pancreatic Disorders", file: "week4-gallbladder-pancreatitis.html" },
+        { id: "week4-big-picture-overview", num: "6", title: "Big Picture Overview", file: "week4-big-picture-overview.html" },
       ]
     },
     {
