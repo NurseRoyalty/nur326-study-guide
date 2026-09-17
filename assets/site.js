@@ -110,7 +110,13 @@ const SITE = {
         { id: "quiz-builder",    num: "2", title: "Build Your Own Exam",       file: "quiz-builder.html" },
         { id: "torture-chamber", num: "3", title: "The Torture Chamber",       file: "torture-chamber.html" },
         { id: "lecture-review-template", num: "4", title: "Lecture Review Template", file: "lecture-review-template.html" },
-        { id: "exam2-jeopardy",  num: "5", title: "Exam 2 Jeopardy — 2 Player Game", file: "exam2-jeopardy.html" },
+      ]
+    },
+    {
+      label: "Jeopardy Games",
+      items: [
+        { id: "week2-jeopardy", num: "1", title: "Exam 1 Jeopardy — 2 Player Game", file: "week2-jeopardy.html" },
+        { id: "exam2-jeopardy", num: "2", title: "Exam 2 Jeopardy — 3 Player Game", file: "exam2-jeopardy.html" },
       ]
     }
   ]

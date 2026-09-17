@@ -1267,3 +1267,41 @@ body.torture{ background:var(--torture); }
   .jp-modal-q{ font-size:1.1rem; }
   .jp-modal-actions .btn{ flex:1; }
 }
+
+/* ============================================================
+   EXAM 3 JEOPARDY (exam3-jeopardy.html) — 3-player scoring UI
+
+   Purely additive `.jp3-` prefixed classes layered on top of the
+   Week 2 Jeopardy `.jp-` classes above (board, cells, modal, overlay
+   are all reused as-is for visual consistency). Nothing here edits or
+   overrides an existing selector, and none of the Week 2 Jeopardy
+   CSS above was touched. Colors come from the same brand/accent/
+   semantic tokens, so light mode, dark mode, and any future palette
+   swap apply automatically.
+   ============================================================ */
+.jp3-cat-wk{
+  display:block; margin-top:4px; font-size:.62rem; font-weight:700; letter-spacing:.08em;
+  text-transform:uppercase; color:rgba(255,255,255,.72);
+}
+.jp3-score-grid{ display:flex; flex-direction:column; gap:8px; margin:0 0 4px; }
+.jp3-score-row{
+  display:flex; align-items:center; gap:10px; flex-wrap:wrap;
+  background:var(--surface-2); border:1px solid var(--border); border-radius:var(--radius-sm);
+  padding:8px 10px;
+}
+.jp3-score-name{ font-weight:700; font-size:.9rem; color:var(--brand-deep); margin-right:auto; }
+.jp3-score-btn{
+  font-family:inherit; font-weight:700; font-size:.82rem; border-radius:var(--radius-sm);
+  border:1px solid var(--border); padding:6px 12px; cursor:pointer; transition:background .12s,border-color .12s;
+  background:var(--surface);
+}
+.jp3-score-plus{ color:var(--ok-strong); border-color:var(--ok); }
+.jp3-score-plus:hover{ background:var(--ok-tint); }
+.jp3-score-minus{ color:var(--bad-strong); border-color:var(--bad); }
+.jp3-score-minus:hover{ background:var(--bad-tint); }
+
+@media (max-width:640px){
+  .jp3-score-row{ padding:8px; }
+  .jp3-score-name{ width:100%; margin-right:0; }
+  .jp3-score-btn{ flex:1; padding:8px 6px; }
+}
