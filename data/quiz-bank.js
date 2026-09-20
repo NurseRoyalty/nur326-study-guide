@@ -5230,182 +5230,183 @@ window.QUIZ_BANK = {
         "sets": {
             "mustKnow": [],
             "extraPractice": [
-                    {
-                        "stem": "A pregnant client is diagnosed with acute pyelonephritis. Her chart also notes a previous UTI that failed to respond to nitrofurantoin. Given both details, which medications should the nurse expect the provider to avoid for this admission? Select all that apply.",
-                        "options": [
-                            "Trimethoprim-sulfamethoxazole (Bactrim)",
-                            "Ciprofloxacin",
-                            "Nitrofurantoin (Macrobid)",
-                            "A urinalysis and culture",
-                            "A short course of oral outpatient antibiotics",
-                            "IV antibiotics for a severe case"
-                        ],
-                        "answers": [
-                            0,
-                            1,
-                            2
-                        ],
-                        "rationale": "Correct: Bactrim and ciprofloxacin are both avoided in pregnancy, and this client's prior nitrofurantoin failure means it isn't a safe fallback either -- all three should be avoided here. Incorrect: a urinalysis/culture is standard workup regardless of pregnancy, and whether treatment is a short outpatient course or inpatient IV antibiotics is decided by severity, not restricted by either the pregnancy or the resistance history.",
-                        "topic": "Renal Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client has a ureteral stone causing severe pain, while another client's renal pelvis stone causes little discomfort. What primarily accounts for this difference in pain severity?",
-                        "options": [
-                            "The ureter is anatomically much narrower",
-                            "The stones formed at different rates",
-                            "Renal pelvis obstructions are always external",
-                            "Ureteral obstructions progress more slowly"
-                        ],
-                        "answer": 0,
-                        "rationale": "Correct: the renal pelvis has more room to accommodate an obstruction, while the narrow ureter produces much more pain for a similarly sized stone. Incorrect: the rate a stone forms doesn't determine pain severity, an obstruction's internal-vs-external nature isn't tied to its level in the tract, and ureteral obstructions typically develop and cause pain rapidly, not slowly.",
-                        "topic": "Renal Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client with a two-week history of untreated urinary obstruction now reports new flank fullness and a falling urine output despite drinking normal amounts of fluid. What is the nurse's priority action?",
-                        "options": [
-                            "Encourage more oral fluid intake",
-                            "Notify the provider of this finding",
-                            "Reassure the client this is expected",
-                            "Apply a warm compress for comfort"
-                        ],
-                        "answer": 1,
-                        "rationale": "Correct: falling output with flank fullness in the setting of ongoing obstruction, despite normal fluid intake, suggests urine backing up behind the blockage (hydronephrosis) rather than a volume problem, and can progress to a postrenal AKI, so it needs prompt provider notification. Incorrect: more fluids won't relieve an obstruction and can worsen the back-pressure, this is not an expected finding, and a warm compress does not address a developing kidney injury.",
-                        "topic": "Renal Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client being treated for renal colic develops a new fever of 101.8\u00b0F, chills, and increasing flank tenderness, though the pain pattern itself is unchanged. What is the nurse's priority action?",
-                        "options": [
-                            "Continue the current pain management plan since the pain is unchanged",
-                            "Notify the provider promptly; a new infection may be developing",
-                            "Reassure the client that fever and chills often accompany renal colic",
-                            "Encourage ambulation, since movement may help dislodge the stone"
-                        ],
-                        "answer": 1,
-                        "rationale": "Correct: fever, chills, and increasing tenderness together point to a developing infection such as pyelonephritis, and an unchanged pain pattern doesn't rule that out, so this needs prompt provider notification. Incorrect: an unchanged pain level doesn't mean nothing new is happening, fever and chills are not expected renal colic symptoms, and ambulation doesn't address a possible infection.",
-                        "topic": "Renal Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client with a history of gout and a diet high in oxalate-containing foods is admitted with a new kidney stone. Which stone type does the nurse anticipate as most likely?",
-                        "options": [
-                            "Struvite stone",
-                            "Cystine stone",
-                            "Uric acid stone",
-                            "Calcium oxalate stone"
-                        ],
-                        "answer": 2,
-                        "rationale": "Correct: gout is specifically and directly linked to uric acid stones, which outweighs the general dietary oxalate risk factor for calcium stones when predicting the most likely type for this client. Incorrect: struvite stones relate to urinary tract infection, cystine stones are rare and unrelated to gout, and although a high-oxalate diet is a calcium stone risk factor, it is a weaker link than the specific gout-uric acid connection.",
-                        "topic": "Renal Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client with a history of recurrent urinary tract infections develops a new kidney stone. The nurse anticipates the prevention plan will most likely focus on which approach?",
-                        "options": [
-                            "Treating the underlying infection",
-                            "Starting a thiazide diuretic",
-                            "Starting allopurinol for uric acid stones",
-                            "Limiting dietary oxalate"
-                        ],
-                        "answer": 0,
-                        "rationale": "Correct: recurrent UTIs point toward a struvite stone, which forms in relation to infection, so treating the underlying infection (with fluids and antibiotics) is the matching prevention strategy. Incorrect: a thiazide diuretic prevents calcium stones, allopurinol prevents uric acid stones, and limiting oxalate is a calcium stone strategy — none of which match this client's infection-linked risk factor.",
-                        "topic": "Renal Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client reports a two-hour history of sudden, severe flank pain radiating to the groin that comes in waves, along with nausea; vital signs are stable and the client is afebrile. The nurse recognizes this pattern as most consistent with which of the following?",
-                        "options": [
-                            "A new urinary tract infection",
-                            "Longstanding urinary tract obstruction",
-                            "Renal colic from a stone",
-                            "An underlying bladder malignancy"
-                        ],
-                        "answer": 2,
-                        "rationale": "Correct: spasmodic flank-to-groin pain with nausea, without fever, is the classic renal colic pattern of a stone moving through the ureter — the absence of fever argues against an infectious process. Incorrect: a urinary tract infection would be expected to cause fever and systemic illness, longstanding obstruction develops gradually rather than presenting this acutely, and bladder cancer more often presents with painless hematuria rather than acute colicky pain.",
-                        "topic": "Renal Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client is told an incidental kidney mass was found on a CT scan ordered for an unrelated issue and says, \"I feel completely fine, so it's probably nothing serious.\" What is the nurse's best response?",
-                        "options": [
-                            "Agree that a lack of symptoms rules out cancer",
-                            "Explain that pain always appears before metastasis",
-                            "Reassure the client that a CT cannot detect cancer",
-                            "Explain that this cancer often has no symptoms"
-                        ],
-                        "answer": 3,
-                        "rationale": "Correct: renal cell carcinoma has no early manifestations and is often discovered incidentally, so feeling well does not rule it out. Incorrect: symptom absence does not rule out cancer, pain is not a reliable early warning sign, and the CT scan is exactly how the mass was found.",
-                        "topic": "Renal Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client scheduled for intravesical BCG therapy reports a history of HIV. What is the nurse's priority action?",
-                        "options": [
-                            "Proceed with the scheduled instillation",
-                            "Request a lower BCG dose",
-                            "Document the history and continue",
-                            "Notify the provider before treatment"
-                        ],
-                        "answer": 3,
-                        "rationale": "Correct: BCG is a live vaccine and must not be given to an immunocompromised client, so the provider needs to be notified before proceeding. Incorrect: proceeding as scheduled, giving a reduced dose, or simply documenting and continuing all risk a systemic infection from the live bacteria in a client who cannot fight it off.",
-                        "topic": "Renal Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client recently diagnosed with bladder cancer has a 30-year smoking history, works in a rubber factory, and drinks very little water during the day. Which risk factor should the nurse prioritize when planning teaching?",
-                        "options": [
-                            "The smoking history",
-                            "The occupational chemical exposure",
-                            "The low daily fluid intake",
-                            "All three carry equal weight"
-                        ],
-                        "answer": 0,
-                        "rationale": "Correct: smoking is identified as the number one risk factor for bladder cancer, making it the highest-yield target even though this client has multiple risk factors. Incorrect: occupational exposure and low fluid intake are real but secondary risk factors, and treating all three as equal misses the chance to prioritize the most impactful one.",
-                        "topic": "Renal Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client presents with facial edema, a blood pressure of 168/98 mmHg, and dark, tea-colored urine two weeks after a strep throat infection. Which nursing action is the priority?",
-                        "options": [
-                            "Encourage increased fluid intake to flush the kidneys",
-                            "Obtain a urinalysis to assess for blood and protein",
-                            "Reassure the client that this will resolve without follow-up",
-                            "Schedule a routine follow-up appointment in one month"
-                        ],
-                        "answer": 1,
-                        "rationale": "Correct: this triad following a strep infection is the classic presentation of acute post-streptococcal glomerulonephritis, and a urinalysis to confirm hematuria and proteinuria is the priority next step. Incorrect: more fluids doesn't address glomerular inflammation and could worsen fluid retention, this should not be dismissed without follow-up, and a month's delay is unsafe given this presentation.",
-                        "topic": "Renal Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client with confirmed Goodpasture syndrome develops new hemoptysis. The nurse recognizes this finding as consistent with which underlying process?",
-                        "options": [
-                            "A separate, unrelated pulmonary infection",
-                            "Fluid overload from nephrotic syndrome",
-                            "One antibody attacking both organs",
-                            "A pulmonary embolism from hypercoagulability"
-                        ],
-                        "answer": 2,
-                        "rationale": "Correct: in Goodpasture syndrome, the same anti-GBM antibody attacks the structurally similar basement membranes of both the kidney and the lung, so hemoptysis and renal problems occur together from one process. Incorrect: this is not a separate infection, fluid overload from nephrotic syndrome is a different condition, and pulmonary embolism is not the mechanism described for Goodpasture syndrome.",
-                        "topic": "Renal Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client with nephrotic syndrome develops a deep vein thrombosis. The nurse understands this complication is most directly related to loss of which substance in the urine?",
-                        "options": [
-                            "Albumin protein alone",
-                            "Immunoglobulins",
-                            "Erythropoietin",
-                            "Antithrombin III"
-                        ],
-                        "answer": 3,
-                        "rationale": "Correct: antithrombin III (along with plasminogen) is lost in the urine in nephrotic syndrome, creating a hypercoagulable state that raises the risk of DVT and PE. Incorrect: albumin loss causes edema through reduced oncotic pressure, not hypercoagulability; immunoglobulin loss raises infection risk; and erythropoietin is unrelated to clotting.",
-                        "topic": "Renal Disorders",
-                        "source": "quiz-bank"
-                    }
-                ],
+                                 {
+                                     "stem": "A nurse is assessing two clients with urinary symptoms. Client A reports a gradual onset of dysuria, frequency, and urgency but otherwise feels well. Client B reports sudden onset of fever, chills, and flank pain along with frequency and dysuria, and appears acutely ill. Which statement correctly identifies the client with pyelonephritis?",
+                                     "options": [
+                                         "Client B, whose acute illness reflects kidney-level infection",
+                                         "Client A, whose gradual symptoms reflect ascending lower tract infection",
+                                         "Client B, whose frequency and urgency appear without any dysuria",
+                                         "Client A, whose gradual onset includes chills and CVA tenderness"
+                                     ],
+                                     "answer": 0,
+                                     "rationale": "Correct: Pyelonephritis presents with sudden onset, systemic illness, fever, chills, and CVA/flank tenderness plus lower tract symptoms, matching Client B; a lower UTI has gradual onset with the client otherwise feeling well, matching Client A. Incorrect: Client A's gradual, otherwise-well presentation is a lower UTI, not pyelonephritis. Pyelonephritis still includes lower tract symptoms like dysuria in addition to systemic illness, not frequency/urgency alone without dysuria. CVA tenderness and chills are sudden-onset systemic findings of pyelonephritis, not features of Client A's gradual lower UTI presentation.",
+                                     "topic": "Renal Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client was treated for a lower UTI with an antibiotic that the causative organism was later found to be resistant to. Several days later, the client develops sudden fever, chills, and flank tenderness. What is the most likely explanation for this change?",
+                                     "options": [
+                                         "The client developed a new, unrelated bloodstream infection",
+                                         "The infection ascended into the kidney, causing pyelonephritis",
+                                         "The client is having an expected side effect of the antibiotic",
+                                         "The client has developed a stone obstructing the ureter"
+                                     ],
+                                     "answer": 1,
+                                     "rationale": "Correct: An antibiotic-resistant organism means the lower UTI was never actually treated, allowing it to ascend into the kidney and become pyelonephritis, which presents with sudden fever, chills, and flank/CVA tenderness. Incorrect: A bloodstream infection is a separate risk factor for pyelonephritis but nothing in the stem supports a new, unrelated source. Antibiotics are not described on the page as causing fever and flank pain as a side effect. Nothing in the stem indicates a stone; obstruction was not part of this client's history.",
+                                     "topic": "Renal Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "Four clients are diagnosed with pyelonephritis and are candidates for first-line treatment with Bactrim (trimethoprim-sulfamethoxazole) or ciprofloxacin. For which client should the nurse anticipate that both of these first-line options will be avoided?",
+                                     "options": [
+                                         "A client with an uncomplicated, community-acquired infection and low resistance risk",
+                                         "A client with recurrent UTIs who will receive a conventional 7 to 14 day course",
+                                         "A client who is currently pregnant and managing this infection",
+                                         "A client whose culture and sensitivity results are still pending review"
+                                     ],
+                                     "answer": 2,
+                                     "rationale": "Correct: Bactrim and ciprofloxacin are both avoided in pregnancy, which narrows treatment options for a population already at higher risk for pyelonephritis. Incorrect: Uncomplicated community-acquired cases with low resistance risk are exactly the population for whom Bactrim or ciprofloxacin is first-line. Recurrent UTI clients still receive a longer conventional course of these same antibiotics unless pregnant. Pending culture results only mean broad-spectrum therapy is started and later narrowed; it does not rule out these first-line agents.",
+                                     "topic": "Renal Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "An elderly client with a known lower UTI develops new confusion and a drop in blood pressure. Which finding should most concern the nurse for progression toward urosepsis rather than an uncomplicated lower UTI?",
+                                     "options": [
+                                         "The client's baseline report of dysuria and urinary frequency",
+                                         "A gradual onset of symptoms over the past several days",
+                                         "The client's age as the only risk factor present",
+                                         "New confusion and hypotension signaling a systemic response"
+                                     ],
+                                     "answer": 3,
+                                     "rationale": "Correct: Urosepsis is a severe systemic response to a UTI (upper or lower) that is more likely in elderly or already-sick clients; new confusion and hypotension indicate this systemic decline, not a localized bladder infection. Incorrect: Dysuria and frequency are expected baseline lower UTI findings, not signs of sepsis. A gradual onset is typical of an uncomplicated lower UTI, not a sepsis warning. Age alone is a risk factor for urosepsis but is not itself evidence that sepsis is occurring.",
+                                     "topic": "Renal Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "Client A develops sudden, severe flank pain from a stone lodged in the ureter. Client B has gradually worsening urinary retention over several years from an enlarging prostate. Based on the drivers of obstructive pain, which client is expected to report more severe pain?",
+                                     "options": [
+                                         "Client A, because the fast onset and narrow ureteral lumen both worsen pain",
+                                         "Client B, because the prostate obstruction is located outside the urinary tract",
+                                         "Client A, because external compression from the stone increases pain",
+                                         "Client B, because chronic obstruction is inherently more painful than acute obstruction"
+                                     ],
+                                     "answer": 0,
+                                     "rationale": "Correct: Speed of onset is the biggest driver of obstructive pain, and a narrow structure like the ureter is far less tolerant of a sudden blockage than a slow-developing obstruction, making Client A's presentation more severe. Incorrect: The prostate is part of the urinary tract, not outside it, and location alone does not explain the pain difference. The stone is an internal obstruction, not an external compressive one. Slow-developing obstructions like BPH are far more tolerable than fast-onset ones, not more painful.",
+                                     "topic": "Renal Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with benign prostatic hyperplasia has a history of recurrent UTIs from residual urine. The client now presents with a sudden drop in urine output and hydronephrosis on ultrasound. Which complication of obstruction is now developing?",
+                                     "options": [
+                                         "A recurrence of the same infectious complication seen previously",
+                                         "Retained urine causing back-pressure toward postrenal injury",
+                                         "A new stone has formed within the bladder itself",
+                                         "Neurogenic bladder unrelated to the prostate obstruction"
+                                     ],
+                                     "answer": 1,
+                                     "rationale": "Correct: Because the kidneys keep producing urine even when it cannot exit, pressure builds upstream of the blockage, causing hydroureter/hydronephrosis that can progress to postrenal AKI and typically requires emergency surgical correction. Incorrect: The infection complication was the prior recurrent UTI pattern, not the new oliguria and hydronephrosis. Stones do not form in the bladder; they form at the kidney/nephron level. Neurogenic bladder is a distinct, non-obstructive process related to spinal or neuromuscular injury, not this client's BPH-driven back-pressure.",
+                                     "topic": "Renal Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client who passed a kidney stone states, 'The stone must have formed in my bladder since that's where I felt the sharpest pain before I passed it.' How should the nurse respond?",
+                                     "options": [
+                                         "Confirm this is correct, since stones commonly form where urine collects in the bladder",
+                                         "Explain that stones typically form in the ureter due to urine stasis at that level",
+                                         "Explain that crystals always begin forming at the kidney/nephron level, not the bladder",
+                                         "Explain that stone location depends on which type of crystal is involved"
+                                     ],
+                                     "answer": 2,
+                                     "rationale": "Correct: Crystal formation always occurs at the level of the kidney/nephron, where urine first becomes supersaturated with solutes; stones never begin forming in the bladder or ureter. Incorrect: Stones do not form in the bladder; the client's sharp pain there reflects the stone's passage, not its origin. Stones also do not begin forming in the ureter. Regardless of stone type (calcium, struvite, uric acid, cystine), formation always starts at the kidney/nephron level.",
+                                     "topic": "Renal Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with a long-standing history of gout and a family history of calcium stones develops a new kidney stone. Based on this presentation, which stone type should the nurse most suspect?",
+                                     "options": [
+                                         "A cystine stone, given the client's combined risk factors",
+                                         "A calcium stone, since family history is the primary driver of calcium stone formation",
+                                         "A struvite (staghorn) stone, given the client's chronic underlying condition",
+                                         "A uric acid stone, since active gout is the strongest predictor here"
+                                     ],
+                                     "answer": 3,
+                                     "rationale": "Correct: A client with gout who develops a kidney stone most likely has a uric acid stone, since uric acid stones are specifically linked to gout. Incorrect: Cystine stones are rare, accounting for less than 1% of stones, and are not linked to gout or family history. Family history is associated with calcium stones, but the client's active gout is the more specific predictor here of a uric acid stone rather than calcium. Struvite (staghorn) stones are related to UTIs, not gout.",
+                                     "topic": "Renal Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client reports flank pain radiating to the groin in waves lasting about 30-45 minutes, along with nausea. The client also has a temperature of 101.8°F (38.8°C). How should the nurse interpret the fever in this presentation?",
+                                     "options": [
+                                         "A coexisting pyelonephritis infection is likely present",
+                                         "Fever is an expected feature of uncomplicated renal colic",
+                                         "Fever reflects the normal 20-60 minute pain wave pattern",
+                                         "Fever indicates the stone has now reached the urethra"
+                                     ],
+                                     "answer": 0,
+                                     "rationale": "Correct: Fever is not a typical symptom of renal colic alone; fever accompanying a kidney stone points toward a coexisting infection, most likely pyelonephritis, from urine backing up behind the stone. Incorrect: Renal colic itself does not typically cause fever; nausea, sharp pain, and waves of about 20-60 minutes are expected without infection. The pain wave pattern is unrelated to temperature. Stones rarely reach the urethra, and doing so would not explain a fever.",
+                                     "topic": "Renal Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client has recurrent staghorn calculi and a history of chronic urinary tract infections. Which prevention strategy is most appropriate for this client?",
+                                     "options": [
+                                         "A thiazide diuretic to reduce urinary calcium excretion",
+                                         "Antibiotics and fluids to treat the infection",
+                                         "Allopurinol to lower uric acid production",
+                                         "Scheduled IV ketorolac to prevent future colic episodes"
+                                     ],
+                                     "answer": 1,
+                                     "rationale": "Correct: Struvite (staghorn) stones are related to UTIs, so prevention focuses on treating the underlying infection with antibiotics along with fluids. Incorrect: Thiazide diuretics prevent recurrent calcium stones, not struvite stones. Allopurinol treats the gout underlying uric acid stones, not struvite stones. Ketorolac (an NSAID) treats acute colic pain and is not a prevention strategy for recurrent stones.",
+                                     "topic": "Renal Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "Client A, a long-time smoker, has a kidney mass found incidentally on CT and now reports CVA tenderness and cola-colored urine. Client B, also a long-time smoker, has hematuria noted only on urinalysis with no other symptoms. Which client's findings suggest disease that is more likely still curable at this stage?",
+                                     "options": [
+                                         "Client A, because incidental imaging findings always indicate early-stage disease",
+                                         "Client A, because cola-colored urine is an early manifestation of kidney cancer",
+                                         "Client B, because early hematuria on UA may allow detection before metastasis",
+                                         "Client B, because smoking is a stronger risk factor for bladder cancer than kidney cancer"
+                                     ],
+                                     "answer": 2,
+                                     "rationale": "Correct: Bladder cancer's early manifestation is hematuria, sometimes visible only on urinalysis, allowing detection and treatment (such as intravesical chemotherapy) before advanced disease develops. Incorrect: Kidney cancer has no early manifestations and is usually not found until metastasized, so an incidental mass with CVA tenderness and cola-colored urine (late manifestations) suggests more advanced disease, not an early finding. Cola-colored hematuria is a late, not early, manifestation of kidney cancer. Smoking is the number one risk factor for both kidney and bladder cancer equally, not more strongly linked to one.",
+                                     "topic": "Renal Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with HIV/AIDS is scheduled to begin BCG intravesical therapy for early-stage bladder cancer. What is the nurse's priority action?",
+                                     "options": [
+                                         "Proceed as scheduled, since BCG only affects the bladder locally",
+                                         "Reinforce the need to change position every 15 minutes during instillation",
+                                         "Teach the client to disinfect urine with bleach for 6 hours after treatment",
+                                         "Notify the provider; BCG should not be given to an immunocompromised client"
+                                     ],
+                                     "answer": 3,
+                                     "rationale": "Correct: BCG is a live vaccine, and giving it to a client who is immunocompromised (such as with HIV/AIDS) risks development of a systemic infection from the weakened live bacteria, so the provider should be notified before proceeding. Incorrect: BCG is not purely local; its live bacterial component can cause systemic infection in an immunocompromised host, so proceeding as scheduled is unsafe. Position changes every 15 minutes and bleach disinfection of urine are both real components of BCG teaching, but they do not address the priority safety concern of administering a live vaccine to an immunocompromised client.",
+                                     "topic": "Renal Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with nephrotic syndrome has lost more than 3 g of protein in a 24-hour urine collection. Which findings should the nurse expect as a result of this protein loss? Select all that apply.",
+                                     "options": [
+                                         "Peripheral edema and third-spacing from loss of oncotic pressure",
+                                         "Increased risk for DVT/PE from loss of antithrombin III and plasminogen",
+                                         "Hyperlipidemia from increased hepatic lipid production",
+                                         "Hypertension from renin-angiotensin activation via sensed volume depletion",
+                                         "Hematuria as the hallmark presenting sign, as in acute glomerulonephritis",
+                                         "Hypocoagulability with increased bleeding tendency from clotting factor loss"
+                                     ],
+                                     "answers": [
+                                         0,
+                                         1,
+                                         2,
+                                         3
+                                     ],
+                                     "rationale": "Correct: Loss of albumin removes the oncotic pressure that holds fluid in vessels, causing edema and third-spacing; loss of antithrombin III and plasminogen creates a hypercoagulable state raising DVT/PE risk; the liver increases lipid production in response to ongoing protein loss, causing hyperlipidemia; and reduced circulating volume activates the renin-angiotensin system, raising blood pressure. Incorrect: Hematuria is the hallmark of the HARP presentation in acute glomerulonephritis, not the protein-loss picture that defines nephrotic syndrome. Nephrotic syndrome causes hypercoagulability, not hypocoagulability, because clotting-inhibitor proteins (antithrombin III, plasminogen) are lost, not clotting factors themselves.",
+                                     "topic": "Renal Disorders",
+                                     "source": "quiz-bank"
+                                 }
+                             ],
             "eaq": []
         }
     },
@@ -5416,168 +5417,170 @@ window.QUIZ_BANK = {
         "sets": {
             "mustKnow": [],
             "extraPractice": [
-                    {
-                        "stem": "A client with a history of daily NSAID use for chronic back pain develops acute kidney injury after several days of vomiting and very poor oral intake. The nurse recognizes the vomiting and poor intake as the most likely primary driver of which classification of AKI?",
-                        "options": [
-                            "Prerenal",
-                            "Intrarenal",
-                            "Postrenal",
-                            "A mixed cause with obstruction"
-                        ],
-                        "answer": 0,
-                        "rationale": "Correct: the acute volume loss from vomiting and poor intake is the dominant mechanism here, a prerenal cause; the NSAID history is a real intrarenal risk factor but is not what's acutely driving this presentation. Incorrect: there is no biopsy or finding here confirming direct kidney tissue damage, no obstruction is described, and nothing suggests two causes acting together.",
-                        "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client receiving a nephrotoxic antibiotic for a severe infection also reports two days of poor oral intake. A kidney biopsy confirms acute tubular necrosis. Which classification of AKI does this biopsy result confirm?",
-                        "options": [
-                            "Prerenal",
-                            "Intrarenal",
-                            "Postrenal",
-                            "A combined, equally-weighted cause"
-                        ],
-                        "answer": 1,
-                        "rationale": "Correct: the biopsy directly shows acute tubular necrosis, meaning direct damage to kidney tissue itself, which defines intrarenal injury regardless of the coexisting mild volume issue. Incorrect: prerenal injury is a volume/perfusion problem without direct tissue damage, postrenal involves a downstream obstruction that isn't described, and the biopsy finding, not an even split, is what confirms the classification here.",
-                        "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client's acute kidney injury is being evaluated. Imaging confirms a pelvic tumor compressing both ureters, though the client also reports several days of reduced oral intake from nausea. Which classification best fits this AKI?",
-                        "options": [
-                            "Prerenal",
-                            "Intrarenal",
-                            "Postrenal",
-                            "A mixed cause"
-                        ],
-                        "answer": 2,
-                        "rationale": "Correct: a confirmed bilateral ureteral obstruction is a postrenal cause and is the dominant, objectively confirmed problem here — a few days of reduced intake does not outweigh imaging-confirmed obstruction. Incorrect: a prerenal cause would require volume/perfusion as the primary problem, an intrarenal cause would mean damage inside the kidney itself, and imaging has already identified a single confirmed cause rather than a mixed one.",
-                        "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A nurse trending a client's urine output notes a decline from 900 mL over the previous 24 hours to 320 mL over the most recent 24 hours, with no change in IV fluid orders. What is the nurse's priority action?",
-                        "options": [
-                            "Document the trend and reassess tomorrow",
-                            "Encourage the client to drink more water",
-                            "Restrict the client's fluid intake further",
-                            "Notify the provider of the oliguria"
-                        ],
-                        "answer": 3,
-                        "rationale": "Correct: a falling trend despite unchanged fluids, now below the 400 mL/24hr oliguria threshold, signals worsening kidney function and needs prompt reporting, not just watching. Incorrect: waiting until tomorrow delays care for a worsening trend, more oral fluids won't fix impaired kidney filtration, and restricting fluids isn't indicated without more direction from the provider.",
-                        "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client with chronic kidney disease develops worsening pruritus, anorexia, and new confusion. The nurse recognizes this cluster of findings as most consistent with progression to which stage of CKD?",
-                        "options": [
-                            "Stage 1, an early asymptomatic stage",
-                            "Stage 2, mild hypertension only",
-                            "Stage 3, mild GFR decline only",
-                            "Stage 5, uremic disease"
-                        ],
-                        "answer": 3,
-                        "rationale": "Correct: pruritus, anorexia, and mental status changes reflect the buildup of waste products in stage 5 (uremic) CKD, when the body can no longer adequately make and excrete urine. Incorrect: stages 1-2 are usually asymptomatic, and stage 3 involves only mild decline without this severity of systemic symptoms.",
-                        "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A community health nurse has funding for only one kidney-disease prevention screening event this year. Screening should prioritize clients with which two conditions? Select all that apply.",
-                        "options": [
-                            "Diabetes",
-                            "Hypertension",
-                            "Smoking",
-                            "Obesity",
-                            "Older age",
-                            "Family history of CKD"
-                        ],
-                        "answers": [
-                            0,
-                            1
-                        ],
-                        "rationale": "Correct: diabetes (about 50%) and hypertension (about 30%) together account for roughly 80% of end-stage renal disease cases, making them the priority targets with limited screening resources. Incorrect: smoking, obesity, older age, and family history are all listed as additional risk factors, but none of them are described as major direct causes of the large majority of cases the way diabetes and hypertension are.",
-                        "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A nurse reviewing today's labs for a client with CKD notices new proteinuria that was not present three months ago. The client reports feeling the best they have in months. What is the nurse's priority action?",
-                        "options": [
-                            "Notify the provider despite the client's reported improvement",
-                            "Wait until the next scheduled visit since the client feels well",
-                            "Reassure the client that feeling well means the kidneys are stable",
-                            "Advise the client to increase dietary protein since appetite has improved"
-                        ],
-                        "answer": 0,
-                        "rationale": "Correct: new proteinuria signals accelerating glomerular damage regardless of how the client currently feels, since subjective wellbeing can lag behind objective decline in CKD, so the finding still needs prompt reporting. Incorrect: feeling well doesn't mean the kidneys are stable, waiting delays care for a significant objective change, and increasing dietary protein doesn't address the kidney damage and isn't supported by feeling better.",
-                        "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client with CKD and a history of seasonal allergies develops new dyspnea and bibasilar crackles during allergy season. What is the nurse's priority action?",
-                        "options": [
-                            "Attribute the symptoms to seasonal allergies and monitor",
-                            "Encourage additional oral fluids to loosen secretions",
-                            "Document the finding as expected with the allergy history",
-                            "Notify the provider; this may signal dialysis"
-                        ],
-                        "answer": 3,
-                        "rationale": "Correct: bibasilar crackles in a CKD client reflect fluid overload from third-spacing, not a typical allergy finding, and this ominous sign often marks the point dialysis needs to start, so it needs immediate reporting despite the coincidental timing with allergy season. Incorrect: allergies don't typically cause bibasilar crackles, more fluids would worsen fluid overload, and this should not be written off as expected.",
-                        "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client with CKD asks why she was prescribed both calcitriol and calcium carbonate. What should the nurse explain connects these two therapies?",
-                        "options": [
-                            "Both are given only to control blood pressure",
-                            "Both address the same bone-mineral complication",
-                            "Both directly replace lost erythropoietin",
-                            "Both correct metabolic acidosis from the kidneys"
-                        ],
-                        "answer": 1,
-                        "rationale": "Correct: calcitriol restores the activated vitamin D the kidneys can no longer produce, while calcium carbonate binds the phosphate that also rises as kidney function fails — different mechanisms, same combined hyperphosphatemia/renal osteodystrophy problem. Incorrect: neither is a blood pressure medication, erythropoietin replacement is a separate anemia therapy, and sodium bicarbonate, not these two, treats metabolic acidosis.",
-                        "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client with CKD has a hemoglobin of 6 g/dL but reports feeling only mildly fatigued. The nurse attributes this relatively mild symptom burden to which factor?",
-                        "options": [
-                            "A slow, gradual decline",
-                            "A recent erythropoietin dose",
-                            "Adequate iron stores from diet",
-                            "Compensation through a rising GFR"
-                        ],
-                        "answer": 0,
-                        "rationale": "Correct: because chronic anemia in CKD develops slowly as erythropoietin production fails, patients often have fewer symptoms than someone who lost the same amount of blood acutely. Incorrect: there is no mention of erythropoietin already being given, adequate iron stores would not explain a hemoglobin this low, and CKD involves a falling, not rising, GFR.",
-                        "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A nurse reviews orders for erythropoietin in a client with CKD and notes a current hemoglobin of 11.5 g/dL. What is the nurse's priority action?",
-                        "options": [
-                            "Administer the dose as scheduled",
-                            "Hold the dose and notify the provider",
-                            "Give half the ordered dose",
-                            "Recheck hemoglobin in one week before deciding"
-                        ],
-                        "answer": 1,
-                        "rationale": "Correct: erythropoietin's black-box warning cautions against overcorrecting hemoglobin above 10 g/dL, since this raises the risk of stroke, MI, and thromboembolism, so the dose should be held and the provider notified. Incorrect: administering the full or a reduced dose still risks overcorrection, and waiting a week to recheck delays addressing an already-elevated hemoglobin.",
-                        "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A nurse is caring for a client with severe CKD who reports pain and is prescribed an opioid. Which assessment finding is most important to monitor closely?",
-                        "options": [
-                            "Serum glucose trends",
-                            "Skin turgor, color, and temperature",
-                            "Respiratory rate and depth",
-                            "Bowel sound frequency"
-                        ],
-                        "answer": 2,
-                        "rationale": "Correct: in severe CKD, the kidneys cannot filter and eliminate opioids effectively, so they are retained longer and significantly raise the risk of respiratory depression. Incorrect: glucose trends, skin turgor, and bowel sounds are reasonable general assessments but are not the priority concern specific to opioid use in severe CKD.",
-                        "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
-                        "source": "quiz-bank"
-                    }
-                ],
+                                 {
+                                     "stem": "A client develops oliguria after a motor vehicle collision requiring emergency surgery for significant blood loss. Which classification of acute kidney injury does this presentation reflect?",
+                                     "options": [
+                                         "Prerenal AKI from volume loss to the kidney",
+                                         "Intrarenal AKI from acute tubular necrosis",
+                                         "Postrenal AKI from urinary tract obstruction",
+                                         "Intrarenal AKI from glomerulonephritis"
+                                     ],
+                                     "answer": 0,
+                                     "rationale": "Correct: Prerenal AKI is the most common category, caused by volume loss (such as blood loss during surgery) reducing perfusion before blood reaches the kidney. Incorrect: Acute tubular necrosis and glomerulonephritis are intrarenal causes involving direct damage inside the kidney, not a volume problem; urinary tract obstruction is a postrenal cause, which is the least common category.",
+                                     "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "Two days after a hypotensive episode during surgery, a client's urine output has been 250 mL over the past 24 hours. Which statement by the nurse about this finding is most accurate?",
+                                     "options": [
+                                         "Output above 30 mL/hr would reflect normal kidney function",
+                                         "This fits AKI, starting about a day after hypotension",
+                                         "Oliguria means less than 100 mL of urine per day",
+                                         "This suggests postrenal obstruction, not a perfusion problem"
+                                     ],
+                                     "answer": 1,
+                                     "rationale": "Correct: AKI-related oliguria (under 400 mL/24hr, under 30 mL/hr) typically begins about one day after a hypotensive event such as surgery, matching this timeline. Incorrect: 30 mL/hr is the oliguria threshold itself, not a marker of normal function; oliguria is defined as under 400 mL/24hr, not under 100 mL; the history of a hypotensive event points to a perfusion-related cause, not obstruction.",
+                                     "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client's GFR is measured at 27 mL/hr. The nurse understands this value represents which condition, and what does it imply about the kidneys' remaining function?",
+                                     "options": [
+                                         "Normal GFR, so the kidneys are compensating fully",
+                                         "Stage 5 CKD, meaning the client is uremic",
+                                         "Renal insufficiency, about 25% of normal GFR",
+                                         "Postrenal obstruction requiring immediate dialysis"
+                                     ],
+                                     "answer": 2,
+                                     "rationale": "Correct: A GFR of about 25-30 mL/hr (roughly 25% of the normal, over-90 threshold) defines renal insufficiency, a state the body can compensate for temporarily before it may progress to chronic disease. Incorrect: Normal GFR is above 90; Stage 5/uremic CKD reflects near-total loss of function, well below this value; GFR alone does not indicate a postrenal cause or an immediate need for dialysis.",
+                                     "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A nurse is developing a community screening program to reduce new cases of end-stage renal disease. Based on the leading causes of ESRD, which two chronic conditions should the program prioritize screening for?",
+                                     "options": [
+                                         "Glomerulonephritis and unresolved AKI",
+                                         "Obesity and cigarette smoking",
+                                         "Hyperlipidemia and coronary artery disease",
+                                         "Diabetes and hypertension"
+                                     ],
+                                     "answer": 3,
+                                     "rationale": "Correct: Diabetes (about 50%) and hypertension (about 30%) together cause about 80% of ESRD cases, making them the priority targets for prevention. Incorrect: Glomerulonephritis and unresolved AKI fall under the smaller 'other' (about 20%) category; obesity and smoking are risk factors but not the two leading causes; hyperlipidemia and CAD are other vascular risk factors, not the top two causes.",
+                                     "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with CKD has a urinalysis showing significant protein and a blood pressure of 168/98 mmHg despite an increasing dose of antihypertensives. The nurse recognizes these two findings together as most concerning because they reflect which pathogenic cycle?",
+                                     "options": [
+                                         "Proteinuria and elevated angiotensin II, the biggest drivers of CKD",
+                                         "Hyperkalemia and metabolic acidosis, the major electrolyte concern in CKD",
+                                         "Hyperphosphatemia and hypermagnesemia, common CKD electrolyte findings",
+                                         "Anemia and pericarditis, signs of advanced cardiovascular involvement"
+                                     ],
+                                     "answer": 0,
+                                     "rationale": "Correct: Proteinuria (from a leaky, damaged glomerular basement membrane) and increased angiotensin II (a potent vasoconstrictor driving hypertension) are the two biggest indicators and drivers of worsening CKD, making blood pressure control and urine protein monitoring ongoing priorities. Incorrect: Hyperkalemia and metabolic acidosis are fluid-and-electrolyte manifestations of CKD, not the named progression drivers; hyperphosphatemia and hypermagnesemia are also fluid-and-electrolyte findings, not progression drivers; anemia and pericarditis are hematologic and cardiovascular manifestations, not the two drivers of worsening disease.",
+                                     "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with CKD has a hemoglobin of 6.2 g/dL but reports only mild fatigue and continues most daily activities. Another client loses an equivalent amount of blood acutely during a GI bleed and becomes symptomatic with dizziness and tachycardia. What explains the CKD client's comparatively mild symptoms?",
+                                     "options": [
+                                         "The CKD client's kidneys are still producing adequate erythropoietin",
+                                         "Its slow decline causes fewer symptoms than an equivalent acute loss",
+                                         "Chronic acidosis in CKD offsets the effects of low hemoglobin",
+                                         "Renal osteodystrophy has developed and is masking the anemia symptoms"
+                                     ],
+                                     "answer": 1,
+                                     "rationale": "Correct: Because CKD-related anemia (from lost erythropoietin production) develops slowly and hemoglobin can fall as low as 5-6 g/dL over time, clients often have fewer symptoms than someone who loses the same amount of blood acutely. Incorrect: CKD anemia results from reduced, not adequate, erythropoietin production; metabolic acidosis is a separate CKD finding and does not offset anemia symptoms; renal osteodystrophy is a bone complication from loss of activated vitamin D and is unrelated to anemia symptom severity.",
+                                     "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with CKD-related anemia is prescribed erythropoietin. Before administering the dose, which finding is most important for the nurse to verify given the drug's black-box warning?",
+                                     "options": [
+                                         "Serum phosphate level, since erythropoietin can worsen hyperphosphatemia",
+                                         "Serum calcium level, to prevent hypercalcemia from the medication",
+                                         "Current hemoglobin level, to avoid giving the drug above 10 g/dL",
+                                         "Serum bicarbonate level, to confirm it is above the 18-20 goal range"
+                                     ],
+                                     "answer": 2,
+                                     "rationale": "Correct: Erythropoietin carries a black-box warning for overcorrecting hemoglobin, so it should not be given when hemoglobin is already above 10 g/dL, since this raises the risk of stroke, MI, and thromboembolism. Incorrect: Phosphate and calcium levels relate to hyperphosphatemia/renal osteodystrophy treatment with calcium carbonate and calcitriol, not to erythropoietin's warning; bicarbonate relates to sodium bicarbonate therapy for metabolic acidosis, not erythropoietin.",
+                                     "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A nurse is caring for two postoperative clients in pain: one with normal kidney function and one with severe, poorly-filtering CKD. Both are prescribed the same standard opioid dose. Which is the priority safety concern for the nurse?",
+                                     "options": [
+                                         "Opioids are not among the medications that need renal dose adjustment in CKD",
+                                         "The CKD client should be switched to vancomycin, which has its own renal dosing protocol",
+                                         "The CKD client's digoxin dose should be adjusted to offset the opioid's effects",
+                                         "The CKD client will retain the opioid longer, raising respiratory depression risk"
+                                     ],
+                                     "answer": 3,
+                                     "rationale": "Correct: In severe CKD the kidneys are not filtering effectively, so the opioid is retained far longer than normal, making respiratory depression the priority safety concern for this client. Incorrect: Opioids are specifically named as a medication needing renal dose adjustment in CKD, not an exception; vancomycin's dedicated renal dosing protocol applies to vancomycin itself, not to managing this client's opioid; digoxin also needs renal dosing, but adjusting it does not address the opioid retention risk.",
+                                     "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with CKD-related hyperphosphatemia is taking both calcium carbonate and calcitriol. Which adverse effect should the nurse monitor for because it can result from either drug?",
+                                     "options": [
+                                         "Hypercalcemia",
+                                         "Hyperkalemia",
+                                         "Metabolic acidosis",
+                                         "Hypophosphatemia"
+                                     ],
+                                     "answer": 0,
+                                     "rationale": "Correct: Calcium carbonate's adverse effect is hypercalcemia, and calcitriol's adverse effects are both hypercalcemia and hyperphosphatemia, so hypercalcemia can result from either drug, requiring close calcium and phosphate monitoring. Incorrect: Hyperkalemia and metabolic acidosis are not listed adverse effects of either drug; hypophosphatemia is the opposite of the hyperphosphatemia these drugs are meant to treat and is not an adverse effect of either.",
+                                     "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with CKD asks the nurse why the provider will not prescribe both an ACE inhibitor and an ARB together to get her blood pressure 'as low as possible.' Which response by the nurse is most accurate?",
+                                     "options": [
+                                         "Combining them is required to reach the CKD BP goal of below 120/80",
+                                         "They should never be combined; goal is systolic under 140, diastolic under 90",
+                                         "Combining them is safe and recommended, since it will help reverse further kidney damage",
+                                         "Combining them would help correct the client's metabolic acidosis faster"
+                                     ],
+                                     "answer": 1,
+                                     "rationale": "Correct: ACE inhibitors and ARBs should never be combined, and the CKD blood pressure goal is systolic under 140 and diastolic under 90, not lowered too aggressively, since CKD kidneys are accustomed to higher perfusion pressure. Incorrect: A goal of below 120/80 is more aggressive than the stated CKD target; no CKD drug reverses kidney damage, so combining these agents would not do so; acidosis in CKD is corrected with sodium bicarbonate, not by combining ACE inhibitors and ARBs.",
+                                     "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with CKD has a serum bicarbonate of 14 mEq/L. The nurse anticipates which treatment and expects it to achieve which goal?",
+                                     "options": [
+                                         "Calcitriol, to raise bicarbonate above 25",
+                                         "Erythropoietin, to raise bicarbonate above 20",
+                                         "Sodium bicarbonate, goal bicarb of 18-20",
+                                         "Calcium carbonate, to raise bicarbonate above 15"
+                                     ],
+                                     "answer": 2,
+                                     "rationale": "Correct: Sodium bicarbonate is the alkalinizing agent used for CKD-related metabolic acidosis, typically started when bicarbonate falls under 15, with a goal of raising it to 18-20. Incorrect: Calcitriol treats renal osteodystrophy/hyperphosphatemia, not acidosis; erythropoietin treats anemia; calcium carbonate binds phosphate, and 15 is the threshold for starting acidosis treatment, not a treatment goal itself, and neither drug raises bicarbonate.",
+                                     "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A nurse reviews the plan of care for a client with CKD. Which complication-and-treatment pairs are correctly matched? Select all that apply.",
+                                     "options": [
+                                         "Volume overload: furosemide and a sodium-restricted diet of about 2g/day",
+                                         "Hyperphosphatemia: calcium carbonate taken with meals",
+                                         "Metabolic acidosis: sodium bicarbonate, with a goal bicarbonate of 18-20",
+                                         "Anemia: calcitriol to stimulate erythropoietin production",
+                                         "Hyperkalemia: erythropoietin given daily to lower serum potassium levels",
+                                         "Renal osteodystrophy: calcitriol to aid calcium and phosphate absorption"
+                                     ],
+                                     "answers": [
+                                         0,
+                                         1,
+                                         2,
+                                         5
+                                     ],
+                                     "rationale": "Correct: Volume overload is treated with a diuretic (usually furosemide) plus a roughly 2g/day sodium-restricted diet; hyperphosphatemia is treated with calcium carbonate, taken with meals to bind dietary phosphate; metabolic acidosis is treated with sodium bicarbonate, with a goal bicarbonate of 18-20; renal osteodystrophy is treated with calcitriol, which stimulates intestinal absorption of calcium and phosphate. Incorrect: Anemia is treated with erythropoietin, not calcitriol, which is used for osteodystrophy rather than to stimulate erythropoietin production; hyperkalemia is managed with a diuretic, Kayexalate, or dialysis, not erythropoietin, which treats anemia and carries a black-box warning for overcorrection.",
+                                     "topic": "Acute Kidney Injury &amp; Chronic Kidney Disease",
+                                     "source": "quiz-bank"
+                                 }
+                             ],
             "eaq": []
         }
     },
@@ -5588,142 +5591,143 @@ window.QUIZ_BANK = {
         "sets": {
             "mustKnow": [],
             "extraPractice": [
-                    {
-                        "stem": "A nurse is taking a health history from a young adult male client with a history of surgically corrected cryptorchidism. Based on this history, which teaching point should the nurse prioritize?",
-                        "options": [
-                            "The importance of routine testicular self-exam",
-                            "The importance of annual PSA screening",
-                            "The importance of monitoring for erectile dysfunction",
-                            "The importance of BPH symptom monitoring"
-                        ],
-                        "answer": 0,
-                        "rationale": "Correct: cryptorchidism is the biggest risk factor for testicular cancer, and the risk stays elevated for life even after surgical correction, making self-exam teaching the priority. Incorrect: PSA screening relates to prostate cancer, while erectile dysfunction and BPH are unrelated conditions not linked to this history.",
-                        "topic": "Male Reproductive Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A young adult male client says he noticed a firm, painless lump on his testicle three weeks ago but didn't mention it sooner because it didn't hurt. What is the nurse's priority response?",
-                        "options": [
-                            "Reassure him that painless lumps are rarely serious",
-                            "Explain that a painless mass still needs evaluation",
-                            "Advise him to monitor it for a few more months",
-                            "Explain that pain would confirm this is cancer"
-                        ],
-                        "answer": 1,
-                        "rationale": "Correct: testicular cancer classically presents as a painless mass, and because it doesn't hurt, patients often delay reporting it — the nurse needs to correct that assumption and reinforce prompt evaluation. Incorrect: painless does not mean not serious, further delay isn't appropriate, and pain is not required for, or a marker of, this cancer.",
-                        "topic": "Male Reproductive Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client's germ cell tumor is described as growing and spreading quickly, with only a limited response so far to radiation therapy. Based on this behavior, the nurse understands this is most likely which tumor type?",
-                        "options": [
-                            "Seminoma",
-                            "A tumor with no typical growth pattern",
-                            "Nonseminoma",
-                            "A tumor equally likely to be either type"
-                        ],
-                        "answer": 2,
-                        "rationale": "Correct: nonseminoma tends to grow and spread more quickly and is less radiosensitive, matching both features described, while seminoma grows more slowly and is more radiosensitive. Incorrect: seminoma is the slower, more radiosensitive type, tumor behavior here isn't patternless, and these two described features together point specifically toward one type rather than an even split.",
-                        "topic": "Male Reproductive Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client is started on combination therapy (finasteride and tamsulosin) for moderate-to-severe BPH. Which teaching points should the nurse include? Select all that apply.",
-                        "options": [
-                            "\"The tamsulosin will relieve your symptoms right away.\"",
-                            "\"Finasteride will take months to shrink the prostate.\"",
-                            "\"Both medications will shrink the prostate immediately.\"",
-                            "\"You should stop the tamsulosin once symptoms improve.\"",
-                            "\"Only one of these two medications is actually needed.\"",
-                            "\"Combination therapy is used for milder symptoms only.\""
-                        ],
-                        "answers": [
-                            0,
-                            1
-                        ],
-                        "rationale": "Correct: tamsulosin (an alpha-1 blocker) relieves symptoms quickly by relaxing smooth muscle, while finasteride (a 5-alpha reductase inhibitor) takes months to actually shrink the gland — combination therapy uses both because they work on different timelines. Incorrect: only finasteride shrinks the gland, and not immediately; tamsulosin should be continued as prescribed rather than stopped once feeling better; combination therapy specifically uses both together; and it's used for moderate-to-severe, not milder, symptoms.",
-                        "topic": "Male Reproductive Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client newly diagnosed with mild BPH symptoms asks the nurse why the provider isn't starting a medication today. What should the nurse explain?",
-                        "options": [
-                            "BPH always requires immediate combination therapy",
-                            "For mild symptoms, watchful waiting is standard",
-                            "Untreated BPH can turn into prostate cancer",
-                            "Medications aren't effective until symptoms are severe"
-                        ],
-                        "answer": 1,
-                        "rationale": "Correct: for mild BPH symptoms, watchful waiting (monitoring rather than starting treatment right away) is the standard approach. Incorrect: combination therapy is reserved for moderate-to-severe symptoms, not every case; BPH is benign and does not turn into cancer; and medications are effective and available regardless of symptom severity, not just once symptoms worsen.",
-                        "topic": "Male Reproductive Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "Two older male clients are seen in clinic: one reports urinary hesitancy and nocturia, and the other has no urinary symptoms at all but an elevated PSA. The nurse understands the second client's presentation is more concerning because it is more typical of which condition?",
-                        "options": [
-                            "A new urinary tract infection",
-                            "An isolated case of erectile dysfunction",
-                            "Prostate cancer, often silent early on",
-                            "BPH, which causes early symptoms"
-                        ],
-                        "answer": 2,
-                        "rationale": "Correct: prostate cancer is mostly asymptomatic in early stages, unlike BPH, which causes obstructive symptoms right away because of where it grows, so an asymptomatic client with an elevated PSA is the more concerning picture. Incorrect: a urinary tract infection would be expected to cause urinary symptoms, erectile dysfunction is a separate condition, and BPH (not prostate cancer) is what causes early symptoms like hesitancy and nocturia.",
-                        "topic": "Male Reproductive Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client with an elevated PSA and no urinary symptoms asks the nurse whether this definitely means he has prostate cancer. What should the nurse explain?",
-                        "options": [
-                            "PSA can also be elevated by BPH or prostatitis",
-                            "An elevated PSA always confirms prostate cancer",
-                            "A normal PSA would rule out prostate cancer entirely",
-                            "PSA elevation only occurs with metastatic disease"
-                        ],
-                        "answer": 0,
-                        "rationale": "Correct: PSA isn't cancer-specific; it can also be elevated by BPH or prostatitis, which is part of why screening is controversial and can lead to overdiagnosis. Incorrect: an elevated PSA does not confirm cancer by itself, a normal PSA doesn't rule cancer out entirely either, and PSA can rise well before any metastatic disease.",
-                        "topic": "Male Reproductive Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client with long-standing, untreated BPH now reports flank pain and a rising creatinine on labs. What is the nurse's priority action?",
-                        "options": [
-                            "Encourage increased fluid intake to improve creatinine",
-                            "Reassure the client this is an expected part of aging",
-                            "Schedule a routine follow-up in three months",
-                            "Notify the provider of possible obstruction"
-                        ],
-                        "answer": 3,
-                        "rationale": "Correct: severe, prolonged BPH obstruction can back urine up to the kidneys and cause obstructive nephropathy, so new flank pain with a rising creatinine needs prompt provider notification. Incorrect: more fluids won't relieve an anatomic obstruction, this is a concerning complication rather than expected aging, and a three-month delay is unsafe for worsening kidney function.",
-                        "topic": "Male Reproductive Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client taking sildenafil for erectile dysfunction is prescribed nitroglycerin for chest pain. What is the nurse's priority action?",
-                        "options": [
-                            "Administer the nitroglycerin as ordered.",
-                            "Give a lower dose of sildenafil.",
-                            "Administer both medications one hour apart.",
-                            "Notify the provider first."
-                        ],
-                        "answer": 3,
-                        "rationale": "Correct: PDE5 inhibitors like sildenafil must never be combined with nitrates, since both lower blood pressure through the same pathway and together can cause a severe, life-threatening drop, so the provider must be notified first. Incorrect: giving the nitroglycerin as ordered, adjusting the sildenafil dose, or simply spacing the doses apart does not remove this dangerous interaction risk.",
-                        "topic": "Male Reproductive Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client reports a painful erection lasting five hours unrelated to sexual activity. What is the nurse's priority action?",
-                        "options": [
-                            "Advise the client to apply ice and wait.",
-                            "Instruct the client to seek immediate care.",
-                            "Reassure the client this will resolve on its own.",
-                            "Schedule a routine urology follow-up visit."
-                        ],
-                        "answer": 1,
-                        "rationale": "Correct: this describes priapism, a true urologic emergency that can cause permanent tissue damage if untreated, so the client needs immediate medical attention rather than waiting it out. Incorrect: applying ice, reassuring the client it will resolve on its own, and scheduling a routine follow-up all delay care for a time-sensitive emergency.",
-                        "topic": "Male Reproductive Disorders",
-                        "source": "quiz-bank"
-                    }
-                ],
+                                 {
+                                     "stem": "A 28-year-old man tells the nurse he had surgery for an undescended testicle at age 2 and asks whether his cancer risk is now the same as men without that history. Which response is accurate?",
+                                     "options": [
+                                         "Even though the testicle was corrected, your risk stays elevated for life.",
+                                         "Because the testicle was corrected, your risk returned to the general population level.",
+                                         "Your risk only applies if the correction happened after puberty began.",
+                                         "Surgical correction removes risk as long as no mass has developed yet."
+                                     ],
+                                     "answer": 0,
+                                     "rationale": "Correct: Cryptorchidism is the biggest risk factor for testicular cancer, and the risk remains elevated for life even after the undescended testicle is surgically corrected in childhood. Incorrect: Surgical correction does not return risk to baseline; the timing of correction relative to puberty is not the determining factor; and correction does not remove risk based on whether a mass has developed.",
+                                     "topic": "Male Reproductive Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "Two men are newly diagnosed with germ cell testicular tumors. Client A's tumor is described as slower-growing and more radiosensitive; Client B's tumor is described as spreading more quickly. Which statement about their prognosis is correct?",
+                                     "options": [
+                                         "Client B's nonseminoma has a much lower overall survival rate than Client A's seminoma.",
+                                         "Both tumor types have high overall survival despite differing growth rates.",
+                                         "Client A's tumor must be nonseminoma since it is more radiosensitive.",
+                                         "Only Client A's slower-growing tumor is classified as a germ cell tumor."
+                                     ],
+                                     "answer": 1,
+                                     "rationale": "Correct: Seminoma grows more slowly and is more radiosensitive while nonseminoma spreads more quickly, but both germ cell tumor types have high overall survival rates. Incorrect: Nonseminoma's faster spread does not translate to a much lower survival rate; radiosensitivity and slower growth describe seminoma, not nonseminoma; and both tumor types described are germ cell tumors, not just the slower-growing one.",
+                                     "topic": "Male Reproductive Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client newly diagnosed with BPH says, 'I read that if this isn't treated, it could turn into prostate cancer.' The client also reports urinary hesitancy and a weak stream. Which response addresses both the concern and the cause of the urinary symptoms?",
+                                     "options": [
+                                         "BPH symptoms occur because DHT directly damages the bladder wall, not because it develops into cancer.",
+                                         "BPH will progress to prostate cancer over time, which is why your urinary symptoms have started.",
+                                         "BPH does not turn into cancer; symptoms occur because the enlarged prostate squeezes the urethra.",
+                                         "BPH symptoms occur because the tumor has spread to the bladder, but the prostate itself remains benign."
+                                     ],
+                                     "answer": 2,
+                                     "rationale": "Correct: BPH is a benign overgrowth of prostate tissue that does not turn into cancer, and its urinary symptoms occur because the enlarged gland squeezes the urethra it surrounds. Incorrect: DHT accumulation is a proposed cause of the overgrowth itself, not direct bladder wall damage; BPH does not progress into prostate cancer; and BPH involves no tumor spread since it is non-malignant.",
+                                     "topic": "Male Reproductive Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with moderate-to-severe BPH is prescribed both finasteride and tamsulosin and asks why two medications are needed. Which explanation is correct?",
+                                     "options": [
+                                         "Tamsulosin shrinks the prostate immediately, while finasteride relaxes smooth muscle over months.",
+                                         "Both medications shrink the prostate gland at the same rate, so combining them shrinks it faster.",
+                                         "Finasteride relieves symptoms within days, while tamsulosin takes months to shrink the gland.",
+                                         "Tamsulosin relieves symptoms quickly, while finasteride shrinks the gland over months."
+                                     ],
+                                     "answer": 3,
+                                     "rationale": "Correct: In combination therapy, the alpha-1 blocker tamsulosin relaxes smooth muscle to relieve symptoms right away while the 5-alpha reductase inhibitor finasteride shrinks the gland over months. Incorrect: Tamsulosin relaxes muscle rather than shrinking the gland immediately; the two drug classes do not shrink the gland at the same rate; and it is finasteride, not tamsulosin, that takes months and works by shrinking the gland.",
+                                     "topic": "Male Reproductive Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with long-standing untreated BPH develops rising creatinine and bilateral hydronephrosis. Which complication does this most likely represent?",
+                                     "options": [
+                                         "Obstructive nephropathy from severe urethral obstruction causing urine backup to the kidneys.",
+                                         "Acute prostatitis causing direct bacterial invasion of the kidney and urinary tract tissue.",
+                                         "Malignant transformation of the prostate tissue that has metastasized to the kidneys directly.",
+                                         "Priapism-related vascular congestion that reduces normal blood flow to the kidneys over time."
+                                     ],
+                                     "answer": 0,
+                                     "rationale": "Correct: When BPH obstruction is severe or prolonged enough, urine can back up all the way to the kidneys, causing obstructive nephropathy. Incorrect: Prostatitis is not described as invading kidney tissue; BPH is benign and does not undergo malignant transformation or metastasis; and priapism is an unrelated erectile dysfunction emergency, not a cause of renal obstruction.",
+                                     "topic": "Male Reproductive Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A 68-year-old man with a history of BPH has a mildly elevated PSA and anxiously requests an immediate prostate biopsy. Which teaching point addresses the limitation of PSA screening here?",
+                                     "options": [
+                                         "An elevated PSA is specific to prostate cancer, so biopsy should proceed without delay.",
+                                         "PSA is elevated by BPH too, so it doesn't confirm cancer and risks overdiagnosis.",
+                                         "PSA elevation only occurs with metastatic disease, so this result suggests advanced cancer.",
+                                         "PSA is not affected by benign prostate conditions, so this elevation is concerning for malignancy."
+                                     ],
+                                     "answer": 1,
+                                     "rationale": "Correct: PSA can be elevated by BPH and prostatitis as well as cancer, so it is not cancer-specific, and screening can lead to overdiagnosis and unnecessary biopsy. Incorrect: PSA is not specific to cancer; PSA elevation is not limited to metastatic disease and can occur early or from benign causes; and benign conditions like this client's BPH can and do raise PSA.",
+                                     "topic": "Male Reproductive Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "One client has early-stage BPH and another has early-stage prostate cancer. Which statement correctly differentiates their expected presentations?",
+                                     "options": [
+                                         "Both conditions typically cause urinary symptoms early because both directly obstruct the urethra.",
+                                         "The BPH client will be asymptomatic while the prostate cancer client develops bone pain immediately.",
+                                         "BPH causes early obstructive symptoms; prostate cancer is usually asymptomatic until advanced.",
+                                         "Neither condition typically causes symptoms until the disease has metastasized to bone."
+                                     ],
+                                     "answer": 2,
+                                     "rationale": "Correct: BPH causes obstructive urinary symptoms early because of where it grows around the urethra, while prostate cancer is usually asymptomatic until it becomes advanced or metastatic. Incorrect: Prostate cancer, not BPH, is typically silent early; bone pain from metastasis develops only with advanced disease, not immediately; and BPH does cause early symptoms, so neither condition being symptom-free is inaccurate.",
+                                     "topic": "Male Reproductive Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A biopsy report shows a high Gleason score with poorly differentiated tissue architecture. Which interpretation is correct?",
+                                     "options": [
+                                         "This finding indicates a slow-growing, well-differentiated tumor with a favorable prognosis.",
+                                         "This finding is unrelated to tumor aggressiveness and reflects only tumor size.",
+                                         "This finding indicates the tissue closely resembles normal prostate tissue.",
+                                         "This finding indicates a more aggressive, less differentiated cancer."
+                                     ],
+                                     "answer": 3,
+                                     "rationale": "Correct: A higher Gleason score reflects tissue that looks more abnormal and less differentiated under the microscope, indicating a more aggressive cancer. Incorrect: A high score with poor differentiation indicates aggressiveness, not a favorable, slow-growing profile; the Gleason score directly reflects aggressiveness, not size; and poorly differentiated tissue looks less like normal prostate tissue, not more.",
+                                     "topic": "Male Reproductive Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client taking sildenafil for erectile dysfunction is prescribed nitroglycerin for chest pain. Which explanation describes why this combination is dangerous?",
+                                     "options": [
+                                         "Both drugs lower BP via the same NO/cGMP pathway, risking severe hypotension.",
+                                         "Sildenafil increases PDE5 activity, which combines with nitroglycerin to cause hypertension.",
+                                         "Nitroglycerin blocks the breakdown of cGMP, which combines with sildenafil to cause priapism.",
+                                         "Both drugs act on androgen receptors, which combines to suppress testosterone production."
+                                     ],
+                                     "answer": 0,
+                                     "rationale": "Correct: Sildenafil and nitrates both lower blood pressure through the same nitric oxide/cGMP pathway, and combining them can cause a severe, life-threatening drop in blood pressure. Incorrect: Sildenafil blocks PDE5 rather than increasing its activity, and the danger is hypotension, not hypertension; nitroglycerin does not block PDE5 breakdown of cGMP, and the risk is blood pressure drop, not priapism; and neither drug is described as acting on androgen receptors or testosterone.",
+                                     "topic": "Male Reproductive Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "The nurse is teaching a client about erectile dysfunction and PDE5 inhibitor therapy. Which statements are accurate? Select all that apply.",
+                                     "options": [
+                                         "Vascular disease and diabetes are examples of organic causes of erectile dysfunction.",
+                                         "Performance anxiety and relationship stress can cause erectile dysfunction even when blood flow and nerve function are normal.",
+                                         "Sildenafil is taken as a standing daily dose to prevent erectile dysfunction.",
+                                         "An erection lasting more than 4 hours unrelated to sexual stimulation is a urologic emergency requiring immediate medical attention.",
+                                         "Pelvic surgery and low testosterone are classified as psychogenic causes of erectile dysfunction, distinct from vascular or neurologic organic causes.",
+                                         "PDE5 inhibitors work by directly increasing nitric oxide release from penile nerve endings."
+                                     ],
+                                     "answers": [
+                                         0,
+                                         1,
+                                         3
+                                     ],
+                                     "rationale": "Correct: Vascular disease and diabetes are organic (primary) causes of ED; performance anxiety and relationship stress are psychogenic (secondary) causes that can occur even with normal blood flow and nerves; and priapism, an erection lasting more than 4 hours unrelated to stimulation, is a true urologic emergency requiring immediate attention. Incorrect: Sildenafil is taken before sexual activity, not as a standing daily dose for most patients; pelvic surgery and low testosterone are organic, not psychogenic, causes; and PDE5 inhibitors work by blocking the enzyme that breaks down cGMP, not by increasing nitric oxide release.",
+                                     "topic": "Male Reproductive Disorders",
+                                     "source": "quiz-bank"
+                                 }
+                             ],
             "eaq": []
         }
     },
@@ -5734,155 +5738,156 @@ window.QUIZ_BANK = {
         "sets": {
             "mustKnow": [],
             "extraPractice": [
-                    {
-                        "stem": "An older client reports gradual, painless blurring in both eyes over the past year, and an eye exam shows clouding of the lens rather than retinal or optic nerve changes. Based on this full picture, which treatment should the nurse anticipate?",
-                        "options": [
-                            "Surgical lens removal and replacement",
-                            "Daily prostaglandin analog eye drops",
-                            "Reducing dietary sodium and caffeine",
-                            "Reassurance that no treatment is needed"
-                        ],
-                        "answer": 0,
-                        "rationale": "Correct: gradual, bilateral, painless blur specifically from lens clouding, not retinal or optic nerve involvement, is the cataract pattern, and cataracts are treated surgically only — no medication reverses lens clouding. Incorrect: prostaglandin analog drops treat glaucoma's elevated eye pressure, not lens clouding; reducing sodium and caffeine is the Meniere's disease strategy; and cataracts do not resolve without treatment.",
-                        "topic": "Visual &amp; Sensory Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client with diabetic retinopathy is found on eye exam to have new, fragile blood vessels that bleed easily. What is the nurse's priority action regarding this finding?",
-                        "options": [
-                            "Reassure the client this is an early, low-risk finding",
-                            "Ensure prompt ophthalmology follow-up",
-                            "Document it as unrelated to the diabetes diagnosis",
-                            "Advise the client no further eye exams are needed"
-                        ],
-                        "answer": 1,
-                        "rationale": "Correct: this describes proliferative retinopathy, the more advanced stage in which the retina grows new, fragile vessels that threaten vision more seriously, so prompt ophthalmology follow-up is the priority. Incorrect: this is the advanced, not early or low-risk, stage, it is directly related to the diabetes, and ongoing eye exams remain essential.",
-                        "topic": "Visual &amp; Sensory Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client asks the nurse which eye condition covered in class has the best chance of improving once its underlying cause is treated. Based on this content, what should the nurse say?",
-                        "options": [
-                            "Proliferative diabetic retinopathy, with good glucose control",
-                            "Macular degeneration, with good nutrition",
-                            "Hypertensive retinopathy, with good blood pressure control",
-                            "Open-angle glaucoma, with pressure-lowering drops"
-                        ],
-                        "answer": 2,
-                        "rationale": "Correct: hypertensive retinopathy is specifically described as reversible with good blood pressure control, unlike the other conditions listed, which are managed to slow progression rather than reversed. Incorrect: diabetic retinopathy isn't described as reversible even with glucose control once vessel damage occurs, macular degeneration is irreversible with management aimed at slowing progression, and glaucoma treatment lowers pressure to prevent further damage rather than reversing existing loss.",
-                        "topic": "Visual &amp; Sensory Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client reports sudden floaters, flashing lights, and a shadow moving across one visual field. What is the nurse's priority action?",
-                        "options": [
-                            "Reassure the client this is a normal aging change.",
-                            "Schedule a routine eye exam for next week.",
-                            "Advise applying a warm compress to the eye.",
-                            "Arrange for immediate ophthalmologic evaluation."
-                        ],
-                        "answer": 3,
-                        "rationale": "Correct: this \"curtain\" presentation is the classic sign of retinal detachment, a true emergency where delayed treatment risks permanent vision loss, so immediate evaluation is required. Incorrect: this is not a normal aging change, a routine exam next week delays emergency care, and a warm compress does nothing for a detaching retina.",
-                        "topic": "Visual &amp; Sensory Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "Which client would the nurse identify as being at greatest risk for retinal detachment?",
-                        "options": [
-                            "A client with hyperopia and no eye history",
-                            "A client with myopia and recent eye trauma",
-                            "A client with well-controlled hypertension only",
-                            "A client with early cataracts only"
-                        ],
-                        "answer": 1,
-                        "rationale": "Correct: myopia, older age, and eye trauma are the identified risk factors for retinal detachment, so a client with both myopia and recent trauma carries the greatest risk. Incorrect: hyperopia is a macular degeneration risk factor rather than a retinal detachment one, and well-controlled hypertension or isolated early cataracts are not described as retinal detachment risk factors.",
-                        "topic": "Visual &amp; Sensory Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A nurse is counseling a client recently diagnosed with macular degeneration on reducing modifiable risk factors. Which recommendations should the nurse include? Select all that apply.",
-                        "options": [
-                            "\"Wear sunglasses that block UV light when outdoors.\"",
-                            "\"Quitting smoking is strongly recommended.\"",
-                            "\"Wearing your farsightedness glasses is now optional.\"",
-                            "\"Switching from glasses to contacts will slow progression.\"",
-                            "\"Increasing screen brightness will reduce your risk.\"",
-                            "\"Avoiding all reading will help preserve your vision.\""
-                        ],
-                        "answers": [
-                            0,
-                            1
-                        ],
-                        "rationale": "Correct: lifetime UV light exposure and smoking are modifiable risk factors for macular degeneration, so UV protection and smoking cessation are appropriate teaching points. Incorrect: hyperopia (farsightedness) is a risk factor but not something glasses use changes, and switching to contacts, screen brightness, and avoiding reading are not supported risk-reduction strategies in this content.",
-                        "topic": "Visual &amp; Sensory Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A nurse is caring for two clients with macular degeneration: one has the more common form caused by gradual macular thinning, and the other has the less common form caused by abnormal vessel growth that can leak under the macula. Based on these mechanisms, which client is at greater risk for a sudden change in vision?",
-                        "options": [
-                            "The client with gradual macular thinning (dry AMD)",
-                            "Both are equally likely to have sudden changes",
-                            "The client with abnormal vessel growth (wet AMD)",
-                            "Neither type causes vision changes without warning"
-                        ],
-                        "answer": 2,
-                        "rationale": "Correct: wet (neovascular) macular degeneration involves vessels that can leak, which can produce more sudden change than dry AMD's gradual, slow thinning process. Incorrect: dry AMD's mechanism is described as gradual thinning, not sudden change; the two mechanisms work differently, so they are not equally sudden; and leaking vessels can in fact cause a noticeable change.",
-                        "topic": "Visual &amp; Sensory Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client asks why his glaucoma caused no pain or sudden symptoms, unlike a family member's glaucoma that came on suddenly with severe eye pain. What should the nurse explain?",
-                        "options": [
-                            "Both forms always progress identically",
-                            "His form involves new vessel growth",
-                            "His relative's form is less dangerous",
-                            "His drainage pathway is slowly failing"
-                        ],
-                        "answer": 3,
-                        "rationale": "Correct: open-angle glaucoma results from a slowly failing trabecular meshwork, gradual and painless, while closed-angle glaucoma results from the iris suddenly blocking the drainage angle, sudden, painful, and an emergency — these contrasting mechanisms explain the different presentations. Incorrect: the two forms do not progress the same way, new vessel growth is not the mechanism described for either form of glaucoma here, and closed-angle is the more, not less, dangerous emergency form.",
-                        "topic": "Visual &amp; Sensory Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A nurse is reviewing medications for a client at risk for acute closed-angle glaucoma. Which medication class should raise the most concern?",
-                        "options": [
-                            "Beta blockers",
-                            "Prostaglandin analogs",
-                            "Carbonic anhydrase inhibitors",
-                            "Anticholinergics"
-                        ],
-                        "answer": 3,
-                        "rationale": "Correct: anticholinergic drugs dilate the pupil, which can push the iris into the drainage angle and precipitate an acute closed-angle glaucoma attack. Incorrect: beta blockers, prostaglandin analogs, and carbonic anhydrase inhibitors are all glaucoma treatments themselves, not medications that trigger an attack.",
-                        "topic": "Visual &amp; Sensory Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A nurse is teaching a client with a history of bradycardia how to instill prescribed timolol eye drops. Which instruction is most important for reducing the risk of a systemic effect?",
-                        "options": [
-                            "Occlude the inner corner of the eye for about a minute.",
-                            "Blink rapidly several times after instilling the drop.",
-                            "Tilt the head back and hold the position for several minutes.",
-                            "Wipe away any excess medication immediately."
-                        ],
-                        "answer": 0,
-                        "rationale": "Correct: pressing on the inner corner of the eye (nasolacrimal occlusion) keeps the drop from draining into the nasolacrimal duct and being absorbed systemically — an important safety step for a beta blocker eye drop in a client who already has bradycardia, since systemic beta-blockade could worsen it. Incorrect: rapid blinking, prolonged head tilting, and quickly wiping the drop away do not block nasolacrimal drainage and do not reduce systemic absorption the way occlusion does.",
-                        "topic": "Visual &amp; Sensory Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client recently diagnosed with Meniere's disease asks the nurse for a medication that will cure the condition and stop the vertigo attacks completely. What should the nurse explain?",
-                        "options": [
-                            "A daily antiviral medication will resolve the underlying cause.",
-                            "There's no cure; management targets dietary triggers",
-                            "Increasing daily fluid intake will eliminate the attacks.",
-                            "Avoiding all physical activity will prevent future episodes."
-                        ],
-                        "answer": 1,
-                        "rationale": "Correct: there is no direct pharmacologic cure for Meniere's disease — management is primarily dietary and lifestyle-based, commonly reducing sodium and caffeine as trigger management. Incorrect: there is no antiviral treatment described for Meniere's disease, increasing fluid intake is not the recommended strategy, and avoiding all activity is not part of the described management.",
-                        "topic": "Visual &amp; Sensory Disorders",
-                        "source": "quiz-bank"
-                    }
-                ],
+                                 {
+                                     "stem": "A client arrives at the emergency department reporting sudden floaters, flashing lights, and a curtain-like shadow moving across the visual field in the left eye only, with no eye pain. The nurse recognizes these findings as most consistent with which condition?",
+                                     "options": [
+                                         "Retinal detachment",
+                                         "Acute closed-angle glaucoma",
+                                         "Open-angle glaucoma",
+                                         "Cataracts"
+                                     ],
+                                     "answer": 0,
+                                     "rationale": "Correct: Retinal detachment causes sudden, painless, unilateral floaters, flashing lights, and a curtain/shadow effect, and requires emergency treatment to prevent permanent vision loss. Incorrect: Acute closed-angle glaucoma is also sudden but is painful, often with headache, unlike this client's pain-free presentation. Open-angle glaucoma develops gradually from slowed drainage through the trabecular meshwork, not suddenly. Cataracts cause gradual, painless, often bilateral blurring from lens clouding, not sudden unilateral floaters.",
+                                     "topic": "Visual &amp; Sensory Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "The nurse is assessing two clients before lunch. Client A reports sudden severe eye pain, headache, and halos around lights that began one hour ago. Client B reports blurry vision that has gradually worsened over the past two years with no pain. Which client should the nurse assess first?",
+                                     "options": [
+                                         "Client B, because slowly progressive vision loss always signals a retinal bleed",
+                                         "Client A, because acute angle-closure can cause permanent loss within hours",
+                                         "Client A, because open-angle glaucoma produces sudden painless pressure spikes",
+                                         "Client B, because cataracts require same-day emergency lens removal"
+                                     ],
+                                     "answer": 1,
+                                     "rationale": "Correct: Acute closed-angle glaucoma is a true emergency in which a sudden pressure spike from iris blockage of the drainage angle can cause permanent vision loss within hours, requiring immediate treatment rather than routine follow-up. Incorrect: Client B's gradual, painless vision loss over years is consistent with a chronic process such as cataracts, not an emergency retinal bleed. Open-angle glaucoma develops gradually from slow trabecular meshwork dysfunction, so it does not explain Client A's sudden painful presentation. Cataracts are treated surgically but are not a same-day emergency, since the clouding develops gradually.",
+                                     "topic": "Visual &amp; Sensory Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client newly diagnosed with macular degeneration asks the nurse which form is most common. Which response by the nurse is accurate?",
+                                     "options": [
+                                         "About 90% of cases are wet, caused by abnormal new vessels leaking under the macula",
+                                         "About 10% of cases are dry, caused by gradual thinning and breakdown of the macula",
+                                         "About 90% of cases are dry, caused by gradual thinning and breakdown of the macula",
+                                         "Both forms occur with equal frequency and involve new vessel growth under the macula"
+                                     ],
+                                     "answer": 2,
+                                     "rationale": "Correct: Dry (non-neovascular) macular degeneration accounts for about 90% of cases and results from gradual thinning and breakdown of the macula over time. Incorrect: Wet (neovascular) macular degeneration, caused by abnormal vessel growth and leakage under the macula, accounts for only about 10% of cases, not 90%. Stating dry disease is only 10% reverses the actual proportions. The two forms do not occur with equal frequency, and new vessel growth is specific to the wet form, not the dry form.",
+                                     "topic": "Visual &amp; Sensory Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with a history of open-angle glaucoma is prescribed a new medication for overactive bladder that has anticholinergic effects. The nurse recognizes this medication could precipitate which complication?",
+                                     "options": [
+                                         "Increased trabecular meshwork drainage causing gradual worsening of the open-angle glaucoma control",
+                                         "Progression of diabetic retinopathy from the non-proliferative stage to the proliferative stage",
+                                         "Reversal of hypertensive retinopathy damage from pupil dilation that improves retinal blood flow",
+                                         "An acute closed-angle glaucoma attack from the dilated pupil blocking the drainage angle"
+                                     ],
+                                     "answer": 3,
+                                     "rationale": "Correct: Anticholinergic drugs dilate the pupil, which can push the iris into the drainage angle and precipitate an acute closed-angle glaucoma attack, a sudden emergency. Incorrect: Open-angle glaucoma results from slowed drainage through the trabecular meshwork, not increased drainage, and is a gradual chronic process rather than a drug-triggered event. Diabetic retinopathy progression relates to poor blood flow causing fragile new vessel growth, not anticholinergic effects. Hypertensive retinopathy is reversible with blood pressure control, not with pupil dilation improving blood flow.",
+                                     "topic": "Visual &amp; Sensory Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client using glaucoma eye drops asks the nurse which medication both reduces the amount of fluid the eye produces and increases how much fluid drains out. Which class should the nurse identify?",
+                                     "options": [
+                                         "Alpha-2 agonists, such as brimonidine",
+                                         "Beta blockers, such as timolol",
+                                         "Prostaglandin analogs, such as latanoprost",
+                                         "Carbonic anhydrase inhibitors, such as dorzolamide"
+                                     ],
+                                     "answer": 0,
+                                     "rationale": "Correct: Alpha-2 agonists such as brimonidine both decrease aqueous humor production and increase its outflow, making them unique among glaucoma drug classes. Incorrect: Beta blockers such as timolol only reduce aqueous humor production. Prostaglandin analogs such as latanoprost only increase outflow through an alternate drainage pathway. Carbonic anhydrase inhibitors such as dorzolamide only decrease production by inhibiting the carbonic anhydrase enzyme.",
+                                     "topic": "Visual &amp; Sensory Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client is prescribed timolol eye drops for glaucoma. Which instruction should the nurse include to reduce the risk of systemic side effects?",
+                                     "options": [
+                                         "Blink rapidly several times right after instilling the drop into the eye",
+                                         "Apply gentle pressure to the inner corner of the eye for one minute",
+                                         "Tilt the head back and hold the eyes open without blinking for five full minutes",
+                                         "Rinse the eye thoroughly with water right after instilling the eye drop"
+                                     ],
+                                     "answer": 1,
+                                     "rationale": "Correct: Applying gentle pressure to the inner corner of the eye over the tear duct for about a minute (nasolacrimal occlusion) prevents the drop from draining into the nasolacrimal duct and being absorbed systemically, which matters especially with beta blocker drops since systemic beta-blockade can occur if too much is absorbed. Incorrect: Blinking rapidly increases drainage into the tear duct rather than preventing it. Holding the eyes open without blinking does not block the nasolacrimal duct. Rinsing the eye with water would wash out the medication rather than reduce systemic absorption.",
+                                     "topic": "Visual &amp; Sensory Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with diabetic retinopathy asks why the ophthalmologist is more concerned about the proliferative stage than the earlier stage. Which explanation should the nurse give?",
+                                     "options": [
+                                         "The proliferative stage mainly involves small vessel changes and microaneurysms that leak fluid",
+                                         "The proliferative stage is fully reversible with tight blood pressure control alone every time",
+                                         "The proliferative stage involves fragile new vessels from poor blood flow that bleed easily",
+                                         "The proliferative stage affects only the lens clarity rather than the retina itself directly"
+                                     ],
+                                     "answer": 2,
+                                     "rationale": "Correct: In proliferative diabetic retinopathy, the retina responds to poor blood flow by growing new, fragile blood vessels that bleed easily and threaten vision more seriously than the earlier stage. Incorrect: Small vessel changes and microaneurysms that leak describe the earlier, non-proliferative stage, not the more advanced proliferative stage. Reversibility with blood pressure control describes hypertensive retinopathy, not diabetic retinopathy. Diabetic retinopathy affects the retina, not the lens; lens clouding describes cataracts.",
+                                     "topic": "Visual &amp; Sensory Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client asks the nurse which eye condition on their problem list is most likely to improve if they get their chronic health condition under control. The nurse should identify which condition?",
+                                     "options": [
+                                         "Cataracts, which improve once the lens clouding is treated with medication",
+                                         "Dry macular degeneration, which improves once central vision is restored",
+                                         "Open-angle glaucoma, which reverses once trabecular meshwork damage heals",
+                                         "Hypertensive retinopathy, which improves with good blood pressure control"
+                                     ],
+                                     "answer": 3,
+                                     "rationale": "Correct: Hypertensive retinopathy results from chronic high blood pressure damaging retinal vessels and, unlike most other conditions discussed, is reversible with good blood pressure control. Incorrect: Cataracts have no medication that reverses lens clouding; only surgery removes and replaces the clouded lens. Dry macular degeneration involves irreversible thinning of the macula, so management focuses on slowing progression, not restoring lost vision. Open-angle glaucoma results from chronic trabecular meshwork dysfunction and does not reverse once drainage damage has occurred.",
+                                     "topic": "Visual &amp; Sensory Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with Meniere's disease tells the nurse, 'My doctor will just give me a pill to cure this once and for all.' Which response by the nurse is most accurate?",
+                                     "options": [
+                                         "Management focuses mainly on diet and lifestyle changes such as reducing sodium and caffeine",
+                                         "A single dose of a carbonic anhydrase inhibitor will fully resolve the endolymphatic hydrops",
+                                         "Surgery to remove the affected inner ear structure is the only recognized effective treatment",
+                                         "Beta blocker eye drops will reduce the excess endolymph fluid that is causing the vertigo"
+                                     ],
+                                     "answer": 0,
+                                     "rationale": "Correct: Meniere's disease results from endolymphatic hydrops, an abnormal buildup of inner ear fluid, and has no direct pharmacologic cure; management is primarily dietary and lifestyle trigger management such as reducing sodium and caffeine intake. Incorrect: Carbonic anhydrase inhibitors are described on this page for reducing aqueous humor production in glaucoma, not for resolving endolymphatic hydrops. Surgery is not described as the treatment focus for Meniere's disease. Beta blocker drops are described for reducing aqueous humor production in glaucoma, not for treating inner ear fluid buildup.",
+                                     "topic": "Visual &amp; Sensory Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with cataracts asks the nurse for eye drops to reverse the clouding of the lens, noting that eye drops work well for a friend's glaucoma. Which response by the nurse is accurate?",
+                                     "options": [
+                                         "Prostaglandin analog drops will gradually dissolve the clouded lens over several months",
+                                         "No medication reverses lens clouding; surgery to remove and replace the lens is required",
+                                         "Beta blocker drops will slow the clouding process the way they slow aqueous humor production",
+                                         "Carbonic anhydrase inhibitor drops will restore the lens to its original clarity"
+                                     ],
+                                     "answer": 1,
+                                     "rationale": "Correct: Cataracts involve clouding of the lens that no medication can reverse; surgery to remove the clouded lens and replace it with an artificial one is the only treatment. Incorrect: Prostaglandin analog drops act on aqueous humor outflow in glaucoma, not on lens clouding, and cannot dissolve a cataract. Beta blocker drops reduce aqueous humor production for glaucoma; they have no effect on the lens. Carbonic anhydrase inhibitor drops decrease aqueous humor production in glaucoma and do not restore lens clarity.",
+                                     "topic": "Visual &amp; Sensory Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "The nurse is teaching a client about findings that should prompt immediate evaluation for retinal detachment. Which findings should the nurse include? Select all that apply.",
+                                     "options": [
+                                         "Sudden onset of floaters and flashing lights in one eye",
+                                         "A curtain-like shadow moving across the visual field",
+                                         "Increased risk with myopia (nearsightedness)",
+                                         "Gradual blurry vision that has worsened over several years",
+                                         "Severe eye pain with halos around lights",
+                                         "Increased risk with hyperopia (farsightedness) and lifetime UV exposure"
+                                     ],
+                                     "answers": [
+                                         0,
+                                         1,
+                                         2
+                                     ],
+                                     "rationale": "Correct: Retinal detachment causes sudden, painless, unilateral floaters and flashing lights, often with a curtain or shadow moving across the visual field, and risk increases with myopia, older age, and eye trauma. Incorrect: Gradual blurry vision over years describes chronic conditions such as cataracts or open-angle glaucoma, not the sudden onset of retinal detachment. Severe eye pain with halos describes acute closed-angle glaucoma, which is painful, unlike the painless presentation of retinal detachment. Hyperopia and UV exposure are risk factors for macular degeneration, not retinal detachment, which is instead linked to myopia.",
+                                     "topic": "Visual &amp; Sensory Disorders",
+                                     "source": "quiz-bank"
+                                 }
+                             ],
             "eaq": []
         }
     },
@@ -5893,157 +5898,157 @@ window.QUIZ_BANK = {
         "sets": {
             "mustKnow": [],
             "extraPractice": [
-                    {
-                        "stem": "A nurse is reviewing lab trends expected in a client with worsening liver failure. Which findings are consistent with this? Select all that apply.",
-                        "options": [
-                            "Elevated serum ammonia",
-                            "Decreased albumin",
-                            "Shortened prothrombin time",
-                            "Elevated AST and ALT",
-                            "Increased total protein",
-                            "High alkaline phosphatase"
-                        ],
-                        "answers": [
-                            0,
-                            1,
-                            3,
-                            5
-                        ],
-                        "rationale": "Correct: ammonia, AST/ALT, and alkaline phosphatase all rise as liver cells are damaged and can't clear waste, while albumin falls as the liver's protein production drops. Incorrect: prothrombin time is prolonged, not shortened, since clotting factor production is impaired, and total protein decreases rather than increases for the same reason.",
-                        "topic": "Liver Anatomy, Function &amp; Jaundice",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client has jaundice with elevated conjugated bilirubin, a normal albumin, and a normal PT. Which type of jaundice does this indicate?",
-                        "options": [
-                            "Hemolytic jaundice",
-                            "Obstructive jaundice",
-                            "Hepatocellular jaundice",
-                            "This cannot be determined from these findings"
-                        ],
-                        "answer": 1,
-                        "rationale": "Correct: obstructive jaundice means bile can't flow out even though the liver itself is working fine, so albumin and PT (both markers of liver synthetic function) stay normal while conjugated bilirubin rises. Incorrect: hemolytic and hepatocellular jaundice both elevate unconjugated bilirubin instead, and this specific lab combination does point to one clear pattern.",
-                        "topic": "Liver Anatomy, Function &amp; Jaundice",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A different client has jaundice with elevated unconjugated bilirubin, a low albumin, and a prolonged PT. Which type of jaundice does this most likely indicate?",
-                        "options": [
-                            "Hepatocellular jaundice",
-                            "Obstructive jaundice",
-                            "Hemolytic jaundice",
-                            "This combination cannot occur in liver disease"
-                        ],
-                        "answer": 0,
-                        "rationale": "Correct: hepatocellular jaundice means the liver itself is failing, so it can't conjugate bilirubin and also can't produce albumin or clotting factors, dropping albumin and prolonging PT. Incorrect: obstructive jaundice would leave albumin and PT normal since liver function is otherwise intact, hemolytic jaundice also leaves those values normal, and this combination is a real, recognizable pattern.",
-                        "topic": "Liver Anatomy, Function &amp; Jaundice",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client in a hemolytic anemia crisis develops mild jaundice, while albumin and PT both remain normal. Which bilirubin pattern does the nurse expect?",
-                        "options": [
-                            "Elevated conjugated bilirubin",
-                            "Both bilirubin fractions decreased",
-                            "Elevated unconjugated bilirubin",
-                            "No bilirubin change is expected"
-                        ],
-                        "answer": 2,
-                        "rationale": "Correct: rapid red blood cell breakdown overproduces bilirubin faster than the liver can conjugate it, even though the liver itself works normally (confirmed by the normal albumin and PT). Incorrect: conjugated bilirubin rises with an obstruction, not overproduction; bilirubin doesn't decrease with hemolysis; and jaundice is an expected finding here.",
-                        "topic": "Liver Anatomy, Function &amp; Jaundice",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client's bilirubin is reported at 3.5 mg/dL, but the client says, \"I don't see any yellow on my skin, so that number must be wrong.\" What should the nurse do first?",
-                        "options": [
-                            "Assess the sclera closely for a yellow tinge",
-                            "Document the client's self-report and move on",
-                            "Reassure the client the lab must be an error",
-                            "Recheck the bilirubin level immediately"
-                        ],
-                        "answer": 0,
-                        "rationale": "Correct: 3.5 mg/dL is well above the threshold where jaundice becomes visible, and the sclera is the most reliable place to look, especially when skin discoloration is subtle. Incorrect: accepting the self-report without checking risks missing a real finding, assuming a lab error dismisses a plausible result without assessment, and repeating the lab isn't the priority before a bedside check.",
-                        "topic": "Liver Anatomy, Function &amp; Jaundice",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client's AST and ALT return in the thousands, and the client says, \"That number means I must be near death.\" What should the nurse explain?",
-                        "options": [
-                            "Enzyme levels above 1,000 always indicate liver failure",
-                            "The lab must be repeated because this value is impossible",
-                            "This number means a liver transplant is needed immediately",
-                            "The number alone doesn't show how severe it is"
-                        ],
-                        "answer": 3,
-                        "rationale": "Correct: a patient can have enzyme levels in the thousands and still be moderately, not critically, ill — the number itself isn't a reliable severity marker. Incorrect: high enzymes don't automatically mean failure, a value in the thousands is a real and possible result, and this single number doesn't determine the need for transplant.",
-                        "topic": "Liver Anatomy, Function &amp; Jaundice",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client with significant hepatocellular damage is prescribed a drug at its usual oral dose. What should the nurse recognize about this order?",
-                        "options": [
-                            "Oral dosing is always safer than IV dosing in liver disease",
-                            "Impaired first-pass metabolism may let too much drug in",
-                            "The oral route bypasses the liver entirely",
-                            "Liver damage has no effect on how oral drugs are processed"
-                        ],
-                        "answer": 1,
-                        "rationale": "Correct: oral drugs normally pass through the portal circulation and liver first, where first-pass metabolism reduces how much reaches circulation — usual oral doses account for that loss, so a damaged liver that can't perform normal first-pass metabolism may let more of the drug through than intended. Incorrect: this exact risk makes oral dosing less predictable, not safer; the oral route explicitly passes through the liver via the portal vein; and liver damage directly affects how oral drugs are processed.",
-                        "topic": "Liver Anatomy, Function &amp; Jaundice",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client with advanced liver disease develops an unexplained fever with no clear infection source found. Loss of which liver function should the nurse consider as a contributing factor?",
-                        "options": [
-                            "Clotting factor production",
-                            "Vitamin and mineral storage",
-                            "Blood filtration by Kupffer cells",
-                            "Drug metabolism and detoxification"
-                        ],
-                        "answer": 2,
-                        "rationale": "Correct: Kupffer cells normally filter bacteria and toxins out of the blood; when they fail, bacteria that would otherwise be cleared can cause systemic infection and fever. Incorrect: lost clotting factor production causes bleeding, not fever; lost storage function affects nutrition; and impaired drug metabolism changes drug levels, not infection risk.",
-                        "topic": "Liver Anatomy, Function &amp; Jaundice",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "Two clients experience the same volume of acute blood loss: one has healthy liver function, and the other has advanced liver disease. Which client is the nurse more concerned may compensate poorly, and why?",
-                        "options": [
-                            "The client with liver disease, because the liver's blood-reservoir function is impaired",
-                            "The client with liver disease, because the liver directly produces red blood cells",
-                            "The client with healthy liver function, because a healthy liver diverts blood away from circulation",
-                            "Both clients compensate identically regardless of liver function"
-                        ],
-                        "answer": 0,
-                        "rationale": "Correct: the liver normally acts as a blood volume reservoir, releasing stored blood to help compensate for acute loss — a diseased liver can't perform this compensatory role as well. Incorrect: the liver doesn't produce red blood cells, a healthy liver's reservoir function helps rather than hinders compensation, and liver function does affect how well a client compensates.",
-                        "topic": "Liver Anatomy, Function &amp; Jaundice",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client with obstructive jaundice asks why the urine turned dark and the stool turned pale at the same time, assuming these are two separate problems. What should the nurse explain?",
-                        "options": [
-                            "The dark urine and pale stool are unrelated coincidences",
-                            "Both changes come from the same blocked bile flow",
-                            "Only a kidney problem explains the dark urine",
-                            "Only a diet change explains the pale stool"
-                        ],
-                        "answer": 1,
-                        "rationale": "Correct: when bile flow is obstructed, conjugated bilirubin backs up into the blood and spills into the urine, while bile salts never reach the intestines to color the stool brown — one blockage, two connected findings. Incorrect: the two findings share a single cause rather than being unrelated, the kidneys aren't the source of the pigment problem, and diet doesn't explain a sudden color change from an obstruction.",
-                        "topic": "Liver Anatomy, Function &amp; Jaundice",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client with long-standing, severe liver damage asks whether the liver can fully heal itself over time, since hepatocytes are known to regenerate. What should the nurse explain?",
-                        "options": [
-                            "Regeneration is guaranteed no matter how much damage exists",
-                            "Hepatocytes cannot regenerate under any circumstances",
-                            "Regeneration needs enough healthy tissue left",
-                            "Only IV fluids can restore hepatocyte function"
-                        ],
-                        "answer": 2,
-                        "rationale": "Correct: hepatocytes can regenerate, but only if the remaining liver tissue is healthy enough to support that regrowth — extensive, ongoing damage can outpace the liver's ability to recover. Incorrect: regeneration isn't guaranteed regardless of damage extent, hepatocytes genuinely can regenerate under the right conditions, and IV fluids don't restore hepatocyte function.",
-                        "topic": "Liver Anatomy, Function &amp; Jaundice",
-                        "source": "quiz-bank"
-                    }
-            ],
+                                 {
+                                     "stem": "A nurse is comparing lab results for two clients with jaundice. Client A has an elevated unconjugated (indirect) bilirubin with a history of excessive RBC breakdown. Client B has an elevated conjugated (direct) bilirubin with a bile duct blocked by gallstones. Which statement correctly matches each client's bilirubin pattern to the underlying mechanism?",
+                                     "options": [
+                                         "Client A has hemolytic jaundice because the liver cannot conjugate bilirubin due to hepatocyte damage; Client B has hepatocellular jaundice because bile flow is obstructed.",
+                                         "Client A has obstructive jaundice because bilirubin cannot exit the liver; Client B has hemolytic jaundice because RBC breakdown exceeds conjugation capacity.",
+                                         "Client A has hemolytic jaundice because RBC breakdown outpaces conjugation; Client B has obstructive jaundice because conjugated bile cannot flow out of the ducts.",
+                                         "Client A has hepatocellular jaundice because the liver cells are damaged; Client B has hemolytic jaundice because bile ducts are blocked by hemolyzed cells."
+                                     ],
+                                     "answer": 2,
+                                     "rationale": "Correct: In hemolytic jaundice, RBC breakdown overproduces bilirubin faster than the liver can conjugate it, so the unconjugated fraction rises; in obstructive jaundice, the liver has already conjugated the bilirubin but bile cannot exit due to blockage, so the conjugated fraction rises. Incorrect: Option A reverses the classifications for both clients. Option B swaps the mechanisms entirely, attributing obstruction to Client A and hemolysis to Client B. Option D misclassifies Client A as hepatocellular and invents bile duct blockage from hemolyzed cells for Client B, which is not a page-described mechanism.",
+                                     "topic": "Liver Anatomy, Function &amp; Jaundice",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with gallstone-induced bile duct obstruction reports dark, foamy urine and clay-colored stools with generalized itching. Which explanation correctly links all three findings to the same underlying process?",
+                                     "options": [
+                                         "Conjugated bilirubin is water-soluble and spills into blood then urine; bile salts absent from the gut turn stool clay-colored; bile salts in the skin cause pruritus.",
+                                         "Unconjugated bilirubin overproduction from hemolysis backs into urine; the liver's regenerating hepatocytes cause clay-colored stool; ammonia buildup in the skin causes pruritus.",
+                                         "Kupffer cells fail to filter bacteria from the blood, causing dark urine; decreased albumin causes clay-colored stool; prolonged PT causes generalized itching and skin bruising.",
+                                         "AST and ALT elevate and directly stain the urine dark; low total protein causes clay stool from decreased oncotic pressure; elevated ammonia deposits in skin causing pruritus."
+                                     ],
+                                     "answer": 0,
+                                     "rationale": "Correct: Conjugated bilirubin is water-soluble, so it backs into the blood and then the urine causing dark, foamy urine; without bile salts reaching the intestine the stool loses its brown pigment and becomes clay-colored; and bile salts deposited in the skin cause pruritus. Incorrect: Option B incorrectly labels the urine-spilling bilirubin as unconjugated and invents a hepatocyte-regeneration cause for clay stool. Option C invents a Kupffer-cell/albumin/PT explanation unrelated to bilirubin excretion or bile salt deposition. Option D misattributes dark urine to liver enzymes, clay stool to low albumin/oncotic pressure, and pruritus to ammonia rather than bile salts.",
+                                     "topic": "Liver Anatomy, Function &amp; Jaundice",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with hepatitis and hepatocellular jaundice states, \"My bilirubin problem must be from bile blocked in my ducts, like gallstones, since my skin turned yellow.\" Which response by the nurse is correct based on the client's diagnosis?",
+                                     "options": [
+                                         "\"You're right, hepatocellular jaundice always occurs together with a bile duct obstruction from gallstones, so both mechanisms are present here.\"",
+                                         "\"Actually, in hepatocellular jaundice the damaged liver cells can't conjugate bilirubin, so it's unconjugated, not from a blocked duct.\"",
+                                         "\"Actually, your damaged liver cells are conjugating bilirubin normally, but the bile cannot flow out of the ducts, so your bilirubin is conjugated.\"",
+                                         "\"You're right, but the elevated bilirubin type in your case is unconjugated because gallstones are blocking conjugated bilirubin from leaving the ducts.\""
+                                     ],
+                                     "answer": 1,
+                                     "rationale": "Correct: In hepatocellular jaundice the liver cells themselves are damaged and cannot conjugate bilirubin, so the bilirubin that accumulates is unconjugated, unlike an obstruction where the liver has already conjugated it. Incorrect: Option A wrongly claims hepatocellular jaundice always coexists with a bile duct obstruction. Option C describes the obstructive pattern, where the liver conjugates normally but bile cannot flow out, which does not fit a hepatocellular diagnosis. Option D affirms the client's obstruction belief and misattributes the unconjugated fraction to gallstones blocking conjugated bilirubin.",
+                                     "topic": "Liver Anatomy, Function &amp; Jaundice",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client's AST/ALT return in the several-thousands range. The nurse recalls that this number alone is not a reliable severity indicator. Which additional assessment finding would best indicate the client is progressing toward hepatic encephalopathy?",
+                                     "options": [
+                                         "Total protein and albumin trending upward toward normal limits",
+                                         "Prothrombin time shortening toward normal despite liver injury",
+                                         "AST and ALT continuing to rise numerically each shift",
+                                         "Elevated serum ammonia, since the liver can no longer clear it"
+                                     ],
+                                     "answer": 3,
+                                     "rationale": "Correct: Serum ammonia rises because the liver can no longer break it down, and ammonia is the key driver of hepatic encephalopathy, making it a more relevant progression marker than the enzyme number itself. Incorrect: Option A reverses the expected trend, since total protein and albumin decrease, not increase, with liver failure. Option B reverses the expected PT trend, since PT prolongs (lengthens) rather than shortens as clotting factor production falls. Option C relies on the AST/ALT number, which the page states is not a reliable indicator of severity.",
+                                     "topic": "Liver Anatomy, Function &amp; Jaundice",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client asks why an oral form of a medication is prescribed at a much higher dose than the IV form of the same drug. Which explanation reflects the pathophysiology of portal circulation?",
+                                     "options": [
+                                         "Oral drugs bypass the liver entirely and enter systemic circulation faster, requiring a higher dose to achieve the same effect as an IV dose.",
+                                         "The hepatic portal vein carries oxygenated blood from the heart directly to the liver, where oral drugs are absorbed before systemic circulation.",
+                                         "Oral drugs travel through the portal vein to the liver first and are partially metabolized before reaching systemic circulation.",
+                                         "IV drugs pass through the hepatic portal vein before entering systemic circulation, so they undergo the same first-pass metabolism as oral drugs."
+                                     ],
+                                     "answer": 2,
+                                     "rationale": "Correct: Oral drugs are absorbed from the intestines and travel through the hepatic portal vein to the liver first, where they are partially metabolized (the first-pass effect) before reaching systemic circulation, which is why oral doses are often higher than IV doses of the same drug. Incorrect: Option A incorrectly states oral drugs bypass the liver, when passing through the liver first is exactly why higher oral doses are needed. Option B incorrectly describes portal blood as oxygenated; it is deoxygenated blood from the digestive organs. Option D incorrectly applies first-pass metabolism to IV drugs, which enter systemic circulation directly without passing through the portal vein first.",
+                                     "topic": "Liver Anatomy, Function &amp; Jaundice",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A student nurse is reviewing liver histology and states, \"Kupffer cells and hepatocytes both regenerate after injury, and both filter bacteria from the blood.\" Which correction should the instructor make?",
+                                     "options": [
+                                         "Only Kupffer cells filter bacteria and toxins from the blood by lining the sinusoids; hepatocytes are the cell type capable of regenerating if remaining liver tissue is healthy.",
+                                         "Only hepatocytes filter bacteria and toxins from the blood by lining the sinusoids; Kupffer cells are the cell type capable of regenerating if remaining liver tissue is healthy.",
+                                         "Both Kupffer cells and hepatocytes filter bacteria from the blood, but neither cell type is capable of regeneration after injury.",
+                                         "Kupffer cells regenerate to form new lobules, while hepatocytes line the sinusoids and filter toxins from circulating blood."
+                                     ],
+                                     "answer": 0,
+                                     "rationale": "Correct: Kupffer cells line the liver's sinusoids and remove bacteria and toxins from the blood, while hepatocytes are one of the few cell types able to regenerate if the remaining liver tissue is healthy. Incorrect: Option B swaps the two roles between the cell types. Option C denies that either cell type can regenerate, when hepatocytes specifically can. Option D again swaps the roles, attributing regeneration to Kupffer cells and filtration to hepatocytes.",
+                                     "topic": "Liver Anatomy, Function &amp; Jaundice",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with advanced liver failure has a low serum albumin and a prolonged PT. The nurse recognizes these findings reflect two separate lost liver functions. Which statement correctly explains both?",
+                                     "options": [
+                                         "Low albumin reflects loss of clotting factor production, and prolonged PT reflects loss of the liver's reservoir function, both increasing bleeding risk overall.",
+                                         "Low albumin reflects decreased protein synthesis, lowering oncotic pressure, while prolonged PT reflects decreased prothrombin production and bleeding risk.",
+                                         "Low albumin reflects impaired bilirubin filtration, causing jaundice, while prolonged PT reflects impaired drug detoxification, causing toxin accumulation.",
+                                         "Low albumin and prolonged PT both result from Kupffer cell failure to filter bacteria, unrelated to the liver's synthetic or clotting functions overall."
+                                     ],
+                                     "answer": 1,
+                                     "rationale": "Correct: Low albumin reflects decreased protein synthesis by the liver, which lowers oncotic pressure and contributes to fluid shifting out of vessels (ascites), while a prolonged PT reflects decreased production of prothrombin, a clotting factor, increasing bleeding risk. Incorrect: Option A mismatches albumin with clotting factor loss and PT with reservoir function, neither of which is correct. Option C misattributes albumin loss to bilirubin filtration and PT prolongation to drug detoxification, which are separate liver jobs. Option D attributes both findings to Kupffer cell failure, which relates to blood filtration of bacteria/toxins, not protein or clotting factor synthesis.",
+                                     "topic": "Liver Anatomy, Function &amp; Jaundice",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client's total bilirubin is 1.8 mg/dL, with 70% present as unconjugated bilirubin. The nurse does not observe visible scleral icterus. Which is the best interpretation?",
+                                     "options": [
+                                         "Jaundice should already be visible because total bilirubin exceeds the normal range of 0.6-1 mg/dL and is approaching 2 mg/dL, a critical threshold.",
+                                         "The bilirubin fraction is abnormal because unconjugated bilirubin should make up about 30% of the total, not 70%, per expected reference ratios.",
+                                         "Jaundice is absent because the bilirubin is entirely conjugated, which is not visible until levels exceed 2-2.5 mg/dL in most clients.",
+                                         "Jaundice is not yet visible; bilirubin must reach about 2-2.5 mg/dL before discoloration appears, though the level is already above normal."
+                                     ],
+                                     "answer": 3,
+                                     "rationale": "Correct: Jaundice is usually not visible until bilirubin reaches about 2-2.5 mg/dL, so a level of 1.8 mg/dL, though above the normal range of roughly 0.6-1 mg/dL, would not yet produce visible discoloration. Incorrect: Option A incorrectly assumes visibility at a level still below the 2-2.5 mg/dL threshold. Option B incorrectly treats the roughly 70% unconjugated/30% conjugated split as abnormal, when this is the typical distribution. Option C contradicts the stem's stated 70% unconjugated fraction by claiming the bilirubin is entirely conjugated.",
+                                     "topic": "Liver Anatomy, Function &amp; Jaundice",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with darker skin tone reports feeling generally unwell but has no visible yellowing of the skin on the arms or chest. Which nursing action is the priority to determine whether jaundice is present?",
+                                     "options": [
+                                         "Rule out jaundice, since the skin was inspected and no discoloration is present on the arms or chest.",
+                                         "Assess the palms and soles only, since mucous membranes are not affected by bilirubin deposition.",
+                                         "Assess the sclera of the eyes, which is the most reliable site to detect jaundice regardless of skin tone.",
+                                         "Rely on the client's subjective report of feeling unwell as the most reliable indicator of bilirubin level."
+                                     ],
+                                     "answer": 2,
+                                     "rationale": "Correct: The sclera of the eyes is the best place to assess for jaundice, especially in a client with darker skin, because it reliably shows discoloration regardless of skin tone. Incorrect: Option A prematurely rules out jaundice based only on limited skin sites, which may not show discoloration reliably in darker skin tones. Option B incorrectly excludes mucous membranes, which can also show bilirubin-related discoloration. Option D prioritizes a subjective report over an objective assessment finding.",
+                                     "topic": "Liver Anatomy, Function &amp; Jaundice",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "Two clients present with jaundice. Client 1 has elevated conjugated bilirubin, dark urine, and clay-colored stool. Client 2 has elevated unconjugated bilirubin, normal-colored stool, and no pruritus. Which statement is correct?",
+                                     "options": [
+                                         "Client 1 most likely has an obstruction preventing conjugated bile from flowing out, while Client 2's pattern fits hemolytic or hepatocellular jaundice.",
+                                         "Client 1 most likely has hemolytic jaundice from excess RBC breakdown, while Client 2 has an obstruction blocking bile salts from reaching the skin.",
+                                         "Client 1's clay-colored stool indicates the liver has not conjugated any bilirubin, while Client 2's normal stool indicates a bile duct obstruction.",
+                                         "Client 1 and Client 2 both have hepatocellular jaundice, since both bilirubin fractions can be elevated simultaneously in liver cell damage such as hepatitis."
+                                     ],
+                                     "answer": 0,
+                                     "rationale": "Correct: Client 1's elevated conjugated bilirubin with dark urine and clay stool fits an obstruction where already-conjugated bile cannot flow out, while Client 2's elevated unconjugated bilirubin fits hemolytic or hepatocellular jaundice, where the liver has not yet conjugated the bilirubin. Incorrect: Option B swaps the mechanisms between the two clients. Option C incorrectly explains clay-colored stool as a failure to conjugate bilirubin rather than a bile flow blockage, and misreads Client 2's normal stool as evidence of obstruction. Option D overgeneralizes the fact that hepatitis can elevate both bilirubin fractions simultaneously to a scenario where the two clients' findings are clearly distinguishable.",
+                                     "topic": "Liver Anatomy, Function &amp; Jaundice",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A nurse is caring for a client with obstructive jaundice caused by gallstones. Which findings would the nurse expect to assess in this client? Select all that apply.",
+                                     "options": [
+                                         "Dark, foamy amber urine",
+                                         "Clay-colored stool",
+                                         "Elevated conjugated (direct) bilirubin",
+                                         "Elevated unconjugated (indirect) bilirubin as the primary bilirubin abnormality",
+                                         "Pruritus from bile salts depositing in the skin",
+                                         "Elevated serum ammonia as the cause of the yellow skin discoloration"
+                                     ],
+                                     "answers": [
+                                         0,
+                                         1,
+                                         2,
+                                         4
+                                     ],
+                                     "rationale": "Correct: In obstructive jaundice from gallstones, the liver has already conjugated the bilirubin but bile cannot flow out, producing elevated conjugated (direct) bilirubin, dark foamy urine (conjugated bilirubin backing into blood then urine), clay-colored stool (bile salts never reaching the intestine), and pruritus (bile salts depositing in the skin). Incorrect: Elevated unconjugated (indirect) bilirubin as the primary pattern is characteristic of hemolytic or hepatocellular jaundice, not obstruction, where the liver has already conjugated the bilirubin. Elevated serum ammonia is linked to hepatic encephalopathy in liver failure generally, not to the bile-flow-blockage mechanism that causes obstructive jaundice's yellow discoloration.",
+                                     "topic": "Liver Anatomy, Function &amp; Jaundice",
+                                     "source": "quiz-bank"
+                                 }
+                             ],
             "eaq": []
         }
     },
@@ -6054,154 +6059,156 @@ window.QUIZ_BANK = {
         "sets": {
             "mustKnow": [],
             "extraPractice": [
-                    {
-                        "stem": "A nurse reviews the histories of several clients. Which of these describe a viral hepatitis infection with a real risk of becoming chronic? Select all that apply.",
-                        "options": [
-                            "A client currently infected with hepatitis B",
-                            "A client currently infected with hepatitis C",
-                            "A client currently infected with hepatitis A",
-                            "A client vaccinated against hepatitis B who was never infected",
-                            "A client who recovered from hepatitis A five years ago"
-                        ],
-                        "answers": [
-                            0,
-                            1
-                        ],
-                        "rationale": "Correct: hepatitis B (about 10%) and hepatitis C (about 80%) both carry a real risk of progressing to chronic infection. Incorrect: hepatitis A never becomes chronic regardless of when it occurred, and a vaccinated client who was never infected has no active infection to become chronic in the first place.",
-                        "topic": "Viral Hepatitis (A, B &amp; C)",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client getting her hepatitis A vaccine before travel asks if it will also lower her hepatitis C risk, since she assumes both spread the same way she could be exposed to on the trip. What should the nurse explain?",
-                        "options": [
-                            "The hepatitis A vaccine also covers hepatitis C since both spread the same way",
-                            "Hepatitis C isn't a travel-related risk, so no extra precaution is needed",
-                            "Once vaccinated against hepatitis A, no further hepatitis precautions are needed",
-                            "No vaccine covers hepatitis C, and it spreads through blood, not food or water"
-                        ],
-                        "answer": 3,
-                        "rationale": "Correct: hepatitis A spreads fecal-orally through contaminated food or water, while hepatitis C spreads through blood and body fluids — different routes that the hepatitis A vaccine, which has no effect on hepatitis C, does not address. Incorrect: the vaccine does not cross-protect since the two viruses don't share a transmission route, hepatitis C risk isn't limited to non-travel settings, and hepatitis A vaccination doesn't cover blood-borne exposure risks.",
-                        "topic": "Viral Hepatitis (A, B &amp; C)",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client reports two weeks of fatigue, low-grade fever, and nausea, then is later diagnosed with hepatitis B. Looking back, during which phase was this client most likely to have transmitted the virus to others?",
-                        "options": [
-                            "The icteric phase, once jaundice appeared",
-                            "The prodromal phase, before jaundice appeared",
-                            "The recovery phase, after symptoms resolved",
-                            "Transmissibility is equal across all three phases"
-                        ],
-                        "answer": 1,
-                        "rationale": "Correct: the virus is highly transmissible during the prodromal phase, which happens before jaundice and looks like a routine illness — meaning transmission often happens before anyone suspects hepatitis. Incorrect: the icteric and recovery phases occur later in the illness, and transmissibility is explicitly highest during the earliest, nonspecific phase rather than being equal throughout.",
-                        "topic": "Viral Hepatitis (A, B &amp; C)",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client asks whether the hepatitis virus itself destroys liver cells. What should the nurse explain?",
-                        "options": [
-                            "The immune response, not the virus itself, causes most cell damage",
-                            "The virus directly destroys hepatocytes without immune involvement",
-                            "Liver cell damage only occurs after the virus has fully cleared",
-                            "Hepatocyte damage is unrelated to inflammation"
-                        ],
-                        "answer": 0,
-                        "rationale": "Correct: the immune response to the virus triggers cell lysis, edema, and hypoxia, which is what actually kills hepatocytes — the virus's presence sets this off, but the damage itself is immune-mediated. Incorrect: the virus doesn't act alone to destroy cells, damage occurs during active infection rather than only after clearance, and inflammation is central to how the damage happens.",
-                        "topic": "Viral Hepatitis (A, B &amp; C)",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client newly diagnosed with hepatitis C asks how her treatment compares to a friend's long-term hepatitis B treatment. What should the nurse explain?",
-                        "options": [
-                            "Both conditions have equally poor treatment outcomes",
-                            "Hepatitis B treatment cures the infection completely",
-                            "Hepatitis C has no available treatment at all",
-                            "Hepatitis C can be essentially eliminated"
-                        ],
-                        "answer": 3,
-                        "rationale": "Correct: direct-acting antivirals can essentially eliminate hepatitis C from the body in most patients, while chronic hepatitis B has no great treatment — therapy is prolonged, expensive, and carries a high relapse rate. Incorrect: the two outcomes are not equally poor, hepatitis B treatment does not achieve a complete cure, and hepatitis C does have effective treatment available.",
-                        "topic": "Viral Hepatitis (A, B &amp; C)",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client with chronic hepatitis reports taking up to 3 grams of acetaminophen daily for headaches, believing this is within the safe limit. What should the nurse address first?",
-                        "options": [
-                            "The dose exceeds the reduced 2 gram daily limit with hepatitis",
-                            "3 grams daily is safe since it's under the standard 4 gram limit",
-                            "Acetaminophen must be avoided completely regardless of hepatitis severity",
-                            "The client should switch to a higher dose for better pain control"
-                        ],
-                        "answer": 0,
-                        "rationale": "Correct: with hepatitis, the recommended ceiling drops to under 2 grams/day rather than the usual 4 grams/day, since the liver's metabolism is already impaired — 3 grams exceeds this reduced limit even though it's under the general population limit. Incorrect: 3 grams is not safe here despite being under the standard limit, complete avoidance is reserved for serious advanced liver disease rather than all hepatitis, and increasing the dose would be dangerous.",
-                        "topic": "Viral Hepatitis (A, B &amp; C)",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client with a severe initial case of viral hepatitis develops rapidly worsening liver function within days. Which complication should the nurse suspect, as distinct from simply progressing to chronic hepatitis?",
-                        "options": [
-                            "Chronic hepatitis, which develops just as quickly",
-                            "Fulminant hepatitis progressing to acute liver failure",
-                            "Hepatitis A infection, which always progresses this way",
-                            "An expected, uncomplicated recovery phase"
-                        ],
-                        "answer": 1,
-                        "rationale": "Correct: fulminant hepatitis is a severe initial case that rapidly becomes acute liver failure, distinct from chronic hepatitis, which develops as a prolonged, low-grade persistence rather than a rapid decline. Incorrect: chronic hepatitis develops gradually, not rapidly; hepatitis A does not typically progress this way and does not become chronic; and rapid deterioration is not part of an uncomplicated recovery.",
-                        "topic": "Viral Hepatitis (A, B &amp; C)",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "Two clients are being evaluated: one developed sudden, obvious symptoms within days of a suspected exposure, and the other has had vague, worsening symptoms building slowly over months before diagnosis. Based on onset pattern alone, which hepatitis strain is more consistent with the client who had the sudden presentation?",
-                        "options": [
-                            "Hepatitis A",
-                            "Hepatitis B",
-                            "Hepatitis C",
-                            "Onset pattern doesn't differ between strains"
-                        ],
-                        "answer": 0,
-                        "rationale": "Correct: hepatitis A has an acute onset, becoming sick quickly, while hepatitis B and C are both insidious, with a long incubation and gradually building symptoms. Incorrect: both B and C follow the slower, insidious pattern described for the other client, and onset pattern is a real, stated difference between the strains.",
-                        "topic": "Viral Hepatitis (A, B &amp; C)",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A nurse explains to a nursing student why hepatitis C was historically considered such a significant public health problem before effective treatment existed. What is the best explanation?",
-                        "options": [
-                            "Hepatitis C is fatal in nearly all untreated cases",
-                            "Hepatitis C has no symptoms at any stage",
-                            "About 80% become chronic, vs 10% for B",
-                            "Hepatitis C only affects healthcare workers"
-                        ],
-                        "answer": 2,
-                        "rationale": "Correct: hepatitis C's roughly 80% chronic-infection rate, far higher than hepatitis B's roughly 10%, is what made it such a major problem before direct-acting antivirals existed. Incorrect: overall mortality from acute viral hepatitis is under 1%, hepatitis C can be symptomatic, and it is not limited to any one occupational group.",
-                        "topic": "Viral Hepatitis (A, B &amp; C)",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client who feels completely well asks why hepatitis C screening is still recommended if there are no symptoms. What should the nurse explain?",
-                        "options": [
-                            "Screening catches asymptomatic cases",
-                            "Screening is unnecessary without symptoms present",
-                            "Asymptomatic hepatitis C cannot spread to others",
-                            "A normal-feeling client cannot have chronic hepatitis"
-                        ],
-                        "answer": 0,
-                        "rationale": "Correct: many cases of viral hepatitis are asymptomatic, so relying on symptoms alone would miss real infections — this is exactly why screening matters. Incorrect: the absence of symptoms is the reason screening is needed, not a reason to skip it; an asymptomatic infection can still be transmitted; and feeling well does not rule out chronic infection.",
-                        "topic": "Viral Hepatitis (A, B &amp; C)",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client asks whether hepatitis A infection carries the same long-term cancer risk as hepatitis B or C. What should the nurse explain?",
-                        "options": [
-                            "All three strains carry an identical liver cancer risk",
-                            "B and C raise liver cancer risk; A is not known to do this",
-                            "Hepatitis A carries the highest liver cancer risk of the three",
-                            "Liver cancer risk is unrelated to any hepatitis strain"
-                        ],
-                        "answer": 1,
-                        "rationale": "Correct: hepatitis B and C are both linked to hepatocellular carcinoma, while hepatitis A is not known to carry this long-term risk. Incorrect: the three strains do not carry identical risk, hepatitis A is not the strain associated with cancer risk, and liver cancer risk is a real, stated complication of chronic B and C infection.",
-                        "topic": "Viral Hepatitis (A, B &amp; C)",
-                        "source": "quiz-bank"
-                    }
-            ],
+                                 {
+                                     "stem": "A client exposed to hepatitis B two weeks ago reports fatigue, mild nausea, and headache but has no jaundice or dark urine. The nurse should recognize that this client is",
+                                     "options": [
+                                         "in the prodromal phase and still highly transmissible before jaundice appears",
+                                         "not yet infectious, since jaundice marks the true onset of active viral shedding into stool and blood",
+                                         "in the icteric phase already, since these vague symptoms typically appear together with jaundice itself",
+                                         "past the period of highest transmissibility, now that these early prodromal symptoms have already started to fade"
+                                     ],
+                                     "answer": 0,
+                                     "rationale": "Correct: The prodromal phase begins about two weeks after exposure with nonspecific symptoms like fatigue, nausea, and headache, and the virus is highly transmissible during this phase before jaundice appears. Incorrect: Transmissibility peaks in the prodromal phase, not after jaundice develops; the icteric phase begins one to two weeks later and starts with jaundice, dark urine, and liver tenderness, not these nonspecific symptoms; the client has not passed the period of highest transmissibility, they are in it.",
+                                     "topic": "Viral Hepatitis (A, B &amp; C)",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client who recently began sharing needles for IV drug use asks the nurse how to protect against hepatitis. Which response is accurate?",
+                                     "options": [
+                                         "one vaccine series is said to protect equally well against both hepatitis B and hepatitis C",
+                                         "the hepatitis B vaccine protects against B only; no vaccine exists yet for hepatitis C",
+                                         "the two-dose hepatitis A vaccine should be given instead, since it also covers needle-sharing blood exposure",
+                                         "because hepatitis C carries a higher chronic infection risk, vaccination against it should start immediately today"
+                                     ],
+                                     "answer": 1,
+                                     "rationale": "Correct: A three-dose hepatitis B vaccine series exists, but no vaccine has been developed for hepatitis C, so safe needle practices remain essential for preventing hepatitis C even after B vaccination. Incorrect: The hepatitis B and hepatitis A vaccines are separate series and do not cover hepatitis C; the hepatitis A vaccine targets fecal-oral exposure, not needle sharing; hepatitis C has no vaccine to give regardless of its higher chronic infection risk.",
+                                     "topic": "Viral Hepatitis (A, B &amp; C)",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "The nurse is comparing two clients: one who became ill after eating at a restaurant tied to a foodborne outbreak, and another who has had persistently elevated liver enzymes for three months after sharing needles. Which statement correctly differentiates their expected courses?",
+                                     "options": [
+                                         "both clients face the same chronic infection risk, regardless of how they were actually exposed to the virus",
+                                         "the foodborne client faces the higher chronic infection risk, since fecal-oral spread is more likely to persist over time",
+                                         "the foodborne client will not develop chronic hepatitis, unlike the needle-exposure client's blood-borne infection",
+                                         "the needle-exposure client's symptoms should resolve within days, since blood-borne strains only cause mild, brief illness"
+                                     ],
+                                     "answer": 2,
+                                     "rationale": "Correct: Hepatitis A, spread through the fecal-oral route as in a foodborne outbreak, does not become chronic, while the needle-exposure client's prolonged, insidious course with ongoing enzyme elevation is consistent with a blood-borne strain that carries a real chronic infection risk. Incorrect: The two exposure routes do not carry equal chronic risk; fecal-oral spread does not become chronic at all, so it does not carry the higher risk; blood-borne strains have an insidious onset and can persist for months rather than resolving within days.",
+                                     "topic": "Viral Hepatitis (A, B &amp; C)",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client asks the nurse why hepatitis C was historically considered more dangerous long-term than hepatitis B, even though both spread through blood and body fluids. The nurse's response should be based on which comparison?",
+                                     "options": [
+                                         "hepatitis B is spread only through sexual contact, while hepatitis C is spread only through blood transfusions",
+                                         "hepatitis B causes fulminant hepatitis in most cases, while hepatitis C never progresses to liver failure at all",
+                                         "hepatitis B has a two-week incubation period, while hepatitis C's incubation lasts about six months on average",
+                                         "about 80% of hepatitis C infections become chronic, versus about 10% for hepatitis B, per current data"
+                                     ],
+                                     "answer": 3,
+                                     "rationale": "Correct: About 80% of hepatitis C infections progress to chronic infection compared with about 10% of hepatitis B infections, which is why hepatitis C posed such a major long-term problem before effective treatment existed. Incorrect: Both hepatitis B and C are spread through blood and body fluids such as needle sharing and sexual contact, not exclusively one route each; fulminant hepatitis can occur with any strain's severe initial case, it is not specific to hepatitis B; both B and C have an insidious onset with a long incubation before symptoms appear, not a two-week incubation for B.",
+                                     "topic": "Viral Hepatitis (A, B &amp; C)",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client diagnosed with acute hepatitis B five weeks ago reports that jaundice has resolved and energy is improving, but the nurse notes the liver remains palpable and mildly tender on exam. The nurse should interpret this finding as",
+                                     "options": [
+                                         "expected during recovery, since the liver can stay enlarged and tender for weeks after jaundice fades",
+                                         "a sign the client is entering the icteric phase and jaundice will return again soon after this visit",
+                                         "evidence the infection has become chronic, since acute hepatitis never causes any liver enlargement at all",
+                                         "a sign the client is now in the prodromal phase of an entirely new, separate infection process"
+                                     ],
+                                     "answer": 0,
+                                     "rationale": "Correct: During the recovery phase, jaundice resolves and enzymes normalize over roughly two to twelve weeks, but the liver can remain enlarged and tender even as other symptoms fade. Incorrect: The icteric phase, marked by jaundice, occurs before recovery, not after jaundice has already resolved; acute hepatitis commonly involves an enlarged, tender liver during the icteric phase, so this finding alone does not indicate chronic infection; nothing in this presentation suggests a new exposure or prodromal phase, this is the expected recovery course.",
+                                     "topic": "Viral Hepatitis (A, B &amp; C)",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with chronic hepatitis C and stable, compensated liver function asks about taking acetaminophen for a headache. Which response is accurate?",
+                                     "options": [
+                                         "acetaminophen must be avoided completely, since any chronic hepatitis diagnosis makes it fully contraindicated always",
+                                         "acetaminophen may be taken, but stay under two grams daily rather than the usual four-gram adult limit",
+                                         "acetaminophen may be taken up to the usual four grams per day, since the liver does not metabolize it at all",
+                                         "acetaminophen is only unsafe in hepatitis A, so the usual adult dose of four grams daily is fine to take"
+                                     ],
+                                     "answer": 1,
+                                     "rationale": "Correct: Clients with chronic or active hepatitis may still take acetaminophen but should stay under two grams per day, rather than the usual four-gram limit, since the liver already cannot metabolize normally; complete avoidance is reserved for serious, advanced liver disease. Incorrect: Complete avoidance applies to serious, advanced liver disease, not every chronic hepatitis diagnosis; the usual four-gram limit is not safe here because the liver's metabolism is already impaired; the dosing concern applies to any hepatitis strain affecting liver function, not only hepatitis A.",
+                                     "topic": "Viral Hepatitis (A, B &amp; C)",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with chronic hepatitis B has normal AST levels and no fibrosis on imaging, while another client with chronic hepatitis C has a detectable viral load. Which statement about treatment eligibility is correct?",
+                                     "options": [
+                                         "neither client should be treated until liver failure develops, since both therapies are reserved only for end-stage disease",
+                                         "the hepatitis B client should start entecavir and interferon now, since chronic hepatitis B always requires treatment regardless",
+                                         "the hepatitis C client should start antivirals now, while the hepatitis B client does not yet meet treatment criteria",
+                                         "the hepatitis C client should wait for elevated AST and inflammation before starting therapy, matching hepatitis B's own criteria"
+                                     ],
+                                     "answer": 2,
+                                     "rationale": "Correct: Anyone with a detectable hepatitis C viral load is now treated with direct-acting antivirals, while chronic hepatitis B treatment with interferons and nucleoside analogs is reserved for high-risk clients with elevated AST, hepatic inflammation, or advanced fibrosis, which this client does not have. Incorrect: Treatment is not reserved for end-stage disease in either case; chronic hepatitis B treatment depends on meeting high-risk criteria, it is not automatic; hepatitis C treatment does not wait for the hepatitis B criteria, any detectable viral load now qualifies for treatment.",
+                                     "topic": "Viral Hepatitis (A, B &amp; C)",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with acute viral hepatitis suddenly develops worsening mental status and rapidly rising liver enzymes within days of diagnosis. The nurse recognizes this presentation as most consistent with",
+                                     "options": [
+                                         "hepatocellular carcinoma, a long-term complication linked to hepatitis B and C",
+                                         "cirrhosis, which represents permanent liver scarring accumulated over years",
+                                         "chronic hepatitis, which develops gradually in 10% to 80% of cases depending on strain",
+                                         "fulminant hepatitis progressing rapidly toward acute liver failure"
+                                     ],
+                                     "answer": 3,
+                                     "rationale": "Correct: Fulminant viral hepatitis is a severe initial case that progresses to acute liver failure, which fits this client's sudden mental status changes and rapidly worsening liver function. Incorrect: Hepatocellular carcinoma and cirrhosis develop as long-term complications over years, not within days; chronic hepatitis develops gradually as the virus fails to clear, it does not present with sudden, rapid deterioration like this.",
+                                     "topic": "Viral Hepatitis (A, B &amp; C)",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A pregnant client asks how she could have contracted hepatitis C despite having no history of IV drug use or unprotected sex. The nurse should explain that hepatitis C, unlike hepatitis A, can also spread",
+                                     "options": [
+                                         "from mother to fetus, or through rare medical mishaps, beyond blood and body fluid contact",
+                                         "through contaminated food or water in areas with poor sanitation and inadequate hand hygiene",
+                                         "only through direct sexual contact with an infected partner, making other exposure routes very unlikely",
+                                         "through airborne respiratory droplets during close, prolonged contact with an infected person indoors"
+                                     ],
+                                     "answer": 0,
+                                     "rationale": "Correct: In addition to IV drug use and sexual contact, hepatitis C can also spread through mother-to-fetal transmission and rare medical mishaps, which explains exposure without those two risk factors. Incorrect: Spread through contaminated food or water with poor sanitation describes hepatitis A's fecal-oral route, not hepatitis C; hepatitis C is not limited to sexual contact alone, and airborne respiratory spread is not a transmission route described for any of these strains.",
+                                     "topic": "Viral Hepatitis (A, B &amp; C)",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A nurse is planning immunization teaching for a new mother regarding hepatitis vaccines. Which statement correctly reflects the recommendations?",
+                                     "options": [
+                                         "hepatitis A and hepatitis B vaccines are each three-dose series required for every infant starting right at birth",
+                                         "hepatitis B is a three-dose series for infants and health workers; hepatitis A is a two-dose series for high-risk groups",
+                                         "hepatitis A vaccine is required for every infant, while hepatitis B vaccine is reserved only for international travelers going abroad",
+                                         "hepatitis C now has an approved two-dose vaccine series required for all infants, much like hepatitis A's own schedule"
+                                     ],
+                                     "answer": 1,
+                                     "rationale": "Correct: The hepatitis B vaccine is a three-dose series required for all infants and health care workers, while the hepatitis A vaccine is a two-dose series recommended mainly for high-risk groups and travelers rather than universally required. Incorrect: The two vaccines differ in dose number and target population, they are not identical three-dose series for every infant; hepatitis A is not required for all infants and hepatitis B is not limited to travelers, that reverses their actual recommendations; no vaccine exists for hepatitis C.",
+                                     "topic": "Viral Hepatitis (A, B &amp; C)",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "The nurse is teaching a client newly diagnosed with chronic hepatitis C about the disease. Which statements should the nurse include? Select all that apply.",
+                                     "options": [
+                                         "Hepatitis C progresses to chronic infection far more often than hepatitis B (about 80% vs about 10%)",
+                                         "Direct-acting antivirals can essentially eliminate the hepatitis C virus from the body in most treated clients",
+                                         "A hepatitis C vaccine is available now and should be given routinely as a two-dose childhood series",
+                                         "Chronic hepatitis C increases the long-term risk for cirrhosis and hepatocellular carcinoma over time",
+                                         "Hepatitis C is transmitted primarily through contaminated food and water in areas with poor sanitation",
+                                         "Treatment for hepatitis C is only started once liver enzymes become severely elevated, similar to hepatitis B criteria"
+                                     ],
+                                     "answers": [
+                                         0,
+                                         1,
+                                         3
+                                     ],
+                                     "rationale": "Correct: Hepatitis C has a much higher chronic infection rate (about 80%) than hepatitis B (about 10%); direct-acting antivirals can essentially eliminate the virus in most clients; chronic hepatitis C, like chronic hepatitis B, is linked to long-term cirrhosis and hepatocellular carcinoma. Incorrect: No vaccine exists for hepatitis C, the two-dose series described belongs to hepatitis A; hepatitis C spreads through blood and body fluids such as IV drug use, sexual contact, and mother-to-fetal transmission, not contaminated food or water, which is hepatitis A's route; hepatitis C treatment with direct-acting antivirals is now offered to anyone with a detectable viral load, unlike hepatitis B's stricter high-risk treatment criteria.",
+                                     "topic": "Viral Hepatitis (A, B &amp; C)",
+                                     "source": "quiz-bank"
+                                 }
+                             ],
             "eaq": []
         }
     },
@@ -6212,195 +6219,196 @@ window.QUIZ_BANK = {
         "sets": {
             "mustKnow": [],
             "extraPractice": [
-                    {
-                        "stem": "A nurse is caring for a client with hepatic encephalopathy who is started on lactulose. Which statements about this drug are accurate? Select all that apply.",
-                        "options": [
-                            "It is dosed by ammonia level alone, regardless of symptoms",
-                            "It converts ammonia into a form trapped in the intestine",
-                            "Hypokalemia should be monitored during treatment",
-                            "It is titrated to produce 2 to 3 soft stools per day",
-                            "It directly reverses liver fibrosis",
-                            "It is only given intravenously"
-                        ],
-                        "answers": [
-                            1,
-                            2,
-                            3
-                        ],
-                        "rationale": "Correct: lactulose converts ammonia into ammonium, which is trapped in the gut and excreted; it's titrated to 2-3 soft stools a day; and potassium needs monitoring since hypokalemia increases renal ammonia production. Incorrect: lactulose is given only for actual signs and symptoms of encephalopathy, not by an ammonia number alone; no drug reverses fibrosis, including lactulose; and it can be given orally, by NG tube, or rectally, not only IV.",
-                        "topic": "Cirrhosis &amp; Liver Failure",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client with early alcoholic fatty liver disease asks if the damage can be undone if she stops drinking now. Another client, already diagnosed with alcoholic steatohepatitis, asks the same question. What should the nurse explain to each?",
-                        "options": [
-                            "The damage in the first client can reverse",
-                            "Both stages are fully reversible with abstinence",
-                            "Neither client's damage can reverse at this point",
-                            "Only the second client's damage is reversible"
-                        ],
-                        "answer": 0,
-                        "rationale": "Correct: alcoholic fatty liver (stage 1) is mild and reversible with abstinence, but alcoholic steatohepatitis (stage 2) is already irreversible. Incorrect: only the earlier stage is reversible, not both; the first client's damage genuinely can reverse; and it's the first client, not the second, whose stage is still reversible.",
-                        "topic": "Cirrhosis &amp; Liver Failure",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client with cirrhosis has a normal ammonia level but is increasingly confused and difficult to arouse. What should the nurse recognize?",
-                        "options": [
-                            "Hepatic encephalopathy is unlikely since ammonia is normal",
-                            "Encephalopathy can still be diagnosed from this presentation",
-                            "The confusion must have an unrelated cause",
-                            "Ammonia levels always correlate exactly with symptom severity"
-                        ],
-                        "answer": 1,
-                        "rationale": "Correct: level of consciousness, not the ammonia value, is the primary driver of hepatic encephalopathy diagnosis — it is never diagnosed on an ammonia level alone. Incorrect: a normal ammonia level does not rule out encephalopathy, the presentation is consistent with a known cirrhosis complication rather than something unrelated, and ammonia does not always track precisely with symptom severity.",
-                        "topic": "Cirrhosis &amp; Liver Failure",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "Two clients present with jaundice, confusion, and coagulopathy that look identical on exam. One developed symptoms gradually over several years; the other developed the same symptoms within days after an acetaminophen overdose. How should the nurse distinguish these presentations?",
-                        "options": [
-                            "By the timeline and cause, not the clinical picture",
-                            "By the ammonia level, which differs sharply between the two",
-                            "The two conditions cannot be told apart by any means",
-                            "By whether jaundice is present, since only one condition causes it"
-                        ],
-                        "answer": 0,
-                        "rationale": "Correct: acute liver failure and late-stage cirrhosis can look identical clinically — what actually distinguishes them is the timeline (sudden vs. chronic) and cause (acetaminophen overdose vs. years of fibrosis), not the presentation. Incorrect: ammonia level isn't described as a distinguishing feature here, the two conditions can be told apart by history, and jaundice can appear in both.",
-                        "topic": "Cirrhosis &amp; Liver Failure",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client with cirrhosis and known esophageal varices develops sudden vomiting of bright red blood. The client also has a baseline bleeding tendency from low clotting factors. How should the nurse treat this new finding?",
-                        "options": [
-                            "The same as the baseline tendency, since both stem from the identical mechanism",
-                            "As unrelated to any liver complication the client already has",
-                            "As a lower priority, since bleeding is already an expected finding for this client",
-                            "As a distinct, high-mortality-risk emergency"
-                        ],
-                        "answer": 3,
-                        "rationale": "Correct: general cirrhotic bleeding tendency (from impaired clotting factor production) and a burst esophageal varix are two distinct complications with very different urgency — active hematemesis from known varices is a true, high-mortality emergency requiring immediate recognition and action, not something to treat as routine oozing. Incorrect: the two bleeding sources share portal hypertension as a contributing factor but are not the identical mechanism, this presentation is directly tied to the known varices, and it should not be deprioritized just because some bleeding risk was already expected.",
-                        "topic": "Cirrhosis &amp; Liver Failure",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client with cirrhosis has both leg swelling and a distended abdomen and assumes these are two separate, unrelated problems. What should the nurse explain?",
-                        "options": [
-                            "The leg swelling and abdominal distension have entirely different, unrelated causes",
-                            "Both stem from the same drop in oncotic pressure",
-                            "Only kidney failure explains the abdominal distension",
-                            "Only excess dietary sodium explains the leg swelling"
-                        ],
-                        "answer": 1,
-                        "rationale": "Correct: reduced albumin lowers the oncotic pressure that normally holds fluid in the vessels, causing both peripheral edema and ascites, with portal hypertension further worsening the ascites. Incorrect: the two findings share this common mechanism rather than being unrelated, kidney failure isn't the described cause here, and dietary sodium alone doesn't account for the pattern.",
-                        "topic": "Cirrhosis &amp; Liver Failure",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client asks if most cirrhosis cases overall are caused by alcohol, since it's the single most common individual cause. What should the nurse clarify?",
-                        "options": [
-                            "Alcohol is the top cause but only a quarter of all cases",
-                            "Alcohol causes nearly all cirrhosis cases",
-                            "Alcohol is a rare, uncommon cause of cirrhosis",
-                            "Alcohol and hepatitis B and C together account for all cirrhosis cases"
-                        ],
-                        "answer": 0,
-                        "rationale": "Correct: alcohol is the single most common individual cause of cirrhosis but still accounts for only about 25% of all cases combined, since hepatitis, NAFLD/NASH, autoimmune disease, hereditary conditions, and idiopathic cases also contribute. Incorrect: alcohol does not cause nearly all cases, it is not rare, and alcohol plus hepatitis B/C don't account for every cause listed.",
-                        "topic": "Cirrhosis &amp; Liver Failure",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A male client with alcoholic cirrhosis reports new-onset impotence. What should the nurse recognize about this finding?",
-                        "options": [
-                            "It is unrelated to his liver disease",
-                            "It only occurs in cirrhosis caused by viral hepatitis",
-                            "An endocrine complication of cirrhosis",
-                            "It indicates the cirrhosis has fully reversed"
-                        ],
-                        "answer": 2,
-                        "rationale": "Correct: cirrhosis can cause endocrine changes including hypogonadism, impotence, and infertility in men, most commonly seen with the alcoholic form. Incorrect: this finding is directly related to his liver disease, it is not limited to viral-hepatitis-caused cirrhosis, and cirrhosis does not reverse.",
-                        "topic": "Cirrhosis &amp; Liver Failure",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client with cirrhosis has both a prolonged PT on lab work and a history of esophageal varices. If this client starts bleeding, which explanation captures the full picture?",
-                        "options": [
-                            "From both low clotting factors and fragile varices",
-                            "Only the prolonged PT explains any bleeding risk",
-                            "Only the varices explain any bleeding risk",
-                            "Cirrhosis does not actually increase bleeding risk"
-                        ],
-                        "answer": 0,
-                        "rationale": "Correct: cirrhosis raises bleeding risk through two separate mechanisms at once — impaired clotting factor production and portal-hypertension-driven varices that can burst. Incorrect: focusing on only the clotting factors or only the varices misses half of the actual risk, and cirrhosis is well established to increase bleeding risk.",
-                        "topic": "Cirrhosis &amp; Liver Failure",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client with alcoholic liver disease is malnourished despite eating a reasonably balanced diet. What should the nurse recognize as a contributing factor?",
-                        "options": [
-                            "Malnutrition in alcoholic liver disease is always due to poor dietary intake alone",
-                            "Acetaldehyde impairs export proteins and alters vitamin and mineral metabolism",
-                            "The liver's role in nutrition is unrelated to alcohol metabolism",
-                            "Malnutrition only occurs after a liver transplant"
-                        ],
-                        "answer": 1,
-                        "rationale": "Correct: acetaldehyde, a byproduct of alcohol metabolism, inhibits export proteins from the liver and alters vitamin/mineral metabolism, contributing to malnutrition independent of diet quality. Incorrect: diet quality alone doesn't explain this malnutrition pattern, the liver's nutritional role is directly tied to alcohol metabolism here, and this occurs well before any transplant.",
-                        "topic": "Cirrhosis &amp; Liver Failure",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client on lactulose for hepatic encephalopathy continues to show worsening confusion despite consistent, adequate stooling. What should the nurse anticipate next?",
-                        "options": [
-                            "Increasing the lactulose dose indefinitely with no other changes",
-                            "Discontinuing all hepatic encephalopathy treatment",
-                            "Adding rifaximin as a second-line agent",
-                            "Switching to acetylcysteine"
-                        ],
-                        "answer": 2,
-                        "rationale": "Correct: rifaximin is the second-line agent used specifically when lactulose isn't adequately controlling encephalopathy. Incorrect: simply increasing lactulose indefinitely ignores that a second-line option exists, stopping treatment entirely isn't indicated by inadequate response, and acetylcysteine treats acetaminophen toxicity, not hepatic encephalopathy.",
-                        "topic": "Cirrhosis &amp; Liver Failure",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client with early portal hypertension feels completely well and has no complaints. What should the nurse understand about this presentation?",
-                        "options": [
-                            "Often silent until a complication occurs",
-                            "Feeling well means portal hypertension has resolved",
-                            "Portal hypertension always causes immediate, obvious symptoms",
-                            "No monitoring is needed if the client feels well"
-                        ],
-                        "answer": 0,
-                        "rationale": "Correct: portal hypertension itself is often asymptomatic until a complication such as variceal hemorrhage, ascites, or hepatorenal syndrome develops. Incorrect: feeling well doesn't mean it has resolved, it does not always cause immediate obvious symptoms, and monitoring remains important precisely because it can be silent.",
-                        "topic": "Cirrhosis &amp; Liver Failure",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client asks why the liver can't simply regenerate and heal itself in cirrhosis, despite hepatocytes being known to regrow. What should the nurse explain?",
-                        "options": [
-                            "Cirrhosis has no effect on the liver's regenerative ability",
-                            "Ongoing hypoxia and inflammation disrupt normal regeneration",
-                            "Hepatocytes regenerate perfectly regardless of ongoing inflammation",
-                            "Regeneration only fails after a liver transplant"
-                        ],
-                        "answer": 1,
-                        "rationale": "Correct: in cirrhosis, ongoing hypoxia and inflammation disrupt normal hepatocyte regeneration, so damaged cells regrow in a disorganized way that adds more scar tissue rather than healing. Incorrect: cirrhosis directly interferes with regeneration, inflammation does prevent normal regrowth, and this disruption happens as part of cirrhosis itself, not only after a transplant.",
-                        "topic": "Cirrhosis &amp; Liver Failure",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client asks how doctors would tell the difference between simple hepatitis and cirrhosis if both can cause similar symptoms. What is the key distinction the nurse should explain?",
-                        "options": [
-                            "Cirrhosis is simply a mild form of hepatitis",
-                            "Both conditions are equally reversible with treatment",
-                            "Hepatitis always progresses to cirrhosis within weeks",
-                            "Hepatitis is reversible; cirrhosis is not"
-                        ],
-                        "answer": 3,
-                        "rationale": "Correct: hepatitis is inflammation, which is reversible, while cirrhosis is fibrotic scarring, which is permanent once it develops. Incorrect: cirrhosis is not a mild version of hepatitis but a distinct, irreversible stage; the two are not equally reversible; and progression from hepatitis to cirrhosis, when it happens, takes years, not weeks.",
-                        "topic": "Cirrhosis &amp; Liver Failure",
-                        "source": "quiz-bank"
-                    }
-            ],
+                                 {
+                                     "stem": "A client newly diagnosed with cirrhosis tells the nurse, 'I don't understand — my friend had hepatitis and got better, so if I just stop drinking, my liver should heal too, right?' Which response is most accurate?",
+                                     "options": [
+                                         "Hepatitis is reversible inflammation, but cirrhosis is permanent scarring — stopping alcohol only slows damage, it cannot reverse it.",
+                                         "Both hepatitis and cirrhosis are forms of reversible inflammation, so stopping alcohol now should allow your liver to fully return to normal over time.",
+                                         "Cirrhosis is caused only by alcohol use, so stopping drinking now should fully restore normal liver function, structure, and lab values.",
+                                         "Because hepatitis and cirrhosis have the same fibrotic changes, stopping alcohol will reverse the disease exactly as it does with hepatitis."
+                                     ],
+                                     "answer": 0,
+                                     "rationale": "Correct: hepatitis is reversible inflammation, while cirrhosis is irreversible fibrotic scarring; stopping the toxin can slow further progression but cannot undo existing damage. Incorrect: option 2 wrongly calls cirrhosis reversible inflammation like hepatitis; option 3 wrongly claims alcohol is the only cause and that stopping fully restores function; option 4 wrongly claims hepatitis involves the same fibrotic changes as cirrhosis.",
+                                     "topic": "Cirrhosis &amp; Liver Failure",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A student nurse states, 'Since alcoholic cirrhosis is the most common type of cirrhosis, most clients with cirrhosis must have a history of alcohol use.' Which statement should the nurse use to correct this misunderstanding?",
+                                     "options": [
+                                         "Alcoholic cirrhosis actually accounts for less than 10% of all cirrhosis cases, so hepatitis B and C together cause the clear majority.",
+                                         "Alcohol is the single most common individual cause, yet it accounts for only about 25% of all cirrhosis cases overall.",
+                                         "Because alcohol is the most common cause, roughly 75% of all cirrhosis cases nationwide are directly linked to alcohol use.",
+                                         "Alcoholic cirrhosis and non-alcoholic fatty liver disease together account for 100% of all reported cirrhosis cases."
+                                     ],
+                                     "answer": 1,
+                                     "rationale": "Correct: alcohol is the single most common individual cause of cirrhosis but still accounts for only about 25% of all cases, since hepatitis B/C, NAFLD/NASH, autoimmune, hereditary metabolic, and idiopathic causes make up the rest. Incorrect: option 1 understates alcohol's role below the stated 25%; option 3 overstates it as 75%; option 4 falsely claims two causes account for 100% of cases, ignoring hepatitis and other causes.",
+                                     "topic": "Cirrhosis &amp; Liver Failure",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with cirrhosis has a prolonged PT from decreased clotting factor production and known esophageal varices from portal hypertension. The client suddenly vomits a large volume of bright red blood. Which mechanism explains this acute event, as distinguished from the client's baseline bleeding tendency?",
+                                     "options": [
+                                         "The liver's inability to produce clotting factors has now caused spontaneous, diffuse bleeding throughout the entire GI tract and skin.",
+                                         "Low albumin has reduced colloid oncotic pressure, allowing plasma to leak directly into the stomach, esophagus, and peritoneal space.",
+                                         "Portal hypertension caused a distended esophageal varix to rupture, producing acute, high-mortality hemorrhage requiring emergent care.",
+                                         "Hepatic encephalopathy has progressed to the point that ammonia buildup is directly eroding the esophageal lining and mucosa."
+                                     ],
+                                     "answer": 2,
+                                     "rationale": "Correct: portal hypertension distends esophageal veins into varices; rupture causes acute, high-mortality-risk hemorrhage, a distinct mechanism from the chronic bleeding tendency caused by decreased clotting factor production. Incorrect: option 1 describes the general clotting-factor bleeding tendency, not the acute variceal rupture; option 2 describes the mechanism behind edema/ascites, not GI hemorrhage; option 4 misapplies ammonia buildup, which causes hepatic encephalopathy, not esophageal bleeding.",
+                                     "topic": "Cirrhosis &amp; Liver Failure",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with a history of heavy alcohol use has hepatic fat deposition and altered hepatocyte function on biopsy, but no inflammation, hepatocyte degeneration, or WBC infiltration. Based on the stages of alcoholic liver disease, which teaching point is accurate?",
+                                     "options": [
+                                         "This stage, called alcoholic steatohepatitis, is already irreversible even if alcohol use stops immediately now.",
+                                         "This stage already involves permanent fibrosis, so damage will continue even without further alcohol use.",
+                                         "This client has progressed to alcoholic cirrhosis, and a transplant will eventually be required.",
+                                         "This is alcoholic fatty liver, the last reversible stage, so stopping alcohol now could allow full recovery."
+                                     ],
+                                     "answer": 3,
+                                     "rationale": "Correct: alcoholic fatty liver is mild, asymptomatic, and reversible if drinking stops; it involves fat deposition and altered hepatocyte function without the inflammation/degeneration/WBC infiltration that mark steatohepatitis. Incorrect: option 1 mislabels the stage as steatohepatitis, which the stem's findings do not show; option 2 wrongly assigns fibrosis, which develops in the cirrhosis stage; option 3 wrongly assigns cirrhosis, which involves necrosis and permanent scarring not present here.",
+                                     "topic": "Cirrhosis &amp; Liver Failure",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with cirrhosis has an ammonia level within normal limits but is increasingly difficult to arouse and does not respond appropriately to voice. Which action reflects correct understanding of how hepatic encephalopathy is diagnosed?",
+                                     "options": [
+                                         "The nurse prioritizes level of consciousness, since encephalopathy is diagnosed by mental status, not ammonia values alone.",
+                                         "The nurse rules out hepatic encephalopathy because a normal ammonia level means toxin buildup in the brain cannot possibly be occurring.",
+                                         "The nurse holds lactulose because the ammonia level does not yet meet the specific threshold required to start treatment today.",
+                                         "The nurse notifies the provider immediately that the client cannot have hepatic encephalopathy without an elevated ammonia level."
+                                     ],
+                                     "answer": 0,
+                                     "rationale": "Correct: level of consciousness, not the ammonia value, is the primary driver of hepatic encephalopathy diagnosis; ammonia correlates with but never alone diagnoses it, and lactulose is given for actual signs/symptoms rather than a lab threshold. Incorrect: options 2 and 4 wrongly treat ammonia as required or definitive for the diagnosis; option 3 wrongly ties lactulose administration to an ammonia threshold instead of clinical symptoms.",
+                                     "topic": "Cirrhosis &amp; Liver Failure",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client presents with jaundice, ascites, and confusion three weeks after an acetaminophen overdose, with no prior history of liver disease. Which explanation best fits this presentation compared with cirrhosis?",
+                                     "options": [
+                                         "This presentation confirms chronic cirrhosis, since jaundice, ascites, and confusion only ever occur after years of slow, chronic fibrosis progression.",
+                                         "This is consistent with acute liver failure, which mirrors late-stage cirrhosis clinically but develops suddenly, not from chronic fibrosis.",
+                                         "This presentation rules out acute liver failure entirely, because acetaminophen overdose only ever causes acute liver failure within 48 hours, never weeks later.",
+                                         "This confirms alcoholic steatohepatitis, since that particular stage also produces jaundice and edema after an acute toxin exposure such as this one today."
+                                     ],
+                                     "answer": 1,
+                                     "rationale": "Correct: acute (fulminant) liver failure can occur 5 days to 8 weeks after acetaminophen overdose, and its clinical presentation looks the same as late-stage cirrhosis, differing only in sudden onset and cause rather than chronic fibrosis. Incorrect: option 1 wrongly requires years of chronic fibrosis, which this sudden case does not show; option 3 wrongly limits acetaminophen-related liver failure to 48 hours, contradicting the 5-day-to-8-week window; option 4 wrongly attributes the picture to alcoholic steatohepatitis, which is tied to alcohol metabolism, not acetaminophen overdose.",
+                                     "topic": "Cirrhosis &amp; Liver Failure",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with hepatic encephalopathy is started on lactulose and develops hypokalemia from vomiting. Which statement reflects the priority concern with this combination?",
+                                     "options": [
+                                         "Hypokalemia will reduce lactulose's ability to acidify the colon, making the drug ineffective at converting ammonia to ammonium.",
+                                         "Hypokalemia should prompt the nurse to switch the client from lactulose to rifaximin, since rifaximin is not affected by potassium levels.",
+                                         "Hypokalemia increases renal ammonia production, which could worsen the client's hepatic encephalopathy despite lactulose therapy.",
+                                         "Hypokalemia indicates the lactulose dose is too high and should be held until stooling stops completely."
+                                     ],
+                                     "answer": 2,
+                                     "rationale": "Correct: potassium must be monitored with lactulose because hypokalemia increases renal ammonia production, which can worsen hepatic encephalopathy even while the client is receiving treatment. Incorrect: option 1 wrongly ties lactulose's colonic acid-forming mechanism to serum potassium rather than bacterial metabolism; option 2 is an unsupported switch not indicated by hypokalemia; option 4 wrongly treats lactulose dosing as based on hypokalemia rather than titration to 2-3 soft stools per day.",
+                                     "topic": "Cirrhosis &amp; Liver Failure",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with hepatic encephalopathy continues to have worsening confusion despite lactulose achieving 2-3 soft stools per day. The provider adds rifaximin. Which nursing consideration is most important with this addition?",
+                                     "options": [
+                                         "Monitor the client's ammonia level closely, since rifaximin's effectiveness is measured the same way as lactulose's.",
+                                         "Discontinue lactulose immediately, since rifaximin works by the same hyperosmotic mechanism and combining them is redundant.",
+                                         "Expect rifaximin to directly reverse the underlying fibrosis causing the hepatic encephalopathy.",
+                                         "Monitor for signs of C. difficile infection, since rifaximin carries an increased risk of this complication."
+                                     ],
+                                     "answer": 3,
+                                     "rationale": "Correct: rifaximin is a second-line antibiotic used when lactulose alone is not controlling symptoms; it inhibits bacterial RNA synthesis to reduce ammonia-producing gut bacteria and carries an increased C. diff infection risk requiring monitoring. Incorrect: option 1 is wrong because ammonia levels are not monitored with rifaximin; option 2 wrongly attributes lactulose's hyperosmotic mechanism to rifaximin and lactulose is not simply discontinued; option 3 is wrong because no drug reverses fibrosis or cirrhosis.",
+                                     "topic": "Cirrhosis &amp; Liver Failure",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with cirrhosis has portal hypertension confirmed on imaging but reports feeling completely well with no symptoms. Which nursing understanding is most accurate?",
+                                     "options": [
+                                         "Portal hypertension is typically asymptomatic, so the nurse should keep monitoring for complications like variceal hemorrhage, ascites, or hepatorenal syndrome.",
+                                         "Because the client currently feels asymptomatic, portal hypertension is unlikely to ever progress to any further complications, so monitoring can be safely reduced.",
+                                         "The absence of any symptoms confirms that the portal hypertension has fully resolved and blood flow through the portal vein has normalized completely.",
+                                         "The client's current lack of symptoms means the liver fibrosis has not yet caused any real resistance to portal blood flow at all."
+                                     ],
+                                     "answer": 0,
+                                     "rationale": "Correct: portal hypertension itself is asymptomatic until complications such as variceal hemorrhage, ascites, gut bacteria translocation, hepatorenal syndrome, or heart failure develop, so ongoing monitoring is essential regardless of how the client feels. Incorrect: option 2 wrongly assumes being asymptomatic prevents future complications; option 3 is wrong because no drug or mechanism reverses portal hypertension once it develops; option 4 is wrong because portal hypertension is, by definition, caused by fibrosis already resisting portal blood flow.",
+                                     "topic": "Cirrhosis &amp; Liver Failure",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "The nurse is caring for two clients with cirrhosis: Client A has esophageal varices and is now vomiting bright red blood, and Client B has mild confusion and behavioral changes consistent with early hepatic encephalopathy. Which client should the nurse assess first?",
+                                     "options": [
+                                         "Client B, because hepatic encephalopathy can progress rapidly to coma unresponsive to pain and therefore takes priority over any active bleeding today.",
+                                         "Client A, because a bleeding esophageal varix is an active, high-mortality emergency, while Client B's confusion is an earlier-stage presentation.",
+                                         "Both clients require identical priority, since bleeding tendency and hepatic encephalopathy both result from the liver's inability to detoxify the blood.",
+                                         "Client B, because ammonia buildup causing confusion is more immediately life-threatening than a burst esophageal varix in this case."
+                                     ],
+                                     "answer": 1,
+                                     "rationale": "Correct: a bleeding esophageal varix is described as an active, high-mortality-risk emergency, while Client B's mild confusion and behavioral changes represent the milder end of the hepatic encephalopathy severity range. Incorrect: options 1 and 4 wrongly rank mild confusion above active hemorrhage; option 3 wrongly equates two distinct mechanisms (portal-hypertension bleeding versus ammonia detoxification failure) and ignores the acuity difference between them.",
+                                     "topic": "Cirrhosis &amp; Liver Failure",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with cirrhosis has both jaundice and peripheral edema. Which explanation correctly differentiates the underlying mechanism of each finding?",
+                                     "options": [
+                                         "Jaundice comes from decreased clotting factor production; edema comes from portal hypertension backing up blood flow alone.",
+                                         "Jaundice comes from ammonia crossing the blood-brain barrier into brain tissue; edema comes from gut bacteria translocating into the peritoneal cavity.",
+                                         "Jaundice comes from fibrosis obstructing biliary channels and trapping bilirubin; edema comes from low albumin reducing oncotic pressure.",
+                                         "Jaundice comes from portal hypertension backing up portal blood flow; edema comes from decreased clotting factor production."
+                                     ],
+                                     "answer": 2,
+                                     "rationale": "Correct: chaotic fibrosis obstructs biliary channels, causing bilirubin buildup and jaundice, while edema results from the liver's inability to produce enough albumin, lowering colloid oncotic pressure so fluid third-spaces into tissue. Incorrect: option 1 wrongly attributes jaundice to clotting factors and edema to portal hypertension alone; option 2 wrongly attributes these findings to ammonia and gut bacteria translocation, which relate to hepatic encephalopathy and peritonitis risk; option 4 reverses the correct mechanisms.",
+                                     "topic": "Cirrhosis &amp; Liver Failure",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client asks the nurse how serious a cirrhosis diagnosis is and whether hepatic encephalopathy is a common complication. Which response is accurate based on known statistics?",
+                                     "options": [
+                                         "Cirrhosis has a death rate of about 45%, and hepatic encephalopathy occurs in nearly all diagnosed clients with cirrhosis today.",
+                                         "Cirrhosis has a death rate of about 26%, but hepatic encephalopathy is rare, occurring in less than 5% of all diagnosed clients.",
+                                         "Cirrhosis has a death rate of about 30%, and hepatic encephalopathy occurs in about 26% of all diagnosed clients overall.",
+                                         "Cirrhosis has a death rate of about 26%, and hepatic encephalopathy occurs in about 30-45% of clients overall."
+                                     ],
+                                     "answer": 3,
+                                     "rationale": "Correct: cirrhosis carries a death rate of about 26%, and hepatic encephalopathy occurs in roughly 30-45% of cirrhosis patients. Incorrect: options 1 and 3 misstate the death rate as 45% or 30% instead of 26%; option 2 misstates hepatic encephalopathy as rare when it actually affects 30-45% of clients.",
+                                     "topic": "Cirrhosis &amp; Liver Failure",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client asks why liver damage in cirrhosis keeps getting worse even after the initial injury has occurred. Which explanation reflects the correct pathophysiology?",
+                                     "options": [
+                                         "Ongoing hypoxia and inflammation disrupt normal hepatocyte regeneration, causing disorganized regrowth with poor blood flow that generates more scar tissue and hypoxia.",
+                                         "Once inflammation begins, hepatocytes stop regenerating completely, so the existing fibrotic scar tissue remains fixed and unchanged for the rest of the client's life.",
+                                         "White blood cell infiltration and inflammatory mediators occur only once at the time of the initial injury and do not contribute to any fibrosis that develops afterward.",
+                                         "Acetaldehyde continues to be produced independently of any further alcohol intake, and this ongoing acetaldehyde production alone accounts for the progression of fibrosis."
+                                     ],
+                                     "answer": 0,
+                                     "rationale": "Correct: hepatocytes normally regenerate, but ongoing hypoxia and inflammation disrupt this process, producing disorganized regrowth with poor blood flow that generates more scar tissue and hypoxia in a self-worsening cycle. Incorrect: option 2 wrongly claims regeneration stops entirely rather than becoming disorganized; option 3 wrongly claims leukocyte infiltration is a one-time event rather than an ongoing driver of fibrosis; option 4 wrongly claims acetaldehyde is produced independent of alcohol intake and is the sole driver of progression.",
+                                     "topic": "Cirrhosis &amp; Liver Failure",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A nurse is teaching a client about the multiple mechanisms that contribute to ascites formation in cirrhosis with portal hypertension. Which of the following are accurate contributing mechanisms? Select all that apply.",
+                                     "options": [
+                                         "Decreased albumin production lowers colloid oncotic pressure, allowing fluid to shift into the peritoneal cavity.",
+                                         "Portal hypertension increases pressure in the portal system, contributing directly to fluid accumulation.",
+                                         "RAAS activation and plasma volume expansion contribute to fluid retention.",
+                                         "Systemic hypotension and vascular underfilling contribute to the fluid shifts seen in ascites.",
+                                         "Elevated ammonia crossing the blood-brain barrier directly causes excess fluid to accumulate within the peritoneal cavity itself.",
+                                         "Rifaximin's inhibition of bacterial RNA synthesis reduces portal pressure and prevents ascites from forming."
+                                     ],
+                                     "answers": [
+                                         0,
+                                         1,
+                                         2,
+                                         3
+                                     ],
+                                     "rationale": "Correct: ascites results from a combination of low oncotic pressure from decreased albumin, portal hypertension itself, RAAS activation and plasma volume expansion, and systemic hypotension with vascular underfilling — a multi-mechanism process, not a single cause. Incorrect: ammonia crossing the blood-brain barrier causes hepatic encephalopathy, not ascites; rifaximin decreases ammonia-producing gut bacteria for hepatic encephalopathy and does not reduce portal pressure — no drug reverses portal hypertension.",
+                                     "topic": "Cirrhosis &amp; Liver Failure",
+                                     "source": "quiz-bank"
+                                 }
+                             ],
             "eaq": []
         }
     },
@@ -6411,196 +6419,195 @@ window.QUIZ_BANK = {
         "sets": {
             "mustKnow": [],
             "extraPractice": [
-                    {
-                        "stem": "A nurse is reviewing the effects of pancreatic enzymes trapped within an inflamed pancreas. Which effects are correctly matched to their enzyme? Select all that apply.",
-                        "options": [
-                            "Lipase causes fat necrosis",
-                            "Trypsin causes edema and hemorrhage",
-                            "Kallikrein decreases vascular permeability",
-                            "Elastase causes hemorrhage",
-                            "Phospholipase A promotes protein synthesis",
-                            "Kallikrein causes smooth-muscle pain"
-                        ],
-                        "answers": [
-                            0,
-                            1,
-                            3,
-                            5
-                        ],
-                        "rationale": "Correct: lipase and phospholipase A both cause fat necrosis, trypsin causes edema/necrosis/hemorrhage, elastase causes hemorrhage, and kallikrein triggers smooth-muscle contraction and pain. Incorrect: kallikrein actually increases vascular permeability rather than decreasing it, and phospholipase A causes fat necrosis, not protein synthesis.",
-                        "topic": "Gallbladder &amp; Pancreatic Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client with known gallstones develops sudden epigastric pain radiating to the back, along with nausea and an elevated amylase. What should the nurse recognize as the likely connection?",
-                        "options": [
-                            "Gallstones and pancreatitis are unrelated conditions occurring by coincidence",
-                            "The gallstone may block the duct the pancreas shares",
-                            "The gallbladder and pancreas share no anatomical connection",
-                            "This presentation only occurs in clients without any gallbladder disease"
-                        ],
-                        "answer": 1,
-                        "rationale": "Correct: a gallstone blocking the common bile duct can also block pancreatic enzyme outflow, since both structures share that duct — this is the most common cause of acute pancreatitis. Incorrect: the two conditions are directly connected rather than coincidental, they do share an anatomical pathway, and this presentation classically occurs in clients who do have gallstones.",
-                        "topic": "Gallbladder &amp; Pancreatic Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client reports severe right-upper-quadrant pain that began about an hour after a fast-food meal, along with a history of similar past episodes. What should the nurse recognize as the likely trigger mechanism?",
-                        "options": [
-                            "A stone lodging during a fatty-meal contraction",
-                            "A new infection unrelated to the meal",
-                            "A random coincidence unrelated to gallbladder function",
-                            "An allergic reaction to the meal itself"
-                        ],
-                        "answer": 0,
-                        "rationale": "Correct: biliary colic is classically triggered by fatty food intake, occurring roughly 30 minutes to a couple of hours later, when a stone lodges in the duct during a gallbladder contraction. Incorrect: this pattern points to a mechanical trigger rather than infection, it is a recognized, repeatable pattern rather than coincidence, and it is not described as an allergic process.",
-                        "topic": "Gallbladder &amp; Pancreatic Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "Two clients have gallstone-related pain: one has pain alone, and the other has pain plus fever, rebound tenderness, and guarding. Which client is the nurse more concerned about, and why?",
-                        "options": [
-                            "The first client, because pain alone is always more dangerous",
-                            "Both clients carry identical risk",
-                            "The second client's findings are unrelated to the gallbladder",
-                            "The second, since these signs suggest cholecystitis risk"
-                        ],
-                        "answer": 3,
-                        "rationale": "Correct: fever, rebound tenderness, and guarding point to cholecystitis, which carries a real risk of ischemia, necrosis, and perforation from pressure on the inflamed gallbladder wall, making it more dangerous than uncomplicated cholelithiasis. Incorrect: pain alone is not the more dangerous presentation here, the two clients do not carry identical risk, and these signs are directly tied to gallbladder inflammation.",
-                        "topic": "Gallbladder &amp; Pancreatic Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client with obstructed bile flow from gallstones develops a prolonged PT, though the liver itself is functioning normally. What should the nurse recognize as the cause?",
-                        "options": [
-                            "Vitamin K can't be absorbed without bile reaching the gut",
-                            "The liver has stopped producing clotting factors entirely",
-                            "This finding cannot occur with a normally functioning liver",
-                            "The pancreas is responsible for this finding"
-                        ],
-                        "answer": 0,
-                        "rationale": "Correct: without bile reaching the duodenum, vitamin K (needed to produce clotting factors) can't be absorbed, prolonging PT even though the liver itself is working normally — a different mechanism than a failing liver simply not making clotting factors. Incorrect: the liver's own production isn't the problem here, this specific combination is a recognized obstructive finding, and the pancreas isn't the source of this particular effect.",
-                        "topic": "Gallbladder &amp; Pancreatic Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client with obstructed bile flow develops fatty, foul-smelling stools but normal digestion of other nutrients. What should the nurse explain?",
-                        "options": [
-                            "All nutrient digestion requires bile, so this affects every nutrient equally",
-                            "This finding is unrelated to bile flow",
-                            "Bile salts are needed for fat digestion and can't reach the gut",
-                            "Fat digestion doesn't require bile under normal circumstances"
-                        ],
-                        "answer": 2,
-                        "rationale": "Correct: bile salts are specifically needed to break down and digest fat; when bile can't reach the duodenum, fat digestion is impaired while other nutrients are less affected, producing steatorrhea. Incorrect: bile isn't equally required for every nutrient, this finding is a direct result of impaired bile flow, and fat digestion does normally depend on bile.",
-                        "topic": "Gallbladder &amp; Pancreatic Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A nurse is monitoring glucose in a client with acute pancreatitis and expects the value could go in either direction. What should the nurse understand about this?",
-                        "options": [
-                            "Glucose always rises in acute pancreatitis",
-                            "Glucose can rise or fall either way",
-                            "Glucose always falls in acute pancreatitis",
-                            "Glucose is unaffected by pancreatic damage"
-                        ],
-                        "answer": 1,
-                        "rationale": "Correct: glucose can be elevated or low in acute pancreatitis depending on which pancreatic cells are affected, so it needs close monitoring rather than an assumed direction. Incorrect: glucose does not always rise, it does not always fall, and pancreatic damage does affect glucose regulation.",
-                        "topic": "Gallbladder &amp; Pancreatic Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client recovering from severe pancreatitis develops a palpable epigastric mass with high fever and marked leukocytosis. Which complication does this presentation most closely match?",
-                        "options": [
-                            "A pancreatic pseudocyst, since both form outside the pancreas",
-                            "A normal part of pancreatitis recovery",
-                            "An unrelated abdominal process",
-                            "A pancreatic abscess, given the infection signs"
-                        ],
-                        "answer": 3,
-                        "rationale": "Correct: high fever and marked leukocytosis point to infection, matching a pancreatic abscess (a large infected cavity inside the pancreas from extensive necrosis) rather than a pseudocyst, which forms outside the pancreas and doesn't inherently carry these infection signs. Incorrect: a pseudocyst forms outside, not inside, the pancreas and doesn't typically present this way; this is not an expected part of recovery; and the findings are directly tied to the pancreatitis history.",
-                        "topic": "Gallbladder &amp; Pancreatic Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client with severe acute pancreatitis develops tetany. What should the nurse recognize as the underlying cause?",
-                        "options": [
-                            "The pancreas is releasing excess calcium directly into circulation",
-                            "Fatty acids from necrosis are binding up serum calcium",
-                            "Tetany in pancreatitis is unrelated to any electrolyte change",
-                            "This is caused by dehydration alone"
-                        ],
-                        "answer": 1,
-                        "rationale": "Correct: lipase-generated free fatty acids bind calcium and deposit it in the retroperitoneum, lowering serum calcium enough to cause tetany. Incorrect: the pancreas is not releasing excess calcium, tetany here is directly tied to a calcium disturbance, and dehydration alone doesn't explain this specific mechanism.",
-                        "topic": "Gallbladder &amp; Pancreatic Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client asks why her pancreatitis keeps coming back even though a prior gallstone episode fully resolved after treatment. What should the nurse explain?",
-                        "options": [
-                            "This suggests chronic, not resolving, pancreatitis",
-                            "All pancreatitis fully resolves once any cause is treated",
-                            "Recurring pancreatitis is always caused by a missed gallstone",
-                            "This pattern is not possible with pancreatitis"
-                        ],
-                        "answer": 0,
-                        "rationale": "Correct: unlike acute pancreatitis, which can resolve once a gallstone is removed or an offending cause is stopped, chronic pancreatitis is a progressive condition marked by recurring attacks that doesn't fully resolve. Incorrect: not all pancreatitis resolves the same way, a missed gallstone isn't the only possible explanation for recurrence, and this recurring pattern is a real, recognized presentation.",
-                        "topic": "Gallbladder &amp; Pancreatic Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client with chronic pancreatitis has both unexplained weight loss and new-onset high blood glucose. What should the nurse recognize about these two findings?",
-                        "options": [
-                            "Only one of these findings can be explained by chronic pancreatitis",
-                            "Both findings share a single identical mechanism",
-                            "Neither finding is associated with chronic pancreatitis",
-                            "Two losses: enzymes for weight, islet cells for glucose"
-                        ],
-                        "answer": 3,
-                        "rationale": "Correct: chronic pancreatitis damages both the acinar cells that produce digestive enzymes (causing fat malabsorption and weight loss) and the islet cells that regulate glucose (causing diabetes) — two distinct mechanisms from the same disease. Incorrect: both findings, not just one, are explained by chronic pancreatitis; they arise from two different cell types rather than one shared mechanism; and both are recognized manifestations of the condition.",
-                        "topic": "Gallbladder &amp; Pancreatic Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client with chronic pancreatitis is prescribed pancrelipase but only takes it with breakfast, skipping other meals and snacks. What should the nurse emphasize?",
-                        "options": [
-                            "Taking it once daily provides full-day enzyme coverage",
-                            "Pancrelipase should only be taken during a pancreatitis flare",
-                            "Skipping doses carries no clinical consequence",
-                            "It must be taken with every meal and snack to be effective"
-                        ],
-                        "answer": 3,
-                        "rationale": "Correct: pancrelipase replaces missing digestive enzymes and must be taken with every meal and snack, not just once a day, to be effective. Incorrect: a single daily dose does not cover every meal, it is meant for ongoing use rather than only during flares, and skipping doses does have real consequences for digestion.",
-                        "topic": "Gallbladder &amp; Pancreatic Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A nursing student assumes the same first-line pain medication is used for both cholecystitis and acute pancreatitis, since they're taught on the same page. What should the nurse clarify?",
-                        "options": [
-                            "Opioids are first-line for both conditions",
-                            "Ketorolac is first-line for both conditions",
-                            "Ketorolac for gallbladder, opioids for pancreatitis",
-                            "Pain medication choice doesn't differ between the two"
-                        ],
-                        "answer": 2,
-                        "rationale": "Correct: IV ketorolac, an NSAID, is first-line for cholelithiasis and cholecystitis pain, while opioids such as hydromorphone or morphine are first-line for pancreatitis pain — genuinely different choices despite the conditions' shared root cause. Incorrect: opioids are not the first choice for gallbladder pain, ketorolac is not the first choice for pancreatitis, and the medication choice does differ between the two conditions.",
-                        "topic": "Gallbladder &amp; Pancreatic Disorders",
-                        "source": "quiz-bank"
-                    },
-                    {
-                        "stem": "A client asks why her provider mentioned both a family history of gallstones and her use of oral contraceptives as risk factors, assuming only one could really matter. What should the nurse explain?",
-                        "options": [
-                            "Both are independent risk factors for gallstones",
-                            "Only genetic factors matter; medication use is irrelevant",
-                            "Only medication history matters; genetics are irrelevant",
-                            "Neither factor is actually linked to gallstone risk"
-                        ],
-                        "answer": 0,
-                        "rationale": "Correct: genetic predisposition and oral contraceptive use are both separately recognized risk factors for cholelithiasis, along with others like obesity, female sex, and middle age. Incorrect: genetics is not the only relevant factor, oral contraceptive use is not the only relevant factor, and both are directly linked to gallstone risk.",
-                        "topic": "Gallbladder &amp; Pancreatic Disorders",
-                        "source": "quiz-bank"
-                    }
-            ],
+                                 {
+                                     "stem": "A client with a gallstone lodged where the cystic duct joins the common bile duct develops both right-upper-quadrant pain with fever and epigastric pain radiating to the back with an elevated amylase level. What best accounts for both findings appearing together?",
+                                     "options": [
+                                         "A single gallstone is blocking a duct shared by the gallbladder and pancreas, trapping bile and enzymes together.",
+                                         "A pancreatic pseudocyst has formed outside the pancreas and is now compressing the gallbladder from outside the duct.",
+                                         "A toxic alcohol metabolite is damaging both the pancreatic acinar cells and the gallbladder wall at the same time.",
+                                         "Vitamin K malabsorption from lost bile salts is producing a bleeding disorder that resembles pancreatic inflammation."
+                                     ],
+                                     "answer": 0,
+                                     "rationale": "Correct: the cystic/common bile duct and the pancreatic duct share a common pathway into the duodenum, so a single gallstone can block bile flow and trap pancreatic enzymes at the same time, producing both sets of findings. Incorrect: a pseudocyst is a complication of pancreatitis that forms after enzyme damage, not a cause of simultaneous gallbladder symptoms; the alcohol-toxic-metabolite mechanism applies to chronic pancreatitis from alcohol abuse, not to gallstone obstruction; vitamin K malabsorption causes a bleeding tendency, not epigastric pain with an elevated amylase.",
+                                     "topic": "Gallbladder &amp; Pancreatic Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "Two clients report similar right-upper-quadrant pain radiating to the back after a fatty meal. Client A has normal vital signs and a soft, non-tender abdomen. Client B has a temperature of 101.8°F, an elevated WBC count, rebound tenderness, and guarding. What do these findings indicate?",
+                                     "options": [
+                                         "Both clients have simple biliary colic, which commonly produces fever, guarding, and an elevated white count.",
+                                         "Client B's fever, leukocytosis, rebound tenderness, and guarding point to cholecystitis rather than uncomplicated biliary colic.",
+                                         "Client A's normal exam rules out gallstone disease entirely, since cholelithiasis always produces measurable inflammatory signs.",
+                                         "Client B's findings point to a pancreatic abscess, since high fever and leukocytosis only occur with pancreatic infection."
+                                     ],
+                                     "answer": 1,
+                                     "rationale": "Correct: fever, leukocytosis, rebound tenderness, and guarding are signs of inflammation that are more specific to cholecystitis than to uncomplicated biliary colic. Incorrect: biliary colic pain alone does not produce fever, an elevated WBC count, or guarding; most cholelithiasis is asymptomatic, so a normal exam does not rule out stones being present; a pancreatic abscess also presents with high fever, leukocytosis, and an abdominal mass, but nothing here points to the pancreas rather than the gallbladder.",
+                                     "topic": "Gallbladder &amp; Pancreatic Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with acute pancreatitis develops muscle twitching and a positive Trousseau sign. Which mechanism explains this finding?",
+                                     "options": [
+                                         "Trapped trypsin is directly binding circulating calcium ions and lowering the client's serum calcium level.",
+                                         "Kallikrein-driven increases in vascular permeability are allowing calcium to leak into the peritoneal cavity.",
+                                         "Free fatty acids released by trapped lipase are binding calcium and depositing it in the retroperitoneum.",
+                                         "Elastase-related hemorrhage is diluting the client's serum calcium concentration through ongoing internal blood loss."
+                                     ],
+                                     "answer": 2,
+                                     "rationale": "Correct: lipase's normal job is fat breakdown, so when trapped in the pancreas it generates free fatty acids that bind calcium and deposit it in the retroperitoneum, lowering serum calcium and producing tetany. Incorrect: trypsin's trapped effect is edema, necrosis, and hemorrhage, not calcium binding; kallikrein's trapped effect is edema and increased vascular permeability, not calcium loss; elastase's trapped effect is hemorrhage, which is not the mechanism behind this client's hypocalcemic finding.",
+                                     "topic": "Gallbladder &amp; Pancreatic Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with severe acute pancreatitis develops hypotension and tachycardia progressing toward shock, without evidence of significant bleeding. Which trapped enzyme's effect best explains this presentation?",
+                                     "options": [
+                                         "Trypsin, whose trapped effect is edema, necrosis, and hemorrhage from ongoing pancreatic tissue autodigestion, producing visible blood loss.",
+                                         "Elastase, whose trapped effect is hemorrhage from direct damage to pancreatic blood vessels, also producing visible blood loss over time.",
+                                         "Phospholipase A, whose trapped effect is fat necrosis within the pancreatic tissue itself, not vascular leakage or hypotension.",
+                                         "Kallikrein, whose trapped effect includes increased vascular permeability and smooth-muscle contraction that can contribute to shock."
+                                     ],
+                                     "answer": 3,
+                                     "rationale": "Correct: kallikrein's trapped effect includes increased vascular permeability, which lets fluid leak out of the vascular space, plus smooth-muscle contraction, both of which can contribute to shock without necessarily causing overt hemorrhage. Incorrect: trypsin and elastase are both linked to hemorrhage, not this permeability/shock presentation; phospholipase A's trapped effect is fat necrosis, not vascular permeability or shock.",
+                                     "topic": "Gallbladder &amp; Pancreatic Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client recovering from necrotizing hemorrhagic pancreatitis develops a very high fever, marked leukocytosis, and a palpable abdominal mass. CT shows a large fluid-filled cavity inside the pancreatic tissue itself. Which complication does this describe?",
+                                     "options": [
+                                         "A pancreatic abscess, an infected cavity inside the pancreas resulting from extensive tissue necrosis and infection.",
+                                         "A pancreatic pseudocyst, a necrotic fluid collection that forms outside the pancreas, often identified later on imaging.",
+                                         "Chronic pancreatitis, a fibrotic process that gradually replaces both acinar and islet cells over months to years.",
+                                         "Hypovolemic shock, caused by ongoing fluid loss through increased vascular wall permeability, usually with tachycardia."
+                                     ],
+                                     "answer": 0,
+                                     "rationale": "Correct: a pancreatic abscess is a large fluid-filled cavity inside the pancreas resulting from extensive necrosis, presenting with the usual pancreatitis picture plus an abdominal mass, very high fever, and leukocytosis from infection. Incorrect: a pseudocyst forms outside the pancreas and is not itself an infected cavity; chronic pancreatitis is a progressive fibrotic disease, not an acute fluid-filled cavity; hypovolemic shock presents with hypotension and tachycardia, not a palpable mass with very high fever.",
+                                     "topic": "Gallbladder &amp; Pancreatic Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client asks why her gallstone-related pancreatitis resolved after surgery, while her friend's alcohol-related pancreatitis keeps causing pain, weight loss, and now diabetes even after she stopped drinking. What is the best explanation?",
+                                     "options": [
+                                         "Both conditions are the same reversible process, and the friend's symptoms will fully resolve given time and rest.",
+                                         "The client's blocked duct resolved with stone removal, while the friend's chronic disease has destroyed acinar and islet cells.",
+                                         "The friend's diabetes and weight loss are caused by a pseudocyst that will resolve once it is surgically drained next week.",
+                                         "The friend's ongoing symptoms mean she must still be drinking, since chronic pancreatitis always resolves fully with abstinence alone."
+                                     ],
+                                     "answer": 1,
+                                     "rationale": "Correct: acute pancreatitis from a gallstone resolves once the obstruction is removed, while chronic pancreatitis from alcohol abuse is a progressive disease in which a toxic metabolite has already destroyed acinar cells (causing fat malabsorption) and islet cells (causing diabetes), damage that does not reverse. Incorrect: the two are not the same reversible process; a pseudocyst is a separate pancreatitis complication and would not explain diabetes or restore islet function; chronic pancreatitis persists even with abstinence because the tissue damage is fibrotic and permanent.",
+                                     "topic": "Gallbladder &amp; Pancreatic Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "The nurse is counseling a client of Indigenous heritage on gallstone risk compared to a white American client of the same age, sex, and weight. Which statement is accurate?",
+                                     "options": [
+                                         "Her lifetime risk is about the same, since ethnicity does not affect cholesterol or bilirubin metabolism.",
+                                         "Her lifetime risk is lower, at 10-15%, compared to a white American client's 60-70% risk.",
+                                         "Her lifetime risk is higher, at 60-70%, compared to a white American client's 10-15% risk.",
+                                         "Her lifetime risk cannot be estimated, since ethnicity only influences pigmented stone formation."
+                                     ],
+                                     "answer": 2,
+                                     "rationale": "Correct: genetic predisposition is a stated risk factor for gallstones, with Indigenous populations having a 60-70% lifetime risk compared to 10-15% in white Americans. Incorrect: ethnicity is a described risk factor, not a neutral one; the percentages are reversed in the option citing 10-15% vs 60-70%; the numeric difference is a general gallstone risk statistic, not limited to pigmented stone formation.",
+                                     "topic": "Gallbladder &amp; Pancreatic Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with acute pancreatitis has severe epigastric pain that worsens with any abdominal palpation. Which two mechanisms together best explain this pain?",
+                                     "options": [
+                                         "Biliary colic from a stone in the cystic duct plus pruritus from bile salts deposited in the skin.",
+                                         "Steatorrhea from undigested dietary fat plus clay-colored stools from bilirubin that never reached the intestine.",
+                                         "Hypocalcemia-related muscle tetany plus hemorrhage caused by trapped elastase within the pancreas.",
+                                         "Edema-driven distension of the pancreatic ducts and capsule plus chemical irritation of the peritoneum."
+                                     ],
+                                     "answer": 3,
+                                     "rationale": "Correct: pancreatitis pain arises from two sources together, edema-driven distension of the pancreatic ducts and capsule plus chemical irritation and inflammation of the peritoneum, which is why palpation worsens the pain. Incorrect: biliary colic and pruritus are gallbladder- and bile-salt-related symptoms, not sources of pancreatic pain; steatorrhea and clay-colored stools are obstructive bile-flow symptoms, not pain mechanisms; tetany and hemorrhage are complications of specific trapped enzymes, not the described pain source.",
+                                     "topic": "Gallbladder &amp; Pancreatic Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with a common bile duct stone reports greasy, foul-smelling stools that are difficult to flush. Which additional finding results from the SAME underlying mechanism of bile obstruction?",
+                                     "options": [
+                                         "Dark, foamy urine, from conjugated bilirubin backing into the blood and spilling into the urine.",
+                                         "An elevated serum amylase level, from ongoing autodigestion of pancreatic tissue by trapped trypsin enzyme.",
+                                         "A palpable epigastric mass, arising from a pseudocyst pressing outward against the abdominal wall.",
+                                         "New muscle twitching, from calcium binding by free fatty acids deposited in the retroperitoneum."
+                                     ],
+                                     "answer": 0,
+                                     "rationale": "Correct: steatorrhea and dark, foamy urine result from the same obstructed bile flow — bile salts fail to reach the duodenum (causing fatty, undigested stool) while conjugated bilirubin backs into the blood and spills into the urine. Incorrect: an elevated amylase reflects pancreatic organ damage from trapped enzymes, a separate mechanism; a palpable epigastric mass suggests a pancreatitis complication (pseudocyst), not biliary obstruction; muscle twitching from calcium binding is caused by trapped lipase in the pancreas, not by bile obstruction.",
+                                     "topic": "Gallbladder &amp; Pancreatic Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with cholecystitis and a client with acute pancreatitis are both requesting pain medication. Based on first-line therapy for each condition, what should the nurse anticipate?",
+                                     "options": [
+                                         "Both clients should receive opioids first, since NSAIDs are contraindicated in abdominal inflammatory conditions.",
+                                         "The cholecystitis client should receive IV ketorolac first, while the pancreatitis client should receive an opioid first.",
+                                         "The pancreatitis client should receive IV ketorolac first, while the cholecystitis client should receive dicyclomine first.",
+                                         "Both clients should receive bile acid therapy first, since it manages pain for both conditions until surgery."
+                                     ],
+                                     "answer": 1,
+                                     "rationale": "Correct: IV ketorolac, an NSAID, is first-line pain control for cholelithiasis and cholecystitis, while opioids such as hydromorphone or morphine are first-line for acute and chronic pancreatitis. Incorrect: NSAIDs are not contraindicated in these conditions and are in fact first-line for gallbladder pain; the drug order is reversed in the option pairing ketorolac with pancreatitis, and dicyclomine is an antispasmodic adjunct, not first-line pain control; bile acid therapy dissolves stones for clients who cannot have surgery and is not a pain medication.",
+                                     "topic": "Gallbladder &amp; Pancreatic Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with chronic pancreatitis tells the nurse she will take her pancrelipase capsule once in the morning, since that is when her pain is worst. What is the nurse's best response?",
+                                     "options": [
+                                         "Agree with her plan, since pancrelipase only needs to be present during a pain flare, not with other meals, to work.",
+                                         "Explain that pancrelipase should be replaced with insulin, since diabetes is her primary problem to treat.",
+                                         "Explain that pancrelipase must be taken with every meal and snack to replace missing digestive enzymes.",
+                                         "Explain that pancrelipase works best on an empty stomach, taken between meals rather than with food, to avoid dilution."
+                                     ],
+                                     "answer": 2,
+                                     "rationale": "Correct: pancrelipase replaces digestive enzymes that chronic pancreatitis clients no longer produce, and it must be taken with every single meal and snack so the fat and other nutrients in that food can be digested; adherence is essential. Incorrect: taking it only once a day would leave other meals and snacks undigested; insulin may be needed if islet cells are lost, but that does not remove the need for enzyme replacement with food; the enzymes need to be present with food in the gut, not on an empty stomach between meals.",
+                                     "topic": "Gallbladder &amp; Pancreatic Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "The nurse is assigned two clients in the emergency department. Client 1 has intermittent right-upper-quadrant pain after a fatty meal, a normal temperature, and a soft abdomen. Client 2 has right-upper-quadrant pain, a temperature of 102°F, guarding, and rebound tenderness. Which client should the nurse prioritize for immediate provider notification?",
+                                     "options": [
+                                         "Client 1, since biliary colic pain is typically more severe than any inflammatory abdominal pain, even without fever or guarding.",
+                                         "Neither client, since both presentations reflect simple cholelithiasis that can be managed the same way as outpatients without surgery.",
+                                         "Client 1, since fatty food intolerance always precedes an eventual gallbladder surgical emergency needing urgent surgical care.",
+                                         "Client 2, since fever, guarding, and rebound tenderness suggest cholecystitis, risking decreased blood flow and perforation."
+                                     ],
+                                     "answer": 3,
+                                     "rationale": "Correct: fever, guarding, and rebound tenderness point to cholecystitis, which is more dangerous than simple cholelithiasis because pressure from the inflamed, distended gallbladder wall decreases blood flow, risking ischemia, necrosis, and perforation if untreated. Incorrect: biliary colic pain severity alone does not indicate greater danger than inflammatory disease; the two presentations are not equivalent since only Client 2 shows signs of inflammation; fatty food intolerance is a nonspecific cholelithiasis symptom and does not by itself predict a surgical emergency.",
+                                     "topic": "Gallbladder &amp; Pancreatic Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A nursing instructor asks students to compare two numeric facts from this unit. Which pairing is correct?",
+                                     "options": [
+                                         "About 70% of gallstones are cholesterol stones, and about 20% of acute pancreatitis cases become severe enough to require hospitalization.",
+                                         "About 20% of gallstones are cholesterol stones, and about 70% of acute pancreatitis cases become severe enough to require hospitalization.",
+                                         "About 70% of acute pancreatitis cases resolve without ever causing gallstones, and 20% of gallstones are pigmented.",
+                                         "About 60-70% of gallstones are pigmented stones, and about 20% of cholecystitis cases progress to chronic pancreatitis."
+                                     ],
+                                     "answer": 0,
+                                     "rationale": "Correct: cholesterol stones make up about 70% of gallstones, and roughly 20% of acute pancreatitis cases become severe enough to require hospitalization while most cases are mild and resolve spontaneously. Incorrect: the percentages are swapped in the option pairing 20% cholesterol stones with 70% severe pancreatitis; spontaneous resolution of pancreatitis is not tied to a 70% rate of never causing gallstones; the 60-70% figure describes Indigenous population gallstone risk, not pigmented stone share, and a 20% cholecystitis-to-chronic-pancreatitis progression rate is not a stated fact.",
+                                     "topic": "Gallbladder &amp; Pancreatic Disorders",
+                                     "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "The nurse is teaching a nursing student about what happens when pancreatic enzymes become trapped in the pancreas during acute pancreatitis. Which statements are correct? Select all that apply.",
+                                     "options": [
+                                         "Trypsin trapped in the pancreas causes edema, necrosis, and hemorrhage from autodigestion.",
+                                         "Lipase trapped in the pancreas causes fat necrosis, since its normal job is fat breakdown.",
+                                         "Kallikrein trapped in the pancreas increases vascular permeability, contributing to shock.",
+                                         "Elastase trapped in the pancreas causes fat necrosis rather than hemorrhage, unlike trypsin.",
+                                         "Phospholipase A trapped in the pancreas increases vascular permeability, leading to ascites.",
+                                         "Kallikrein trapped in the pancreas directly causes hemorrhage through vascular wall rupture."
+                                     ],
+                                     "answers": [
+                                         0,
+                                         1,
+                                         2
+                                     ],
+                                     "rationale": "Correct: trypsin causes edema, necrosis, and hemorrhage when trapped; lipase, whose normal job is fat breakdown, causes fat necrosis when trapped in the pancreas; kallikrein increases vascular permeability and triggers smooth-muscle contraction, which can contribute to shock. Incorrect: elastase's trapped effect is hemorrhage, not fat necrosis; increased vascular permeability leading to ascites is kallikrein's effect, not phospholipase A's (whose trapped effect is fat necrosis); kallikrein's trapped effect is increased vascular permeability and edema, not direct hemorrhage, which is instead caused by trypsin and elastase.",
+                                     "topic": "Gallbladder &amp; Pancreatic Disorders",
+                                     "source": "quiz-bank"
+                                 }
+                             ],
             "eaq": []
         }
     }
