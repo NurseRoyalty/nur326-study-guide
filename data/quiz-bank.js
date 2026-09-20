@@ -6047,6 +6047,19 @@ window.QUIZ_BANK = {
                                      "rationale": "Correct: In obstructive jaundice from gallstones, the liver has already conjugated the bilirubin but bile cannot flow out, producing elevated conjugated (direct) bilirubin, dark foamy urine (conjugated bilirubin backing into blood then urine), clay-colored stool (bile salts never reaching the intestine), and pruritus (bile salts depositing in the skin). Incorrect: Elevated unconjugated (indirect) bilirubin as the primary pattern is characteristic of hemolytic or hepatocellular jaundice, not obstruction, where the liver has already conjugated the bilirubin. Elevated serum ammonia is linked to hepatic encephalopathy in liver failure generally, not to the bile-flow-blockage mechanism that causes obstructive jaundice's yellow discoloration.",
                                      "topic": "Liver Anatomy, Function &amp; Jaundice",
                                      "source": "quiz-bank"
+                                 },
+                                 {
+                                     "stem": "A client with obstructive jaundice asks why the urine turned dark and the stool turned pale at the same time, assuming these are two separate problems. Which explanation is correct?",
+                                     "options": [
+                                         "Unconjugated bilirubin from red blood cell breakdown is being filtered by the kidneys into the urine, while reduced downstream bile duct pressure is lightening the stool color.",
+                                         "The kidneys are directly excreting the excess bilirubin pigment, while decreased pancreatic enzyme output is preventing normal stool coloring.",
+                                         "Rising liver enzymes are leaking into the urine to darken it, while excess bile salt secretion into the gut is diluting the stool's usual pigment.",
+                                         "Conjugated bilirubin backs into the blood and spills into the urine, while bile salts never reach the gut to color the stool brown."
+                                     ],
+                                     "answer": 3,
+                                     "rationale": "Correct: when bile flow is obstructed, conjugated bilirubin (which is water-soluble) backs up into the blood and spills into the urine, while bile salts never reach the intestine to color the stool brown, so one blockage produces both connected findings. Incorrect: unconjugated bilirubin and red blood cell breakdown describe hemolytic jaundice, not an obstructive process, and bile duct pressure does not lighten stool; the kidneys are not the source of the pigment problem and pancreatic enzymes do not color stool; liver enzymes (AST/ALT) do not leak into urine to change its color, and bile salts are absent from the gut in obstruction, not oversecreted.",
+                                     "topic": "Liver Anatomy, Function &amp; Jaundice",
+                                     "source": "quiz-bank"
                                  }
                              ],
             "eaq": []
@@ -6589,21 +6602,22 @@ window.QUIZ_BANK = {
                                      "source": "quiz-bank"
                                  },
                                  {
-                                     "stem": "The nurse is teaching a nursing student about what happens when pancreatic enzymes become trapped in the pancreas during acute pancreatitis. Which statements are correct? Select all that apply.",
+                                     "stem": "The nurse is completing a health history with a client who has several risk factors for gallstones. Which of the following are recognized risk factors for developing gallstones? Select all that apply.",
                                      "options": [
-                                         "Trypsin trapped in the pancreas causes edema, necrosis, and hemorrhage from autodigestion.",
-                                         "Lipase trapped in the pancreas causes fat necrosis, since its normal job is fat breakdown.",
-                                         "Kallikrein trapped in the pancreas increases vascular permeability, contributing to shock.",
-                                         "Elastase trapped in the pancreas causes fat necrosis rather than hemorrhage, unlike trypsin.",
-                                         "Phospholipase A trapped in the pancreas increases vascular permeability, leading to ascites.",
-                                         "Kallikrein trapped in the pancreas directly causes hemorrhage through vascular wall rupture."
+                                         "Long-term use of oral contraceptives",
+                                         "A long-standing history of chronic, heavy alcohol use",
+                                         "Obesity, a major risk factor for gallstones",
+                                         "Younger age, generally under 25 years old",
+                                         "Being female and middle-aged, around 40 years old",
+                                         "A recent history of rapid, significant weight loss"
                                      ],
                                      "answers": [
                                          0,
-                                         1,
-                                         2
+                                         2,
+                                         4,
+                                         5
                                      ],
-                                     "rationale": "Correct: trypsin causes edema, necrosis, and hemorrhage when trapped; lipase, whose normal job is fat breakdown, causes fat necrosis when trapped in the pancreas; kallikrein increases vascular permeability and triggers smooth-muscle contraction, which can contribute to shock. Incorrect: elastase's trapped effect is hemorrhage, not fat necrosis; increased vascular permeability leading to ascites is kallikrein's effect, not phospholipase A's (whose trapped effect is fat necrosis); kallikrein's trapped effect is increased vascular permeability and edema, not direct hemorrhage, which is instead caused by trypsin and elastase.",
+                                     "rationale": "Correct: obesity, oral contraceptive use, being female and middle-aged (around 40), and a recent history of rapid weight loss are all specifically identified risk factors for gallstones, along with genetic predisposition, which carries notably higher rates in Indigenous populations. Incorrect: chronic heavy alcohol use is a well-known risk factor for pancreatitis, not gallstones specifically; younger age is not a stated risk factor, since gallstone risk rises with middle age rather than youth.",
                                      "topic": "Gallbladder &amp; Pancreatic Disorders",
                                      "source": "quiz-bank"
                                  }
