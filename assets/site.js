@@ -87,6 +87,18 @@ const SITE = {
       ]
     },
     {
+      label: "Week 5",
+      items: [
+        { id: "week5-comprehensive-study-guide", num: "1", title: "Comprehensive Study Guide", file: "week5-comprehensive-study-guide.html" },
+        { id: "week5-esophageal-gastric-disorders", num: "2", title: "Esophageal &amp; Gastric Disorders", file: "week5-esophageal-gastric-disorders.html" },
+        { id: "week5-lower-gi-disorders", num: "3", title: "Lower GI Disorders", file: "week5-lower-gi-disorders.html" },
+        { id: "week5-gi-pharmacology", num: "4", title: "GI Symptom Pharmacology", file: "week5-gi-pharmacology.html" },
+        { id: "week5-endocrine-disorders", num: "5", title: "Endocrine Disorders", file: "week5-endocrine-disorders.html" },
+        { id: "week5-thyroid-parathyroid-disorders", num: "6", title: "Thyroid &amp; Parathyroid Disorders", file: "week5-thyroid-parathyroid-disorders.html" },
+        { id: "week5-big-picture-overview", num: "7", title: "Big Picture Overview", file: "week5-big-picture-overview.html" },
+      ]
+    },
+    {
       label: "Pathopharm Review",
       items: [
         { id: "review-pharm-foundations", num: "1", title: "Pharmacology Foundations", file: "review-pharm-foundations.html" },
