@@ -6624,6 +6624,941 @@ window.QUIZ_BANK = {
                              ],
             "eaq": []
         }
+    },
+    {
+        "id": "week5-esophageal-gastric-disorders",
+        "label": "Esophageal &amp; Gastric Disorders",
+        "week": 5,
+        "sets": {
+            "mustKnow": [],
+            "extraPractice": [
+                {
+                    "stem": "A client recovering from a stroke develops dysphagia that starts with solids and later progresses to liquids. An esophagram shows no structural narrowing or mass. Which cause of dysphagia does this presentation best support?",
+                    "options": [
+                        "Neuromuscular cause (nerve damage)",
+                        "Mechanical cause (esophageal tumor)",
+                        "Mechanical cause (esophageal stricture)",
+                        "Mechanical cause (esophageal diverticulum)"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: Stroke is listed as a neuromuscular cause of dysphagia because it disrupts esophageal innervation, and a normal esophagram rules out a structural blockage. Incorrect: An esophageal tumor is tempting because tumors also cause progressive solid-then-liquid dysphagia, but tumors are mechanical blockages that would show as a mass or narrowing on the esophagram, which this client does not have.",
+                    "topic": "Esophageal &amp; Gastric Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with GERD has used OTC antacids nightly for months and stops them abruptly. Two days later, the client reports heartburn far worse than before, with no new dietary triggers reported. What should the nurse recognize as the most likely cause?",
+                    "options": [
+                        "Development of a new esophageal perforation",
+                        "Rebound effect from stopping the antacids",
+                        "Progression of GERD to Barrett's esophagus",
+                        "An allergic reaction to the antacid"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: The page describes an intense rebound effect after stopping antacids, with heartburn returning rapidly and severely, which fits this abrupt two-day worsening. Incorrect: Barrett's esophagus is tempting since it is the most severe GERD complication, but it develops from chronic, long-term untreated GERD and would not suddenly appear within two days of stopping one medication.",
+                    "topic": "Esophageal &amp; Gastric Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "An imaging report describes part of a client's stomach permanently positioned above the diaphragm, with a thin, defective peritoneal membrane forming a true sac around it. Which type of hiatal hernia does this describe?",
+                    "options": [
+                        "Sliding hiatal hernia",
+                        "Mixed sliding and paraesophageal hernia",
+                        "Paraesophageal (rolling) hernia",
+                        "Type 1 hiatal hernia"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: A paraesophageal hernia involves part of the stomach staying permanently above the diaphragm, with a thin, defective peritoneum forming a true sac, exactly as described. Incorrect: A sliding hernia is tempting because it is the more common type, but in a sliding hernia the peritoneum stays intact and restrains the hernia's size, which does not match a true herniated sac.",
+                    "topic": "Esophageal &amp; Gastric Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "The nurse is planning teaching for two clients: one with 15 years of poorly controlled GERD and new dysphagia, and one with a 4-day episode of acute gastritis from NSAID use. Which client is the priority concern for Barrett's esophagus?",
+                    "options": [
+                        "The client with acute gastritis, due to NSAID use",
+                        "Neither, since ulcers don't raise this specific risk",
+                        "Both equally, since both involve gastric acid",
+                        "The client with long-standing reflux disease"
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: Barrett's esophagus develops from chronic, long-standing GERD, and providers monitor for it in long-term GERD patients; this client's 15-year history with new dysphagia fits that risk profile. Incorrect: The acute gastritis client is tempting because NSAIDs also cause GI injury, but the page ties NSAID-related acute gastritis to gastric injury, not to Barrett's esophagus, which is specifically a GERD complication.",
+                    "topic": "Esophageal &amp; Gastric Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client reports epigastric burning and postprandial discomfort that has persisted for six weeks. There is no history of autoimmune disease. Based on duration alone, how should the nurse classify this presentation?",
+                    "options": [
+                        "Chronic gastritis",
+                        "Acute gastritis",
+                        "Acute gastroenteritis",
+                        "Autoimmune chronic gastritis"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: Acute gastritis generally lasts only 2 to 10 days, so six weeks of symptoms points to chronic gastritis, which can persist for weeks to years and can also result from chronic H. pylori infection rather than only autoimmune causes. Incorrect: Acute gastritis is tempting because postprandial burning is a classic finding for both forms, but the six-week duration alone rules out the acute timeframe.",
+                    "topic": "Esophageal &amp; Gastric Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "Two clients present to the clinic. Client A has isolated vomiting and epigastric burning after meals. Client B has vomiting, watery stools, and fever for two days. Which client is at greatest immediate risk for fluid volume deficit?",
+                    "options": [
+                        "Client A, from epigastric burning alone",
+                        "Client B, from vomiting and diarrhea",
+                        "Both equally, since both involve vomiting",
+                        "Neither, since symptoms are short-term"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: The page identifies fluid volume deficit/dehydration as the biggest concern in acute gastroenteritis because fluid is lost from vomiting and loose stool at once, and Client B's presentation fits that pattern. Incorrect: Client A's vomiting with epigastric burning fits gastritis, which affects the stomach lining only and lacks the second route of fluid loss that raises Client B's risk.",
+                    "topic": "Esophageal &amp; Gastric Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A 65-year-old client with a long history of chronic NSAID use reports burning epigastric pain that begins about 1 to 2 hours after eating, as the stomach empties. Which type of ulcer does this presentation most likely represent?",
+                    "options": [
+                        "Duodenal ulcer",
+                        "Esophageal ulcer",
+                        "Gastric ulcer",
+                        "Chronic gastritis"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: Gastric ulcers classically cause burning pain 1 to 2 hours after eating as the stomach empties, and are more associated with chronic NSAID use and an older age of onset (50-70) — both match this client. Incorrect: Duodenal ulcer is tempting since it is the single most common peptic ulcer location overall, but its pain classically occurs 2 to 4 hours after eating, not 1 to 2 hours, so the timing does not fit.",
+                    "topic": "Esophageal &amp; Gastric Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with long-standing peptic ulcer disease develops persistent vomiting, an inability to tolerate oral intake, and abdominal distension, without sudden severe pain or rigidity. Which complication from the HOP mnemonic does this suggest?",
+                    "options": [
+                        "Hemorrhage (active GI bleeding)",
+                        "Perforation (erosion through wall)",
+                        "Hypovolemia (fluid volume loss)",
+                        "Obstruction (from scarring)"
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: Persistent vomiting, oral intolerance, and distension without sudden pain reflect obstruction, since the mnemonic describes ulcer scar tissue and strictures binding areas and obstructing the intestines. Incorrect: Hemorrhage is tempting since it's also a HOP complication, but hemorrhage presents with bleeding such as hematemesis or black stool, not the vomiting-and-distension picture described here.",
+                    "topic": "Esophageal &amp; Gastric Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client recently diagnosed with a peptic ulcer says, 'I've been so stressed at work lately, that's obviously what caused this ulcer.' What is the nurse's best response, based on current understanding?",
+                    "options": [
+                        "Stress doesn't cause ulcers, but worsens them",
+                        "Stress is the primary cause, as the client says",
+                        "Stress has no effect on ulcers at all",
+                        "Only NSAIDs affect ulcer healing, not stress"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: The page states stress does not directly cause peptic ulcers, an outdated belief, but it can worsen an existing ulcer by increasing gastric acid secretion through the stress response. Incorrect: Agreeing that stress is the primary cause reinforces the exact outdated misconception the page corrects, rather than the current understanding that H. pylori, NSAIDs, and other factors are the actual causes.",
+                    "topic": "Esophageal &amp; Gastric Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client who takes warfarin daily needs an H2 receptor blocker for GERD symptoms. Which consideration should most influence the nurse's medication discussion with the prescriber?",
+                    "options": [
+                        "Cimetidine is preferred since it's the newer agent",
+                        "Cimetidine inhibits CYP450, raising the risk",
+                        "Famotidine cannot be given with anticoagulants",
+                        "Both agents carry identical interaction risk"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: The page notes cimetidine is a CYP450 inhibitor with significant drug interactions including warfarin, which is why famotidine, with much less interaction risk, is generally preferred instead. Incorrect: Calling cimetidine 'preferred' is backwards; the page states famotidine is the more commonly used and preferred agent precisely because it avoids this interaction risk.",
+                    "topic": "Esophageal &amp; Gastric Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with confirmed Barrett's esophagus has taken omeprazole daily for several years and expresses worry after reading about long-term PPI risks like bone fracture. What should guide the nurse's response?",
+                    "options": [
+                        "Stop the PPI immediately to prevent bone loss",
+                        "Switch to an antacid, which has no long-term risk",
+                        "Continue the PPI, with ongoing monitoring",
+                        "Switch to an H2 blocker, since it works better"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: The page states that for clients with real PUD or Barrett's esophagus risk, providers often judge the benefits of long-term PPI therapy to outweigh the risks and continue it with monitoring. Incorrect: Switching to an H2 blocker seems like a safer compromise, but the page states PPIs work better than H2 blockers, so switching would undertreat this client's Barrett's-related risk.",
+                    "topic": "Esophageal &amp; Gastric Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client is prescribed sucralfate for a duodenal ulcer and also takes an oral thyroid medication each morning. How should the nurse schedule these two medications?",
+                    "options": [
+                        "Give them together for convenience and adherence",
+                        "Separate them by only fifteen minutes",
+                        "Give the thyroid medication IV instead",
+                        "Separate them by about two hours"
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: The page states sucralfate can decrease the absorption of other drugs, so other medications should be taken separately, about two hours apart. Incorrect: Separating by only fifteen minutes acknowledges a need for spacing, but the page specifies about two hours, not a brief fifteen-minute gap, to avoid reduced absorption.",
+                    "topic": "Esophageal &amp; Gastric Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "The nurse is teaching a client about famotidine, an H2 receptor blocker used for GERD and peptic ulcer disease. Which statements are accurate? Select all that apply.",
+                    "options": [
+                        "Reduces gastric acid secretion by about 60-70%",
+                        "Should be given IV slowly to avoid bradycardia",
+                        "Irreversibly inhibits the H+/K+ ATPase proton pump",
+                        "Causes more CYP450 interactions than cimetidine",
+                        "Give at least 1 hour apart from antacids",
+                        "Given prophylactically to critically ill clients"
+                    ],
+                    "answers": [
+                        0,
+                        1,
+                        4,
+                        5
+                    ],
+                    "rationale": "Correct: H2 blockers reduce gastric acid secretion by about 60-70%, should be given IV slowly since rapid administration can cause bradycardia, should be spaced at least 1 hour apart from antacids, and are used for stress ulcer prophylaxis in hospitalized/critically ill clients. Incorrect: Irreversibly inhibiting the H+/K+ ATPase proton pump describes PPIs, not H2 blockers, and famotidine actually causes fewer CYP450 interactions than cimetidine, not more.",
+                    "topic": "Esophageal &amp; Gastric Disorders",
+                    "source": "quiz-bank"
+                }
+            ],
+            "eaq": []
+        }
+    },
+    {
+        "id": "week5-lower-gi-disorders",
+        "label": "Lower GI Disorders",
+        "week": 5,
+        "sets": {
+            "mustKnow": [],
+            "extraPractice": [
+                {
+                    "stem": "A client with sudden-onset severe RLQ pain and low-grade fever tells the nurse that the pain, which was severe an hour ago, has now completely disappeared, and the client reports feeling much better. What is the correct interpretation of this change?",
+                    "options": [
+                        "Recognize possible appendix rupture; notify the provider now.",
+                        "Document the pain relief as evidence appendicitis is resolving.",
+                        "Attribute the relief to less inflammation and keep monitoring.",
+                        "Conclude rebound tenderness has resolved and stop assessing."
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: Sudden, complete relief of severe appendicitis pain is not reassuring — it can mean the appendix has ruptured, so the provider must be notified immediately. Incorrect: Option B is the closest trap because pain relief sounds like improvement, but appendicitis does not spontaneously resolve; the same complete relief is specifically taught as a rupture warning sign, not a sign of healing.",
+                    "topic": "Lower GI Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "Two clients arrive with lower abdominal pain. Client A has pain that began periumbilically and localized to the RLQ, with rebound tenderness. Client B has pain localized to the LLQ, a fever, an elevated WBC count, and a history of chronic constipation. Which statement correctly matches each client to the most likely diagnosis?",
+                    "options": [
+                        "Client A likely has diverticulitis; Client B likely has appendicitis.",
+                        "Client A likely has appendicitis; Client B likely has diverticulitis.",
+                        "Both clients likely have peritonitis based on quadrant pain alone.",
+                        "Client A likely has ulcerative colitis; Client B likely has Crohn's disease."
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: Appendicitis classically presents with periumbilical pain localizing to the RLQ with rebound tenderness, while diverticulitis classically presents with LLQ pain in a client with a history of chronic constipation (a diverticulosis risk factor) — the opposite quadrant from appendicitis. Incorrect: Option A reverses both quadrants, swapping the two conditions' classic locations. Options C and D introduce diagnoses not supported by either client's described findings.",
+                    "topic": "Lower GI Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with IBD undergoes colonoscopy showing patchy, deep ulcerations in a cobblestone pattern, and the client reports watery diarrhea and a palpable RLQ mass. Which condition do these findings best support?",
+                    "options": [
+                        "Ulcerative colitis, since bloody diarrhea is the classic finding.",
+                        "Ulcerative colitis, since inflammation spreads continuously from the rectum.",
+                        "Crohn's disease, since skip lesions are a hallmark feature here.",
+                        "Crohn's disease, since inflammation is limited to the mucosal layer."
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: Patchy skip lesions with a cobblestone appearance, watery diarrhea, and an RLQ mass are all hallmark Crohn's disease features, and Crohn's is transmural (all bowel wall layers). Incorrect: Option D correctly names Crohn's disease but reverses the mechanism — mucosa-only involvement describes ulcerative colitis, not Crohn's. Options A and B describe real ulcerative colitis features (bloody diarrhea, continuous rectal spread) that do not match this client's patchy, watery-diarrhea presentation.",
+                    "topic": "Lower GI Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with a history of Crohn's disease reports today's diarrhea \"looked a little red, but that's probably just from something I ate.\" The stool sample confirms the diarrhea is bloody. How should the nurse interpret this finding?",
+                    "options": [
+                        "As expected, since bloody diarrhea is the Crohn's hallmark sign.",
+                        "As unrelated, since diet never changes stool appearance in IBD.",
+                        "As reassuring, since bloody stool suggests a lower cancer risk.",
+                        "As atypical, since watery diarrhea is the Crohn's hallmark."
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: Watery diarrhea, not bloody diarrhea, is the hallmark feature taught for Crohn's disease, so bloody stool in this client is an atypical finding worth further follow-up rather than dismissing it as diet-related. Incorrect: Option A is the closest trap because it sounds authoritative, but it swaps the diarrhea types — bloody diarrhea is the hallmark of ulcerative colitis, not Crohn's disease.",
+                    "topic": "Lower GI Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A nursing student caring for a client with suspected peritonitis reports the abdomen as \"distended and soft.\" What should the supervising nurse recognize as the priority reassessment?",
+                    "options": [
+                        "Reassess for a rigid abdomen, the true hallmark of peritonitis.",
+                        "Reassess bowel sounds, since hyperactivity is the hallmark finding.",
+                        "Reassess for RLQ tenderness as the true hallmark finding instead.",
+                        "No reassessment needed; a soft, distended abdomen fits peritonitis."
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: The biggest clinical sign of peritonitis is a rigid, board-like abdomen, which is distinctly different from a distended, soft abdomen, so the student's finding does not match what is expected and needs reassessment. Incorrect: Option D is the closest trap because distension can occur in abdominal disease generally, but peritonitis is specifically taught as producing rigidity, not softness, so it cannot be accepted at face value.",
+                    "topic": "Lower GI Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A new nurse states that the tachycardia and hypotension seen in peritonitis are caused only by the sympathetic nervous system response to pain. How should the preceptor correct this statement?",
+                    "options": [
+                        "Agree, since pain is the only driver of these vital sign changes.",
+                        "Explain that fluid shifts from third spacing are the main driver.",
+                        "Explain that decreased peristalsis alone causes these vital sign changes.",
+                        "Explain that these changes appear only after paralytic ileus develops."
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: While sympathetic activation from pain contributes, the vital sign changes in peritonitis are mostly related to the fluid shifts (third spacing) that peritonitis causes, so pain alone is an incomplete explanation. Incorrect: Option A is the closest trap because pain is a real contributing factor, but the teaching point specifically ranks fluid shifts as the larger driver, not the sole one.",
+                    "topic": "Lower GI Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "The nurse is caring for two clients: Client A has appendicitis with an intact, unruptured appendix and mild RLQ tenderness. Client B sustained a ruptured spleen after trauma. Based on the common mechanism behind peritonitis, which client is at greater immediate risk for developing it?",
+                    "options": [
+                        "Client A, since appendicitis is the single most common cause overall.",
+                        "Neither, since peritonitis only develops from a ruptured GI organ.",
+                        "Client B, since rupture lets contents leak into the cavity.",
+                        "Both equally, since any lower abdominal condition carries equal risk."
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: Peritonitis causes share a common theme of rupture or perforation letting contents that should stay contained escape into the peritoneal cavity; Client B's ruptured spleen fits this mechanism directly, while Client A's appendix is still intact. Incorrect: Option B is the closest trap because it recalls that rupture is the theme, but it wrongly excludes the spleen, which is explicitly listed as a peritonitis cause alongside the gut organs.",
+                    "topic": "Lower GI Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client newly diagnosed with IBS states, \"My doctor said this is basically a stress illness — the stress is what's causing my bowel problems.\" What is the nurse's best response?",
+                    "options": [
+                        "\"That's right, stress is the primary cause of IBS for most clients.\"",
+                        "\"Stress only worsens symptoms for clients with the IBS-D subtype.\"",
+                        "\"Your bowel symptoms and stress levels are actually unrelated.\"",
+                        "\"Stress doesn't cause IBS, but it can make your symptoms worse.\""
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: Psychosocial stress is almost never a primary cause of IBS, but it is taught to exacerbate/worsen existing symptoms, and the relationship also runs the other way since IBS itself is stressful to live with. Incorrect: Option A is the closest trap because it repeats the client's own belief convincingly, but it directly contradicts the point that stress is not the primary cause.",
+                    "topic": "Lower GI Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client asks why a routine colonoscopy found \"pouches in the colon\" even though the client has never had any related symptoms. Which explanation is accurate?",
+                    "options": [
+                        "This is diverticulosis, usually silent unless a pouch becomes inflamed.",
+                        "This is diverticulitis, usually asymptomatic until it perforates suddenly.",
+                        "This is diverticulosis, which always progresses to toxic megacolon untreated.",
+                        "This is diverticulitis, which develops from a chronic high-fiber diet."
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: Diverticulosis is the presence of colon pouches and is generally asymptomatic, typically found incidentally or once it progresses to diverticulitis (inflammation of a pouch). Incorrect: Option D is the closest trap because it correctly links diet to pouch disease, but it reverses the diet fact — a low-fiber diet causing chronic constipation is the taught cause, not a high-fiber diet, and this describes diverticulosis rather than diverticulitis.",
+                    "topic": "Lower GI Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "The nurse reviews a new sulfasalazine prescription for a client with mild-to-moderate Crohn's disease. The client has a documented sulfa allergy and a history of anemia. What is the priority nursing action?",
+                    "options": [
+                        "Administer as prescribed, using extra caution for the anemia history.",
+                        "Hold the medication and notify the provider about the sulfa allergy.",
+                        "Hold the medication only because the anemia history is concerning.",
+                        "Administer as prescribed; the sulfa allergy does not apply here."
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: Sulfasalazine is contraindicated in clients with a sulfa allergy because it converts to sulfapyridine in the intestines, so the medication should be held and the provider notified. Incorrect: Option C is the closest trap because anemia is a real precaution listed for this drug, but the page teaches anemia as a \"use caution\" issue, not a contraindication like the sulfa allergy is.",
+                    "topic": "Lower GI Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "Before a client's first infliximab infusion, which pre-screening finding is the priority for the nurse to report to the provider?",
+                    "options": [
+                        "The client's vaccination record is fully up to date.",
+                        "The client's baseline CRP level is within normal limits.",
+                        "The client's TB skin test result comes back positive.",
+                        "The client's baseline vaccine titers show adequate immunity."
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: Because infliximab suppresses the immune system, clients must be screened for TB/latent TB before starting; a positive result is a priority finding that needs provider follow-up before the immunosuppressive infusion begins. Incorrect: Options A, B, and D are the closest traps because they are all real parts of infliximab pre-screening and monitoring, but each describes a normal, reassuring result rather than the concerning finding that changes the plan of care.",
+                    "topic": "Lower GI Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with a history of ulcerative colitis reports sudden severe abdominal distension, fever, and a rapidly rising heart rate. Which complication should the nurse suspect first?",
+                    "options": [
+                        "A fistula, the most common serious complication of ulcerative colitis.",
+                        "Skip lesions progressing directly into a bowel obstruction.",
+                        "New granuloma formation causing sudden bowel perforation.",
+                        "Toxic megacolon, a life-threatening dilation of the large intestine."
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: Toxic megacolon is a rapid, life-threatening dilation of the large intestine and a recognized serious complication of ulcerative colitis, matching this client's sudden distension, fever, and tachycardia. Incorrect: Option A is the closest trap because fistulas are a real IBD complication, but they are taught as a Crohn's disease complication, not a hallmark ulcerative colitis complication like toxic megacolon.",
+                    "topic": "Lower GI Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "The nurse is teaching a client about complications associated with ulcerative colitis. Which of the following should be included? Select all that apply.",
+                    "options": [
+                        "Toxic megacolon, a rapid dilation of the colon",
+                        "Fistulas connecting the bowel to nearby organs or skin",
+                        "Hemorrhage from fragile granulation tissue",
+                        "Granulomas identified on colonoscopy imaging",
+                        "A higher risk of colon cancer than with Crohn disease",
+                        "Increased risk of venous thromboembolism (VTE/DVT)"
+                    ],
+                    "answers": [
+                        0,
+                        2,
+                        4,
+                        5
+                    ],
+                    "rationale": "Correct: Ulcerative colitis complications taught on this page include toxic megacolon, hemorrhage from fragile granulation tissue, a much higher colon cancer risk than Crohn's disease, and increased VTE/DVT risk (shared by both IBD conditions). Incorrect: Fistulas and granulomas are hallmark Crohn's disease features (transmural fistula formation and granulomas), not ulcerative colitis findings, making them the closest traps for a student mixing up the two conditions.",
+                    "topic": "Lower GI Disorders",
+                    "source": "quiz-bank"
+                }
+            ],
+            "eaq": []
+        }
+    },
+    {
+        "id": "week5-gi-pharmacology",
+        "label": "GI Symptom Pharmacology",
+        "week": 5,
+        "sets": {
+            "mustKnow": [],
+            "extraPractice": [
+                {
+                    "stem": "Mrs. Alvarez takes a daily SSRI for depression and receives a single IV dose of ondansetron for postoperative nausea. Which statement by the nurse best reflects appropriate understanding of this combination?",
+                    "options": [
+                        "This is fine to give, but she should be monitored closely.",
+                        "The ondansetron must be held indefinitely whenever a client takes any SSRI.",
+                        "This interaction only matters if she is also taking an antipsychotic.",
+                        "No monitoring is needed, since ondansetron doesn't affect serotonin."
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: Ondansetron affects serotonin, so combining it with a daily serotonergic drug like an SSRI raises serotonin syndrome risk; a single dose is usually fine but the combination warrants closer monitoring, especially on the first dose. Incorrect: Option 2 (\"only matters if also taking an antipsychotic\") is wrong because the page ties serotonin syndrome risk to serotonergic drugs (SSRIs, SNRIs, TCAs, MAOIs, buspirone, tramadol), not antipsychotics — that combination raises EPS/NMS risk with a different drug, metoclopramide.",
+                    "topic": "GI Symptom Pharmacology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A student nurse states, \"Hydroxyzine must be an H2 blocker since it's used for stomach-related symptoms.\" How should the instructor correct this statement?",
+                    "options": [
+                        "Hydroxyzine blocks H2 receptors in the stomach to reduce acid production.",
+                        "Hydroxyzine is an H1 blocker that works in the inner ear, not an H2 blocker.",
+                        "Hydroxyzine blocks dopamine receptors in the CTZ like ondansetron does.",
+                        "Hydroxyzine and H2 blockers treat the same condition, so the label doesn't matter."
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: Hydroxyzine is explicitly an H1 receptor blocker acting in the inner ear, used for motion sickness, dizziness, and nausea — not an H2 blocker, which is a different drug class for a different purpose. Incorrect: Option 2 borrows ondansetron's chemoreceptor trigger zone (CTZ)/serotonin mechanism and misapplies it to hydroxyzine, which works through H1 blockade in the inner ear, not dopamine or the CTZ.",
+                    "topic": "GI Symptom Pharmacology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "Mr. Diallo has taken metoclopramide regularly for several months and now develops repetitive tongue twisting, lip smacking, and chewing motions. This presentation is most consistent with:",
+                    "options": [
+                        "Akathisia, since he feels a constant urge to move.",
+                        "Acute dystonia, since the contractions are involuntary.",
+                        "Tardive dyskinesia, appearing after prolonged use.",
+                        "Parkinsonism, since tremors and limb rigidity are present."
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: Tardive dyskinesia is the late-onset EPS finding that develops with prolonged exposure, presenting as repetitive involuntary facial movements such as tongue twisting, chewing, and lip smacking — matching both the months-long timeline and the specific findings. Incorrect: Option 1 (acute dystonia) describes involuntary muscle contractions generally, not the facial/oral movements or the late-onset, prolonged-use pattern described here.",
+                    "topic": "GI Symptom Pharmacology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "The nurse is caring for two clients on metoclopramide. Client A, three days post-op, still has absent bowel sounds. Client B, on metoclopramide for months combined with an antipsychotic, now has new muscle rigidity and a 102°F fever. Which client should the nurse assess first?",
+                    "options": [
+                        "Client A, since absent bowel sounds need urgent metoclopramide dosing.",
+                        "Client A, since prokinetic use is always the higher priority.",
+                        "Client B, since rigidity and fever simply indicate acute dystonia.",
+                        "Client B, since rigidity and fever are early signs of NMS."
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: Rigid muscles and fever are described as the first signs of neuroleptic malignant syndrome (NMS), a rare but life-threatening complication that can progress to confusion and seizures, so Client B needs immediate assessment. Incorrect: Option 2 mislabels the same findings as acute dystonia (involuntary muscle contractions), which is a different, less severe EPS finding not defined by fever; absent bowel sounds after surgery (Client A) is an expected use for the prokinetic effect, not an emergency.",
+                    "topic": "GI Symptom Pharmacology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client taking an atropine-containing antidiarrheal combination asks why the nurse keeps checking his heart rate for \"just a diarrhea medication.\" What is the nurse's best explanation?",
+                    "options": [
+                        "This drug's anticholinergic effect can cause bradycardia.",
+                        "Heart rate is checked because these combination drugs commonly cause tachycardia.",
+                        "Heart rate is checked to detect the sedation these drugs typically cause.",
+                        "Heart rate is checked to detect the constipation these drugs can cause."
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: Atropine-containing antidiarrheal combinations can cause bradycardia because atropine is anticholinergic and drying, so heart rate monitoring is specifically tied to that effect. Incorrect: Option 1 reverses the actual direction of the cardiac effect (bradycardia, not tachycardia); drowsiness and constipation are real concerns with antidiarrheals but are not why heart rate specifically is monitored.",
+                    "topic": "GI Symptom Pharmacology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "An elderly client receiving hydroxyzine for nausea develops new confusion, blurred vision, dry mucous membranes, and a flushed, hot face during the shift. Which additional findings, if present, would also fit the anticholinergic toxidrome taught for this drug? Select all that apply.",
+                    "options": [
+                        "Worsening confusion and disorientation",
+                        "Blurred vision",
+                        "Dry mucous membranes and dry skin",
+                        "Flushed skin with elevated temperature",
+                        "Profuse watery diarrhea",
+                        "New bradycardia"
+                    ],
+                    "answers": [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    "rationale": "Correct: The mnemonic taught for this toxidrome is \"mad as a hatter\" (CNS/mental status changes), \"blind as a bat\" (blurred vision), \"dry as a bone\" (dry mucous membranes), \"red as a beet\" (flushing), and \"hot as a hare\" (hyperthermia) — options 0-3 all match these. Incorrect: Diarrhea (option 4) is a listed adverse reaction of ondansetron, a different antiemetic, and is the opposite of the drying effect anticholinergics cause; bradycardia (option 5) is tied on this page to atropine-containing antidiarrheals, not H1-blocking antiemetics.",
+                    "topic": "GI Symptom Pharmacology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client asks why she received ondansetron for nausea from a migraine, since she'd only heard of it being used for chemotherapy patients. What is the nurse's best explanation?",
+                    "options": [
+                        "Ondansetron only works for chemo- and radiation-induced nausea; this order is an error.",
+                        "It was originally for chemo/radiation nausea, now broadly applied.",
+                        "Ondansetron blocks dopamine receptors, so it treats all causes of nausea.",
+                        "Ondansetron can only be given IV for nausea that isn't chemo-related."
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: Ondansetron was originally developed for chemotherapy- and radiation-induced nausea/vomiting but is now used broadly for any type of nausea, including non-oncologic causes like migraine. Incorrect: Option 2 misattributes ondansetron's mechanism as dopamine blockade, which is actually metoclopramide's mechanism; ondansetron is a serotonin (5-HT3) blocker, and it can be given PO or IV, not IV-only.",
+                    "topic": "GI Symptom Pharmacology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with cystic fibrosis-related GI motility issues and a client who just finished chemotherapy are both prescribed metoclopramide. Which statement correctly distinguishes the reason for use in each client?",
+                    "options": [
+                        "Both clients receive it purely for its antiemetic effect on the CTZ.",
+                        "The CF client receives it as an antiemetic; the chemo client, as a prokinetic.",
+                        "The CF client receives it as a prokinetic; the chemo client, as an antiemetic.",
+                        "Neither use is appropriate, since metoclopramide only treats opioid-induced nausea."
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: Metoclopramide's prokinetic use targets decreased peristalsis, as seen in cystic fibrosis, while its antiemetic use covers nausea/vomiting from chemotherapy, radiation, and opioids — so the CF client is prokinetic use and the chemo client is antiemetic use. Incorrect: Option 1 reverses this exact pairing; option 0 misattributes a CTZ mechanism to metoclopramide, which is actually ondansetron's site of action, since metoclopramide works by blocking dopamine and increasing LES tone/peristalsis.",
+                    "topic": "GI Symptom Pharmacology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "An elderly client is prescribed both hydroxyzine and metoclopramide for nausea. Based on their combined effects, which nursing concern is the priority?",
+                    "options": [
+                        "Increased risk of bradycardia from combined anticholinergic effects.",
+                        "Increased risk of tardive dyskinesia from the hydroxyzine.",
+                        "Decreased peristalsis from the hydroxyzine's H1 blockade.",
+                        "Increased fall risk from additive sedation from the combination."
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: Both hydroxyzine (significant sedation, anticholinergic effects) and metoclopramide (can also sedate) contribute additive sedation, and the page specifically flags elderly clients on these sedating antiemetics as having increased fall risk. Incorrect: Tardive dyskinesia is an EPS finding tied to metoclopramide's dopamine-blocking effect, not hydroxyzine; metoclopramide increases, not decreases, peristalsis, and that effect isn't caused by H1 blockade.",
+                    "topic": "GI Symptom Pharmacology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A nurse prepares to administer hydroxyzine IV push for a client's nausea because the client already has IV access and cannot tolerate oral intake. What should the charge nurse do?",
+                    "options": [
+                        "Stop the nurse; hydroxyzine should never be given IV.",
+                        "Allow it, since existing IV access makes IV push the safest route.",
+                        "Allow it, but only if the client is also receiving ondansetron.",
+                        "Stop the nurse; hydroxyzine should be given IM only in elderly clients."
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: Hydroxyzine should never be given IV, since IV administration can cause significant tissue damage, thrombosis, and gangrene; it can be given IM instead. Incorrect: Option 3 correctly identifies IM as the route but wrongly restricts it to elderly clients only — the IM route and IV prohibition apply to any client, not just older adults.",
+                    "topic": "GI Symptom Pharmacology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "Client A receives a single dose of metoclopramide after surgery. Client B takes metoclopramide daily along with an antipsychotic for a chronic condition. Which client is at higher risk for EPS?",
+                    "options": [
+                        "Client A, because postoperative metoclopramide use carries the highest EPS risk.",
+                        "Client B, since regular use with an antipsychotic raises EPS risk.",
+                        "Both clients have equal EPS risk regardless of dosing frequency or other medications.",
+                        "Neither client is at risk, since EPS only occurs with antipsychotics alone."
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: EPS with metoclopramide is more common with regular/prolonged use or when combined with antipsychotic medications, so Client B's daily use plus antipsychotic combination carries the higher risk. Incorrect: Option 3 contradicts the fact that metoclopramide itself, via dopamine blockade, can cause EPS even without an antipsychotic; a single postoperative dose (Client A) is not the higher-risk pattern described.",
+                    "topic": "GI Symptom Pharmacology",
+                    "source": "quiz-bank"
+                }
+            ],
+            "eaq": []
+        }
+    },
+    {
+        "id": "week5-endocrine-disorders",
+        "label": "Endocrine Disorders",
+        "week": 5,
+        "sets": {
+            "mustKnow": [],
+            "extraPractice": [
+                {
+                    "stem": "A nurse compares two clients on the endocrine unit. Client A has hypertension, a moon face, and purple striae. Client B has hypotension, salt cravings, and tanned-looking skin. Client B's presentation best fits which diagnosis?",
+                    "options": [
+                        "Addison's disease",
+                        "Cushing's syndrome",
+                        "Pheochromocytoma",
+                        "Diabetes insipidus"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: Addison's disease causes hypoaldosteronism (hypotension, salt craving) and hyperpigmentation from co-secreted MSH. Incorrect: Cushing's syndrome is the closest distractor because it is the mirror-image adrenal cortex disorder, but it produces hypertension, moon face, and striae (Client A's picture), not hypotension and tanning.",
+                    "topic": "Endocrine Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client has been on high-dose prednisone for 18 months for a chronic inflammatory condition and now shows cushingoid features. The provider is discontinuing the steroid. Which approach is correct for this type of Cushing's syndrome?",
+                    "options": [
+                        "Stop the prednisone abruptly",
+                        "Taper the prednisone dose slowly",
+                        "Schedule adrenal gland surgery",
+                        "Begin pituitary radiation therapy"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: exogenous Cushing's syndrome from chronic steroid use is treated by slowly tapering the dose to the lowest symptom-controlling level, never stopping abruptly. Incorrect: abrupt cessation (the tempting choice) is explicitly warned against on the page; surgery and radiation are treatments for primary and secondary Cushing's, not exogenous steroid-induced Cushing's.",
+                    "topic": "Endocrine Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with long-standing Cushing's syndrome is scheduled for surgery tomorrow. The nurse identifies a risk for hemodynamic instability during the procedure because chronically elevated cortisol has done what?",
+                    "options": [
+                        "Increased ACTH secretion from the pituitary",
+                        "Caused the adrenal gland to hypertrophy",
+                        "Blunted the stress-cortisol feedback loop",
+                        "Increased aldosterone secretion alone"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: chronically elevated cortisol prevents the feedback loop from letting cortisol rise further in response to a new stressor like surgery, so the client may need supplemental ACTH or cortisol. Incorrect: ACTH is actually suppressed (not increased) by the chronic cortisol excess, and the adrenal gland can atrophy from disuse over time, not hypertrophy.",
+                    "topic": "Endocrine Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with Addison's disease reports craving salty foods. Laboratory results show sodium 128 mEq/L and potassium 5.6 mEq/L. This electrolyte pattern results from deficiency of which hormone?",
+                    "options": [
+                        "Deficiency of cortisol only",
+                        "Deficiency of ACTH signaling",
+                        "Deficiency of adrenal androgens",
+                        "Deficiency of aldosterone"
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: aldosterone loss causes sodium and water loss with reciprocal potassium retention, plus salt craving. Incorrect: cortisol deficiency mainly drives hypoglycemia and fatigue, not this electrolyte pattern; ACTH is actually elevated (not deficient) as the pituitary's compensatory response.",
+                    "topic": "Endocrine Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client on long-term hydrocortisone for Addison's disease tells the nurse, 'I feel fine now, so I'm going to stop taking my steroid.' The nurse explains that abrupt cessation can precipitate what?",
+                    "options": [
+                        "Addisonian crisis",
+                        "Cushingoid features",
+                        "SIADH",
+                        "Diabetes insipidus"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: abruptly stopping corticosteroid therapy in Addison's disease is a direct trigger for an Addisonian crisis, a life-threatening emergency. Incorrect: Cushingoid features come from steroid excess, not withdrawal; SIADH and diabetes insipidus involve the separate ADH axis, not adrenal cortex withdrawal.",
+                    "topic": "Endocrine Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client is newly diagnosed with Addison's disease after presenting with advanced symptoms. Manifestations of Addison's disease typically do not appear until approximately what percentage of the adrenal cortex has been destroyed?",
+                    "options": [
+                        "50%",
+                        "90%",
+                        "25%",
+                        "75%"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: the page states manifestations typically don't become evident until about 90% of the adrenal cortex has been destroyed, explaining the advanced presentation. Incorrect: 75% is the closest distractor but understates how much destruction the page specifies has usually occurred before symptoms appear.",
+                    "topic": "Endocrine Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with Addison's disease is prescribed both hydrocortisone and fludrocortisone. A student asks why hydrocortisone alone, at a higher dose, isn't just used to cover everything. The instructor explains that fludrocortisone specifically provides what?",
+                    "options": [
+                        "Glucocorticoid activity",
+                        "Suppression of ACTH secretion",
+                        "Mineralocorticoid activity",
+                        "Androgen replacement"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: fludrocortisone is the only mineralocorticoid replacement drug available and works like aldosterone on salt and water balance. Incorrect: glucocorticoid activity is already supplied by hydrocortisone (the closest distractor, since hydrocortisone does have some of both activities); ACTH suppression and androgen replacement are not the stated purpose of fludrocortisone.",
+                    "topic": "Endocrine Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with Addison's disease develops a respiratory infection. Per standard sick-day teaching, how should the client adjust the glucocorticoid dose during this stress event?",
+                    "options": [
+                        "Skip doses until symptoms resolve",
+                        "Double the dose for one day",
+                        "Add fludrocortisone at the same dose",
+                        "Triple the dose for three days"
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: the '3-by-3 rule' teaches taking three times the usual glucocorticoid dose for three days during any stress event, in coordination with the provider. Incorrect: doubling for one day (the closest distractor) does not match the taught rule, and skipping doses during illness is dangerous since stress increases the need for glucocorticoid, not less.",
+                    "topic": "Endocrine Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client reports sudden episodes of severe headache, sweating, and palpitations with blood pressure spikes triggered by stress or exercise, resolving between episodes. As opposed to the sustained hypertension of Cushing's syndrome, this episodic pattern is most consistent with which condition?",
+                    "options": [
+                        "Pheochromocytoma",
+                        "Addison's disease",
+                        "SIADH",
+                        "Diabetes insipidus"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: pheochromocytoma causes the classic triad of headache, diaphoresis, and tachycardia in sporadic episodes triggered by sympathetic stimulation, unlike Cushing's steadier hypertension. Incorrect: Addison's disease causes hypotension, not hypertensive spikes; SIADH and diabetes insipidus are ADH disorders without this catecholamine-driven triad.",
+                    "topic": "Endocrine Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A nursing student states, 'Phenoxybenzamine seems like a poor choice for pheochromocytoma because its receptor blockade can't be reversed.' Using only pheochromocytoma-specific reasoning, how should the instructor correct this statement?",
+                    "options": [
+                        "Irreversible blockade is unsafe and must be avoided at all costs",
+                        "Irreversible blockade gives long-lasting alpha-receptor control",
+                        "Phenoxybenzamine is only ever used after surgery, never before",
+                        "The irreversible effect only ever affects beta receptors, not alpha"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: the page notes that although irreversible receptor blockade is usually undesirable, in pheochromocytoma it is exactly what's wanted for long-lasting alpha-receptor blockade before and during surgical manipulation. Incorrect: it is given before surgery (about 10-14 days prior), continuing briefly after, not only afterward, and it blocks alpha receptors, not beta.",
+                    "topic": "Endocrine Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with SIADH has a serum sodium of 130 mEq/L, weight gain, and low urine output. The provider is deciding whether to add a loop diuretic. Based on the sodium threshold given for SIADH management, is a loop diuretic appropriate here?",
+                    "options": [
+                        "No, loop diuretics are never used in SIADH",
+                        "No, the sodium is too high for diuretics",
+                        "Yes, sodium is above 125 mEq/L",
+                        "Yes, but only combined with desmopressin"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: loop diuretics can be given in SIADH only when sodium is above 125 mEq/L, and 130 mEq/L meets that threshold. Incorrect: loop diuretics are used in SIADH under that specific condition, not never; desmopressin treats diabetes insipidus, the opposite ADH problem, and would worsen SIADH's water retention.",
+                    "topic": "Endocrine Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with a history of small cell lung carcinoma and a client recovering from a recent head injury both develop hyponatremia and concentrated urine consistent with SIADH. Which client's cause reflects the single most common cause of SIADH?",
+                    "options": [
+                        "Neither; SSRIs are the most common cause",
+                        "The client with the head injury",
+                        "Neither; hypothyroidism is the most common cause",
+                        "The client with small cell lung carcinoma"
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: a malignant tumor, specifically small cell carcinoma of the lung, is described as by far the most common cause of SIADH. Incorrect: head trauma is a listed CNS cause but not the most common one; SSRIs and hypothyroidism are also listed causes, but neither is identified as the leading cause.",
+                    "topic": "Endocrine Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "Two clients are being evaluated. Client A has serum sodium 152 mEq/L, dilute urine, and 6 L of urine output in 8 hours. Client B has serum sodium 128 mEq/L, concentrated urine, and minimal urine output. Client A's findings are most consistent with which condition?",
+                    "options": [
+                        "Diabetes insipidus",
+                        "SIADH",
+                        "Addison's disease",
+                        "Cushing's syndrome"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: diabetes insipidus produces very high serum sodium, dilute urine, and massive urine output (up to 15 L/day), matching Client A. Incorrect: SIADH (the closest distractor, and Client B's picture) causes low sodium with concentrated urine and low output, the opposite pattern; Addison's and Cushing's involve cortisol/aldosterone, not this urine-output pattern.",
+                    "topic": "Endocrine Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client taking long-term lithium for bipolar disorder develops polyuria and dilute urine from nephrogenic diabetes insipidus. The provider asks why desmopressin isn't the treatment of choice here. The nurse explains this is because of what?",
+                    "options": [
+                        "The pituitary has stopped releasing ADH",
+                        "The kidneys can't respond to ADH itself",
+                        "Desmopressin only treats permanent DI cases",
+                        "Lithium has destroyed the pituitary gland"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: in nephrogenic DI the kidneys themselves cannot respond to ADH, so giving more ADH via desmopressin does not help; a thiazide diuretic is used instead. Incorrect: the pituitary release problem (the closest distractor) describes neurogenic DI, not nephrogenic; lithium causes a kidney-level problem, not pituitary destruction.",
+                    "topic": "Endocrine Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A nurse is planning care for a client with SIADH. Select all measures that are appropriate treatments for this client.",
+                    "options": [
+                        "Fluid restriction",
+                        "Desmopressin nasal spray administration",
+                        "Treating the underlying cause",
+                        "Thiazide diuretic (HCTZ) administration",
+                        "Demeclocycline for refractory cases",
+                        "Salt tablets"
+                    ],
+                    "answers": [
+                        0,
+                        2,
+                        4,
+                        5
+                    ],
+                    "rationale": "Correct: fluid restriction is a core non-drug measure, treating/removing the underlying cause (tumor, causative drug, or waiting out trauma) is directed therapy, demeclocycline is used for chronic/refractory SIADH, and salt tablets help replace lost sodium. Incorrect: desmopressin and thiazide diuretics are diabetes insipidus treatments (for neurogenic and nephrogenic DI respectively) and would worsen SIADH's water retention rather than treat it.",
+                    "topic": "Endocrine Disorders",
+                    "source": "quiz-bank"
+                }
+            ],
+            "eaq": []
+        }
+    },
+    {
+        "id": "week5-thyroid-parathyroid-disorders",
+        "label": "Thyroid &amp; Parathyroid Disorders",
+        "week": 5,
+        "sets": {
+            "mustKnow": [],
+            "extraPractice": [
+                {
+                    "stem": "A nurse is assessing a client recently diagnosed with Graves' disease. Which findings should the nurse expect to identify as consistent with this diagnosis? Select all that apply.",
+                    "options": [
+                        "Heat intolerance",
+                        "Weight loss despite a normal appetite",
+                        "Bradycardia with a noticeably slowed heart rate",
+                        "Increased risk for atrial fibrillation",
+                        "Cold intolerance with a slowed heart rate",
+                        "A bruit heard over the enlarged thyroid gland"
+                    ],
+                    "answers": [
+                        0,
+                        1,
+                        3,
+                        5
+                    ],
+                    "rationale": "Correct: Graves' disease (primary hyperthyroidism) speeds metabolism, producing heat intolerance and weight loss, and enhanced catecholamine sensitivity raises the risk for arrhythmias such as atrial fibrillation; the enlarged, hypervascular gland often produces an audible bruit. Incorrect: Bradycardia and cold intolerance are hypothyroidism findings, the opposite metabolic direction from hyperthyroidism/Graves' disease.",
+                    "topic": "Thyroid &amp; Parathyroid Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A nurse is comparing thyroid lab results for two clients being evaluated for hypothyroidism. Client A has an increased TSH with decreased T3 and T4. Client B has a decreased TSH with decreased T3 and T4. Which statement correctly identifies each client's type of hypothyroidism?",
+                    "options": [
+                        "Client A has primary hypothyroidism; Client B has secondary hypothyroidism.",
+                        "Client A has secondary hypothyroidism; Client B has primary hypothyroidism instead.",
+                        "Both clients have primary hypothyroidism, differing only in severity.",
+                        "Both clients have hyperthyroidism, differing only in the underlying cause."
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: An increased TSH with decreased T3/T4 (Client A) shows the pituitary compensating for a failing thyroid gland, which is primary hypothyroidism; a decreased TSH with decreased T3/T4 (Client B) shows pituitary failure to secrete TSH, which is secondary hypothyroidism. Incorrect: The reversed pairing mismatches each client's TSH direction with the wrong type of hypothyroidism -- the client with the INCREASED TSH is the one whose thyroid gland itself has failed, not the one with a decreased TSH.",
+                    "topic": "Thyroid &amp; Parathyroid Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "The nurse is assessing two clients with a history of hyperthyroidism. Client 1 reports feeling anxious and has lost 8 lb (3.6 kg) over the past month. Client 2, one day after a thyroidectomy, has a temperature of 103.1 F (39.5 C), a heart rate of 160/min, and new confusion. Which client requires the nurse's immediate intervention?",
+                    "options": [
+                        "Client 1, because the weight loss and anxiety require urgent treatment.",
+                        "Client 2, because the findings suggest thyroid storm.",
+                        "Both clients, because each has symptoms of hyperthyroidism.",
+                        "Neither client, because these findings are expected after thyroidectomy."
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: Fever, marked tachycardia, and new confusion after a major stressor such as surgery match the life-threatening thyroid storm described on the page, which can cause death within 48 hours if untreated. Incorrect: Client 1's weight loss and anxiety are typical, non-emergent hyperthyroid manifestations rather than the extreme presentation of thyroid storm, so Client 2 -- not both clients equally -- is the priority.",
+                    "topic": "Thyroid &amp; Parathyroid Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client's laboratory results show a TSH of 12 mIU/L (high), a free T4 of 0.6 ng/dL (low), and a positive anti-thyroid peroxidase antibody. Which condition do these findings support?",
+                    "options": [
+                        "Graves' disease",
+                        "Secondary hypothyroidism",
+                        "Hashimoto's thyroiditis",
+                        "Toxic multinodular goiter"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: A high TSH with a low T4 and a positive anti-thyroid peroxidase antibody (the hallmark test on the page) is the classic pattern of Hashimoto's thyroiditis, the most common cause of primary hypothyroidism. Incorrect: Graves' disease would show a LOW TSH with a HIGH T4, the opposite lab pattern; secondary hypothyroidism would show a low, not high, TSH.",
+                    "topic": "Thyroid &amp; Parathyroid Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client taking amiodarone for a cardiac arrhythmia states, 'Since this medication contains iodine, I know it can only make my thyroid overactive.' Which response by the nurse is correct?",
+                    "options": [
+                        "Amiodarone only causes hyperthyroidism because of its iodine content.",
+                        "Amiodarone only affects the parathyroid glands, not the thyroid.",
+                        "Amiodarone causes hypothyroidism exclusively, never hyperthyroidism.",
+                        "Amiodarone can cause either hyperthyroidism or hypothyroidism."
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: The page identifies amiodarone as a medication that can cause EITHER hypothyroidism or hyperthyroidism, so thyroid function requires monitoring in either direction. Incorrect: Confirming the client's belief that it 'only' causes overactivity ignores that amiodarone is also a recognized risk factor for hypothyroidism, and claiming it affects only the parathyroid glands misidentifies the organ involved.",
+                    "topic": "Thyroid &amp; Parathyroid Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client in her second trimester of pregnancy who takes PTU for hyperthyroidism asks the nurse why her provider wants to switch her to a different medication. Which explanation is correct?",
+                    "options": [
+                        "PTU carries a hepatotoxicity risk and is switched after trimester one.",
+                        "PTU is safe throughout all three trimesters and never needs changing.",
+                        "PTU is not safe at any point during pregnancy and should never be used.",
+                        "PTU stops suppressing thyroid hormone after the first trimester."
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: PTU carries a black box warning for hepatotoxicity, so it can be used cautiously only in the first trimester before being changed to a different medication for the second and third trimesters. Incorrect: PTU is not safe throughout the entire pregnancy, but it is also not unsafe from the very start -- it is specifically permitted during the first trimester; the switch is due to liver toxicity risk, not because PTU stops working.",
+                    "topic": "Thyroid &amp; Parathyroid Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client taking both levothyroxine and warfarin reports feeling 'a little more tired than usual' this week. The nurse also notes new bruising on the client's forearms. Which finding is the priority for the nurse to address?",
+                    "options": [
+                        "The fatigue, because it indicates the levothyroxine dose is too low.",
+                        "The bruising, because levothyroxine increases the effect of warfarin.",
+                        "The fatigue, because it indicates the levothyroxine dose is too high.",
+                        "The bruising, because warfarin alone explains it, regardless of levothyroxine."
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: Levothyroxine increases the effect of warfarin, raising bleeding risk, so new bruising in a client on both drugs is the priority safety concern requiring closer monitoring. Incorrect: Mild fatigue alone is a vague complaint that does not clearly indicate a specific dosing problem, and blaming the bruising on warfarin 'alone' ignores the page's specific warning about the levothyroxine-warfarin interaction.",
+                    "topic": "Thyroid &amp; Parathyroid Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "An older adult client with a history of untreated hypothyroidism for several years is found to be minimally responsive with a very low body temperature. Which condition should the nurse suspect?",
+                    "options": [
+                        "Thyroid storm",
+                        "Graves' ophthalmopathy",
+                        "Myxedema coma",
+                        "Hyperparathyroidism"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: Myxedema coma is the life-threatening complication of severe, prolonged, untreated hypothyroidism that causes loss of brain function, matching this client's history and presentation. Incorrect: Thyroid storm is the extreme complication of hyperthyroidism, the opposite condition, and presents with fever and tachycardia rather than a very low temperature and unresponsiveness.",
+                    "topic": "Thyroid &amp; Parathyroid Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "Two days after a thyroidectomy, a client reports new muscle cramping in the hands and appears more irritable than earlier in the shift. Vital signs are within normal limits. Which action should the nurse take first?",
+                    "options": [
+                        "Prepare to give levothyroxine, since surgery can cause hypothyroidism.",
+                        "Notify the provider to obtain an order for calcitonin.",
+                        "Document the finding and reassess again in eight hours.",
+                        "Assess the client for Chvostek's and Trousseau's signs."
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: Muscle cramping and irritability after thyroidectomy are early signs of hypocalcemia from possible parathyroid gland injury, so the nurse should assess for Chvostek's and Trousseau's signs, the bedside checks named on the page. Incorrect: Calcitonin lowers calcium in hyperparathyroidism, the opposite problem, and levothyroxine treats hypothyroidism, not the hypocalcemia caused by parathyroid damage; waiting eight hours delays assessment of a possibly worsening electrolyte imbalance.",
+                    "topic": "Thyroid &amp; Parathyroid Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A nurse is reviewing calcium and phosphate trends for a client with hypoparathyroidism and a different client with hyperparathyroidism. Which statement about their expected lab patterns is correct?",
+                    "options": [
+                        "Hypoparathyroidism raises phosphate and lowers calcium; hyperparathyroidism raises calcium.",
+                        "Both disorders raise calcium and lower phosphate levels.",
+                        "Hypoparathyroidism raises calcium and lowers phosphate; hyperparathyroidism lowers calcium overall.",
+                        "Both disorders lower calcium and raise phosphate levels."
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: Low PTH in hypoparathyroidism causes hypocalcemia with increased phosphate (since PTH normally increases phosphate excretion), while excess PTH in hyperparathyroidism produces hypercalcemia. Incorrect: The option that reverses each disorder's calcium direction has it backwards -- it is hyperparathyroidism, not hypoparathyroidism, that raises calcium, since PTH's core job is raising calcium levels.",
+                    "topic": "Thyroid &amp; Parathyroid Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client is found to have an enlarged thyroid gland on physical exam but has no other signs of thyroid dysfunction and normal thyroid hormone levels. The client asks the nurse if this means the thyroid is not working properly. Which response is correct?",
+                    "options": [
+                        "The thyroid must be producing excess hormone.",
+                        "This is called a nontoxic goiter.",
+                        "This means hypothyroidism is beginning.",
+                        "This can only happen with hyperparathyroidism."
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: A goiter without accompanying symptoms of thyroid dysfunction is called a nontoxic goiter, which the page describes as enlargement that can occur with normal hormone levels. Incorrect: Claiming the gland must be overactive or that hypothyroidism is starting contradicts the stated normal hormone levels, and goiter is a thyroid gland finding, not a parathyroid one.",
+                    "topic": "Thyroid &amp; Parathyroid Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client's radioactive iodine uptake scan shows increased uptake that is diffusely distributed throughout the entire thyroid gland. Which condition does this finding support?",
+                    "options": [
+                        "A cancerous thyroid nodule",
+                        "Secondary hyperthyroidism from a pituitary tumor",
+                        "Graves' disease",
+                        "Hashimoto's thyroiditis"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: The page states that in Graves' disease, radioactive iodine uptake is increased and diffusely distributed over the entire gland. Incorrect: A cancerous nodule would instead produce a focal, localized area of uptake rather than a diffuse pattern; Hashimoto's thyroiditis is a hypothyroid condition and would not show increased uptake reflecting hormone overproduction.",
+                    "topic": "Thyroid &amp; Parathyroid Disorders",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with a history of Graves' disease reports occasional blurry vision during a routine follow-up visit. On examination, the nurse notes bilateral bulging of the eyes with periorbital swelling. Which action should the nurse prioritize?",
+                    "options": [
+                        "Reassure the client that bulging eyes are a cosmetic finding only.",
+                        "Attribute the blurry vision to normal aging and take no action.",
+                        "Delay any eye referral until thyroid hormone levels normalize.",
+                        "Refer the client for a prompt eye examination."
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: The page teaches that any client with a history of hyperthyroidism/Graves' disease needs an eye exam, since Graves' ophthalmopathy can impair vision. Incorrect: Dismissing exophthalmos as purely cosmetic ignores its documented vision-impairment risk, and the client's blurry vision alongside objective bulging and swelling is a Graves' ophthalmopathy finding, not an unrelated age-related symptom or something to delay evaluating.",
+                    "topic": "Thyroid &amp; Parathyroid Disorders",
+                    "source": "quiz-bank"
+                }
+            ],
+            "eaq": []
+        }
     }
 ],
 
@@ -6643,6 +7578,11 @@ window.QUIZ_BANK = {
     "Liver Anatomy, Function &amp; Jaundice",
     "Viral Hepatitis (A, B &amp; C)",
     "Cirrhosis &amp; Liver Failure",
-    "Gallbladder &amp; Pancreatic Disorders"
+    "Gallbladder &amp; Pancreatic Disorders",
+    "Esophageal &amp; Gastric Disorders",
+    "Lower GI Disorders",
+    "GI Symptom Pharmacology",
+    "Endocrine Disorders",
+    "Thyroid &amp; Parathyroid Disorders"
   ]
 };
