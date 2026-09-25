@@ -7559,6 +7559,980 @@ window.QUIZ_BANK = {
             ],
             "eaq": []
         }
+    },
+    {
+        "id": "week6-ischemic-heart-disease-heart-failure",
+        "label": "Ischemic Heart Disease &amp; Heart Failure",
+        "week": 6,
+        "sets": {
+            "mustKnow": [],
+            "extraPractice": [
+                {
+                    "stem": "A client with a 15-year history of type 2 diabetes and hypertension has known coronary plaque on angiogram. During exertion, the nurse notes the client's chest pain worsens rather than improves despite the body's expected compensatory response. Which mechanism best explains this finding?",
+                    "options": [
+                        "Damaged endothelium is vasoconstricting",
+                        "The plaque has fully occluded the vessel",
+                        "Collateral circulation is compensating poorly",
+                        "Estrogen loss has accelerated plaque rupture"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: Endothelial dysfunction causes coronary arteries to vasoconstrict instead of dilating when the heart needs more oxygen, worsening ischemia on top of existing plaque narrowing — driven by this client's diabetes and hypertension. Incorrect: 'Fully occluded vessel' is the closest distractor, but a completely occluded lumen would typically produce pain unrelieved by rest (MI), not exertional worsening from a known angiographic plaque; this scenario reflects the vasoconstrictive endothelial response, not total occlusion.",
+                    "topic": "Ischemic Heart Disease &amp; Heart Failure",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client asks why a blockage in the LAD is more feared clinically than a similar blockage in a vessel with well-developed collateral circulation. What is the nurse's best explanation?",
+                    "options": [
+                        "It vasoconstricts instead of dilating during ischemia",
+                        "It has no collateral circulation to fall back on",
+                        "It is grouped with valve disorders in the \"plumbing\" category",
+                        "It feeds the right ventricle, which perfuses the body"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: The LAD's danger comes specifically from having no collateral circulation to fall back on, so a blockage leaves no backup blood supply — this is why it's called the 'widow maker.' Incorrect: 'Grouped with valve disorders in the plumbing category' is true of the page's broader classification of plumbing problems but doesn't explain why the LAD specifically is more lethal than a vessel with collateral flow.",
+                    "topic": "Ischemic Heart Disease &amp; Heart Failure",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A 58-year-old woman tells the nurse she isn't worried about developing CAD because \"women are protected from heart disease.\" She reached menopause three years ago. Which response is most accurate?",
+                    "options": [
+                        "Estrogen protects her regardless of menopausal status",
+                        "Her risk is lower — postmenopausal women make more estrogen",
+                        "Her risk has increased as estrogen's protection declines",
+                        "Gender doesn't affect CAD risk once factors are controlled"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: Estrogen is cardioprotective before menopause, so a woman's CAD risk increases as that protective effect declines after menopause. Incorrect: The closest distractor claims postmenopausal women 'make more estrogen,' which reverses the actual physiology — menopause is defined by declining estrogen, not increased estrogen.",
+                    "topic": "Ischemic Heart Disease &amp; Heart Failure",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with a known history of stable angina reports today's chest discomfort started with light housework, has lasted about 15 minutes despite sitting down to rest, and feels different from prior episodes. What should the nurse prioritize?",
+                    "options": [
+                        "Reassure the client that stable angina can last 15 minutes",
+                        "Have the client take a nitrate and wait 15 more minutes",
+                        "Chart this as a typical anginal episode",
+                        "Treat this as a possible MI and seek urgent care"
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: Stable angina typically lasts only 2–5 minutes and resolves with rest; pain triggered by minimal exertion that persists 15 minutes despite rest no longer fits that pattern and is a red flag for unstable angina or MI requiring urgent evaluation. Incorrect: 'Take a nitrate and wait 15 more minutes' is the closest distractor, but delaying further action ignores that the rest-relief criterion for stable angina has already failed.",
+                    "topic": "Ischemic Heart Disease &amp; Heart Failure",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "Two clients report chest pain during exertion. Client A's pain resolves within 4 minutes of sitting down. Client B's pain has persisted for 20 minutes despite rest and now radiates to the jaw with nausea. Which client's presentation is most consistent with MI rather than stable angina?",
+                    "options": [
+                        "Client B — pain is not relieved by rest",
+                        "Client A — pain occurred during exertion",
+                        "Client B — pain lasted only 4 minutes",
+                        "Client A — pain radiates to the jaw"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: Pain not relieved by rest is the specific feature this content uses to distinguish MI from stable angina, which is why Client B's presentation is concerning. Incorrect: The closest distractor swaps the durations — Client A's pain (not Client B's) lasted about 4 minutes, consistent with stable angina's typical 2–5 minute window.",
+                    "topic": "Ischemic Heart Disease &amp; Heart Failure",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A woman having an MI tells the nurse, \"It can't be my heart — I don't have the crushing chest pressure my husband had.\" Which response reflects accurate teaching from this content?",
+                    "options": [
+                        "Women's MIs always present with classic chest pressure",
+                        "Women often present atypically, not with pressure",
+                        "Chest pain is required to diagnose MI in any client",
+                        "Nausea and fatigue rule out a cardiac cause in women"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: Women often present atypically — with hot/burning discomfort, pain outside the chest, indigestion, nausea, or fatigue rather than classic chest pressure — a documented reason MI is missed or delayed in women. Incorrect: The claim that women's MIs 'always' present with classic chest pressure is the opposite of this content's point about atypical presentation.",
+                    "topic": "Ischemic Heart Disease &amp; Heart Failure",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client points with one finger to a specific spot on the chest wall and says, \"It hurts right here.\" Based on this content, how should the nurse interpret this description?",
+                    "options": [
+                        "This is classic for cardiac chest pain",
+                        "This confirms unstable angina",
+                        "This suggests a non-cardiac source",
+                        "This matches a typical MI radiating pattern"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: A focal description the client can pinpoint ('right here') is characteristic of non-cardiac chest pain, per this content's comparison table. Incorrect: The closest distractor calls this 'classic for cardiac chest pain,' but cardiac pain is described as diffuse and hard to pinpoint (pressure, tightness, 'an elephant sitting on my chest'), the opposite of a pointed-to focal location.",
+                    "topic": "Ischemic Heart Disease &amp; Heart Failure",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "In the heart failure hemodynamic chain described in this content, which change occurs first, setting off the rest of the sequence?",
+                    "options": [
+                        "Increased afterload",
+                        "Increased preload",
+                        "Fluid volume overload",
+                        "Contractility drops"
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: In the HF hemodynamic chain, contractility decreases first, which then drives the rest of the sequence. Incorrect: 'Increased preload' is the closest distractor because it is the hallmark fluid-overload finding, but it is the second step in the chain — a consequence of decreased contractility, not the initiating event.",
+                    "topic": "Ischemic Heart Disease &amp; Heart Failure",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "An echocardiogram shows a stiff, non-compliant left ventricle that cannot relax and fill properly. The client also has amyloid deposits noted on biopsy and is developing right-sided heart failure. Which type of cardiomyopathy is most consistent with this picture?",
+                    "options": [
+                        "Restrictive cardiomyopathy",
+                        "Dilated cardiomyopathy",
+                        "Hypertrophic cardiomyopathy",
+                        "Peripartum cardiomyopathy"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: A stiff, non-compliant ventricle with impaired relaxation/filling, amyloid deposits, and a tendency toward right-sided heart failure are the defining features of restrictive cardiomyopathy on this page. Incorrect: Dilated cardiomyopathy is the closest distractor since peripartum cardiomyopathy (offered as another option) is actually listed as a cause/association of dilated — not restrictive — cardiomyopathy, and dilated leads to HFrEF, not the picture described here.",
+                    "topic": "Ischemic Heart Disease &amp; Heart Failure",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with severe COPD and a separate client with a 10-year history of stable angina both ask whether their condition puts them at risk for heart failure. Based on this content, which statement is accurate?",
+                    "options": [
+                        "Neither COPD nor stable angina raises HF risk",
+                        "COPD raises HF risk; stable angina does not",
+                        "Stable angina raises HF risk; COPD does not",
+                        "Both raise HF risk equally"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: This content explicitly lists COPD as a heart failure cause/risk factor (via right-sided strain), while stable angina by itself is specifically called out as generally NOT a heart failure risk factor. Incorrect: The closest distractor reverses this pairing, claiming stable angina raises HF risk while COPD does not — exactly backwards from what the page states.",
+                    "topic": "Ischemic Heart Disease &amp; Heart Failure",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A male client and a female client both had an MI last year. Based on the statistics in this content, which statement about their heart failure risk is accurate?",
+                    "options": [
+                        "The male client has a higher HF risk after MI",
+                        "Both clients have identical HF risk after MI",
+                        "The female client has higher HF risk",
+                        "Neither client has increased HF risk after MI"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: This content states that about 22% of men versus 46% of women who have an MI go on to develop heart failure, meaning the female client's risk is roughly double. Incorrect: The closest distractor claims the male client has the higher risk, which reverses the actual statistic.",
+                    "topic": "Ischemic Heart Disease &amp; Heart Failure",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with a history of alcohol use disorder and current marijuana use asks which of these substances is linked to heart failure risk per this content. Which is accurate?",
+                    "options": [
+                        "Marijuana raises HF risk; alcohol does not",
+                        "Both are equally linked to HF risk",
+                        "Neither is linked to HF risk",
+                        "Alcohol raises HF risk; marijuana does not"
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: This content specifically notes that alcohol, cocaine, and crack are associated with heart failure risk, while marijuana is currently not associated with that risk. Incorrect: The closest distractor reverses this, claiming marijuana raises risk while alcohol does not — the opposite of what is stated.",
+                    "topic": "Ischemic Heart Disease &amp; Heart Failure",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "The nurse auscultates a low-pitched heart sound occurring just after S2 in a 52-year-old client. How should the nurse interpret this finding based on this content?",
+                    "options": [
+                        "An S3 gallop",
+                        "A normal S1 split",
+                        "A pericardial friction rub",
+                        "A benign finding in this age group"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: A low-pitched sound heard just after S2 in early diastole is an S3 gallop, and in adults over 40 (this client is 52), it is considered an indicator of heart failure per this content. Incorrect: The closest distractor calls this 'a benign finding in this age group,' but the page specifically states an S3 is a heart failure indicator in adults over 40, not a benign finding.",
+                    "topic": "Ischemic Heart Disease &amp; Heart Failure",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client's echocardiogram shows an ejection fraction of 38%, down from a prior normal reading. Which classification and mechanism are consistent with this finding?",
+                    "options": [
+                        "HFpEF, from impaired ventricular relaxation",
+                        "HFrEF, from impaired contractile function",
+                        "HFpEF, from preserved ejection fraction and normal relaxation",
+                        "Normal cardiac function requiring no follow-up"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: An EF of 38% falls below the HFrEF threshold of under 40%, reflecting impaired contractile (pumping) function. Incorrect: The closest distractor labels this HFpEF from impaired relaxation, but HFpEF corresponds to an EF of 40–50% with preserved contractility — an EF of 38% is too low to fit that category.",
+                    "topic": "Ischemic Heart Disease &amp; Heart Failure",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with left-sided heart failure is being assessed by the nurse. Which findings should the nurse expect as a result of pulmonary congestion? Select all that apply.",
+                    "options": [
+                        "Crackles on auscultation",
+                        "Jugular venous distension (JVD)",
+                        "Paroxysmal nocturnal dyspnea",
+                        "Dependent edema",
+                        "Frothy, blood-tinged sputum",
+                        "Orthopnea (tripod position)"
+                    ],
+                    "answers": [
+                        0,
+                        2,
+                        4,
+                        5
+                    ],
+                    "rationale": "Correct: Left-sided heart failure causes pulmonary congestion, producing crackles, paroxysmal nocturnal dyspnea, frothy/blood-tinged sputum, and orthopnea requiring a tripod position — all from blood backing up into the lungs. Incorrect: Jugular venous distension and dependent edema are systemic congestion findings caused by right-sided heart failure, where blood backs up into the venous system rather than the lungs, per the page's 'left = lungs, right = body' framing.",
+                    "topic": "Ischemic Heart Disease &amp; Heart Failure",
+                    "source": "quiz-bank"
+                }
+            ],
+            "eaq": []
+        }
+    },
+    {
+        "id": "week6-cardiac-dysrhythmias",
+        "label": "Cardiac Dysrhythmias",
+        "week": 6,
+        "sets": {
+            "mustKnow": [],
+            "extraPractice": [
+                {
+                    "stem": "A client reports sudden-onset palpitations that started 'out of nowhere' 10 minutes ago. The monitor shows a regular, narrow-QRS rhythm at 190 bpm with no discernible P waves. Which rhythm does this most likely represent?",
+                    "options": [
+                        "Sinus tachycardia",
+                        "Atrial flutter",
+                        "PSVT",
+                        "Atrial fibrillation"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: PSVT presents with sudden, paroxysmal onset, a regular rhythm, narrow QRS, a rate of 150-250 bpm, and P waves that are not discernible — matching every finding here. Incorrect: Sinus tachycardia is the closest distractor, but its rate tops out at 150 bpm, it has a gradual (not sudden/paroxysmal) onset, and it keeps a normal, visible P wave — none of which fit this presentation.",
+                    "topic": "Cardiac Dysrhythmias",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client's telemetry shows a regular ventricular rhythm at 100 bpm, narrow QRS complexes, and a sawtooth-shaped baseline replacing the P waves. Which rhythm is this?",
+                    "options": [
+                        "Atrial flutter",
+                        "Atrial fibrillation",
+                        "PSVT",
+                        "Sinus tachycardia"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: Atrial flutter produces a regular rhythm with narrow QRS complexes and characteristic sawtooth ('shark-tooth') flutter waves in place of P waves. Incorrect: Atrial fibrillation is the closest distractor because it's also an atrial re-entry-type rhythm, but it produces an irregularly irregular rhythm with fine fibrillation waves, not a regular rhythm with organized sawtooth waves.",
+                    "topic": "Cardiac Dysrhythmias",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "On telemetry, the nurse notes a normal QRS complex followed immediately by a wide, early beat, and this pattern repeats every other beat throughout the strip. Which term describes this pattern?",
+                    "options": [
+                        "Trigeminy",
+                        "Quadrigeminy",
+                        "Sinus arrhythmia",
+                        "Bigeminy"
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: Bigeminy is defined as a PVC occurring every other beat, matching the alternating normal/early-wide-beat pattern described. Incorrect: Trigeminy is the closest distractor, but it refers to a PVC every third beat, not every other beat.",
+                    "topic": "Cardiac Dysrhythmias",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A new graduate nurse says, 'Any time I see two PVCs with wide QRS complexes right next to each other, that's ventricular tachycardia.' How should the nurse be corrected?",
+                    "options": [
+                        "Two PVCs in a row already qualifies as V-tach",
+                        "V-tach requires three or more PVCs in a row",
+                        "V-tach is defined by rate alone, not PVC count",
+                        "PVCs must be in bigeminy to qualify as V-tach"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: V-tach is defined as three or more PVCs occurring consecutively, so two wide-QRS beats in a row do not yet meet that threshold. Incorrect: The nurse's own statement (two PVCs = V-tach) is the tempting misconception, since it inappropriately shortens the required run length from three beats down to two.",
+                    "topic": "Cardiac Dysrhythmias",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client's telemetry shows sinus bradycardia at 48 bpm. The client is alert, denies dizziness, fatigue, syncope, dyspnea, or chest discomfort, and reports running competitively for years. What should the nurse do?",
+                    "options": [
+                        "Continue routine monitoring without treating the rate",
+                        "Prepare to administer atropine",
+                        "Notify the provider to arrange pacemaker placement",
+                        "Have the client perform vagal maneuvers to raise the heart rate"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: Sinus bradycardia is treated only if the patient is symptomatic, and this client — like many highly fit individuals who naturally run slower — shows none of the symptoms of decreased cardiac output. Incorrect: Atropine is the closest distractor, but it's reserved for severe or symptomatic bradycardia, which this asymptomatic, athletic client does not have.",
+                    "topic": "Cardiac Dysrhythmias",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A postoperative client develops sinus tachycardia at 128 bpm. The nurse also notes dry mucous membranes and poor skin turgor, though the client denies pain or anxiety. Which underlying cause should the nurse suspect first?",
+                    "options": [
+                        "Pain",
+                        "Anxiety",
+                        "Fluid volume deficit",
+                        "Caffeine or nicotine intake"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: Sinus tachycardia is often one of the first signs of fluid volume deficit, and the dry mucous membranes and poor skin turgor support that cause here. Incorrect: Pain is the closest distractor as a listed cause of sinus tachycardia, but the client explicitly denies pain, making fluid volume deficit the better-supported cue.",
+                    "topic": "Cardiac Dysrhythmias",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client's EKG shows occasional early beats with abnormal-looking P waves but normal PR intervals and normal QRS complexes, and the pattern has become more frequent over several telemetry checks. What should the nurse anticipate doing next?",
+                    "options": [
+                        "Preparing the client for emergency cardioversion",
+                        "Administering an antiarrhythmic specifically for these early beats",
+                        "Initiating CPR precautions at the bedside",
+                        "Checking the client's electrolyte and oxygenation status"
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: Frequent PACs raise the risk of developing atrial fibrillation, so the nurse should check the client's electrolyte and oxygenation status. Incorrect: Emergency cardioversion is the closest distractor because it sounds like an appropriately cautious escalation, but PACs are described as generally benign and don't call for that level of intervention.",
+                    "topic": "Cardiac Dysrhythmias",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "Two clients both have atrial fibrillation. Client A has a ventricular rate of 170 bpm; Client B has a ventricular rate of 110 bpm. Based on the page's teaching, which statement is accurate?",
+                    "options": [
+                        "Client B is more likely to be symptomatic than Client A",
+                        "Client A is more likely to be symptomatic than Client B",
+                        "Both clients are equally likely to be symptomatic since both are in AFib",
+                        "Neither client is likely to be symptomatic since AFib is often silent"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: A ventricular rate of 170 is far more likely to be symptomatic than a rate of 110, since symptom burden depends on how much cardiac output the client is actually getting. Incorrect: The 'equally likely' option is the closest distractor because both clients share the same rhythm diagnosis, but the page ties symptom likelihood to the ventricular rate itself, not just the presence of AFib.",
+                    "topic": "Cardiac Dysrhythmias",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client asks how serious it is to leave atrial fibrillation untreated. Which statement accurately reflects the risks taught on this page?",
+                    "options": [
+                        "Doubles cardiac death risk; stroke risk up 4-5x.",
+                        "Triples cardiac death risk; stroke risk unchanged.",
+                        "Cardiac death risk unchanged; stroke risk doubles.",
+                        "Present in under 5% of strokes; rarely serious."
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: Untreated AFib roughly doubles the risk of cardiac death and increases stroke risk 4- to 5-fold. Incorrect: The option pairing 'stroke risk doubles' is the closest distractor because it uses a real AFib statistic, but the page attaches 'doubles' to cardiac death risk and the 4- to 5-fold increase to stroke risk, not the reverse.",
+                    "topic": "Cardiac Dysrhythmias",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client newly diagnosed with atrial fibrillation asks why they need both a beta blocker and an anticoagulant when only one heart problem was found. What is the nurse's best explanation?",
+                    "options": [
+                        "Anticoagulant only matters before cardioversion",
+                        "Beta blocker treats stroke risk; anticoagulant controls rate",
+                        "One drug controls rate; the other prevents stroke",
+                        "Only the beta blocker is truly needed"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: AFib treatment has two parts — rate control (beta blockers, calcium channel blockers, digitalis, or amiodarone) and stroke prevention (anticoagulants or antiplatelets) — so each drug targets a different problem. Incorrect: Swapping the drug roles is the closest distractor because it names the same two treatment goals but reverses which drug class accomplishes which one.",
+                    "topic": "Cardiac Dysrhythmias",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "The telemetry monitor at the nurses' station suddenly displays a chaotic waveform consistent with ventricular fibrillation for a client down the hall. What should the nurse do first?",
+                    "options": [
+                        "Call a code and begin CPR based on the monitor alone",
+                        "Silence the alarm and reassess the monitor in five minutes",
+                        "Increase the alarm limits so the monitor stops flagging the rhythm",
+                        "Go to the client and check responsiveness and pulse directly"
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: Telemetry monitors can glitch and produce a false V-fib-looking waveform, so the nurse must always go to the patient and check a pulse directly before treating what the monitor shows. Incorrect: Calling a code from the monitor alone is the closest distractor because V-fib is a true emergency requiring immediate action, but the page specifically warns against acting on the monitor display without first verifying the patient's actual status.",
+                    "topic": "Cardiac Dysrhythmias",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A young, healthy client's telemetry shows a heart rate ranging from 55 to 78 bpm, speeding up with each inhalation and slowing with each exhalation, with a normal P wave and PR interval throughout. How should the nurse interpret this rhythm?",
+                    "options": [
+                        "Sinus bradycardia requiring atropine",
+                        "Sinus arrhythmia, a normal variant",
+                        "Sick sinus syndrome requiring a pacemaker",
+                        "PACs due to an irritable atrial focus"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: Sinus arrhythmia is a normal variant where the rate fluctuates with the respiratory cycle (faster on inhalation, slower on exhalation) with an otherwise normal P wave and PR interval — common in younger people. Incorrect: Sinus bradycardia is the closest distractor because part of this rate range dips below 60 bpm, but true sinus bradycardia is regular rather than varying with respiration.",
+                    "topic": "Cardiac Dysrhythmias",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client on digoxin develops a new dysrhythmia. Of the three mechanisms behind dysrhythmias described on this page, which one does digoxin toxicity produce?",
+                    "options": [
+                        "Triggered activity",
+                        "Inappropriate automaticity",
+                        "Re-entry",
+                        "Enhanced conductivity"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: Digoxin toxicity is named as an example cause of triggered activity — an extra impulse generated during or just after repolarization. Incorrect: Inappropriate automaticity is the closest distractor since it's also a mechanism category on this page, but its listed examples are electrolyte imbalance and MI, not digoxin toxicity.",
+                    "topic": "Cardiac Dysrhythmias",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A nursing student reviewing a 6-second EKG strip says, \"This QRS complex looks wide, so the client must have an atrial repolarization problem.\" How should the nurse correct this statement?",
+                    "options": [
+                        "Atrial repolarization is buried inside the QRS complex, not a separate event",
+                        "The student is correct; a wide QRS always indicates an atrial repolarization abnormality",
+                        "Atrial repolarization would appear as a separate wave after the T wave, unrelated to QRS width",
+                        "Atrial repolarization produces no electrical activity, so QRS width cannot reflect it either way"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: Atrial repolarization happens at the same time as ventricular depolarization, so it is buried inside the QRS complex and never shows up as its own wave — a wide QRS instead reflects a problem with ventricular depolarization (the QRS complex's actual job), not atrial repolarization. Incorrect: The closest distractor claims the student is correct — tempting because both events do overlap on the strip, but the page specifically attributes QRS width to ventricular depolarization, and atrial repolarization has no separate wave of its own to blame for a width change.",
+                    "topic": "Cardiac Dysrhythmias",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "Select all findings that are consistent with atrial fibrillation.",
+                    "options": [
+                        "Irregularly irregular ventricular rhythm",
+                        "Fine fibrillation waves in place of P waves",
+                        "Ventricular rate typically 100-175 bpm",
+                        "Loss of the atrial kick reduces cardiac output by about 20%",
+                        "Regular sawtooth flutter waves in place of P waves",
+                        "Atrial rate as high as 250 bpm with a fixed conduction ratio"
+                    ],
+                    "answers": [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    "rationale": "Correct: Atrial fibrillation is characterized by an irregularly irregular rhythm, fine fibrillation waves rather than a discernible P wave, a typical ventricular rate of ~100-175 bpm, and loss of the atrial kick that costs about 20% of cardiac output. Incorrect: Sawtooth flutter waves and a fixed atrial-to-ventricular conduction ratio (e.g., 2:1, 3:1) are features of atrial flutter, not atrial fibrillation, which by definition has no organized flutter waves or fixed conduction ratio.",
+                    "topic": "Cardiac Dysrhythmias",
+                    "source": "quiz-bank"
+                }
+            ],
+            "eaq": []
+        }
+    },
+    {
+        "id": "week6-peripheral-vascular-disease",
+        "label": "Peripheral Vascular Disease",
+        "week": 6,
+        "sets": {
+            "mustKnow": [],
+            "extraPractice": [
+                {
+                    "stem": "A client with peripheral artery disease has several risk factors: a 15-year history of type 2 diabetes, an LDL cholesterol of 165 mg/dL, and a 30-year, one-pack-a-day smoking history. The client asks the nurse which risk factor is most important to address first. Which response is accurate?",
+                    "options": [
+                        "Focus on blood sugar control",
+                        "Focus on lowering cholesterol",
+                        "Focus on smoking cessation",
+                        "Focus on your age-related risk"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: The page identifies smoking as \"the single biggest risk factor\" for PAD, noting that more than 80% of PAD patients are current or former smokers and that smoking doubles the risk of amputation, so it takes priority over the client's other risk factors. Incorrect: Blood sugar control matters because uncontrolled diabetes is a listed risk factor, but the page does not rank diabetes as the single biggest risk factor — that distinction belongs to smoking.",
+                    "topic": "Peripheral Vascular Disease",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A 34-year-old client who has smoked one pack per day for 15 years is diagnosed with permanent arterial occlusion determined to have an autoimmune basis. Which cause of arterial occlusion does this describe?",
+                    "options": [
+                        "Buerger disease",
+                        "Thrombus formation",
+                        "Raynaud's phenomenon",
+                        "Atherosclerosis"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: The page describes thromboangiitis obliterans (Buerger disease) as an autoimmune condition strongly associated with smokers that causes permanent arterial occlusion, matching both the smoking history and the autoimmune basis. Incorrect: Raynaud's phenomenon is the next closest option because it also involves smaller-vessel arterial compromise, but the page describes it as sudden vasospasm associated with scleroderma and pulmonary hypertension, not a permanent autoimmune occlusion.",
+                    "topic": "Peripheral Vascular Disease",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client reports leg discomfort described as constant aching and tiredness that is present even at rest and does not worsen with walking. The nurse recognizes this description is most consistent with which condition, rather than peripheral artery disease?",
+                    "options": [
+                        "Buerger disease",
+                        "Raynaud's phenomenon",
+                        "Arterial insufficiency",
+                        "Venous insufficiency"
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: The page explicitly describes chronic venous insufficiency as causing aching and tiredness in the legs — NOT burning or heaviness — which fits a constant discomfort unrelated to exertion. Incorrect: Arterial insufficiency (PAD) is the closest distractor because it also causes leg discomfort, but the page defines its hallmark symptom as intermittent claudication — exertional cramping that is relieved by rest — not a constant ache present at rest.",
+                    "topic": "Peripheral Vascular Disease",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with PAD reports new numbness and weakness in the foot. On assessment the nurse also notes the pedal pulse cannot be palpated. Which additional finding would most strongly support the nurse's concern for significant arterial compromise, per the 5 P's?",
+                    "options": [
+                        "Warm, well-perfused skin",
+                        "Pallor of the limb",
+                        "Bounding pedal pulse",
+                        "Localized edema"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: The page's 5 P's mnemonic for significant arterial compromise is Pain, Pallor, Pulselessness, Paresthesias, and Paralysis; the client already has paresthesia (numbness), paralysis (weakness), and pulselessness, so pallor would complete another of the five criteria. Incorrect: Localized edema is the closest distractor because it is a real finding on this page, but it is listed under chronic venous insufficiency, not among the 5 P's of arterial compromise.",
+                    "topic": "Peripheral Vascular Disease",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client's ankle-brachial index (ABI) is reported as 0.4. Based on this value, which action is the priority?",
+                    "options": [
+                        "Document as a normal finding",
+                        "Recheck the ABI in one year",
+                        "Notify the provider immediately",
+                        "Reassure the client this is normal for age"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: The page states an ABI of 0.5 or below indicates severe arterial disease, and a value of 0.4 falls below that threshold, warranting prompt provider notification. Incorrect: Documenting the finding as normal is the closest distractor because a normal ABI (~1.0–1.4) is also stated on the page, but 0.4 is far below that normal range, not within it.",
+                    "topic": "Peripheral Vascular Disease",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "Two clients are being assessed for lower-extremity vascular disease. Client 1 has a shiny, hairless, thickened lower leg with an ulcer on top of the foot. Client 2 has a leathery, dark-discolored leg with an ulcer near the ankle and visible varicose veins. Which client's findings are most consistent with peripheral artery disease?",
+                    "options": [
+                        "Client 1",
+                        "Client 2",
+                        "Both clients",
+                        "Neither client"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: The page attributes shiny, thick, hairless skin and ulcers at the toes/dorsum of the foot to PAD (arterial disease), which matches Client 1's presentation. Incorrect: Client 2 is the closest distractor because both clients have lower-extremity ulcers, but leathery/dark skin, ankle ulcers, and varicose veins are the page's stated findings for chronic venous insufficiency, not PAD.",
+                    "topic": "Peripheral Vascular Disease",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A nurse suspects PAD in a client and wants to elicit both pallor and dependent rubor during assessment. Which technique should the nurse use?",
+                    "options": [
+                        "Keep the limb level and inspect once",
+                        "Apply a tourniquet above the knee",
+                        "Palpate pulses only; skip inspecting skin color",
+                        "Elevate then lower the limb, comparing color"
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: The page states pallor occurs with limb elevation and dependent rubor appears when the limb is hanging down, so eliciting both requires changing the limb's position and comparing the color at each. Incorrect: Keeping the limb level and inspecting once is the closest distractor because it still involves visual inspection, but a single level position cannot reveal position-dependent color changes.",
+                    "topic": "Peripheral Vascular Disease",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client newly diagnosed with chronic venous insufficiency states, \"This means one of my leg arteries is blocked, like a clogged pipe.\" Which response by the nurse is accurate?",
+                    "options": [
+                        "That's correct — arterial blockage is the underlying cause",
+                        "It's caused by malfunctioning vein walls and valves",
+                        "It's caused by high cholesterol clogging the leg veins",
+                        "It's an autoimmune reaction affecting the vein walls"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: The page states chronic venous insufficiency is caused by dysfunction of the venous walls and valves, leading to venous stasis, not an arterial blockage. Incorrect: The high-cholesterol option is the closest distractor because cholesterol is a real page-stated risk factor, but it is listed under PAD (an arterial condition), not as the cause of venous valve dysfunction.",
+                    "topic": "Peripheral Vascular Disease",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with PAD and claudication says, \"I've stopped walking because it causes leg pain, and I don't want to make my circulation worse.\" Which response reflects accurate teaching?",
+                    "options": [
+                        "Continue resting and avoid walking",
+                        "Limit walking to once a week",
+                        "Continue regular walking as tolerated",
+                        "Switch to a low-fat diet instead of walking"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: The page lists increased physical activity as a shared PAD/PVD treatment because it encourages the body to build collateral circulation around blocked vessels, directly countering the client's belief that walking worsens circulation. Incorrect: Continuing to rest and avoid walking is the closest distractor because it feels protective, but the page presents activity, not rest, as the therapeutic recommendation.",
+                    "topic": "Peripheral Vascular Disease",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client taking multiple medications with known CYP450 interactions is prescribed a drug for intermittent claudication. Which medication requires the nurse to specifically screen for these interactions?",
+                    "options": [
+                        "Cilostazol",
+                        "Pentoxifylline",
+                        "Clopidogrel",
+                        "Apixaban"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: The page states cilostazol (Pletal) has CYP450 drug interactions, making it the claudication drug requiring this specific screening. Incorrect: Pentoxifylline is the closest distractor because it is the other drug listed for intermittent claudication, but the page attributes only nausea, vomiting, dizziness, and TID dosing to it, with no CYP450 interaction noted.",
+                    "topic": "Peripheral Vascular Disease",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A nurse is reviewing the medication plan for a client newly diagnosed with PAD who is not yet on a claudication-specific drug. Based on typical PAD management described in the material, which additional medication combination should the nurse expect to see ordered?",
+                    "options": [
+                        "An opioid and a muscle relaxant",
+                        "An antihistamine and a diuretic",
+                        "A beta-blocker and a loop diuretic",
+                        "A statin plus an antiplatelet"
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: The page states most patients with PAD are also placed on a statin plus an antiplatelet or anticoagulant agent (examples given: aspirin, clopidogrel, warfarin, apixaban). Incorrect: A beta-blocker and a loop diuretic is the closest distractor because both are plausible cardiovascular medications, but neither is mentioned anywhere on this page as part of standard PAD management.",
+                    "topic": "Peripheral Vascular Disease",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A nurse is assessing a client with peripheral artery disease (PAD). Select all findings that are consistent with PAD.",
+                    "options": [
+                        "Non-healing wound on the lower leg",
+                        "Bilateral leg edema",
+                        "Diminished or absent pedal pulses",
+                        "Leathery, dark discoloration of the skin",
+                        "Dependent rubor when the leg is lowered",
+                        "Erectile dysfunction"
+                    ],
+                    "answers": [
+                        0,
+                        2,
+                        4,
+                        5
+                    ],
+                    "rationale": "Correct: The page lists non-healing wounds, diminished or absent pulses, dependent rubor, and erectile dysfunction as manifestations of PAD. Incorrect: Bilateral leg edema and leathery, dark skin discoloration are the closest distractors because both are real page findings, but both are listed under chronic venous insufficiency, not PAD.",
+                    "topic": "Peripheral Vascular Disease",
+                    "source": "quiz-bank"
+                }
+            ],
+            "eaq": []
+        }
+    },
+    {
+        "id": "week6-valve-disease",
+        "label": "Valve Disease",
+        "week": 6,
+        "sets": {
+            "mustKnow": [],
+            "extraPractice": [
+                {
+                    "stem": "A client reports fatigue with minimal exertion and worsening dyspnea when lying flat. The nurse learns the fatigue results from reduced forward cardiac output, and the dyspnea results from blood flowing backward into the left atrium and lungs. Which valve disorder best fits this symptom pattern?",
+                    "options": [
+                        "Aortic stenosis",
+                        "Mitral regurgitation",
+                        "Mitral stenosis",
+                        "Tricuspid regurgitation"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: Mitral regurgitation causes fatigue from reduced forward cardiac output and dyspnea from backward flow into the left atrium and pulmonary veins/lungs, exactly as described on the page. Incorrect: Aortic stenosis instead causes syncope, lightheadedness, and chest pain from inadequate coronary flow, not this fatigue/dyspnea pattern from backward flow.",
+                    "topic": "Valve Disease",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with severe aortic stenosis develops chest pain. Which mechanism, as taught for this condition, explains the pain?",
+                    "options": [
+                        "Papillary muscle rupture disrupting leaflet closure",
+                        "Backward flow of blood into the left atrium",
+                        "Reduced coronary blood flow past the valve",
+                        "Vegetation formation impairing valve closure"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: In aortic stenosis, the coronary arteries branch off just past the valve and don't receive adequate forward flow when it's stenotic, causing chest pain. Incorrect: Backward flow into the left atrium is the mitral regurgitation mechanism that causes dyspnea, not the chest pain of aortic stenosis.",
+                    "topic": "Valve Disease",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "Papillary muscle rupture is listed as a mechanism of valve damage that applies only to valves anchored by papillary muscles/chordae tendineae. Which pair of valves can be affected by this mechanism?",
+                    "options": [
+                        "Tricuspid and mitral",
+                        "Pulmonic and aortic",
+                        "Mitral and aortic",
+                        "Tricuspid and pulmonic"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: The tricuspid and mitral valves are the AV valves, anchored by papillary muscles/chordae tendineae, so papillary muscle rupture applies only to them. Incorrect: Pulmonic and aortic are the semilunar valves, which are not anchored by papillary muscles, so this mechanism doesn't apply to them.",
+                    "topic": "Valve Disease",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client who already had a standard echocardiogram asks the nurse why a transesophageal echocardiogram (TEE) is now needed. Which response is accurate?",
+                    "options": [
+                        "The TTE probably missed something because it's less reliable",
+                        "The TEE is required before any valve surgery regardless of TTE results",
+                        "The TEE evaluates the right side of the heart, which the TTE cannot see",
+                        "The TEE gives a closer, more detailed view than the TTE"
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: The page describes the TEE as a more invasive alternative to the TTE that provides a closer, more detailed view — nothing implies the TTE was inadequate. Incorrect: Telling the client the TTE 'missed something because it's less reliable' misrepresents the TTE, which the page describes as the standard test, not an unreliable one.",
+                    "topic": "Valve Disease",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "Two clients are scheduled for elective dental extractions. Client A has a prosthetic aortic valve; Client B has no cardiac history. For whom is prophylactic antibiotic therapy indicated before the procedure?",
+                    "options": [
+                        "Client B only",
+                        "Client A only",
+                        "Both clients",
+                        "Neither client"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: Clients with prosthetic heart valves require prophylactic antibiotics before dental procedures because dental work is a known source of transient bacteremia that can infect the prosthetic valve. Incorrect: 'Both clients' incorrectly extends this precaution to Client B, who has no cardiac history and therefore no stated indication for prophylaxis.",
+                    "topic": "Valve Disease",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with vegetations on the tricuspid valve develops new-onset shortness of breath and hypoxia. Based on the routing of right-sided septic emboli, where have the emboli most likely traveled?",
+                    "options": [
+                        "Brain",
+                        "Spleen",
+                        "Lungs",
+                        "Kidney"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: Septic emboli breaking off from the tricuspid valve (right-sided) travel to the lungs, per the page. Incorrect: Brain is a destination for emboli from a LEFT-sided valve, not the tricuspid valve, making it the closest but wrong distractor here.",
+                    "topic": "Valve Disease",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A nurse is teaching about neurologic complications of infective endocarditis. Which statement about the scope of this risk is accurate?",
+                    "options": [
+                        "About 40% develop neurologic or embolic stroke-type symptoms",
+                        "About 10% develop neurologic or embolic stroke-type symptoms",
+                        "About 65% develop neurologic or embolic stroke-type symptoms",
+                        "About 90% develop neurologic or embolic stroke-type symptoms"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: The page states roughly 40% of infective endocarditis patients develop neurologic or embolic stroke-type symptoms. Incorrect: 10% is the closest lower distractor but understates the specific rate given on the page.",
+                    "topic": "Valve Disease",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client presents with fever, chills, unintentional weight loss, and joint pain, with a murmur that is difficult to auscultate. Which condition do these findings best fit?",
+                    "options": [
+                        "Aortic stenosis",
+                        "Mitral regurgitation",
+                        "Rheumatic heart disease",
+                        "Infective endocarditis"
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: Fever, chills, weight loss, inability to eat, muscle/joint pain, and a murmur that's hard to hear are the symptom profile the page attributes to infective endocarditis. Incorrect: Rheumatic heart disease is only named as another cause of valve damage on the page, without this symptom list attached to it.",
+                    "topic": "Valve Disease",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "The nurse explains that a vegetation on a heart valve is dangerous for two separate reasons. Which option captures BOTH mechanisms of harm as described?",
+                    "options": [
+                        "It calcifies the leaflets permanently over time",
+                        "It impairs valve closure and can embolize",
+                        "It only obstructs forward flow through the valve",
+                        "It only travels to distant organs, sparing the valve"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: The page states vegetations impair the valve's ability to close properly AND can break off and embolize elsewhere in the body — both mechanisms together. Incorrect: Calcification is listed separately as its own general mechanism of valve damage, distinct from what vegetations specifically do.",
+                    "topic": "Valve Disease",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with significant valve disease and an active bloodstream infection is scheduled for valve replacement. What is the priority action regarding the infection?",
+                    "options": [
+                        "Proceed to surgery, then start antibiotics postoperatively only",
+                        "Delay antibiotics until after hospital discharge",
+                        "Clear the infection with antibiotics before and after surgery",
+                        "Administer antibiotics only if the client develops a fever intraoperatively"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: The page states that when infection is involved, any active bloodstream infection must be cleared with antibiotics before AND after surgery. Incorrect: Starting antibiotics postoperatively only ignores the stated need to clear the infection before surgery as well.",
+                    "topic": "Valve Disease",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "On exam, the nurse finds tender, raised nodules on the pads of a client's fingertips. Which peripheral sign is this, distinguished from a similar but non-tender lesion on the palms?",
+                    "options": [
+                        "Osler's nodes",
+                        "Janeway lesions",
+                        "Splinter hemorrhages",
+                        "Petechiae"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: Osler's nodes are tender, raised nodules on the fingertips, distinguished from Janeway lesions, which are non-tender flat spots on the palms or soles. Incorrect: Janeway lesions are the closest distractor because they look similar but are non-tender and located on the palms/soles, not the fingertips.",
+                    "topic": "Valve Disease",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "The nurse is teaching a group of nursing students about infective endocarditis. Which statements are accurate? Select all that apply.",
+                    "options": [
+                        "S. aureus and S. epidermidis are the most common causative organisms.",
+                        "The tricuspid valve is the most commonly affected valve in infective endocarditis.",
+                        "Prosthetic heart valves and IV drug use are the two named risk groups.",
+                        "Petechiae are thin, dark red-brown lines found under the nail beds.",
+                        "Roth spots are lesions seen on the retina during an eye exam.",
+                        "Rheumatic heart disease develops from an infection introduced through IV drug injection."
+                    ],
+                    "answers": [
+                        0,
+                        1,
+                        2,
+                        4
+                    ],
+                    "rationale": "Correct: The page states S. aureus/S. epidermidis are the most common organisms, the tricuspid valve is the most commonly affected valve, prosthetic-valve patients and IV drug users are the two named risk groups, and Roth spots are seen on the retina during an eye exam. Incorrect: The 'thin, dark red-brown lines under the nail beds' description belongs to splinter hemorrhages, not petechiae (which are pinpoint red/purple spots); and rheumatic heart disease is described as originating from a childhood rheumatic illness, not from IV drug injection.",
+                    "topic": "Valve Disease",
+                    "source": "quiz-bank"
+                }
+            ],
+            "eaq": []
+        }
+    },
+    {
+        "id": "week6-cardiac-pharmacology",
+        "label": "Cardiac Pharmacology",
+        "week": 6,
+        "sets": {
+            "mustKnow": [],
+            "extraPractice": [
+                {
+                    "stem": "A client taking daily oral isosorbide for anginal prevention develops chest pain at home and plans to take an extra isosorbide tablet before calling anyone. What should the nurse teach instead?",
+                    "options": [
+                        "Double the next scheduled isosorbide dose",
+                        "Use sublingual nitroglycerin now",
+                        "Apply a nitroglycerin patch instead",
+                        "Skip the next isosorbide dose"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: The page specifies that for breakthrough chest pain on isosorbide, the patient should use sublingual nitroglycerin rather than an extra isosorbide dose — isosorbide is for prevention only. Incorrect: Doubling the isosorbide dose is the exact misconception the page warns against; taking an extra dose isn't the taught response to a breakthrough attack.",
+                    "topic": "Cardiac Pharmacology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client received one sublingual nitroglycerin tablet 6 minutes ago for chest pain. Heart rate has risen from 78 to 96 bpm, and the client still rates the chest pain 6/10. What should the nurse do?",
+                    "options": [
+                        "Reassure the client that tachycardia is expected",
+                        "Give a second sublingual nitroglycerin tablet",
+                        "Recheck blood pressure and repeat in 5 minutes",
+                        "Call 911 for the unrelieved chest pain"
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: The page's danger callout is explicit that chest pain unrelieved 5 minutes after a sublingual dose itself raises concern for unstable angina or STEMI, and the priority is to call 911. Incorrect: Giving a second dose looks reasonable since up to 3 doses every 5 minutes are allowed, but that protocol detail doesn't override the specific 911 instruction once the 5-minute mark is reached; the heart-rate rise is expected reflex tachycardia from the vasodilating mechanism, not a competing problem.",
+                    "topic": "Cardiac Pharmacology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with stable angina has a blood pressure of 92/58 and continues to have anginal episodes despite a maximized nitrate and beta blocker regimen. Which antianginal addition is most appropriate given the blood pressure?",
+                    "options": [
+                        "Ranolazine",
+                        "Increase the isosorbide dose",
+                        "Add transdermal nitroglycerin",
+                        "Add IV nitroglycerin"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: The page notes ranolazine, unlike the other antianginals, does not drop blood pressure or heart rate the way nitrates do, making it appropriate for a client who is already relatively hypotensive. Incorrect: Increasing isosorbide is the closest distractor — it sounds like a reasonable escalation, but every nitrate formulation works by venodilation and would worsen this client's existing hypotension.",
+                    "topic": "Cardiac Pharmacology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client taking ranolazine for angina is newly prescribed dofetilide for atrial fibrillation. What is the nurse's priority concern?",
+                    "options": [
+                        "Ranolazine will reduce dofetilide's effectiveness",
+                        "Digoxin toxicity risk from the combination",
+                        "Additive QT-interval prolongation",
+                        "Excess bradycardia from both drugs"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: The page explicitly ties ranolazine and dofetilide together as both carrying QT-prolongation risk and states that combining QT-prolonging drugs compounds torsades de pointes risk. Incorrect: Digoxin toxicity is a real amiodarone-digoxin interaction elsewhere on the page — it's the closest distractor because it borrows a real 'dangerous combination' concept, but pairs the wrong drugs.",
+                    "topic": "Cardiac Pharmacology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "The nurse is reviewing a client's heart failure regimen. Which of the following are among the '4 pillars' of HFrEF drug therapy? Select all that apply.",
+                    "options": [
+                        "RAS inhibitor (ACEI/ARB/ARNI)",
+                        "Beta blocker",
+                        "Spironolactone (MRA)",
+                        "SGLT2 inhibitor",
+                        "Digoxin",
+                        "Loop diuretic (e.g., furosemide)"
+                    ],
+                    "answers": [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    "rationale": "Correct: The page names four pillars of HFrEF therapy — a RAS inhibitor, a beta blocker (carvedilol preferred), an MRA (spironolactone), and an SGLT2 inhibitor. Incorrect: Digoxin and loop diuretics are explicitly described as added on top of the four pillars as needed, not part of the core pillars — loop diuretics in particular give no survival benefit, unlike the four pillar drugs.",
+                    "topic": "Cardiac Pharmacology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client on lisinopril for heart failure develops a persistent dry cough and cannot tolerate it. The client asks whether an ARB could just be added alongside the ACE inhibitor. What should the nurse explain?",
+                    "options": [
+                        "Add an ARB in addition to the ACE inhibitor",
+                        "Switch to an ARB in place of the ACE inhibitor",
+                        "Add an ARNI alongside the ACE inhibitor",
+                        "Continue the ACE inhibitor and add spironolactone"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: The page states a patient is on only one RAS inhibitor (ACE inhibitor, ARB, or ARNI) at a time and they're never combined; the standard swap for ACE-inhibitor cough intolerance is to an ARB, per the page's own mnemonic. Incorrect: Adding an ARNI alongside the ACE inhibitor is the closest distractor — it sounds like an upgrade to the 'most effective' RAS inhibitor, but it violates the same never-combine rule as adding an ARB would.",
+                    "topic": "Cardiac Pharmacology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A heart failure client takes carvedilol and digoxin. Before the scheduled digoxin dose, the apical pulse is 54 bpm for a full minute, and the client reports checking home blood pressure as instructed. What should the nurse do?",
+                    "options": [
+                        "Give the digoxin dose as scheduled",
+                        "Give the carvedilol dose only",
+                        "Recheck blood pressure before deciding",
+                        "Hold digoxin and notify the provider"
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: The page's rule is to take a full 1-minute apical pulse before digoxin and hold the dose (then notify the provider) if it's below 60 bpm — 54 bpm meets that threshold regardless of the beta blocker. Incorrect: Rechecking blood pressure addresses carvedilol's home-monitoring watch-for (hypotension), a real page fact but the wrong parameter here — the apical-pulse/60-bpm rule belongs specifically to digoxin administration.",
+                    "topic": "Cardiac Pharmacology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A heart failure client on both spironolactone and furosemide has a potassium level of 5.6 mEq/L. Which drug is most likely responsible?",
+                    "options": [
+                        "Spironolactone — hyperkalemia",
+                        "Furosemide — hypokalemia",
+                        "Spironolactone — diuretic effect",
+                        "Furosemide — potassium retention"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: The page specifically flags spironolactone (an MRA) for hyperkalemia, warning that high potassium raises dysrhythmia risk in an already 'sick heart.' Incorrect: Furosemide (a loop diuretic) causes the opposite problem — hypokalemia, the page's classic risk factor for digoxin toxicity — not hyperkalemia; the two drugs' electrolyte effects run in opposite directions.",
+                    "topic": "Cardiac Pharmacology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client newly started on digoxin asks how the drug level will be monitored during the first weeks of therapy. What should the nurse explain?",
+                    "options": [
+                        "Peak and trough levels drawn around each dose",
+                        "A one-time level after the loading dose only",
+                        "A digoxin level checked weekly",
+                        "Levels drawn only if symptoms develop"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: The page specifies weekly digoxin levels, monitored similarly to INR monitoring, as part of preventing toxicity. Incorrect: Peak-and-trough monitoring is the closest distractor — that's how many other drug levels are monitored, but the page explicitly contrasts digoxin monitoring with that model.",
+                    "topic": "Cardiac Pharmacology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "Which client is at greatest risk for digoxin toxicity based on the risk factors described on this page?",
+                    "options": [
+                        "A middle-aged man on no other cardiac medications",
+                        "An older woman also taking a loop diuretic",
+                        "A young man newly started on a beta blocker",
+                        "An older man on an SGLT2 inhibitor"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: The page names older adults, women, and diuretic use (via diuretic-induced hypokalemia) as the higher-risk factors for digoxin toxicity — this client stacks two of the three. Incorrect: An older man on an SGLT2 inhibitor is the closest distractor since age is one real risk factor, but the page does not list SGLT2 inhibitors as a toxicity risk factor the way diuretics are.",
+                    "topic": "Cardiac Pharmacology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client on digoxin reports new blurry vision. Vital signs show a heart rate of 52 bpm. Which finding is the hallmark sign the nurse should prioritize?",
+                    "options": [
+                        "The reported visual disturbance",
+                        "The client's subjective report overall",
+                        "Neither finding is significant alone",
+                        "The bradycardia"
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: The page states bradycardia is the hallmark sign of digoxin toxicity, reinforced by the 'SLOW & BLURRY' mnemonic where 'SLOW' is named as the hallmark. Incorrect: Blurry vision ('BLURRY') is a real toxicity sign too and is tempting since it's the client's own complaint, but the page specifically designates bradycardia — not the visual symptom — as the hallmark finding.",
+                    "topic": "Cardiac Pharmacology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "The nurse is preparing to give an IV push antidysrhythmic drug. Which administration detail correctly matches adenosine rather than atropine?",
+                    "options": [
+                        "Given via stopcock with a rapid flush",
+                        "Given as 1 mg every 3–5 minutes, up to 3 mg total",
+                        "Given for any bradycardia, symptomatic or not",
+                        "Given to speed up a slow heart rate"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: Adenosine must be given through a three-way stopcock immediately followed by a rapid saline flush, or it won't reach circulation fast enough to work given its extremely short half-life. Incorrect: The 1 mg every 3–5 minutes, up to 3 mg total regimen is atropine's dosing, not adenosine's (adenosine is 6 mg, then up to 12 mg, then another 12 mg) — a near-miss that swaps the two drugs' dosing rules.",
+                    "topic": "Cardiac Pharmacology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client is being started on dofetilide for atrial fibrillation. During infusion the monitor shows a fast, polymorphic wide-complex rhythm. What should the nurse do, and where should dofetilide have been initiated?",
+                    "options": [
+                        "Notify the provider only; initiated in an outpatient clinic",
+                        "Give adenosine; initiated in a step-down unit",
+                        "Start CPR; initiated in-hospital on telemetry",
+                        "Recheck the potassium; initiated at home with monitoring"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: This rhythm is torsades de pointes, dofetilide's major risk — the page says to start CPR if it occurs, and dofetilide is always started in-hospital on continuous telemetry specifically because of this risk. Incorrect: Rechecking potassium is a plausible general step but isn't the page's stated action for this event, and dofetilide is never started at home given the torsades risk.",
+                    "topic": "Cardiac Pharmacology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with new atrial fibrillation and a rapid ventricular response needs both immediate rate control and long-term maintenance of sinus rhythm from a single drug class. Based on the page's rhythm-control comparison, which drug fits both roles?",
+                    "options": [
+                        "Beta blocker",
+                        "Amiodarone",
+                        "Adenosine",
+                        "Atropine"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: The page's comparison table lists amiodarone for both AFib/flutter rate control and for converting/maintaining sinus rhythm, and separately calls it the most broadly-used antidysrhythmic. Incorrect: Beta blockers are the closest distractor — the page says they're generally tried first for rate control — but the table lists conversion/maintenance only under dofetilide and amiodarone, not beta blockers.",
+                    "topic": "Cardiac Pharmacology",
+                    "source": "quiz-bank"
+                }
+            ],
+            "eaq": []
+        }
     }
 ],
 
@@ -7583,6 +8557,11 @@ window.QUIZ_BANK = {
     "Lower GI Disorders",
     "GI Symptom Pharmacology",
     "Endocrine Disorders",
-    "Thyroid &amp; Parathyroid Disorders"
+    "Thyroid &amp; Parathyroid Disorders",
+    "Ischemic Heart Disease &amp; Heart Failure",
+    "Cardiac Dysrhythmias",
+    "Peripheral Vascular Disease",
+    "Valve Disease",
+    "Cardiac Pharmacology"
   ]
 };
