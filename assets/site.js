@@ -99,6 +99,18 @@ const SITE = {
       ]
     },
     {
+      label: "Week 6",
+      items: [
+        { id: "week6-comprehensive-study-guide", num: "1", title: "Comprehensive Study Guide", file: "week6-comprehensive-study-guide.html" },
+        { id: "week6-ischemic-heart-disease-heart-failure", num: "2", title: "Ischemic Heart Disease &amp; Heart Failure", file: "week6-ischemic-heart-disease-heart-failure.html" },
+        { id: "week6-cardiac-dysrhythmias", num: "3", title: "Cardiac Dysrhythmias", file: "week6-cardiac-dysrhythmias.html" },
+        { id: "week6-peripheral-vascular-disease", num: "4", title: "Peripheral Vascular Disease", file: "week6-peripheral-vascular-disease.html" },
+        { id: "week6-valve-disease", num: "5", title: "Valve Disease", file: "week6-valve-disease.html" },
+        { id: "week6-cardiac-pharmacology", num: "6", title: "Cardiac Pharmacology", file: "week6-cardiac-pharmacology.html" },
+        { id: "week6-big-picture-overview", num: "7", title: "Big Picture Overview", file: "week6-big-picture-overview.html" },
+      ]
+    },
+    {
       label: "Pathopharm Review",
       items: [
         { id: "review-pharm-foundations", num: "1", title: "Pharmacology Foundations", file: "review-pharm-foundations.html" },
