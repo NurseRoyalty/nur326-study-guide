@@ -43,71 +43,81 @@ const SITE = {
        file  - the filename, relative to this folder                     */
   groups: [
     {
-      label: "Week 1",
-      items: [
-        { id: "week1-study-guide", num: "0", title: "Comprehensive Study Guide", file: "week1-study-guide.html" },
-        { id: "week1-abx", num: "1", title: "Antimicrobials &amp; Antibiotics (ABX)", file: "week1-antimicrobials-antibiotics.html" },
-        { id: "week1-antivirals", num: "2", title: "Antivirals", file: "week1-antivirals.html" },
-        { id: "week1-hiv", num: "3", title: "HIV &amp; Antiretroviral Therapy (ART)", file: "week1-hiv.html" },
-        { id: "week1-big-picture-overview", num: "4", title: "Big Picture Overview", file: "week1-big-picture-overview.html" },
+      label: "Weeks 1–3",
+      sections: [
+        {
+          heading: "Week 1",
+          items: [
+            { id: "week1-study-guide", num: "0", title: "Comprehensive Study Guide", file: "week1-study-guide.html" },
+            { id: "week1-abx", num: "1", title: "Antimicrobials &amp; Antibiotics (ABX)", file: "week1-antimicrobials-antibiotics.html" },
+            { id: "week1-antivirals", num: "2", title: "Antivirals", file: "week1-antivirals.html" },
+            { id: "week1-hiv", num: "3", title: "HIV &amp; Antiretroviral Therapy (ART)", file: "week1-hiv.html" },
+            { id: "week1-big-picture-overview", num: "4", title: "Big Picture Overview", file: "week1-big-picture-overview.html" },
+          ]
+        },
+        {
+          heading: "Week 2",
+          items: [
+            { id: "week2-uri", num: "1", title: "Upper Respiratory Infections (URI)", file: "week2-uri.html" },
+            { id: "week2-obstructive", num: "2", title: "Obstructive Airway Disorders", file: "week2-obstructive-airway-disorders.html" },
+            { id: "week2-pneumonia", num: "3", title: "Pneumonia", file: "week2-pneumonia.html" },
+            { id: "week2-tuberculosis", num: "4", title: "Tuberculosis (TB)", file: "week2-tuberculosis.html" },
+            { id: "week2-anemia", num: "5", title: "Anemia", file: "week2-anemia.html" },
+            { id: "week2-polycythemia", num: "6", title: "Polycythemia", file: "week2-polycythemia.html" },
+            { id: "week2-big-picture-overview", num: "7", title: "Big Picture Overview", file: "week2-big-picture-overview.html" },
+          ]
+        },
+        {
+          heading: "Week 3",
+          items: [
+            { id: "week3-comprehensive-study-guide", num: "1", title: "Comprehensive Study Guide", file: "week3-comprehensive-study-guide.html" },
+            { id: "week3-renal-disorders", num: "2", title: "Renal Disorders", file: "week3-renal-disorders.html" },
+            { id: "week3-aki-ckd", num: "3", title: "Acute Kidney Injury &amp; Chronic Kidney Disease", file: "week3-aki-ckd.html" },
+            { id: "week3-male-reproductive-disorders", num: "4", title: "Male Reproductive Disorders", file: "week3-male-reproductive-disorders.html" },
+            { id: "week3-visual-sensory-disorders", num: "5", title: "Visual &amp; Sensory Disorders", file: "week3-visual-sensory-disorders.html" },
+            { id: "week3-big-picture-overview", num: "6", title: "Big Picture Overview", file: "week3-big-picture-overview.html" },
+          ]
+        },
       ]
     },
     {
-      label: "Week 2",
-      items: [
-        { id: "week2-uri", num: "1", title: "Upper Respiratory Infections (URI)", file: "week2-uri.html" },
-        { id: "week2-obstructive", num: "2", title: "Obstructive Airway Disorders", file: "week2-obstructive-airway-disorders.html" },
-        { id: "week2-pneumonia", num: "3", title: "Pneumonia", file: "week2-pneumonia.html" },
-        { id: "week2-tuberculosis", num: "4", title: "Tuberculosis (TB)", file: "week2-tuberculosis.html" },
-        { id: "week2-anemia", num: "5", title: "Anemia", file: "week2-anemia.html" },
-        { id: "week2-polycythemia", num: "6", title: "Polycythemia", file: "week2-polycythemia.html" },
-        { id: "week2-big-picture-overview", num: "7", title: "Big Picture Overview", file: "week2-big-picture-overview.html" },
-      ]
-    },
-    {
-      label: "Week 3",
-      items: [
-        { id: "week3-comprehensive-study-guide", num: "1", title: "Comprehensive Study Guide", file: "week3-comprehensive-study-guide.html" },
-        { id: "week3-renal-disorders", num: "2", title: "Renal Disorders", file: "week3-renal-disorders.html" },
-        { id: "week3-aki-ckd", num: "3", title: "Acute Kidney Injury &amp; Chronic Kidney Disease", file: "week3-aki-ckd.html" },
-        { id: "week3-male-reproductive-disorders", num: "4", title: "Male Reproductive Disorders", file: "week3-male-reproductive-disorders.html" },
-        { id: "week3-visual-sensory-disorders", num: "5", title: "Visual &amp; Sensory Disorders", file: "week3-visual-sensory-disorders.html" },
-        { id: "week3-big-picture-overview", num: "6", title: "Big Picture Overview", file: "week3-big-picture-overview.html" },
-      ]
-    },
-    {
-      label: "Week 4",
-      items: [
-        { id: "week4-comprehensive-study-guide", num: "1", title: "Comprehensive Study Guide", file: "week4-comprehensive-study-guide.html" },
-        { id: "week4-liver-function-jaundice", num: "2", title: "Liver Anatomy, Function &amp; Jaundice", file: "week4-liver-function-jaundice.html" },
-        { id: "week4-viral-hepatitis", num: "3", title: "Viral Hepatitis (A, B &amp; C)", file: "week4-viral-hepatitis.html" },
-        { id: "week4-cirrhosis-liver-failure", num: "4", title: "Cirrhosis &amp; Liver Failure", file: "week4-cirrhosis-liver-failure.html" },
-        { id: "week4-gallbladder-pancreatitis", num: "5", title: "Gallbladder &amp; Pancreatic Disorders", file: "week4-gallbladder-pancreatitis.html" },
-        { id: "week4-big-picture-overview", num: "6", title: "Big Picture Overview", file: "week4-big-picture-overview.html" },
-      ]
-    },
-    {
-      label: "Week 5",
-      items: [
-        { id: "week5-comprehensive-study-guide", num: "1", title: "Comprehensive Study Guide", file: "week5-comprehensive-study-guide.html" },
-        { id: "week5-esophageal-gastric-disorders", num: "2", title: "Esophageal &amp; Gastric Disorders", file: "week5-esophageal-gastric-disorders.html" },
-        { id: "week5-lower-gi-disorders", num: "3", title: "Lower GI Disorders", file: "week5-lower-gi-disorders.html" },
-        { id: "week5-gi-pharmacology", num: "4", title: "GI Symptom Pharmacology", file: "week5-gi-pharmacology.html" },
-        { id: "week5-endocrine-disorders", num: "5", title: "Endocrine Disorders", file: "week5-endocrine-disorders.html" },
-        { id: "week5-thyroid-parathyroid-disorders", num: "6", title: "Thyroid &amp; Parathyroid Disorders", file: "week5-thyroid-parathyroid-disorders.html" },
-        { id: "week5-big-picture-overview", num: "7", title: "Big Picture Overview", file: "week5-big-picture-overview.html" },
-      ]
-    },
-    {
-      label: "Week 6",
-      items: [
-        { id: "week6-comprehensive-study-guide", num: "1", title: "Comprehensive Study Guide", file: "week6-comprehensive-study-guide.html" },
-        { id: "week6-ischemic-heart-disease-heart-failure", num: "2", title: "Ischemic Heart Disease &amp; Heart Failure", file: "week6-ischemic-heart-disease-heart-failure.html" },
-        { id: "week6-cardiac-dysrhythmias", num: "3", title: "Cardiac Dysrhythmias", file: "week6-cardiac-dysrhythmias.html" },
-        { id: "week6-peripheral-vascular-disease", num: "4", title: "Peripheral Vascular Disease", file: "week6-peripheral-vascular-disease.html" },
-        { id: "week6-valve-disease", num: "5", title: "Valve Disease", file: "week6-valve-disease.html" },
-        { id: "week6-cardiac-pharmacology", num: "6", title: "Cardiac Pharmacology", file: "week6-cardiac-pharmacology.html" },
-        { id: "week6-big-picture-overview", num: "7", title: "Big Picture Overview", file: "week6-big-picture-overview.html" },
+      label: "Weeks 4–6",
+      sections: [
+        {
+          heading: "Week 4",
+          items: [
+            { id: "week4-comprehensive-study-guide", num: "1", title: "Comprehensive Study Guide", file: "week4-comprehensive-study-guide.html" },
+            { id: "week4-liver-function-jaundice", num: "2", title: "Liver Anatomy, Function &amp; Jaundice", file: "week4-liver-function-jaundice.html" },
+            { id: "week4-viral-hepatitis", num: "3", title: "Viral Hepatitis (A, B &amp; C)", file: "week4-viral-hepatitis.html" },
+            { id: "week4-cirrhosis-liver-failure", num: "4", title: "Cirrhosis &amp; Liver Failure", file: "week4-cirrhosis-liver-failure.html" },
+            { id: "week4-gallbladder-pancreatitis", num: "5", title: "Gallbladder &amp; Pancreatic Disorders", file: "week4-gallbladder-pancreatitis.html" },
+            { id: "week4-big-picture-overview", num: "6", title: "Big Picture Overview", file: "week4-big-picture-overview.html" },
+          ]
+        },
+        {
+          heading: "Week 5",
+          items: [
+            { id: "week5-comprehensive-study-guide", num: "1", title: "Comprehensive Study Guide", file: "week5-comprehensive-study-guide.html" },
+            { id: "week5-esophageal-gastric-disorders", num: "2", title: "Esophageal &amp; Gastric Disorders", file: "week5-esophageal-gastric-disorders.html" },
+            { id: "week5-lower-gi-disorders", num: "3", title: "Lower GI Disorders", file: "week5-lower-gi-disorders.html" },
+            { id: "week5-gi-pharmacology", num: "4", title: "GI Symptom Pharmacology", file: "week5-gi-pharmacology.html" },
+            { id: "week5-endocrine-disorders", num: "5", title: "Endocrine Disorders", file: "week5-endocrine-disorders.html" },
+            { id: "week5-thyroid-parathyroid-disorders", num: "6", title: "Thyroid &amp; Parathyroid Disorders", file: "week5-thyroid-parathyroid-disorders.html" },
+            { id: "week5-big-picture-overview", num: "7", title: "Big Picture Overview", file: "week5-big-picture-overview.html" },
+          ]
+        },
+        {
+          heading: "Week 6",
+          items: [
+            { id: "week6-comprehensive-study-guide", num: "1", title: "Comprehensive Study Guide", file: "week6-comprehensive-study-guide.html" },
+            { id: "week6-ischemic-heart-disease-heart-failure", num: "2", title: "Ischemic Heart Disease &amp; Heart Failure", file: "week6-ischemic-heart-disease-heart-failure.html" },
+            { id: "week6-cardiac-dysrhythmias", num: "3", title: "Cardiac Dysrhythmias", file: "week6-cardiac-dysrhythmias.html" },
+            { id: "week6-peripheral-vascular-disease", num: "4", title: "Peripheral Vascular Disease", file: "week6-peripheral-vascular-disease.html" },
+            { id: "week6-valve-disease", num: "5", title: "Valve Disease", file: "week6-valve-disease.html" },
+            { id: "week6-cardiac-pharmacology", num: "6", title: "Cardiac Pharmacology", file: "week6-cardiac-pharmacology.html" },
+            { id: "week6-big-picture-overview", num: "7", title: "Big Picture Overview", file: "week6-big-picture-overview.html" },
+          ]
+        },
       ]
     },
     {
@@ -197,9 +207,12 @@ const SITE_VER = (function () {
   const path = location.pathname.split("/").pop() || "index.html";
   const file = path === "" ? "index.html" : path;
 
-  // Flatten the ordered list of pages for prev/next.
+  // Flatten the ordered list of pages for prev/next. Groups may list their
+  // pages directly (`items`) or nested under sub-headings (`sections`, e.g.
+  // the merged "Weeks 1–3" / "Weeks 4–6" dropdowns) — handle both shapes.
+  const groupItems = g => g.sections ? g.sections.flatMap(s => s.items) : g.items;
   const flat = [];
-  SITE.groups.forEach(g => g.items.forEach(it => flat.push(it)));
+  SITE.groups.forEach(g => groupItems(g).forEach(it => flat.push(it)));
   const current = flat.find(it => it.file === file) || null;
 
   // ---- Build the top nav ---------------------------------------
@@ -207,14 +220,23 @@ const SITE_VER = (function () {
       <a class="toplink ${file === "index.html" ? "is-active" : ""}" href="index.html"${file === "index.html" ? ' aria-current="page"' : ""}>Home</a>
     </li>`;
 
-  SITE.groups.forEach(g => {
-    const groupActive = g.items.some(it => it.file === file) ? "is-active" : "";
-    let sub = "";
-    g.items.forEach(it => {
-      const active = it.file === file ? "is-active" : "";
-      sub += `<li><a class="droplink ${active}" data-page="${it.id}" href="${it.file}"${active ? ' aria-current="page"' : ""}>
+  function droplinkHtml(it) {
+    const active = it.file === file ? "is-active" : "";
+    return `<li><a class="droplink ${active}" data-page="${it.id}" href="${it.file}"${active ? ' aria-current="page"' : ""}>
         <span class="num">${it.num}</span><span>${it.title}</span></a></li>`;
-    });
+  }
+
+  SITE.groups.forEach(g => {
+    const groupActive = groupItems(g).some(it => it.file === file) ? "is-active" : "";
+    let sub = "";
+    if (g.sections) {
+      g.sections.forEach(s => {
+        sub += `<li class="dropdown-heading">${s.heading}</li>`;
+        s.items.forEach(it => { sub += droplinkHtml(it); });
+      });
+    } else {
+      g.items.forEach(it => { sub += droplinkHtml(it); });
+    }
     items += `<li class="top-item has-dropdown">
       <a class="toplink ${groupActive}" href="#" aria-haspopup="true" aria-expanded="false">${g.label}<span class="caret" aria-hidden="true">▾</span></a>
       <ul class="dropdown">${sub}</ul>

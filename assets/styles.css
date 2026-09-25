@@ -161,6 +161,9 @@ img{max-width:100%;}
   .has-dropdown:focus-within > .toplink::after{ transform:scaleX(1); }
   /* keep each dropdown title on one line; the panel auto-widens to fit */
   .dropdown .droplink{ white-space:nowrap; }
+  /* merged multi-week dropdowns (Weeks 1–3 / 4–6) can run long — scroll
+     instead of overflowing the viewport on shorter screens */
+  .dropdown{ max-height:calc(100vh - 90px); overflow-y:auto; }
 }
 .droplink{
   display:flex; align-items:center; gap:10px; padding:9px 11px; border-radius:8px;
@@ -172,6 +175,15 @@ img{max-width:100%;}
   flex:none; width:22px; height:22px; border-radius:6px; display:inline-flex; align-items:center; justify-content:center;
   background:var(--brand-tint-2); color:var(--brand-strong); font-size:.72rem; font-weight:700;
 }
+
+/* Non-clickable week divider inside a merged dropdown (e.g. "Weeks 1–3"
+   grouping Week 1 / Week 2 / Week 3 sub-lists under one top-level item). */
+.dropdown-heading{
+  margin:10px 4px 4px; padding:4px 7px 5px; font-size:.68rem; font-weight:800;
+  letter-spacing:.08em; text-transform:uppercase; color:var(--text-soft);
+  border-top:1px solid var(--border);
+}
+.dropdown-heading:first-child{ margin-top:2px; border-top:none; }
 
 .nav-toggle{
   display:none; margin-left:auto; background:rgba(255,255,255,.14); border:1px solid rgba(255,255,255,.22);
@@ -684,6 +696,12 @@ footer.site-foot{
   .droplink{ color:var(--on-brand-soft); padding:10px 12px; }
   .droplink:hover, .droplink.is-active{ background:rgba(255,255,255,.12); color:#fff; }
   .droplink .num{ background:rgba(255,255,255,.16); color:#fff; }
+  .dropdown-heading{
+    margin:8px 0 2px; padding:4px 12px 4px; font-size:.66rem; font-weight:800;
+    letter-spacing:.08em; text-transform:uppercase; color:var(--on-brand-faint);
+    border-top:1px solid rgba(255,255,255,.16);
+  }
+  .dropdown-heading:first-child{ margin-top:2px; border-top:none; }
 
   #content{ max-width:100%; padding:22px 18px 80px; }
 }
