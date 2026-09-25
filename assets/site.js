@@ -151,6 +151,7 @@ const SITE = {
       items: [
         { id: "week2-jeopardy", num: "1", title: "Exam 1 Jeopardy — 2 Player Game", file: "week2-jeopardy.html" },
         { id: "exam2-jeopardy", num: "2", title: "Exam 2 Jeopardy — 3 Player Game", file: "exam2-jeopardy.html" },
+        { id: "exam3-jeopardy", num: "3", title: "Exam 3 Jeopardy — 3 Player Game", file: "exam3-jeopardy.html" },
       ]
     }
   ]
