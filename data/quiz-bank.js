@@ -8533,6 +8533,1071 @@ window.QUIZ_BANK = {
             ],
             "eaq": []
         }
+    },
+    {
+        "id": "week7-cancer-fundamentals-etiology",
+        "label": "Cancer Fundamentals, Metastasis &amp; Etiology",
+        "week": 7,
+        "sets": {
+            "mustKnow": [],
+            "extraPractice": [
+                {
+                    "stem": "A client newly diagnosed with cancer says, \"These cells grew from my own body, so my immune system should never see them as a threat, and that is why the cancer spreads.\" Which response by the nurse is most accurate?",
+                    "options": [
+                        "Cancer cells carry the same self HLA marker as normal cells, so the immune system ignores them and the immune response plays no role in where the cancer goes.",
+                        "Cancer cells carry an exaggerated self marker, so immune attack is guaranteed to clear them before they can spread, and spread means the client did something wrong.",
+                        "Cancer cells carry a non-self marker, so the immune system may attack them; how intense the cancer becomes depends partly on how successful that attack is.",
+                        "Normal cells and cancer cells both display a non-self marker, so the immune system attacks both equally and the cancer type does not change the outcome."
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: Normal cells display the HLA antigen that tells the body \"this is my cell, don't hurt me,\" while cancer cells carry a non-self marker, so the immune system may try to attack them. How intense the cancer becomes, or where it goes, depends on how successful that attack is, the kind of cancer, and how fast it is proliferating. Incorrect: The closest distractor flips the markers; it is the normal cell, not the cancer cell, that carries the self marker. The other options claim the attack is guaranteed or equal for all cells, but the page ties outcome to how successful the attack is and to the cancer type and proliferation rate.",
+                    "topic": "Cancer Fundamentals, Metastasis &amp; Etiology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "Two clients each have a mass with these features: well demarcated, encapsulated, movable, well-differentiated cells, no necrotic core, no metastasis. Client A's mass occupies a significant portion of one lung and the client has worsening dyspnea. Client B's small mass lies under the skin and causes no symptoms. Which interpretation by the nurse is most accurate?",
+                    "options": [
+                        "Both show benign features, but Client A's can still be life-threatening by mechanically interrupting normal lung function.",
+                        "Client A's mass must be malignant, because a benign tumor cannot interfere with lung function no matter how large it becomes.",
+                        "Client A's mass is benign and therefore harmless, so the dyspnea must have a separate cause that is unrelated to the tumor.",
+                        "Client B's mass is the greater concern, because encapsulated and movable tumors are the ones most likely to metastasize to other organs."
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: Demarcation, encapsulation, well-differentiated cells, no necrotic core, and no metastasis all describe benign tumors. Benign tumors are generally harmless but can be lethal if they grow large enough to mechanically interrupt a critical tissue or organ, such as one taking over a significant portion of a lung. Incorrect: The closest distractor treats the dyspnea as proof of malignancy; the page says harm from a benign tumor comes from mechanical interruption, not from a malignant cell type. Calling the mass harmless ignores the starred warning that a benign tumor can be lethal, and encapsulated, movable tumors are the ones that do not metastasize.",
+                    "topic": "Cancer Fundamentals, Metastasis &amp; Etiology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A pathology report on a mass that has grown slowly over several years describes cells of widely varying size and shape, large irregular nuclei that fill most of each cell, cells stacked on top of each other, a poorly defined border, and a necrotic core. A family member says, \"It grew so slowly that it must be benign.\" Which response by the nurse is best?",
+                    "options": [
+                        "Slow growth is reassuring, because malignant tumors always grow very rapidly, so the report most likely describes a benign tumor with unusual cell shapes.",
+                        "Growth rate is the only feature that separates benign from malignant tumors, so the mass cannot be classified until its growth speed changes over time.",
+                        "These findings are expected in a benign tumor, because well-differentiated cells vary in size and shape and typically have poorly defined borders and necrotic cores.",
+                        "Malignant growth is erratic and can be slow or very rapid, so slow growth does not outweigh these findings, which describe a poorly differentiated, invasive tumor."
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: Malignant tumor growth is usually erratic, slow in some tumors and very rapid in others. Varied cell size and shape, large nuclei taking up most of the cell, disorganized stacking, a poorly defined boundary, and a necrotic core are all cancer-cell and malignant-tumor findings. Incorrect: The closest distractor treats slow growth as proof of a benign tumor, but benign tumors are distinguished by well-differentiated cells, a demarcated or encapsulated border, no invasion, and no necrotic core, while growth rate alone is not the deciding feature.",
+                    "topic": "Cancer Fundamentals, Metastasis &amp; Etiology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client about to start chemotherapy says, \"Cancer cells must have a totally different growth cycle from my healthy cells, so I assume every chemotherapy drug hits them the same way at every moment.\" Which response by the nurse best corrects this belief?",
+                    "options": [
+                        "Cancer cells have no growth cycle at all, so chemotherapy drugs are chosen by where the tumor sits in the body rather than by any phase.",
+                        "Both cell types pass through distinct phases of a similar cycle, and certain chemotherapy drugs are specific to certain phases.",
+                        "Normal and cancer cells share the same cycle, but every chemotherapy drug acts on a single phase, so the timing of a drug in the cycle never matters.",
+                        "Cancer and normal cell cycles look completely different, and the generation time is the same few hours for every type of tumor."
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: The page states that cell growth characteristics of normal and neoplastic cells are similar and that both pass through distinct phases; chemotherapy agents can affect specific phases, which is why understanding the cycle helps with understanding the drugs. Incorrect: The generation-time distractor is wrong on both counts: the cycles are not completely different, and generation time ranges from hours to days depending on the tumor. The single-phase distractor overstates the point; some agents are phase-specific, which is exactly why the phase matters.",
+                    "topic": "Cancer Fundamentals, Metastasis &amp; Etiology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A nurse is explaining why a client's tumor cells show so many genetic errors compared with the client's normal cells in the same tissue, which divide at a controlled pace. Which explanation is most accurate?",
+                    "options": [
+                        "Tumor cells rest for long periods before each division, which gives mutations time to build up before the cells divide again.",
+                        "Tumor cells pass through restriction checkpoints more often than normal cells, and each extra pass introduces new mistakes into the DNA.",
+                        "Tumor cells cycle constantly without an active restriction point, so DNA repairs rarely occur and the cells keep mutating.",
+                        "Tumor cells undergo apoptosis too quickly, so damaged cells are replaced by fast-dividing cells that carry new errors."
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: Cancer cells do not rest and do not go through restriction checkpoints; they proliferate without control and without an active restriction point, so DNA repairs do not often occur and the cell continuously mutates. Incorrect: The closest distractor says cancer cells rest; the page says the opposite, that they do not rest and cycle constantly. Cancer cells generally lack the ability to undergo apoptosis and lack checkpoints, so the other two options reverse real defects.",
+                    "topic": "Cancer Fundamentals, Metastasis &amp; Etiology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client's pathology report lists \"grade 3\" for a malignant tumor. The client says, \"Grade 3 means my cancer has already reached stage III and spread to nearby regions.\" What is the nurse's best response?",
+                    "options": [
+                        "Grade is based on how cells look microscopically, and grade 3 means poorly differentiated or anaplastic; stage reflects spread.",
+                        "Grade 3 means moderately differentiated cells, and stage III is read from the same microscope findings, so the two numbers always match.",
+                        "Grade 3 means well differentiated cells, which is why stage III spread is limited to the regional lymph nodes in this client.",
+                        "Grade and stage are one system based on lymph node spread and metastasis, so a grade 3 and a stage III always describe the same finding in a client."
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: Tumor grade (1 to 3) is based on the microscopic appearance of the malignant cells, and grade 3 is poorly differentiated or anaplastic. Stage (I to IV) is generally based on lymph node spread and metastasis, so it is a different system. Incorrect: The closest distractor mislabels grade 3; moderately differentiated is grade 2 and well differentiated is grade 1. The option merging the systems fails because grading is not based on spread.",
+                    "topic": "Cancer Fundamentals, Metastasis &amp; Etiology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client's chart reads T3 N0 M0. Another client's chart reads T1 N1 M1. Which interpretation by the nurse is accurate?",
+                    "options": [
+                        "The first client has the more advanced disease because the higher T number means that metastasis has already occurred in that client.",
+                        "The second client's cancer is confined to the organ of origin because a T1 tumor is small and N1 means no lymph nodes are involved.",
+                        "The first client has spread to the closest regional lymph node, while the second client has no lymph node involvement or metastasis.",
+                        "The second client's small primary has spread to nodes and distant sites (stage IV); the first client has no node or distant spread."
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: T describes the primary tumor's size and growth into nearby tissue, N1 means spread to the closest regional node or a small number of them, and M1 means metastasis is present. Stage IV is spread to distant sites, and staging is generally based on node spread and metastasis rather than tumor size. T3 N0 M0 means a larger or more invasive primary with no nodal spread and no metastasis. Incorrect: The closest distractor equates a higher T number with metastasis; metastasis is shown only by M1, and N0 means no regional node spread.",
+                    "topic": "Cancer Fundamentals, Metastasis &amp; Etiology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with colon cancer has imaging showing tumor deposits elsewhere in the abdominal cavity. A second client has prostate cancer growing directly into the adjoining bladder. Which classification pairing is correct?",
+                    "options": [
+                        "First client: implantation, because the tumor expanded directly into adjoining tissue; second client: seeding, because cells shed into a body cavity.",
+                        "First client: seeding, because tumor cells shed into a body cavity; second client: implantation, because the tumor grew directly into adjoining tissue.",
+                        "First client: lymphatic metastasis, because cells traveled through channels to nodes; second client: vascular metastasis, because cells entered local veins.",
+                        "First client: vascular metastasis, because cells flowed through the portal vein; second client: seeding, because cells shed into the bladder cavity."
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: Seeding is tumor erosion and shedding into body cavities (intraperitoneal seeding from the colon), while implantation is direct expansion into adjoining tissue as the tumor grows (prostate into the bladder, directly connected by close proximity). Incorrect: The closest distractor swaps the two terms. The lymphatic and vascular options describe the two primary routes of metastasis, which travel through lymph nodes or blood, not cavity shedding or direct extension.",
+                    "topic": "Cancer Fundamentals, Metastasis &amp; Etiology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "Months after a primary tumor was removed, a client with no symptoms asks how cancer could still be present. The surgeon noted cancer cells were trapped in regional lymph nodes. Which statement by the nurse is accurate?",
+                    "options": [
+                        "Trapped cells always die within the node, so cancer cannot persist after the primary tumor is removed without a new primary tumor.",
+                        "Trapped cells can never leave the lymph node, so any later spread must have traveled through the blood and not through the lymph system.",
+                        "Trapped cells may die, go dormant and wait to grow without symptoms, or flourish; survivors can move to the next lymph nodes.",
+                        "Trapped cells must begin to flourish at once, so the absence of symptoms confirms that none of the trapped cells survived."
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: Cells trapped in a lymph node can die, go dormant (sit and wait to grow, so the client may not know cancer is present), or flourish and proliferate; survivors exit into the lymph system and spread through channels to the next set of lymph nodes, creating secondary locations. Incorrect: The closest distractor says all trapped cells die, but dying is only one of three fates the page lists, and dormancy is the fate that explains a symptom-free client.",
+                    "topic": "Cancer Fundamentals, Metastasis &amp; Etiology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "Client A's cancer cells are spreading by the lymphatic route. Client B's cancer cells have penetrated the veins draining the tumor. Where are the cells of each client first expected to become trapped?",
+                    "options": [
+                        "A: lymph nodes; B: liver capillaries, because most blood goes through the portal vein before it enters general circulation.",
+                        "A: liver capillaries; B: lymph nodes, because veins draining a tumor empty into the lymph system before they reach the liver.",
+                        "A: lymph nodes; B: lymph nodes, because both metastatic routes share the same first stop.",
+                        "A: liver capillaries; B: liver capillaries, because the liver filters both lymph and blood before anything else."
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: Lymphatic spread is trapped first in lymph nodes, the first stop in that system. Vascular spread goes through the veins draining the tumor, and most blood passes through the portal vein before general circulation, so cells clump and are trapped in liver capillaries, where they begin to proliferate. Incorrect: The closest distractor swaps the first stops. The page lists the first stops as different for the two routes, so a shared first stop is wrong.",
+                    "topic": "Cancer Fundamentals, Metastasis &amp; Etiology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A student nurse is preparing a surveillance sheet of the usual metastatic sites for several primary cancers. Which set of pairings is correct?",
+                    "options": [
+                        "Lung to liver only; colon to bone and brain; prostate to vertebrae; melanoma to brain; breast to liver only",
+                        "Colon to liver; prostate to brain; melanoma to vertebrae; lung to bone and brain; breast to lung only",
+                        "Breast to liver only; lung to bone and brain; colon to brain; prostate to vertebrae; melanoma to brain",
+                        "Breast to bone, brain, liver, or lung; colon to liver; prostate to vertebrae; melanoma to brain"
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: The chart lists breast as bone, brain, liver, or lung; prostate as vertebrae; and melanoma as brain (with lung as bone and brain and colon as liver). Incorrect: Each distractor contains a near-miss swap: lung is bone and brain (not liver only), colon goes to the liver (not bone or brain), prostate goes to the vertebrae (not brain), and breast has four sites rather than the liver alone.",
+                    "topic": "Cancer Fundamentals, Metastasis &amp; Etiology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client treated for breast cancer has a new bone lesion. Biopsy shows cells that look like the cancerous cells of the primary breast tumor. Which interpretation by the nurse is most accurate?",
+                    "options": [
+                        "A new primary bone cancer, because secondary tumors look like the normal cells of the new site instead of the primary tumor.",
+                        "A secondary tumor (MET) from seeded malignant cells, which must develop its own blood vessels in order to grow.",
+                        "A benign bone tumor, because tumors at distant sites are well differentiated and demarcated from the surrounding tissue.",
+                        "Implantation from the breast tumor, because bone is the adjoining tissue that the breast tumor expanded directly into."
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: Under the microscope, secondary-tumor cells look like the primary-site cells (breast cancer cells in the bone), and a secondary tumor, a MET, results from seeding of malignant cells to distant sites through metastasis. To establish itself and grow, it must develop blood vessels and connect to the existing blood supply; its growth rate depends on that angiogenesis rate. Incorrect: A new bone primary would show bone-origin cells. Implantation means direct expansion into adjoining tissue, which does not describe a distant bone site.",
+                    "topic": "Cancer Fundamentals, Metastasis &amp; Etiology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A genetic analysis of a client's tumor shows rapidly proliferating cells with extensive DNA damage that do not undergo apoptosis, because the P53 gene is nonfunctional. Which interpretation is correct?",
+                    "options": [
+                        "A proto-oncogene has mutated into an oncogene, like a gas pedal stuck to the floor, so the cells are constantly stimulated to divide.",
+                        "P53 is a gas pedal that has been switched off, so the cells slow down and gradually accumulate damage.",
+                        "A tumor suppressor gene is defective, like a failed brake, so damaged cells that should die by apoptosis survive and divide.",
+                        "P53 is a carcinogen that has altered the cell DNA directly and caused the apoptosis failure on its own."
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: P53 is a tumor suppressor gene, the brake pedal, that controls cellular apoptosis so cells with damaged DNA die naturally. When it is defective, the cell loses the ability to inhibit growth, allowing cancer formation. Incorrect: Rapid proliferation tempts the stuck-gas-pedal answer, but that describes a mutated proto-oncogene that stimulates constantly, which is a different gene class from the apoptosis-controlling P53.",
+                    "topic": "Cancer Fundamentals, Metastasis &amp; Etiology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A nurse reads two study summaries. Study 1: after many years of exposure, substance X alters cell DNA, and exposure has been shown to cause cancer. Study 2: substance Y does not cause the DNA change, but cells already damaged by something else proliferate more in its presence. Which classification is correct?",
+                    "options": [
+                        "X is a promoter and Y is a carcinogen, because the agent that damages cells is the one that helps them proliferate.",
+                        "Both are carcinogens, because any substance associated with cancer development must alter the cell DNA.",
+                        "X is a carcinogen and Y is a promoter, so a single agent can never act in both roles, including tobacco.",
+                        "X is a carcinogen and Y is a promoter, and one agent can act as both, as tobacco and estrogen therapy do."
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: Carcinogens alter a cell's DNA and have been shown to cause cancer, often after prolonged exposure; promoters help already-mutated genes or damaged cells proliferate without causing the DNA change themselves. Some agents do both, such as tobacco and estrogen therapy. Incorrect: The closest distractor classifies correctly but wrongly says nothing can be both; the page names tobacco and estrogen therapy as doing both. The reversed option swaps the definitions.",
+                    "topic": "Cancer Fundamentals, Metastasis &amp; Etiology",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A nurse is reviewing a community handout about cancer risk and etiology. Which statements are accurate? Select all that apply.",
+                    "options": [
+                        "Risk rises with age for most cancers, but not for reproductive cancers such as cervical or uterine.",
+                        "Night shift work is a known carcinogen, in the same category as tobacco and asbestos.",
+                        "Burkitt lymphoma is much more common in young African children and children of African descent.",
+                        "HPV, HIV, herpes virus, and Epstein-Barr are oncogenic viruses associated with various cancers.",
+                        "A low-fiber diet is a risk factor for gastrointestinal cancers.",
+                        "Lung and urinary cancers are higher risk in females, which may reflect lifestyle and environmental differences."
+                    ],
+                    "answers": [
+                        0,
+                        2,
+                        3,
+                        4
+                    ],
+                    "rationale": "Correct: Risk generally increases with age except for reproductive cancers such as cervical and uterine; Burkitt lymphoma is more common in young African children and children of African descent; HPV, HIV, herpes virus, and Epstein-Barr are oncogenic viruses; and a low-fiber diet is a risk for GI cancers. Incorrect: Night shift work is only a probable carcinogen (women who worked nights in the past 10 years have a 60% higher breast cancer risk), whereas tobacco, asbestos, alcohol, and some viruses are known carcinogens. Lung and urinary cancers are definitely higher risk in males, not females.",
+                    "topic": "Cancer Fundamentals, Metastasis &amp; Etiology",
+                    "source": "quiz-bank"
+                }
+            ],
+            "eaq": []
+        }
+    },
+    {
+        "id": "week7-specific-cancers",
+        "label": "Lung, Breast, Cervical &amp; Colorectal Cancer",
+        "week": 7,
+        "sets": {
+            "mustKnow": [],
+            "extraPractice": [
+                {
+                    "stem": "A client with an 80-pack-year smoking history asks how smoking actually harms the airways. Which explanation by the nurse is most accurate?",
+                    "options": [
+                        "Smoke makes the cilia beat faster, which pushes carcinogens deeper into the lung tissue, and it has no effect on cells that have already mutated",
+                        "Smoke acts only as a promoter of growth, so the cancer itself has to be started by a separate carcinogen such as radon, asbestos, or arsenic exposure at work",
+                        "Smoke paralyzes the cilia that sweep away carcinogens and bacteria, so carcinogens build up, and it also promotes growth of cells that have already mutated",
+                        "Smoke weakens the cilia only after a tumor has formed, so cilia damage is a result of lung cancer rather than a cause of carcinogen buildup"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: The page stresses (twice) that smoke and environmental toxins paralyze the cilia, so carcinogens and bacteria are no longer swept away and accumulate along the airway; cigarette smoke is also both a promoter and a known carcinogen, so it causes cancer and promotes proliferation of already-mutated genes. Incorrect: Calling smoke only a promoter is the closest distractor, but the page says it is both a promoter and a carcinogen. Faster-beating cilia reverses the paralysis the page describes, and cilia damage comes before the dysplasia and mutations, not after a tumor forms.",
+                    "topic": "Lung, Breast, Cervical &amp; Colorectal Cancer",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "At a health fair in rural Kentucky, a client who smokes half a pack per day says, \"Radon only matters for people who don't smoke, because my cigarettes already do the damage, so testing my house is pointless.\" Which response by the nurse is best?",
+                    "options": [
+                        "Radon is a known carcinogen that compounds the effect of smoking, so testing the home and mitigating if levels are high is worthwhile",
+                        "Radon matters mainly for new buildings, so an older home does not need testing as long as the client eventually quits smoking cigarettes entirely",
+                        "Radon is the same hazard as asbestos and is found only in old insulation, so testing would matter only if the client worked in construction",
+                        "Radon is not a concern for smokers because smoking has already paralyzed the cilia, so testing the home would add nothing to the risk"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: The page calls radon plus smoking a very dangerous combination with a compounding effect, notes high radon levels are very common in Kentucky, and says radon testing and mitigation systems exist. Incorrect: The idea that radon matters only for new buildings is the closest distractor; the push is to test new homes and buildings, but radon comes from the ground and applies to existing homes as well. Radon is a ground-sourced chemical, not insulation (asbestos is the construction/insulation exposure), and damaged cilia make carcinogen exposure worse, not irrelevant.",
+                    "topic": "Lung, Breast, Cervical &amp; Colorectal Cancer",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A 71-year-old former heavy smoker says, \"I feel fine and have no cough, so I don't need a lung scan.\" Which response best reflects the page's teaching about lung cancer detection?",
+                    "options": [
+                        "Hoarseness and coughing up blood appear early in lung cancer, so screening can safely wait until they start, since stage 4 survival is still over 60%",
+                        "Low-dose CT screening is meant for clients who already have symptoms, because it cannot find disease before symptoms appear in most patients",
+                        "Screening is mainly useful for clients under 65, because the average age at diagnosis is about 70 and early detection does not change survival at stage 1 or 4",
+                        "Early lung cancer often causes no symptoms, so low-dose CT screening is how it is caught early, when five-year survival is over 60% rather than under 10%"
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: Most lung cancers are found late because early disease has no symptoms and screening uptake is limited; low-dose CT is very effective for early detection, and survival falls from over 60% at stage 1 to below 10% at stage 4. Incorrect: Waiting for hoarseness or hemoptysis is the closest distractor, but those signs generally appear when disease is advanced, and it flips the survival figures. Screening exists to find disease before symptoms, and age 70 is the average age at diagnosis (often over 65), not a cutoff, with early detection significantly improving survival.",
+                    "topic": "Lung, Breast, Cervical &amp; Colorectal Cancer",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A nurse in a primary care clinic reviews four clients who smoke or used to smoke. Which client's report most needs prompt evaluation for possible lung cancer?",
+                    "options": [
+                        "Reports feeling more tired and weak for several days, but weight is stable, eating, drinking, urinating, and bowel movements are normal, and there is no fever",
+                        "Reports a cough that is getting worse instead of going away, new hoarseness, and weight loss without trying, with no recent infection",
+                        "Has lost 10 pounds over two months on a deliberate diet and exercise plan, feels otherwise well, and has no cough or fever",
+                        "Reports a feeling that the bowel does not empty completely, with diarrhea alternating with constipation, but breathing, voice, and cough are unchanged"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: A cough that does not go away or gets worse is called a big one, hoarseness can mean the tumor is compressing the laryngeal nerve, and unexplained weight loss is a listed symptom; together they warrant workup. Incorrect: The fatigue-only client is the closest distractor, but the instructor's rule of thumb is that someone who is not losing weight, can eat, drink, urinate, have bowel movements, and has no fever or infection is probably doing okay. Weight loss on purpose is not the unexplained loss that counts. The bowel symptoms point to colorectal cancer, not lung cancer.",
+                    "topic": "Lung, Breast, Cervical &amp; Colorectal Cancer",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client who has smoked 1.5 packs per day for 30 years says, \"I'll just switch to vaping, since studies prove it's safe.\" Which nurse response correctly states the pack-year history and the evidence on vaping?",
+                    "options": [
+                        "That is about 45 pack-years; studies have proven that vaping carries no lung cancer risk, so switching removes the harm that cigarette smoke caused",
+                        "That is about 45 pack-years; studies have proven that vaping is just as carcinogenic as cigarette smoking, so switching offers no difference at all",
+                        "That is about 45 pack-years; vaping is not good for you, and no good studies show it raises lung cancer risk, though weak data suggest it may be a little less carcinogenic",
+                        "That is about 30 pack-years, because only the number of years counts; vaping is not good for you, and the data on its cancer risk is not good yet, so it is still being studied"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: Pack-years are packs per day times years (the page's example: 2 packs x 40 years = 80), so 1.5 x 30 = 45; the page says vaping is not good for you, there are no good studies showing it increases lung cancer risk, and some not-great data suggest it is a little less carcinogenic; it is being actively studied. Incorrect: Claiming vaping is proven safe or proven equal to cigarettes both overstate the evidence, which the instructor calls not great. Counting only years leaves out the packs per day, which the pack-year measure includes.",
+                    "topic": "Lung, Breast, Cervical &amp; Colorectal Cancer",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A 54-year-old with severe menopausal symptoms is considering estrogen and progesterone therapy and says, \"My friend says hormone therapy always causes breast cancer, so I should refuse.\" Which response is most accurate?",
+                    "options": [
+                        "Estrogen and progesterone taken for over five years can raise breast cancer risk, but they help many people, so duration should be weighed with the provider",
+                        "Any use of estrogen and progesterone, even for a few months, raises breast cancer risk, so she should refuse and rely on lifestyle changes alone from now on",
+                        "Hormone therapy is a non-modifiable risk factor, so the decision makes no difference to her breast cancer risk either way",
+                        "Only hormonal birth control pills carry breast cancer risk, and menopausal estrogen and progesterone are not linked to breast cancer"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: The page says both estrogen and progesterone, usually taken during menopause, can raise breast cancer risk if taken for more than five years, but the instructor cautions that HRT should not be demonized because it does a lot of good for people who need it. Incorrect: Refusing outright is the closest distractor; it ignores the more-than-five-years qualifier and the instructor's caution. HRT is on the modifiable list, since a client can choose it, and hormonal oral contraceptives are linked to risk in addition to HRT, not instead of it.",
+                    "topic": "Lung, Breast, Cervical &amp; Colorectal Cancer",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A 34-year-old's mother had ovarian cancer and her sister had breast cancer. Genetic testing shows a BRCA2 mutation. The client also works night shifts and drinks one glass of wine nightly. Which statement by the nurse is most accurate?",
+                    "options": [
+                        "Everyone carries BRCA genes, so a mutation is not clinically meaningful, and night shift work and alcohol are the main drivers of her cancer risk, not her family history",
+                        "The mutation raises risk of breast, lung, and cervical cancer, so screening should be focused on those three cancers rather than on the ovaries or colon",
+                        "The mutation means she will develop breast cancer, so a preventive mastectomy is required, and her ovarian cancer risk is not affected",
+                        "The mutation raises risk of breast, ovarian, colon, and pancreatic cancers; night shifts and alcohol add modifiable risk, and some choose preventive surgery"
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: BRCA1 and BRCA2 mutations carry a much higher risk of breast cancer and are linked to ovarian, colon, and pancreatic cancer (and prostate cancer in males); with a family history providers test early, women with mutations often choose preventive mastectomy or oophorectomy, and night shift work and alcohol are modifiable breast cancer risks. Incorrect: Saying everyone has the genes is the closest distractor; everyone does have them, but it is the mutation that carries risk. The lung and cervical cancer set is wrong, and the page says higher risk, not certainty, with surgery commonly chosen rather than required.",
+                    "topic": "Lung, Breast, Cervical &amp; Colorectal Cancer",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "An 84-year-old client says that during a pregnancy in 1967 she was given diethylstilbestrol (DES) to prevent miscarriage, and that this was too long ago to matter. Which statement by the nurse is most accurate?",
+                    "options": [
+                        "DES raises her risk of breast cancer only, because cervical cancer is caused solely by HPV and has no link to medication exposure",
+                        "DES raises her risk of both breast and cervical cancer, and it still matters because women who took it are now in their 70s and 80s",
+                        "DES raises her risk of lung and colorectal cancer, and the risk fades after about a decade, so no ongoing monitoring is needed at her age",
+                        "DES raises her risk of breast and ovarian cancer, and the link applies only to a child exposed in the womb, not to the woman who took it"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: DES was given to some pregnant women between 1940 and 1971 to prevent miscarriage; women who took it have a higher risk of breast cancer, DES use is also linked to cervical cancer, and the instructor says we need to keep an eye on this as these women are now in their late 60s, 70s, and 80s. Incorrect: Breast cancer only is the closest distractor; the page lists DES under cervical cancer risk factors as well, even though HPV is the big one. The risk does not fade, and the page ties the higher risk to women who took the drug.",
+                    "topic": "Lung, Breast, Cervical &amp; Colorectal Cancer",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A 38-year-old woman asks about the HPV vaccine for herself, saying, \"It's only for kids, and I've heard it's risky.\" Which response is most accurate?",
+                    "options": [
+                        "It can be received only through the teen years, and decades of studies show that adults have a significant risk of side effects",
+                        "It can be received up to age 45, but it works only before cervical changes appear, and studies show side effects are common",
+                        "It is best given at age 11 or 12 but can be received up to 45, and decades of studies show no significant risk or side effects",
+                        "It is best given around age 11 or 12 but can be received only up to age 26, and long-term studies show no significant risk or side effects"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: The page says the vaccine is best received as an adolescent around age 11 or 12 but can be received up to age 45, and decades-long studies show it is very safe with no significant risk or side effects. Incorrect: The age-26 option is the closest distractor, since it gets the safety facts right but sets the upper limit 19 years too low and would wrongly exclude this client. The vaccine is not limited to teens, and the page reports no significant side effects rather than common ones.",
+                    "topic": "Lung, Breast, Cervical &amp; Colorectal Cancer",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A nurse at a women's health clinic is deciding which client to prioritize for reinforcing frequent cervical cancer screening. Which client should be emphasized first?",
+                    "options": [
+                        "A 33-year-old who is HIV positive, smokes cigarettes, and has had chlamydia and gonorrhea in the past",
+                        "A 22-year-old who received the HPV vaccine at age 12, does not smoke, and has had one lifetime partner",
+                        "A 40-year-old who works night shifts, drinks wine every night, and started menstruating at age 11",
+                        "A 58-year-old with Crohn's disease and a father who had colorectal cancer, who does not smoke"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: Immunosuppression such as HIV makes HPV infection more likely, smoking is a big cervical cancer risk factor, and chlamydia and gonorrhea can raise risk when compounded with HPV; people with these risk factors need more frequent screening and awareness (without demonizing sexuality). Incorrect: The night-shift and early-menarche client is the closest distractor, but those are breast cancer risk factors, not cervical. The vaccinated nonsmoker with one partner has the fewest risk factors, and Crohn's disease and colorectal family history are colorectal cancer risks.",
+                    "topic": "Lung, Breast, Cervical &amp; Colorectal Cancer",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A 25-year-old who received the HPV vaccine at age 12 says, \"Since the vaccine is 97% effective, I can skip Pap smears.\" Which response is best?",
+                    "options": [
+                        "She is correct, since almost 100% of cervical cancers are HPV positive, so vaccination alone fully removes the need for any screening",
+                        "Pap smears are needed only for unvaccinated women, and vaccinated women are screened only if symptoms of cervical cancer develop later in life",
+                        "Pap smears are unnecessary until age 45, which is the upper age limit for receiving the HPV vaccine and for screening to begin",
+                        "The vaccine greatly lowers risk by preventing HPV, but cervical cancer is best prevented by the vaccine plus frequent Pap screening"
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: The page says the drop in cervical cancer comes from Pap smear screening and the HPV vaccine, that it can essentially be prevented with the vaccine and frequent screenings, and that Pap smears detect early cancer mutations so they are found sooner; 97% effective is not 100%. Incorrect: Her own statement is the closest distractor; the near-100% HPV link explains why the vaccine works so well, but it does not remove the need for screening. Screening is not reserved for symptoms, and age 45 is the vaccine's upper age limit, not a screening start.",
+                    "topic": "Lung, Breast, Cervical &amp; Colorectal Cancer",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "Two clients have screening colonoscopy reports: Client A has an adenomatous polyp and Client B has a hyperplastic polyp. Neither reports any bowel symptoms. Which interpretation is most accurate?",
+                    "options": [
+                        "Client B's polyp has the higher potential to become cancer because it is the most common type, and a lack of symptoms is unusual for any polyp",
+                        "Client A's polyp has the higher cancer potential, Client B's typically does not, and no symptoms is expected since polyps usually cause none",
+                        "Both polyps carry equal cancer potential, but only Client A's would be expected to cause rectal bleeding or abdominal pain by now",
+                        "Both polyps are cancerous growths, so the lack of symptoms means the cancers are likely slow-growing and can be rechecked later"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: Adenomatous polyps are the most common type and have a higher potential to develop into cancer, hyperplastic polyps are less common and typically do not turn into cancer, and polyps are usually asymptomatic, which is why they are mostly found at screening. Incorrect: The swapped-type option is the closest distractor, but it reverses which polyp is more common and which is more dangerous. Polyps are non-cancerous growths that can develop into cancer, and the page does not say that one type causes symptoms while the other does not.",
+                    "topic": "Lung, Breast, Cervical &amp; Colorectal Cancer",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A 56-year-old says, \"I'm still eating, drinking, and having bowel movements, so I'm fine.\" She also reports blood in the stool, a feeling that her bowel does not empty completely, alternating diarrhea and constipation, and unexplained weight loss. Which nurse response is most appropriate?",
+                    "options": [
+                        "Her normal eating and elimination are reassuring, so she can monitor at home, since colorectal cancer symptoms are specific and easy to recognize",
+                        "Her symptoms suggest colon rather than rectal cancer, because incomplete emptying is typical of colon cancer, and a low-dose CT scan is the first step",
+                        "These are significant changes, not reassuring; incomplete emptying is more typical of rectal cancer, and colonoscopy or sigmoidoscopy is likely first",
+                        "Blood in the stool and weight loss are expected with polyps, so no testing is needed unless her diarrhea continues for several months more"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: The instructor's message is that someone who is eating, drinking, and eliminating is probably okay, but significant changes along with other symptoms (blood in stool, unexplained weight loss) need to be checked, and the first step is probably a colonoscopy or sigmoidoscopy; feeling the bowel does not empty is usually a rectal cancer symptom. Incorrect: The reassurance option is the closest distractor, but the page calls the symptoms nonspecific and says to get checked when changes are significant. Low-dose CT is the lung cancer screen, and polyps generally cause no symptoms.",
+                    "topic": "Lung, Breast, Cervical &amp; Colorectal Cancer",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A 33-year-old's brother, who is healthy, active, and has a normal BMI, had a colonoscopy in his early 30s that found many polyps but no cancer. The client, also healthy and active, says, \"My lifestyle is great, so I'll just wait until age 45.\" Which response is best?",
+                    "options": [
+                        "His polyps raise her risk regardless of lifestyle, so screening before 45 is appropriate, with the interval based on what is found",
+                        "Her healthy lifestyle offsets the family history, so beginning screening at 45 like an average-risk person is appropriate",
+                        "Only a relative who had colorectal cancer counts as family history, so polyps in a sibling do not change when she should start screening",
+                        "She should start earlier, and a flexible sigmoidoscopy is equivalent to a full colonoscopy because both examine the entire colon"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: Screening begins at 45 for average risk, but higher-risk people (IBD, family history, genetic conditions) may begin earlier; family history includes polyps, and the instructor's own example shows genetics can raise risk in a healthy, active person with a good BMI, with a colonoscopy interval depending on what is found. Incorrect: Lifestyle offsetting family history is the closest distractor, but the page's example shows a very healthy person at higher risk from genetics. Family history counts polyps as well as cancer, and flexible sigmoidoscopy examines only one third of the colon.",
+                    "topic": "Lung, Breast, Cervical &amp; Colorectal Cancer",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A nurse is preparing a community class on colorectal cancer. Which factors does the nurse include as increasing colorectal cancer risk? Select all that apply.",
+                    "options": [
+                        "Inflammatory bowel disease such as Crohn's disease",
+                        "A persistent HPV infection found on testing",
+                        "A low-fiber diet with frequent processed deli meat",
+                        "A family history of colorectal polyps",
+                        "Early menarche with late menopause",
+                        "Regular alcohol consumption"
+                    ],
+                    "answers": [
+                        0,
+                        2,
+                        3,
+                        5
+                    ],
+                    "rationale": "Correct: The page lists IBD (Crohn's or ulcerative colitis), diets low in fiber and fruits and vegetables or high in fat and processed meats, a family history of colorectal cancer or polyps, and alcohol and tobacco as colorectal cancer risk factors. Incorrect: Persistent HPV infection is the cervical cancer risk factor (almost 100% of cervical cancers are HPV positive), and early menarche is a breast cancer reproductive-history factor reflecting longer hormone exposure; neither is listed for colorectal cancer.",
+                    "topic": "Lung, Breast, Cervical &amp; Colorectal Cancer",
+                    "source": "quiz-bank"
+                }
+            ],
+            "eaq": []
+        }
+    },
+    {
+        "id": "week7-chemotherapy",
+        "label": "Chemotherapy, Antineoplastic Drugs &amp; Antiemetics",
+        "week": 7,
+        "sets": {
+            "mustKnow": [],
+            "extraPractice": [
+                {
+                    "stem": "A client with a rapidly growing lymphoma tells the nurse, \"My tumor doubles so fast that I doubt chemo can keep up. A friend whose tumor grew slowly had better luck.\" Which response by the nurse is most accurate?",
+                    "options": [
+                        "Fast growth usually means drug resistance has already developed, so a poor response to chemotherapy is likely.",
+                        "Growth speed does not affect response; the client's general health alone decides whether chemotherapy works.",
+                        "A fast-growing tumor has more cells that are actively dividing, which makes it more vulnerable to these drugs.",
+                        "Slow-growing tumors respond best, because slowly dividing cells are the main target of cytotoxic drugs."
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: Chemotherapy tends to work better and faster on tumors with a high growth fraction and short doubling time, because more of the cells are actively dividing and are therefore more vulnerable to cytotoxic agents. Incorrect: Resistance is a separate factor that develops over time (for example after a relapse), not a consequence of fast growth. General health is only one of several factors (doubling time, type of cancer, efficacy of the treatment plan, drug resistance, general health), so it does not alone decide the outcome. The slow-growth option flips the relationship; cytotoxic drugs particularly target rapidly dividing cells.",
+                    "topic": "Chemotherapy, Antineoplastic Drugs &amp; Antiemetics",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "An oncology team is building a combination regimen around an antitumor antibiotic. Which proposed addition would the team be most likely to reject?",
+                    "options": [
+                        "A second chemotherapy drug that also causes cardiotoxicity in the same client",
+                        "A vinca alkaloid, which typically does not cause significant bone marrow suppression",
+                        "A cell cycle specific drug given alongside the cell cycle nonspecific antibiotic",
+                        "A drug with a different mechanism of action, so the mechanisms are maximized together"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: Combination therapy is preferred, but the team avoids overlapping toxicity; the lecture's own example is not using two chemotherapy types that both cause cardiotoxicity, and cardiotoxicity is the major concern with antitumor antibiotics. Incorrect: A vinca alkaloid is actually useful with myelosuppressive drugs because it does not typically suppress the marrow, so it adds no overlapping marrow toxicity. Pairing a cell cycle specific agent with a nonspecific agent is the standard rationale for combinations (one reaches cells in G0 and one does not), and combining different mechanisms of action is the reason combinations usually work better than a single drug.",
+                    "topic": "Chemotherapy, Antineoplastic Drugs &amp; Antiemetics",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "Two clients receiving chemotherapy are prescribed magic mouthwash. Client A has painful sores confined to the mouth. Client B has similar sores and now reports pain with swallowing, raising concern for esophageal involvement. Which instruction is appropriate?",
+                    "options": [
+                        "Both clients swish, gargle, and spit, and neither swallows it, since it is only a topical numbing agent.",
+                        "Client A swishes, gargles, and spits; client B may swallow it given suspected esophageal involvement.",
+                        "Client A may swallow it for deeper healing; client B swishes and spits, since esophageal pain is not stomatitis.",
+                        "Both clients swallow it after swishing so the ingredients treat the whole GI tract and heal the mucosa."
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: Magic mouthwash is swished, gargled, and spit out, but it can be swallowed when esophageal involvement is suspected, which fits client B. Incorrect: Never swallowing it ignores the stated exception for esophageal involvement. Client A has no such concern, so swallowing is not indicated, and the idea that esophageal pain is unrelated reverses the lecture's reasoning. Nothing in magic mouthwash heals the mucosa: it numbs (viscous lidocaine), helps inflammation (diphenhydramine), and prevents thrush (nystatin). It treats the symptoms of stomatitis but does not cure it, so clients should not be told it will fix the sores.",
+                    "topic": "Chemotherapy, Antineoplastic Drugs &amp; Antiemetics",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client received chemotherapy 10 days ago and now reports unusual fatigue, new gum bleeding, and feeling feverish. The nausea and vomiting resolved several days ago, and hair thinning has just begun. Which interpretation by the nurse is most accurate?",
+                    "options": [
+                        "The hair thinning shows the drug is working, and the fatigue is the end of the nausea phase, so routine monitoring is enough.",
+                        "These are dose-limiting effects that appear only when the cancer has become resistant to the chemotherapy.",
+                        "Delayed nausea and vomiting typically peaks about 10 days after chemotherapy and explains the fatigue and bleeding.",
+                        "This is the expected nadir window, when white cells, red cells, and platelets are lowest and risk is highest."
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: The nadir, about 7 to 14 days after chemotherapy, is the lowest point of white blood cells, red blood cells, and platelets and the time of highest risk for infection (fever), anemia (fatigue), and bleeding (gums). Incorrect: Hair loss is a separate effect of rapidly dividing follicles that begins around 7 to 14 days and is reversible; it is not a sign that the drug is working and does not explain bleeding or fever. Nausea and vomiting occurs several days after chemotherapy and does not cause bleeding or fever. Dose-limiting effects describe a client who cannot tolerate needed doses, and drug resistance is a different concept tied to relapse.",
+                    "topic": "Chemotherapy, Antineoplastic Drugs &amp; Antiemetics",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "The nurse is asked which of four clients receiving chemotherapy best fits the lecture's criteria for prophylactic levofloxacin. Which client is it?",
+                    "options": [
+                        "A client with an ANC of 400 that is expected to recover within 3 days",
+                        "A client with an ANC of 400 that is expected to stay below 500 for 10 days",
+                        "A client with an ANC of 900 that is expected to stay low for 10 days",
+                        "A client with a normal ANC who has developed stomatitis and mouth soreness"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: Levofloxacin prophylaxis is recommended for high-risk clients with prolonged neutropenia, defined in the lecture as an ANC less than 500 for more than 7 days. Incorrect: An ANC of 400 that recovers in 3 days is profound but not prolonged, and an ANC of 900 that lasts 10 days is prolonged but does not meet the below-500 threshold, so each meets only half of the criterion. A client with a normal ANC is not neutropenic; stomatitis is managed symptomatically (for example with magic mouthwash, whose nystatin prevents thrush) rather than with levofloxacin.",
+                    "topic": "Chemotherapy, Antineoplastic Drugs &amp; Antiemetics",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client starting IV chemotherapy through a new portacath is teaching a family member about the plan. Which statement by the family member shows a need for further teaching?",
+                    "options": [
+                        "\"The port is used because these drugs can badly damage tissue if they leak out of a regular IV.\"",
+                        "\"If she is allergic to a drug, the team may premedicate or use a desensitization protocol.\"",
+                        "\"Blood drug levels get checked before every dose, since the margin of safety is so narrow.\"",
+                        "\"Hair loss, mouth sores, and low blood counts are expected, since the drugs hit fast-dividing cells.\""
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: Most chemotherapy drugs do not require routine therapeutic drug monitoring, even though the therapeutic index is low and the margin between benefit and toxicity is fine; the team instead watches the cancer's spread (for example with PET scans) against adverse effects. Incorrect: The other statements are accurate. Extravasation of IV chemotherapy can cause severe tissue damage, so a portacath or other deep tunneled line is generally used. Allergies are usually not contraindications and may be managed with premedication or desensitization. Hair follicles, the GI tract (including the mouth), and bone marrow are rapidly dividing tissues that are commonly affected.",
+                    "topic": "Chemotherapy, Antineoplastic Drugs &amp; Antiemetics",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A nurse reviews four clients scheduled for chemotherapy today. Which situation is most likely to lead the provider to delay or adjust treatment rather than proceed with proactive management?",
+                    "options": [
+                        "A client with a documented allergy to a planned drug for whom a premedication protocol is ordered",
+                        "A client with fatigue and blood counts that are mildly low, as is common in clients with cancer",
+                        "A client who is very anxious about the expected nausea, vomiting, and hair loss",
+                        "A client with a known active infection, a very low neutrophil count, and poor oral intake"
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: A very low WBC or neutrophil count, active infection, markedly decreased nutrition or hydration, and liver or kidney dysfunction are the reasons chemotherapy may be delayed or adjusted. Incorrect: Allergies can be managed with premedication or a desensitization protocol, so they are usually not a reason to cancel. Low counts and poor nutrition are common in cancer, so only a very, very low count tips the risk-benefit weighing toward delay; mildly low counts and fatigue do not. Expected side effects such as nausea, vomiting, and hair loss are managed proactively and are not contraindications.",
+                    "topic": "Chemotherapy, Antineoplastic Drugs &amp; Antiemetics",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A 22-year-old male client is about to begin a regimen that includes a mitotic inhibitor. He says fertility is mostly a female concern and that only alkylating agents cause sterility, so he plans to skip any fertility planning. Which response by the nurse is best?",
+                    "options": [
+                        "\"Any chemotherapy can impair fertility, so sperm banking should be discussed before treatment\"",
+                        "\"Only alkylating agents affect fertility, so sperm banking is not needed with a mitotic inhibitor.\"",
+                        "\"Fertility is mainly a concern in women, so preservation options are offered only to female clients.\"",
+                        "\"Fertility is best discussed after treatment ends, once any impairment has been confirmed.\""
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: Any chemotherapy can impair fertility, especially in post-puberty clients, and options such as sperm banking or egg freezing should be discussed before treatment. Incorrect: Alkylating agents are singled out for sterility (especially with prolonged use), but that does not make other classes safe. Fertility is described as a major concern generally in female clients but can affect males as well. Waiting until after treatment misses the window; preservation has to be arranged beforehand.",
+                    "topic": "Chemotherapy, Antineoplastic Drugs &amp; Antiemetics",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client receiving an alkylating agent reports mild darkening of the skin and nails, thinning hair, and pink-tinged urine with lower abdominal discomfort. Which finding should the nurse prioritize, and why?",
+                    "options": [
+                        "Skin and nail darkening, because it is the most common and most serious toxicity of this class",
+                        "Hair thinning, because it shows the drug is damaging the bone marrow and not just hair follicles",
+                        "Pink-tinged urine with bladder discomfort, because this drug class can cause hemorrhagic cystitis",
+                        "Pink-tinged urine, because this class is nephrotoxic at high doses and fluids should be restricted"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: Alkylating agents such as cyclophosphamide are known for hemorrhagic cystitis from a metabolite of the drug, so blood in the urine or bladder problems should be recognized and reported. Incorrect: Skin and nail discoloration can occur but is less common than the cystitis and sterility concerns, so it is not the priority. Hair loss is expected with all cytotoxic agents because follicles divide rapidly and is not a marrow sign. Nephrotoxicity at high doses with hydration teaching belongs to the antimetabolite class, and restricting fluids would be the opposite of that teaching.",
+                    "topic": "Chemotherapy, Antineoplastic Drugs &amp; Antiemetics",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client who has taken an antimetabolite for rheumatoid arthritis for several years is seen at a clinic. The client is also planning a pregnancy. Which nursing priorities fit this drug class?",
+                    "options": [
+                        "Monitor ejection fraction with a baseline echocardiogram and track the lifetime dose limit",
+                        "Monitor liver enzymes and counsel that the drug is category X and contraindicated in pregnancy",
+                        "Limit oral fluids to protect the kidneys and counsel that the drug can be continued in pregnancy",
+                        "Assess for peripheral neuropathy and confirm that the drug is only ever given by the IV route"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: Antimetabolites such as methotrexate can cause hepatotoxicity, more with long-term use and especially in non-oncology use such as rheumatoid arthritis, so liver enzymes are monitored. They are FDA category X (fetal death and abnormalities, teratogenic), so birth control or fertility planning must be discussed. Incorrect: Ejection fraction, echocardiogram, and maximum lifetime dose belong to antitumor antibiotics, and peripheral neuropathy with IV-only administration belongs to vinca alkaloids. Antimetabolites can be nephrotoxic at high doses, so clients are kept hydrated, not restricted, and the drug is contraindicated rather than continued in pregnancy.",
+                    "topic": "Chemotherapy, Antineoplastic Drugs &amp; Antiemetics",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client who completed treatment with an antitumor antibiotic several years ago now reports fatigue, shortness of breath on exertion, and ankle swelling. The client says the drug's heart effects could only have happened during the infusions. Which response by the nurse is accurate?",
+                    "options": [
+                        "\"That is right, so these symptoms most likely come from another cause that is unrelated to the drug.\"",
+                        "\"These findings suggest delayed bone marrow suppression, which can appear years after treatment.\"",
+                        "\"These findings suggest kidney damage from the drug, which is treated by increasing fluid intake.\"",
+                        "\"The heart effects can also appear years after the infusion, so heart failure needs to be evaluated.\""
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: Antitumor antibiotics (doxorubicin) are highly associated with cumulative cardiotoxicity and congestive heart failure, which can be fatal and can occur acutely during the drug or years after infusion, so a previously treated client with these symptoms needs evaluation (EF, echocardiogram). Incorrect: Saying the effect is limited to the infusion period is the misconception to correct. Myelosuppression is a usual toxicity of this class but is not the stated late effect, and the fatigue, dyspnea, and edema do not point to it. Nephrotoxicity with hydration teaching is an antimetabolite issue (high-dose methotrexate), not the major concern with this class.",
+                    "topic": "Chemotherapy, Antineoplastic Drugs &amp; Antiemetics",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A nurse preparing a vinca alkaloid for a client with acute lymphoblastic leukemia notices that the pharmacy label lists the intrathecal route. Which action is correct?",
+                    "options": [
+                        "Hold the drug and have the order clarified, since vinca alkaloids are given by the IV route only",
+                        "Give it intrathecally, since that route avoids the tissue damage a vesicant can cause in a vein",
+                        "Give it intrathecally, since this class does not suppress bone marrow and the route is therefore safe",
+                        "Give it slowly intrathecally and watch for peripheral neuropathy, the hallmark effect of this class"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: Vinca alkaloids (mitotic inhibitors such as vincristine) are only ever given IV; intrathecal administration is fatal, so the nurse must not give it and must clarify the order. Incorrect: Being a vesicant is a reason for careful IV administration and extravasation vigilance, not a reason to choose another route. The lack of significant bone marrow suppression is a benefit in combination therapy but says nothing about route safety. Peripheral neuropathy is the hallmark toxicity to monitor with this class, but watching for it does not make the intrathecal route acceptable.",
+                    "topic": "Chemotherapy, Antineoplastic Drugs &amp; Antiemetics",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client receiving a checkpoint inhibitor reports loose stools with cramping and, a week later, a new dry cough and shortness of breath. The client has no hair loss and the blood counts are normal. Which explanation is most consistent with these cues?",
+                    "options": [
+                        "The drug is damaging rapidly dividing GI cells in the same way it damages hair follicles",
+                        "Immune-related events such as colitis and pneumonitis from an overactive immune system",
+                        "Cytokine release syndrome, which is the expected reaction to checkpoint inhibitors",
+                        "The nadir, with marrow suppression leading to infection of the lungs and bowel"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: Biologics such as checkpoint inhibitors cause immune-related adverse events, many ending in \"-itis\" (colitis, pneumonitis, hepatitis, rash, endocrinopathies), because the drugs target the immune system and it starts overreacting. Incorrect: Cytotoxic effects on rapidly dividing cells would be expected to show up as hair loss and low counts, and biologics do not cause the usual cytotoxic toxicities in the same way. Cytokine release syndrome is the life-threatening reaction tied to CAR T-cell therapy, not checkpoint inhibitors. The nadir reflects true myelosuppression from cytotoxic drugs, and the normal counts argue against it; infections with biologics arise by immunosuppression, a different mechanism.",
+                    "topic": "Chemotherapy, Antineoplastic Drugs &amp; Antiemetics",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A nurse evaluates two clients receiving antiemetics during chemotherapy. Client A, given ondansetron, reports headache, loose stool, and mild dizziness. Client B, given promethazine IV, is difficult to arouse and has slow, shallow respirations. Which conclusion is most accurate?",
+                    "options": [
+                        "Client B needs urgent attention for opioid-like respiratory depression; A's findings are usual ondansetron effects.",
+                        "Client B's findings are expected with a first-generation antihistamine, so only client A needs prompt follow-up.",
+                        "Both clients need immediate attention, since both drugs block type 3 serotonin receptors and both depress breathing.",
+                        "Neither client needs follow-up, since sedation and GI effects are expected with all antiemetics given with chemotherapy."
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: Headache, diarrhea, and dizziness are the most common side effects of ondansetron. Promethazine, a first-generation antihistamine, commonly causes drowsiness, but it can also cause significant respiratory depression like an opioid, so slow, shallow respirations with difficulty arousing are a serious finding. Incorrect: Sedation alone would be expected, but respiratory depression is beyond what should be dismissed as expected. Only ondansetron blocks type 3 serotonin receptors in the chemo trigger zone; promethazine works as an antihistamine. Lumping both drugs together ignores that one client's findings are expected effects and the other's are a safety concern.",
+                    "topic": "Chemotherapy, Antineoplastic Drugs &amp; Antiemetics",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A nurse is about to give promethazine IV to a client who is vomiting after chemotherapy. Which actions or understandings are appropriate? Select all that apply.",
+                    "options": [
+                        "Confirm that the IV is working before pushing the drug",
+                        "Dilute the drug when that is possible before giving it",
+                        "Prefer IV piggyback administration over IV push",
+                        "Recognize the black box warnings for children under 2 years and gangrenous extravasation",
+                        "Reassure the client that extravasation is not a concern, since the drug is only an antiemetic",
+                        "Plan to monitor for headache, diarrhea, and dizziness as the most common effects"
+                    ],
+                    "answers": [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    "rationale": "Correct: Promethazine is best given by IV piggyback because of the risk of extravasation; the nurse should make sure the IV works before pushing and dilute the drug if possible. Its black box warnings are use in children under 2 years and gangrenous extravasation. Incorrect: Even though it is not the chemotherapy itself, promethazine can still be very dangerous if it extravasates, so reassuring the client that extravasation is not a concern is the misconception to avoid. Headache, diarrhea, and dizziness are the most common side effects of ondansetron; promethazine's major adverse effects are drowsiness or sedation and significant respiratory depression like an opioid.",
+                    "topic": "Chemotherapy, Antineoplastic Drugs &amp; Antiemetics",
+                    "source": "quiz-bank"
+                }
+            ],
+            "eaq": []
+        }
+    },
+    {
+        "id": "week7-bone-joint-disorders",
+        "label": "Osteoporosis, Fractures &amp; Osteoarthritis",
+        "week": 7,
+        "sets": {
+            "mustKnow": [],
+            "extraPractice": [
+                {
+                    "stem": "A client who takes alendronate once a week reports new pain with swallowing. She says she takes the tablet with her morning coffee and a calcium tablet, then goes back to bed for a nap because the pill upsets her stomach. Which practice most likely explains the new symptom, and what should the nurse teach?",
+                    "options": [
+                        "The coffee is irritating her esophagus, so she should take the tablet with a full glass of juice instead",
+                        "The calcium tablet is damaging her esophagus, so she should stop all calcium and vitamin D while on alendronate",
+                        "Lying down after the dose lets the drug ulcerate the esophagus, so take it with one sip of water and stay upright",
+                        "A once-weekly dose is too concentrated for the esophagus, so she should ask the prescriber to change to daily dosing"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: Alendronate can cause esophageal ulcerations, so the client must not lie down after taking it and should stay sitting up or standing; taking it with one sip of water in the morning is the taught method. Incorrect: Juice and coffee are both wrong because bioavailability is only about 1% and a glass of juice or coffee cuts that by about 60%, so switching from coffee to juice does not help. Calcium should not be taken with the dose, but calcium and vitamin D are the mainstay of osteoporosis prevention and are not stopped. Weekly dosing is the usual schedule so patients do not have to think about it every day; it is not the cause of the ulceration.",
+                    "topic": "Osteoporosis, Fractures &amp; Osteoarthritis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A 66-year-old postmenopausal client has a DEXA T-score below -2.5 and a history of a fragility hip fracture. She asks for a medication that is gentler than estrogen and will protect her hip. Which plan best fits what the nurse knows about the options?",
+                    "options": [
+                        "Alendronate, the first-line bisphosphonate, which reduced fractures by about 50%",
+                        "Raloxifene, a SERM that mimics estrogen more safely and cut hip fractures by 50%",
+                        "Estrogen replacement, since the drop in estrogen after menopause is the underlying cause",
+                        "High-dose calcium carbonate (Tums) alone, since it protects the hip once osteoporosis exists"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: Bisphosphonates such as alendronate are definitely first line, used for prevention and treatment, and reduce fractures by about 50%; the goal of therapy is fewer fractures, not just higher bone density. Incorrect: Raloxifene is safer than estrogen, but in the study it reduced spinal fractures by 50% and not other types, including hip, so it does not meet her goal of hip protection. Estrogen replacement is not recommended for osteoporosis because the risks of blood clots, breast cancer, and other cancers are too high, even though the drop in estrogen is related to postmenopausal bone loss. Calcium and vitamin D are mainly prevention measures and are not adequate treatment for someone who already has osteoporosis and a fragility fracture.",
+                    "topic": "Osteoporosis, Fractures &amp; Osteoarthritis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "The nurse reviews two DEXA reports. Client A is 58 years old with a T-score of -2.0 and no fractures. Client B is 71 years old with a T-score of -2.8 and broke her wrist when she fell from a standing position. Which interpretation is correct?",
+                    "options": [
+                        "Client A has osteoporosis; Client B has osteoporosis that is not severe, since a fall is a traumatic accident",
+                        "Client A has normal bone density; Client B has osteopenia, since scores must fall below -3.0 to be osteoporosis",
+                        "Client A has osteopenia; Client B has osteoporosis, and the severe category requires a vertebral compression fracture",
+                        "Client A has osteopenia, with trabecular thinning; Client B has severe osteoporosis from a fragility fracture"
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: A T-score between -1 and -2.5 is osteopenia (low bone mass with thinning of the trabecular matrix), and a T-score below -2.5 is osteoporosis; when there is also a history of a fragility fracture, the diagnosis is severe osteoporosis. Incorrect: A fall from standing is not a traumatic accident; it is the definition of a fragility fracture, because the bone broke from being so porous, so it makes Client B severe rather than not severe. A T-score of -2.0 is not normal (normal is -1 or higher) and the osteoporosis cut-off is -2.5, not -3.0. Severe osteoporosis is defined by any history of a fragility fracture, not specifically a vertebral compression fracture.",
+                    "topic": "Osteoporosis, Fractures &amp; Osteoarthritis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "An 82-year-old woman with osteoporosis reports sudden left hip pain after standing up from a chair. She can still bear a little weight, the hip shows no bruising, and her left leg looks shorter and turned outward. Her daughter says, \"It is probably just a pulled muscle.\" What should the nurse conclude?",
+                    "options": [
+                        "A fracture is unlikely because there is no bruising, and she can still bear some weight, so a muscle strain is more likely",
+                        "A hip fracture is likely; bruising is often minimal because the fracture is encapsulated, and weight bearing can persist",
+                        "A hip fracture is unlikely without a fall, since fragility fractures only occur after a traumatic injury",
+                        "A hip fracture is likely, and marked groin bruising and obvious swelling should appear within a few hours"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: An externally rotated, shortened leg with sudden hip pain in an elderly client with osteoporosis points to a hip fracture; there is typically little bruising because the fracture is encapsulated, and some patients with a minimally impacted fracture can continue to bear weight for a period of time. Incorrect: Absent bruising and some weight bearing do not rule a fracture out, which is the daughter's misconception. A fragility (insufficiency) fracture may have no obvious trauma, and the pain may come before or after the fall, so a fracture does not require a traumatic injury. Marked bruising is not expected because the fracture is encapsulated, unlike an open arm fracture from skateboarding.",
+                    "topic": "Osteoporosis, Fractures &amp; Osteoarthritis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "The nurse screens a 61-year-old postmenopausal woman for osteoporosis. Her history includes a mother who broke a hip after falling from standing, a 45-minute walk every day, eight years of daily prednisone, a BMI of 33, a gastric bypass five years ago, and a half pack of cigarettes daily. Which findings increase her risk of osteoporosis? Select all that apply.",
+                    "options": [
+                        "A first-degree relative with a fragility fracture",
+                        "Walking 45 minutes every day",
+                        "Eight years of long-term corticosteroid therapy",
+                        "A BMI of 33, which indicates a large protective frame",
+                        "Gastric bypass surgery (malnutrition risk)",
+                        "A half pack of cigarettes daily"
+                    ],
+                    "answers": [
+                        0,
+                        2,
+                        4,
+                        5
+                    ],
+                    "rationale": "Correct: A first-degree relative with a fragility fracture is a very high risk factor; long-term corticosteroids inhibit osteoblast function, so new bone is not built; gastric bypass (like eating disorders) is a risk because of malnutrition status; and smoking has a direct relationship with decreased bone density. Incorrect: Daily walking is weight-bearing exercise, and it is the absence of weight-bearing exercise that is listed as a risk factor. A high body weight is not a listed risk; low body weight and a thin, small frame are the risk factors, so the BMI of 33 does not add risk.",
+                    "topic": "Osteoporosis, Fractures &amp; Osteoarthritis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "Two clients have tibial fractures treated with casts. Client A reports aching pain at the fracture site that eases with elevation and the prescribed analgesic; the toes are warm with strong pulses. Client B was comfortable after the cast was applied but now has extreme pain despite analgesia, tense non-pitting swelling, and weak pedal pulses. Which action is most appropriate?",
+                    "options": [
+                        "Give Client B another analgesic dose and reassess in an hour, since fracture pain is an expected inflammatory response after casting",
+                        "See Client A first, since pain at the fracture site is the more serious sign of tissue hypoxia in the limb",
+                        "Tell Client B that swelling inside a fresh cast is expected and should settle with rest and elevation",
+                        "Report Client B's findings now and prepare for possible fasciotomy; Client A's pain fits expected fracture inflammation"
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: Client B has the classic cues of compartment syndrome: extreme pain out of proportion that returned after stabilization, a lot of non-pitting edema that develops quickly, and weak pulses, caused by increased pressure in a limited anatomic space with a tourniquet effect. This needs immediate reporting, and the treatment is fasciotomy. Client A's pain is an inflammatory response that helps splint the area, with intact circulation. Incorrect: More analgesia and waiting delays treatment of a limb-threatening problem. Pain at the fracture site that responds to analgesia with strong pulses is not the sign of hypoxia, and swelling within a cast is something the nurse must watch closely rather than accept.",
+                    "topic": "Osteoporosis, Fractures &amp; Osteoarthritis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with a fractured femur after a motorcycle crash is stable on day 1. Early on day 2 he becomes newly confused and his SpO2 falls to 86% on room air. The skin shows no rash, his leg pain is no worse, and his pedal pulses are strong. Which interpretation is best?",
+                    "options": [
+                        "Fat embolism is possible; a petechial rash is often the last sign, so its absence does not rule it out",
+                        "Fat embolism is ruled out, since the classic triad requires a petechial rash to be present from the very onset",
+                        "Compartment syndrome is most likely, since hypoxemia and confusion follow limb ischemia in a cast",
+                        "Osteomyelitis is most likely; hypoxemia and confusion are its classic systemic findings"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: A long bone fracture followed by sudden hypoxemia and altered level of consciousness fits fat embolism; the petechial rash is often the last symptom to occur, so its absence does not exclude the diagnosis. Treatment is supportive. Incorrect: The rash is not required at onset, so waiting for it is wrong. Compartment syndrome presents with pain out of proportion, weak or lost pulses, and non-pitting edema, none of which this client has. Osteomyelitis is a bone infection whose systemic signs are fever, positive blood culture, and increased white blood cells, not acute hypoxemia and confusion.",
+                    "topic": "Osteoporosis, Fractures &amp; Osteoarthritis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A 7-year-old falls from monkey bars. The x-ray shows an incomplete break in which the forearm bone has bent, and the fracture line also runs through the epiphyseal plate. Which statement by the nurse to the parent is most accurate?",
+                    "options": [
+                        "\"This is a comminuted break with several fragments, and the plate involvement only affects the cast schedule.\"",
+                        "\"This is a greenstick break, the most common type in children, so no concern about future growth is expected.\"",
+                        "\"This is a greenstick break, and because the plate is involved, future growth of that bone may be delayed.\"",
+                        "\"This is a transverse break from a twisting injury, and growth problems occur only in adults.\""
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: A greenstick fracture is an incomplete break where the bone bends and is the most common type in children; a fracture through the epiphyseal plate is the setup for impaired bone growth, a pediatric consideration that can delay future bone growth. Incorrect: Comminuted fractures have more than one fracture line and more than two bone fragments, and an incomplete bent break is not that. Saying no growth concern exists ignores the plate involvement, and impaired bone growth is a pediatric problem, not an adult one. A transverse fracture is a straight line at about 90 degrees to the bone, and a twisting injury describes a spiral fracture.",
+                    "topic": "Osteoporosis, Fractures &amp; Osteoarthritis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with diabetes is hospitalized with osteomyelitis of the heel. He asks, \"Why is a bone infection so much harder to clear than a skin infection when I am getting the right antibiotic?\" Which explanation is most accurate?",
+                    "options": [
+                        "The bacteria live only inside the marrow cavity, so antibiotics given by vein cannot enter the bone at all",
+                        "Pressure builds inside the bone and collapses local arteries, so oxygen, immune cells, and antibiotics reach it poorly",
+                        "The infection begins in the bloodstream, so the bone cannot be cleared until the blood culture turns negative",
+                        "Bone infections are usually fungal rather than caused by skin bacteria, so ordinary antibiotics need a much longer course"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: Rising pressure within the bone makes local arteries collapse, so oxygen, nutrients, and immune cells drop and it is very difficult to get antibiotics to the area, which impairs healing and is why treatment takes weeks of IV therapy. Incorrect: Antibiotics do reach bone, only poorly, and treatment is long because delivery is limited, not impossible. A bloodstream route is one way bacteria arrive (indirect contamination), but treatment does not wait for the blood culture to turn negative; cultures are used to choose and narrow the antibiotic. Osteomyelitis is typically caused by skin bacteria, Staphylococcus aureus, not fungi.",
+                    "topic": "Osteoporosis, Fractures &amp; Osteoarthritis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A nurse reviews the plan of care for a client with suspected osteomyelitis after an open tibial fracture. Which plan matches the treatment approach taught for osteomyelitis?",
+                    "options": [
+                        "Start oral antibiotics for two weeks, adding IV therapy only if the infection worsens, and skip the blood culture entirely",
+                        "Hold all antibiotics until the culture grows, then give one narrow IV course lasting about a week",
+                        "Choose a bacteria-specific antibiotic at once, and stop IV therapy as soon as the fever resolves",
+                        "Obtain a blood culture, start empiric IV antibiotics, narrow to the organism, and continue 4 to 6 weeks of IV therapy"
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: The sequence is a blood culture, an empiric start, narrowing to an antibiotic specific for the bacteria once culture results return, and a long IV course of four to six weeks (two weeks IV plus two weeks oral is possible only if the infection is controlled quickly). Incorrect: Oral-first therapy without cultures is wrong because the bone is hard to reach and IV therapy is the norm. Holding antibiotics for the culture delays treatment of a severe infection that needs immediate treatment, and a one-week course is far too short. A specific drug cannot be chosen before cultures return, and stopping when the fever resolves ignores the long course needed.",
+                    "topic": "Osteoporosis, Fractures &amp; Osteoarthritis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "Which statement by a client with knee osteoarthritis shows accurate understanding of what is happening in the joint?",
+                    "options": [
+                        "\"The bumps on my x-ray are bone spurs that osteoclasts built to dissolve the damaged area.\"",
+                        "\"My knee swells because inflammation has spread through my whole body, not just that joint.\"",
+                        "\"My knee swells from extra fluid my cartilage cells make while trying to repair the damage.\"",
+                        "\"As the cartilage wears away, my joint space gets wider, so the bones glide more easily.\""
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: Chondrocytes synthesize proteoglycan fluid in an effort to repair cartilage, and this excess fluid, meant to be helpful, is what causes the swelling of the joint. Incorrect: Bone spurs (osteophytes) are built by osteoblasts, not osteoclasts, as inappropriate remodeling that tries to fix the problem. OA inflammation is localized to the affected joint, not systemic. Loss of cartilage narrows the joint space, and the end picture is bone on bone with thickened synovial fluid and decreased movement.",
+                    "topic": "Osteoporosis, Fractures &amp; Osteoarthritis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "Four clients describe joint problems to the nurse. Which presentation is most consistent with osteoarthritis?",
+                    "options": [
+                        "Deep aching knee pain after gardening that eases with rest, morning stiffness that improves with movement, and distal finger nodes",
+                        "Hip pain that is worst at rest and eases with activity, with swelling in both wrists and elbows and a general feeling of being unwell and feverish",
+                        "Hand pain that is relieved by exertion, with Heberden's nodes at the proximal finger joints and swollen ankles on both sides",
+                        "Pain that is better in cold weather and worse in dry climates, with stiffness that increases the more the joint is moved"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: OA causes deep, aching joint pain with exertion that is relieved with rest, stiffness that feels better once moving, and hand nodes; Heberden's nodes are the distal ones, and heavy repetitive work such as gardening is a risk factor. Incorrect: Pain worse at rest and better with activity reverses the OA pattern, and wrists and elbows are typically spared, as are ankles; OA inflammation is localized, not systemic. Heberden's nodes are distal, not proximal (proximal ones are Bouchard's), and pain relieved by exertion is the wrong pattern. OA is worse with cold weather and better in drier climates, and stiffness that worsens with movement is the reverse of the OA pattern.",
+                    "topic": "Osteoporosis, Fractures &amp; Osteoarthritis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with knee osteoarthritis who is 10 pounds overweight says, \"I'm barely overweight, so my weight is not the problem. I just want a pill that will stop the damage.\" Which response by the nurse is best?",
+                    "options": [
+                        "\"A medication can stop the cartilage damage if it is started early, so we can ask about disease-modifying options.\"",
+                        "\"No drug stops or reverses OA, and 10 pounds adds about 30 to 60 pounds of force on your knee with each step.\"",
+                        "\"Weight matters only for the hip joint; for the knee, prescription NSAIDs are the first step for pain.\"",
+                        "\"Your weight matters little at 10 pounds, but capsaicin and acetaminophen can restore lost cartilage.\""
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: The lecture states that no pharmacotherapy prevents progression, prevents damage, or reverses the course of arthritis, and obesity increases load on the hips and knees: being only 10 pounds overweight raises the force on the knee by about 30 to 60 pounds a step. Focus is prevention, pain management, and maintaining mobility. Incorrect: Disease-modifying drugs do not exist for OA. Weight strains both the hips and knees, and pain management starts with acetaminophen or OTC NSAIDs, with prescription NSAIDs reserved for moderate to severe pain. Acetaminophen and capsaicin (a topical that numbs the area) treat pain and do not rebuild cartilage.",
+                    "topic": "Osteoporosis, Fractures &amp; Osteoarthritis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A 48-year-old nurse who lifts and turns clients reports low back pain that radiates down the back of one leg. It is worse when she sits or bends and better when she walks. A coworker says it is probably osteoarthritis of the hip. Which explanation best fits her presentation?",
+                    "options": [
+                        "Hip OA, in which exposed subchondral bone and bone spurs press directly on the sciatic nerve",
+                        "Lumbar OA only, since cartilage wear causes pain that is worse with movement and better when sitting",
+                        "Degenerative disc disease: the disc loses its cushion and the vertebrae compress and impinge the nerve (sciatica)",
+                        "Cervical disc disease, in which impingement of the neck nerves refers pain down the back of the leg and the buttocks area"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: Degenerative disc disease is the OA-type process specific to the spinal column; the discs lose their bounce, the vertebrae sit on one another, and the nerves are compressed, producing pain down the back of the leg (sciatica), worse with sitting, bending, lifting, or twisting and better with walking, changing position, or lying down. Lifting and twisting are the typical cause. Incorrect: Hip OA would involve joint pain from cartilage loss rather than nerve impingement radiating down the leg. Cartilage wear in OA is typically relieved by rest, which is the opposite of her sitting-worse pattern. Cervical disease sends pain down the shoulders and arms, not the leg.",
+                    "topic": "Osteoporosis, Fractures &amp; Osteoarthritis",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "Two clients who both lift heavily at work report neurologic symptoms. Client A has pain down the shoulder and arm with numbness and weakness of the hand. Client B has numbness down one leg and foot drop. Which interpretation fits degenerative disc disease?",
+                    "options": [
+                        "Both clients have lumbar disease at L4, L5, and S1, since lifting injuries occur only in the lower back",
+                        "Client A has cervical spine involvement, and Client B has lumbar spine (L4, L5, S1) involvement",
+                        "Client A has wrist OA, which commonly causes hand numbness; Client B has lumbar disease",
+                        "Client A has lumbar involvement, and Client B has cervical involvement, since foot drop arises from neck nerves"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: In the cervical spine, impingement causes pain down the shoulders and arms with numbness, tingling, or weakness of the arm or hand; in the lumbar spine (L4, L5, S1), it causes leg pain, numbness, tingling, weakness, and foot drop. Incorrect: Cervical and lumbar are the two common regions, so arm and hand symptoms do not come from the lower back. Wrists are typically spared by osteoarthritis, so wrist OA is not the explanation for hand numbness and weakness from nerve impingement. Reversing the regions is wrong because foot drop is a lumbar finding.",
+                    "topic": "Osteoporosis, Fractures &amp; Osteoarthritis",
+                    "source": "quiz-bank"
+                }
+            ],
+            "eaq": []
+        }
+    },
+    {
+        "id": "week7-ra-gout-lupus",
+        "label": "Rheumatoid Arthritis, Gout &amp; Lupus",
+        "week": 7,
+        "sets": {
+            "mustKnow": [],
+            "extraPractice": [
+                {
+                    "stem": "Two clients are seen in the clinic. Client A is 54 and has both wrists and several finger joints swollen, stiffness every morning that lasts longer than an hour, swelling that feels spongy and warm, fatigue, and weight loss. Client B is 71 and has one painful knee with hard swelling and bony enlargements at the distal finger joints. Which nursing interpretation is most accurate?",
+                    "options": [
+                        "Client A fits OA because the joints are affected on both sides, while client B fits RA because only one joint is painful",
+                        "Client A fits RA, a systemic autoimmune process, while client B fits OA, a localized wear-and-tear condition",
+                        "Both clients fit RA because both have swelling, and the bony finger enlargements are swan deformities from inflammation",
+                        "Client A fits OA because fatigue and weight loss reflect aging joints, while client B fits RA because hard swelling signals synovial inflammation"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: Client A shows the RA picture: symmetrical joint involvement, morning stiffness longer than an hour, spongy, soft, warm swelling, and systemic complaints (fatigue, weight loss) because RA is a systemic autoimmune disease in the age range of most diagnoses. Client B shows the OA picture: a single unilateral joint, hard swelling, bony enlargements (Heberden's/Bouchard's-type nodes), and an older age pattern. Incorrect: Reversing the pairing fails because symmetry points to RA and a unilateral joint points to OA. Swan deformity is a curving of the joint from inflammation, not a bony growth, so it cannot explain the bony enlargements. Hard swelling is the OA finding, while RA swelling is spongy and warm, and fatigue and weight loss are early vague systemic signs of RA, not aging.",
+                    "topic": "Rheumatoid Arthritis, Gout &amp; Lupus",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with rheumatoid arthritis has taken methotrexate for 3 months. During a teaching review, which client statement indicates the need for immediate correction?",
+                    "options": [
+                        "\"I take methotrexate on one set day each week, and I take a folic acid supplement because the drug affects folate.\"",
+                        "\"I use two forms of birth control since this medicine can harm a developing baby.\"",
+                        "\"If I notice any sign of infection I will see my provider right away since my infection risk is high.\"",
+                        "\"A glass of wine with dinner on the weekend is fine since I only take the drug once a week.\""
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: Methotrexate is metabolized by the liver and is toxic to it, so the lecture says no alcohol at all; weekly dosing does not make occasional drinking safe, and liver enzymes (AST, ALT, alk phos) are monitored. Incorrect: Once-weekly dosing is correct (daily dosing can be fatal), and daily-versus-weekly is the safety teaching, not a deficit here. Folic acid is always taken because methotrexate interferes with folate metabolism. Two forms of birth control are required because the drug is teratogenic. Prompt reporting of infection signs is correct because methotrexate carries a very high infection risk.",
+                    "topic": "Rheumatoid Arthritis, Gout &amp; Lupus",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with RA takes methotrexate once weekly with folic acid, and hydroxychloroquine was added recently. At follow-up the client reports mild nausea and reduced appetite since starting methotrexate, and blurry vision that began 2 days ago. Which action is the nurse's priority?",
+                    "options": [
+                        "Report the blurry vision promptly as possible retinopathy; the nausea and reduced appetite are expected methotrexate effects",
+                        "Treat the nausea and reduced appetite as the priority, since these GI effects signal methotrexate toxicity and the drug must be stopped",
+                        "Reassure the client that blurry vision is a common, expected effect of methotrexate that the folic acid supplement will resolve",
+                        "Document both findings as expected adverse effects of the two drugs and recheck at the next scheduled visit"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: Nausea, anorexia, and vomiting are the main expected side effects of methotrexate, so they are the red herring. Hydroxychloroquine carries about a 1% chance of retinopathy that can lead to blindness, and the lecture teaches that blurry vision or any vision problem must be reported to the provider. Incorrect: Treating the GI complaints as toxicity misreads the expected methotrexate effect and ignores the vision change. Folic acid replaces folate and does not treat visual symptoms, and blurry vision is not a methotrexate effect on this page. Waiting for the next visit delays evaluation of a possible sight-threatening effect, and hydroxychloroquine is the better-tolerated drug but still has this rare risk.",
+                    "topic": "Rheumatoid Arthritis, Gout &amp; Lupus",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with long-standing RA reports dry, itchy eyes and a dry mouth, and the nurse finds firm lumps under the skin near the elbow. The client asks whether these are connected to the joint disease. Which response and follow-up assessment are most appropriate?",
+                    "options": [
+                        "The dryness suggests Sjogren's syndrome and the lumps are tophi; because tophi are uric acid deposits, also assess the kidneys for stones",
+                        "These findings are unrelated to RA and are age-related; because RA affects only the joints, focus the assessment on the hands and knees for subluxation",
+                        "The dryness suggests Sjogren's syndrome and the lumps are rheumatoid nodules; because RA is systemic, also assess the heart and other organ systems",
+                        "The lumps are Heberden's nodes from bony growth and the dryness is a drug effect; because RA is localized, no other systems need assessment"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: Destruction of the lacrimal and salivary glands (dry itchy eyes, dry mouth) is Sjogren's syndrome, and firm subcutaneous lumps around inflamed joints are rheumatoid nodules (immune-mediated granulomas seen in about 25% of RA patients). Because RA can involve any body system, the lecture stresses assessing all systems, particularly the heart. Incorrect: Tophi are uric acid crystal deposits of gout, not an RA finding, so the kidney-stone follow-up belongs to gout. RA is not limited to the joints, so assuming the findings are unrelated is the central misconception. Heberden's nodes are bony growths of OA that RA does not produce, and RA is a systemic, not localized, disease.",
+                    "topic": "Rheumatoid Arthritis, Gout &amp; Lupus",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "Four clients with RA are being reviewed for prednisone. Which client is the best candidate for it?",
+                    "options": [
+                        "A client with mild morning stiffness who has not tried an NSAID, since prednisone is the preferred first agent",
+                        "A client in a severe acute flare whose inflammation is not controlled with an NSAID, who also takes a DMARD",
+                        "A client whose symptoms are well controlled on an NSAID and a DMARD but who wants prednisone 20 mg daily indefinitely for prevention",
+                        "A client who wants prednisone alone, in place of a DMARD, to slow progression of joint destruction"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: Prednisone is the usual steroid of choice for rapid suppression of inflammation in a severe or acute flare when an NSAID has not controlled symptoms, and it is used alongside DMARDs and NSAIDs. Because long-term steroids carry lots of risk, the team avoids them; if longer use is needed the dose is very small (less than 10 mg a day, often 2.5 mg). Incorrect: Starting with prednisone skips the NSAID step. Controlled disease does not warrant long-term steroids, and 20 mg daily far exceeds the small long-term dose. Slowing disease progression is the role of DMARDs, not glucocorticoids used in place of them.",
+                    "topic": "Rheumatoid Arthritis, Gout &amp; Lupus",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A 58-year-old man with gout started allopurinol 4 days ago. He arrives with an intensely painful, red, warm big toe, a low-grade fever, and cannot tolerate a bedsheet touching his foot. He asks why the allopurinol is not working and wants to stop it. Which response by the nurse is best?",
+                    "options": [
+                        "Allopurinol is preventive and takes 2 to 6 weeks to work, so continue it while an NSAID treats this attack",
+                        "Allopurinol should relieve an acute attack within days, so a lack of relief means it should be replaced with probenecid",
+                        "Allopurinol works only during flares, so he should take it when pain begins and stop once the toe improves",
+                        "A steroid should be given first, since NSAIDs are reserved for clients who cannot take steroids"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: Allopurinol is a prophylactic xanthine oxidase inhibitor that prevents uric acid production; it does not treat acute attacks, takes 2 to 6 weeks to take effect, and is continued to prevent future flares. NSAIDs are the drug of choice for the acute attack. Incorrect: Expecting acute relief within days misunderstands the drug's role and onset, and probenecid is also not an acute-attack drug. Taking allopurinol only during flares defeats its purpose as long-term prevention. The order of steroids and NSAIDs is reversed: steroids are used only if NSAIDs cannot be taken or are not working.",
+                    "topic": "Rheumatoid Arthritis, Gout &amp; Lupus",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with gout, type 2 diabetes treated with metformin, and atrial fibrillation treated with warfarin is prescribed allopurinol. Which monitoring plan is most appropriate?",
+                    "options": [
+                        "Monitor the INR closely because allopurinol decreases the effect of warfarin, with no glucose changes expected",
+                        "Monitor blood sugar for hyperglycemia because allopurinol weakens hypoglycemic agents, while the INR is unaffected",
+                        "Monitor blood sugar for hypoglycemia and the INR for excess anticoagulation, along with serum uric acid levels",
+                        "No added monitoring is needed beyond serum uric acid because allopurinol is well tolerated and has no interactions"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: Allopurinol can increase the effects of both hypoglycemic agents (metformin, SGLT2 inhibitors, GLP-1 agonists), risking hypoglycemia, and warfarin, so the INR must be followed to avoid blood that is too thin; serum uric acid monitors effectiveness. Incorrect: The interaction direction is increase, not decrease, for both drug types, so expecting a lower warfarin effect or hyperglycemia is a flipped relationship. Although allopurinol is well tolerated overall, the lecture states it has interactions and rare effects of concern, so uric acid monitoring alone is not enough.",
+                    "topic": "Rheumatoid Arthritis, Gout &amp; Lupus",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A nurse is reviewing two clients with gout. Client 1 has no pain but a persistently elevated serum uric acid, and tissue testing shows urate crystals. Client 2 had a severe flare 8 months ago, is pain-free with no joint inflammation now, and his uric acid remains elevated. Which statement by the nurse applies to both clients?",
+                    "options": [
+                        "Client 1 is in the clinically inactive phase and client 2 is asymptomatic, so neither needs uric acid follow-up until pain returns",
+                        "Client 2 has chronic gouty arthritis because of the prior flare, and client 1 is currently in an acute attack",
+                        "Because neither client has pain, both are free of crystals, and uric acid matters only during an acute flare",
+                        "Hyperuricemia can persist without symptoms, so both remain at risk for crystal buildup, tissue damage, and another flare"
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: Client 1 is in the asymptomatic phase (elevated uric acid, crystals in tissue that can accumulate, damage tissue, and cause acute inflammation), and client 2 is clinically inactive between attacks (hyperuricemia continues without inflammation; another flare may come in months or years). The common point is that hyperuricemia persists without symptoms. Incorrect: The phases are swapped in the first distractor, and ignoring uric acid until pain returns overlooks ongoing risk. Chronic gouty arthritis means attacks recur closer together with symptoms most of the time, not a single past flare. Pain-free does not mean crystal-free; crystals can be seen in tissues of asymptomatic clients.",
+                    "topic": "Rheumatoid Arthritis, Gout &amp; Lupus",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client hospitalized for a gout flare receives colchicine. On day 2 the client reports stomach-flu-type symptoms with persistent vomiting. The roommate had a stomach virus last week. Which action should the nurse take first?",
+                    "options": [
+                        "Give an antiemetic and continue colchicine, attributing the symptoms to the roommate's virus",
+                        "Stop the colchicine now, and notify the provider immediately of the persistent vomiting",
+                        "Continue colchicine but give it with food and plenty of fluids to lessen the GI upset",
+                        "Continue colchicine at a reduced dose because short-term leukopenia and GI upset are expected and harmless"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: Stomach-flu-type symptoms and persistent vomiting are an early sign of colchicine toxicity (it disrupts cell mitosis in the GI system and can cause GI bleeding), and the lecture says the drug must be stopped immediately, because untreated toxicity can lead to multiple organ failure and death. Incorrect: The roommate's virus is a red herring that delays recognition of toxicity. Giving with food and fluids is the probenecid teaching, not a way to make colchicine toxicity safe. Leukopenia and bone marrow suppression are known effects, but they are reasons to monitor, not reasons to continue the drug in the presence of persistent vomiting.",
+                    "topic": "Rheumatoid Arthritis, Gout &amp; Lupus",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client with gout is started on probenecid. Which client statement indicates that teaching was effective?",
+                    "options": [
+                        "\"I will take it only during a flare because it blocks the enzyme that makes uric acid.\"",
+                        "\"I will take it on an empty stomach with little fluid, and report a rash or a sore throat right away.\"",
+                        "\"I will stop it right away if I get stomach-flu-type symptoms with persistent vomiting.\"",
+                        "\"I will take it with food and fluids, and report blood in urine, less urine, or weight gain.\""
+                    ],
+                    "answer": 3,
+                    "rationale": "Correct: Probenecid is a uricosuric agent that lowers serum uric acid by inhibiting uric acid reabsorption; teaching is to take it with food and drink and plenty of fluids and to report kidney signs (hematuria, change in urine amount, weight gain) and any liver problems. Incorrect: Blocking uric acid production through xanthine oxidase is allopurinol's mechanism, and probenecid is not a flare-only drug. Rash and agranulocytosis concerns belong to allopurinol, and probenecid is taken with fluids, not restricted. Stopping for persistent vomiting is the colchicine toxicity instruction.",
+                    "topic": "Rheumatoid Arthritis, Gout &amp; Lupus",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A client newly diagnosed with SLE asks why the provider is checking urine and kidney function when a friend's rheumatoid arthritis affects only the joints. Which explanation by the nurse is most accurate?",
+                    "options": [
+                        "Immune complexes in lupus deposit only in the synovial fluid as in RA, so the joint is the main concern and kidney testing is just routine",
+                        "Rheumatoid factor made in lupus targets the kidney's own IgG antibodies, which is why the kidneys are the primary target",
+                        "ANA antibodies form immune complexes with the body's own DNA, which is everywhere, so they can land in any organ, most often the kidney",
+                        "Lupus is limited to the skin and kidneys, so those are the only two body areas that need monitoring over time"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: In lupus the major autoantibody ANA is activated against the body's own DNA, forming circulating immune complexes that can target any major organ (heart, skin, kidneys, brain) and trigger destructive inflammation; the kidney, through deposition in the glomeruli, is the most common site. In RA the complexes deposit only in the synovial fluid. Incorrect: Synovial-only deposition describes RA. Rheumatoid factor (an antibody against IgG) is the RA finding, not the lupus mechanism. Lupus is not limited to two organs; the skin-only type is a separate form, and the systemic type can affect every organ system.",
+                    "topic": "Rheumatoid Arthritis, Gout &amp; Lupus",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A 26-year-old client with SLE reports 3 days of worsening fatigue, new headaches, and increased joint pain. She plans a beach vacation next week and stopped her hydroxychloroquine last week because she felt well. Which interpretation should guide the nurse's response?",
+                    "options": [
+                        "These may be early flare warning signs; reinforce sun avoidance and not stopping medicine abruptly, and notify the provider",
+                        "The symptoms are routine lupus fatigue that needs no action, and sun avoidance matters only to prevent a rash",
+                        "The joint pain suggests an RA flare, so stopping hydroxychloroquine is appropriate because it is an RA-only drug",
+                        "Stopping the drug when well is acceptable because lupus remits, so the symptoms are most likely just stress from trip planning that needs no action"
+                    ],
+                    "answer": 0,
+                    "rationale": "Correct: More severe fatigue, pain, and headache are the lecture's warning signs of a lupus flare. Sunlight, infection, stress, and abruptly stopping a medicine are triggers to avoid, and she has two of them in play (planned sun exposure and stopping hydroxychloroquine). Incorrect: Dismissing the symptoms ignores the warning signs, and photosensitivity can also trigger a flare, not only a rash. Hydroxychloroquine is used in lupus as well as RA (skin and musculoskeletal problems, and it can prevent kidney and CNS damage), so it is not an RA-only drug. Remissions do not make stopping a medicine abruptly acceptable, because that is itself a flare trigger.",
+                    "topic": "Rheumatoid Arthritis, Gout &amp; Lupus",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "Client X is a 27-year-old Black woman with fatigue, a red rash across both cheeks and the nose, light sensitivity, and swelling around the eyes. Client Y is a 52-year-old woman with symmetrical swollen finger joints, spongy warm swelling, morning stiffness longer than an hour, and dry eyes. Which pairing of likely diagnosis and expected lab finding is correct?",
+                    "options": [
+                        "X: RA with rheumatoid factor (RF); Y: lupus with anti-nuclear antibody (ANA)",
+                        "X: lupus with anti-nuclear antibody (ANA); Y: RA with rheumatoid factor (RF)",
+                        "X: lupus with rheumatoid factor (RF); Y: RA with anti-nuclear antibody (ANA)",
+                        "X: lupus with anti-nuclear antibody (ANA); Y: OA with rheumatoid factor (RF)"
+                    ],
+                    "answer": 1,
+                    "rationale": "Correct: Client X fits lupus: younger age (20 to 40), Black race, butterfly rash, photosensitivity, and edema around the eyes, with ANA as the major autoantibody. Client Y fits RA: middle age (40 to 60), symmetrical joints with spongy warm swelling and prolonged morning stiffness, with Sjogren-type dryness, and RF is measured to confirm it. Incorrect: Swapping the diagnoses ignores the age pattern and the rash and photosensitivity. Pairing each disease with the other's antibody mixes up ANA (lupus) and RF (RA). Classifying Client Y as OA conflicts with symmetry and spongy swelling, and OA has hard swelling and is not systemic.",
+                    "topic": "Rheumatoid Arthritis, Gout &amp; Lupus",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "Client P has SLE with a facial rash and arthritis only. Client Q has SLE with severe kidney disease and significant CNS involvement. Which pair of treatment plans is most consistent with the lecture?",
+                    "options": [
+                        "P: high-dose steroids for the rash and arthritis; Q: low-dose steroids because kidney disease limits steroid dosing",
+                        "P: a biologic as first-line because arthritis is multi-organ; Q: NSAIDs alone for the kidney and CNS disease since they are anti-inflammatory",
+                        "P: hydroxychloroquine with low-dose steroid for arthritis; Q: high-dose steroids, adding a biologic if multi-organ disease is a concern",
+                        "P: calcium channel blockers for the rash and arthritis; Q: hydroxychloroquine alone since it replaces steroids for all organ damage"
+                    ],
+                    "answer": 2,
+                    "rationale": "Correct: Hydroxychloroquine helps the skin and musculoskeletal problems, low-dose steroids suit something like arthritis, and high-dose steroids are used for severe kidney disease or a lot of CNS involvement; biologics and immunosuppressives are added with multi-organ involvement or concern about progression. Incorrect: The dose pairing is flipped in the first distractor, since severe kidney and CNS disease calls for the high dose and an arthritis-level problem for the low dose. Biologics are reserved for multi-organ involvement or progression, and NSAIDs treat headache, musculoskeletal symptoms, pleuritis, and pericarditis, not severe kidney or CNS disease. Calcium channel blockers treat the cold-triggered Raynaud-type changes, not rash or arthritis, and hydroxychloroquine can help prevent kidney and CNS damage but is not stated to replace steroids in severe disease.",
+                    "topic": "Rheumatoid Arthritis, Gout &amp; Lupus",
+                    "source": "quiz-bank"
+                },
+                {
+                    "stem": "A nurse is teaching a 24-year-old woman newly diagnosed with systemic lupus erythematosus who takes an estrogen-containing oral contraceptive. Which statements by the nurse are accurate? Select all that apply.",
+                    "options": [
+                        "Lupus is usually confined to the joints, similar to rheumatoid arthritis, so joint monitoring is enough.",
+                        "Fatigue is the most common symptom and can be extremely debilitating.",
+                        "About half of people with lupus develop kidney complications, which can end in dialysis or transplant.",
+                        "Every affected organ system typically becomes involved at the same time, so symptoms appear all at once.",
+                        "Estrogen-containing birth control carries a 50% higher risk, showing hormones influence the disease.",
+                        "Sunlight, infection, stress, and abruptly stopping a medicine can each trigger a flare."
+                    ],
+                    "answers": [
+                        1,
+                        2,
+                        4,
+                        5
+                    ],
+                    "rationale": "Correct: Fatigue is the most common lupus symptom; about half of patients develop kidney complications that can cause permanent damage requiring dialysis or transplant; women taking estrogen-containing oral contraceptives have a 50% higher risk, and hormones have a significant influence on the immune system; and sunlight, infection, stress, and abruptly stopping a medicine are the flare triggers to avoid. Incorrect: Confinement to the joints describes RA, whereas lupus can involve every organ system through immune complexes landing anywhere there is DNA. The systems are usually not all affected at the same time; involvement occurs at different times, with a course of exacerbations and remissions.",
+                    "topic": "Rheumatoid Arthritis, Gout &amp; Lupus",
+                    "source": "quiz-bank"
+                }
+            ],
+            "eaq": []
+        }
     }
 ],
 
@@ -8562,6 +9627,11 @@ window.QUIZ_BANK = {
     "Cardiac Dysrhythmias",
     "Peripheral Vascular Disease",
     "Valve Disease",
-    "Cardiac Pharmacology"
+    "Cardiac Pharmacology",
+    "Cancer Fundamentals, Metastasis &amp; Etiology",
+    "Lung, Breast, Cervical &amp; Colorectal Cancer",
+    "Chemotherapy, Antineoplastic Drugs &amp; Antiemetics",
+    "Osteoporosis, Fractures &amp; Osteoarthritis",
+    "Rheumatoid Arthritis, Gout &amp; Lupus"
   ]
 };
