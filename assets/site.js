@@ -121,6 +121,30 @@ const SITE = {
       ]
     },
     {
+      label: "Weeks 7–9",
+      sections: [
+        {
+          heading: "Week 7",
+          items: [
+            { id: "week7-comprehensive-study-guide", num: "1", title: "Comprehensive Study Guide", file: "week7-comprehensive-study-guide.html" },
+            { id: "week7-cancer-fundamentals", num: "2", title: "Cancer Fundamentals", file: "week7-cancer-fundamentals.html" },
+            { id: "week7-metastasis-etiology", num: "3", title: "Metastasis &amp; Cancer Etiology", file: "week7-metastasis-etiology.html" },
+            { id: "week7-lung-cancer", num: "4", title: "Lung Cancer", file: "week7-lung-cancer.html" },
+            { id: "week7-breast-cervical-colorectal", num: "5", title: "Breast, Cervical &amp; Colorectal Cancer", file: "week7-breast-cervical-colorectal.html" },
+            { id: "week7-chemotherapy-principles", num: "6", title: "Chemotherapy Principles &amp; Toxicities", file: "week7-chemotherapy-principles.html" },
+            { id: "week7-antineoplastic-drug-classes", num: "7", title: "Antineoplastic Drug Classes &amp; Antiemetics", file: "week7-antineoplastic-drug-classes.html" },
+            { id: "week7-osteoporosis", num: "8", title: "Osteoporosis", file: "week7-osteoporosis.html" },
+            { id: "week7-fractures-osteomyelitis", num: "9", title: "Fractures &amp; Osteomyelitis", file: "week7-fractures-osteomyelitis.html" },
+            { id: "week7-osteoarthritis-disc-disease", num: "10", title: "Osteoarthritis &amp; Degenerative Disc Disease", file: "week7-osteoarthritis-disc-disease.html" },
+            { id: "week7-rheumatoid-arthritis", num: "11", title: "Rheumatoid Arthritis", file: "week7-rheumatoid-arthritis.html" },
+            { id: "week7-gout", num: "12", title: "Gout", file: "week7-gout.html" },
+            { id: "week7-lupus", num: "13", title: "Systemic Lupus Erythematosus (Lupus)", file: "week7-lupus.html" },
+            { id: "week7-big-picture-overview", num: "14", title: "Big Picture Overview", file: "week7-big-picture-overview.html" },
+          ]
+        },
+      ]
+    },
+    {
       label: "Pathopharm Review",
       items: [
         { id: "review-pharm-foundations", num: "1", title: "Pharmacology Foundations", file: "review-pharm-foundations.html" },
