@@ -6,13 +6,18 @@
      own oxblood theme. Same engine as every other exam page; the only
      differences are class="torture" on <body> (which re-points the
      colour variables, scoped so it can never leak to another page)
-     and the fact that this page has no <header> — it opens straight
-     on the topic-breakdown strip.
+     and that it opens on a week picker (assets/torture.js, same look
+     as Build Your Own Exam) instead of straight on the questions.
 
-     The questions live in data/torture-chamber.js. The design rules
-     that keep it from being guessable are documented at the top of
-     that file and in RULES.md. Read them before adding questions;
-     three separate rounds of fixes exist because they were skipped.
+     The questions live in data/torture-chamber.js (each one carries a
+     `week`). The design rules that keep it from being guessable are
+     documented at the top of that file and in RULES.md. Read them
+     before adding questions; three separate rounds of fixes exist
+     because they were skipped.
+
+     Script ORDER matters: the data file must load before torture.js,
+     and torture.js (not exam.js) is what injects the exam engine on
+     Start.
      ============================================================ -->
 <html lang="en">
 <head>
@@ -20,7 +25,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Torture Chamber — Study Guide</title>
 <script>(function(){try{var p=new URLSearchParams(location.search).get('theme');var t=p||localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');if(p){try{localStorage.setItem('theme',p)}catch(e){}}document.documentElement.setAttribute('data-theme',t);}catch(e){document.documentElement.setAttribute('data-theme','light');}})();</script>
-<link rel="stylesheet" href="assets/styles.css?v=20261004">
+<link rel="stylesheet" href="assets/styles.css?v=20261006">
 </head>
 <body class="torture">
 <a class="skip-link" href="#content">Skip to content</a>
@@ -28,6 +33,7 @@
 <main id="content">
 <div class="page-inner">
 
+  <div id="quiz-select"></div>
   <div id="exam-root"></div>
 
   <nav class="page-flip" data-page-flip></nav>
@@ -36,8 +42,8 @@
 </div>
 </main>
 
-<script src="assets/site.js?v=20261004"></script>
-<script src="data/torture-chamber.js?v=20261004"></script>
-<script src="assets/exam.js?v=20261004"></script>
+<script src="assets/site.js?v=20261006"></script>
+<script src="data/torture-chamber.js?v=20261006"></script>
+<script src="assets/torture.js?v=20261006"></script>
 </body>
 </html>

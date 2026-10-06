@@ -311,7 +311,7 @@
     // to the topic/count picker without a full reload; every other exam
     // type on the site leaves it unset and this button just doesn't render.
     const changeBtn = typeof data.onChangeSelection === "function"
-      ? '<button type="button" class="btn btn-ghost" data-act="change-selection">Change topics</button>'
+      ? '<button type="button" class="btn btn-ghost" data-act="change-selection">' + (data.changeLabel || "Change topics") + '</button>'
       : "";
 
     const result = document.createElement("div");
