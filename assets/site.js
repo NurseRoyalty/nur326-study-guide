@@ -165,6 +165,7 @@ const SITE = {
         { id: "week2-jeopardy", num: "1", title: "Exam 1 Jeopardy — 2 Player Game", file: "week2-jeopardy.html" },
         { id: "exam2-jeopardy", num: "2", title: "Exam 2 Jeopardy — 3 Player Game", file: "exam2-jeopardy.html" },
         { id: "exam3-jeopardy", num: "3", title: "Exam 3 Jeopardy — 3 Player Game", file: "exam3-jeopardy.html" },
+        { id: "pathopharm-jeopardy", num: "4", title: "Pathopharm Review Jeopardy — 3 Player Game", file: "pathopharm-jeopardy.html" },
       ]
     }
   ]

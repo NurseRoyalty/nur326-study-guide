@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- ============================================================
+     PATHOPHARM REVIEW JEOPARDY — 3-PLAYER GAME
+
+     This page is a shell, cloned from exam3-jeopardy.html. It loads
+     data/pathopharm-jeopardy.js (the Pathopharm Review question bank:
+     11 categories, one per section) and assets/jeopardy-pathopharm.js,
+     which renders the board into #jp3-root. The engine is its own file
+     (cloned from assets/jeopardy-exam3.js), so every other Jeopardy
+     game and its data stay untouched.
+
+     You will almost never edit this file. You edit
+     data/pathopharm-jeopardy.js to add or change questions — the
+     question bank is kept completely separate from the game engine so
+     it can be expanded later without touching any game code.
+
+     The small style block in the head is only the board LAYOUT for 11
+     categories (columns when the board has room, one row per category
+     on phones and tablets); it reuses the site's existing .jp- classes
+     and colors and does not change styles.css.
+
+     Note the script ORDER: the data file must load before
+     jeopardy-pathopharm.js.
+     ============================================================ -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pathopharm Review Jeopardy — Study Guide</title>
+<script>(function(){try{var p=new URLSearchParams(location.search).get('theme');var t=p||localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');if(p){try{localStorage.setItem('theme',p)}catch(e){}}document.documentElement.setAttribute('data-theme',t);}catch(e){document.documentElement.setAttribute('data-theme','light');}})();</script>
+<link rel="stylesheet" href="assets/styles.css?v=20261121">
+<style>
+/* 11 categories: columns when the board has room (the classic Jeopardy board)... */
+.jp-board-wrap{ container-type:inline-size; }
+.jp-board.jp-pp{
+  grid-auto-flow:column;
+  grid-template-columns:repeat(var(--jp-cols), minmax(82px,1fr));
+  grid-template-rows:auto repeat(5, 1fr);
+  min-width:calc(var(--jp-cols) * 82px + (var(--jp-cols) - 1) * 8px);
+}
+.jp-pp .jp-cat{ font-size:.7rem; padding:10px 3px; min-height:76px; overflow-wrap:break-word; hyphens:manual; }
+.jp-pp .jp-cell{ padding:16px 4px; }
+/* ...and one row per category when it does not, so there is no sideways scrolling. */
+@container (max-width:1010px){
+  .jp-board.jp-pp{
+    grid-auto-flow:row;
+    grid-template-columns:minmax(120px,1.9fr) repeat(5, minmax(40px,1fr));
+    grid-template-rows:none;
+    min-width:0;
+    gap:6px;
+  }
+  .jp-pp .jp-cat{ justify-content:flex-start; text-align:left; min-height:0; padding:8px 10px; font-size:.8rem; }
+  .jp-pp .jp-cell{ padding:14px 2px; font-size:1.05rem; }
+}
+@container (max-width:430px){
+  .jp-board.jp-pp{ grid-template-columns:minmax(104px,1.9fr) repeat(5, minmax(32px,1fr)); gap:4px; }
+  .jp-pp .jp-cat{ font-size:.7rem; padding:6px 6px; line-height:1.25; }
+  .jp-pp .jp-cell{ padding:12px 1px; font-size:.9rem; }
+}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#content">Skip to content</a>
+
+<main id="content">
+<div class="page-inner">
+
+  <header class="page-head">
+    <p class="eyebrow">Jeopardy Games</p>
+    <h1>Pathopharm Review Jeopardy</h1>
+  </header>
+
+  <p class="note">Built entirely from this site's Pathopharm Review content — all 11 sections, one category each: Pharmacology Foundations; Cellular Adaptation, Infection &amp; Immunity; Hypertension &amp; Hyperlipidemia; Diabetes &amp; Metabolic Syndrome; Coagulation &amp; DVT; Blood Cells &amp; CBC; Fluid &amp; Electrolytes; Pain &amp; Seizures; Dementia, Depression &amp; SUD; GI, GU, Skin &amp; Hypersensitivity; and Stress &amp; Steroids. Every question is NCLEX-NGN/clinical-judgment style with an answer and rationale — nothing from outside this material.</p>
+
+  <p class="note">A 3-player game: every game puts all 11 categories on the board in a new order, with 5 questions each (55 total), and difficulty rises from 100 to 500 points within every category. The bank holds extra questions at every value, so each new game draws different ones from the last. Click a value, read the question, then hit <b>Reveal Answer</b> — the answer and rationale won't show until then. Add or subtract points for Player 1, 2, or 3 as your group agrees on who got it. "New Game" shuffles the categories and draws new questions; "Reset Game" replays the current board from scratch.</p>
+
+  <div id="jp3-root"></div>
+
+  <nav class="page-flip" data-page-flip></nav>
+  <footer class="site-foot">Built from the course lecture material — for personal study use.</footer>
+
+</div>
+</main>
+
+<script src="data/pathopharm-jeopardy.js?v=20261121"></script>
+<script src="assets/site.js?v=20261121"></script>
+<script src="assets/jeopardy-pathopharm.js?v=20261121"></script>
+</body>
+</html>
