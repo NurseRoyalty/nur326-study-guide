@@ -147,6 +147,7 @@ const SITE = {
         { id: "review-gi-gu-skin-hypersensitivity", num: "10", title: "GI, GU, Skin &amp; Hypersensitivity", file: "review-gi-gu-skin-hypersensitivity.html" },
         { id: "review-stress-steroids", num: "11", title: "Stress &amp; Steroids", file: "review-stress-steroids.html" },
         { id: "review-big-picture-overview", num: "12", title: "Big Picture Overview", file: "review-big-picture-overview.html" },
+        { id: "pathopharm-exam-builder", num: "13", title: "Build Your Own Exam", file: "pathopharm-exam-builder.html" },
       ]
     },
     {
